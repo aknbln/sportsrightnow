@@ -55,6 +55,9 @@ Connection to other models: who is playing, and what team is playing
 
 # Use Cases
 I am traveling to Houston, what sporting events are happening nearby?
+
 My favorite team is the Chicago Bulls, what is their complete roster?
+
 I’m planning a trip to NYC, I wonder what teams are active there?
+
 I’m getting into watching basketball, what teams are coming to cities near me?
