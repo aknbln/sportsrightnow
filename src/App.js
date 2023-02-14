@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import TestButton from './components/Button'
+import Home from './pages/Home'
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to the amazing Sports Now Database!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/blah" element={<TestButton color='white'/>}/>
+      </Routes>
 
+      
+    </Router>
+    
+  );
+}        
 export default App;
