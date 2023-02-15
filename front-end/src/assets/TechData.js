@@ -8,6 +8,7 @@ import VSC from "./images/logos/vscode.png"
 import Zoom from "./images/logos/teams.png"
 import Teams from "./images/logos/zoom.png"
 import Discord from "./images/logos/discord.png"
+import Notion from "./images/logos/notion.png"
 
 const techData = [
   {
@@ -63,6 +64,12 @@ const techData = [
     image: Discord,
     text: "Communication and voice call tool",
     url: "https://discord.com/"
+  },
+  {
+    title: "Notion",
+    image: Notion,
+    text: "Productivity workspace application",
+    url: "https://www.notion.so/"
   }
 ];
 
