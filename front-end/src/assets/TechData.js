@@ -7,6 +7,7 @@ import Gitlab from "./images/logos/gitlab.png"
 import VSC from "./images/logos/vscode.png"
 import Zoom from "./images/logos/teams.png"
 import Teams from "./images/logos/zoom.png"
+import Discord from "./images/logos/discord.png"
 
 const techData = [
   {
@@ -54,8 +55,14 @@ const techData = [
   {
     title: "Microsoft Teams",
     image: Teams,
-    text: "FREPA approved communication tool",
+    text: "FERPA approved communication tool",
     url: "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+  },
+  {
+    title: "Discord",
+    image: Discord,
+    text: "Communication and voice call tool",
+    url: "https://discord.com/"
   }
 ];
 
