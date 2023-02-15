@@ -27,7 +27,7 @@ const DeveloperCard = (props) => {
   return (
     <Card
     style= {{backgroundColor: 'lightgray'}}>
-      <Card.Img variant="top" src={image} />
+      <Card.Img variant="top" src={image} style={{width: '100%', height: '20vw', objectFit: 'cover'}}/>
       <Card.Body>
         <Card.Title><LightText>{name}</LightText></Card.Title>
 

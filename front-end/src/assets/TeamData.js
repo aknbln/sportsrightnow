@@ -12,10 +12,11 @@ const teamData = [
   {
     name: "Johann Ramirez",
     gitlab_username: "johannramirez07",
+    alias: "",
     email: "johannramirez05@gmail.com",
     image: JohannBio,
     role: "Back-end",
-    bio: "Write about yourself here",
+    bio: "Write about yourself here!",
     commits: 0,
     issues: 0,
     unit_tests: 0,
@@ -23,6 +24,7 @@ const teamData = [
   {
     name: "Akin Bilen",
     gitlab_username: "aknbln",
+    alias: "",
     image: AkinBio,
     role: "Back-end",
     bio: "I am a junior here at UT. I enjoy golfing and cry while scrolling through stack overflow.",
@@ -33,10 +35,11 @@ const teamData = [
   {
     name: "Travis Aldrich",
     gitlab_username: "tgaldr2",
+    alias: "",
     email: "tgaldr2@gmail.com",
     image: TravisBio,
     role: "Front-end",
-    bio: "Words words words",
+    bio: "Write about yourself here!",
     commits: 0,
     issues: 0,
     unit_tests: 0,
@@ -44,6 +47,7 @@ const teamData = [
   {
     name: "Eric Li",
     gitlab_username: "Neepsy",
+    alias: "",
     email: "eric55664@gmail.com",
     image: EricBio,
     role: "Front-end",
@@ -55,6 +59,7 @@ const teamData = [
   {
     name: "Tommy Ly",
     gitlab_username: "tommylySchool",
+    alias: "hybridshout",
     email: "tommyly471@gmail.com",
     image: TommyBio,
     role: "Front-end",
