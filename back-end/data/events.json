@@ -1,0 +1,1457 @@
+{
+  "_embedded": {
+    "events": [
+      {
+        "name": "Atlanta Hawks vs. New York Knicks",
+        "type": "event",
+        "id": "vvG1zZ98S_QNSZ",
+        "test": false,
+        "url": "https://www.ticketmaster.com/atlanta-hawks-vs-new-york-knicks-atlanta-georgia-02-15-2023/event/0E005D0CD96A3CC0",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          }
+        ],
+        "sales": {
+          "public": {
+            "startDateTime": "2022-08-29T16:00:00Z",
+            "startTBD": false,
+            "startTBA": false,
+            "endDateTime": "2023-02-16T01:30:00Z"
+          },
+          "presales": [
+            {
+              "startDateTime": "2022-08-25T15:00:00Z",
+              "endDateTime": "2022-08-29T15:59:00Z",
+              "name": "Chase Presale"
+            },
+            {
+              "startDateTime": "2022-08-25T16:00:00Z",
+              "endDateTime": "2022-08-29T15:59:00Z",
+              "name": "Atlanta Hawks Presale"
+            }
+          ]
+        },
+        "dates": {
+          "start": {
+            "localDate": "2023-02-15",
+            "localTime": "19:30:00",
+            "dateTime": "2023-02-16T00:30:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": { "code": "onsale" },
+          "spanMultipleDays": false
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": { "id": "KZFzniwnSyZfZ7v7nE", "name": "Sports" },
+            "genre": { "id": "KnvZfZ7vAde", "name": "Basketball" },
+            "subGenre": { "id": "KZazBEonSMnZfZ7vFJA", "name": "NBA" },
+            "type": { "id": "KZAyXgnZfZ7v7l1", "name": "Group" },
+            "subType": { "id": "KZFzBErXgnZfZ7vA7d", "name": "Team" },
+            "family": false
+          }
+        ],
+        "promoter": {
+          "id": "695",
+          "name": "NBA REGULAR SEASON",
+          "description": "NBA REGULAR SEASON / NTL / USA"
+        },
+        "promoters": [
+          {
+            "id": "695",
+            "name": "NBA REGULAR SEASON",
+            "description": "NBA REGULAR SEASON / NTL / USA"
+          }
+        ],
+        "priceRanges": [
+          { "type": "standard", "currency": "USD", "min": 15.0, "max": 400.0 }
+        ],
+        "products": [
+          {
+            "name": "State Farm Arena Parking Hawks vs. New York Knicks",
+            "id": "vvG1zZ98mKXeAH",
+            "url": "https://www.ticketmaster.com/state-farm-arena-parking-hawks-vs-atlanta-georgia-02-15-2023/event/0E005D0B93F8217C",
+            "type": "Parking",
+            "classifications": [
+              {
+                "primary": true,
+                "segment": {
+                  "id": "KZFzniwnSyZfZ7v7n1",
+                  "name": "Miscellaneous"
+                },
+                "genre": { "id": "KnvZfZ7v7ll", "name": "Undefined" },
+                "subGenre": {
+                  "id": "KZazBEonSMnZfZ7vAv1",
+                  "name": "Undefined"
+                },
+                "type": { "id": "KZAyXgnZfZ7vAva", "name": "Parking" },
+                "subType": { "id": "KZFzBErXgnZfZ7vAFe", "name": "Regular" },
+                "family": false
+              }
+            ]
+          }
+        ],
+        "seatmap": {
+          "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/0E005D0CD96A3CC0/staticImage?type=png&systemId=HOST"
+        },
+        "accessibility": { "ticketLimit": 4 },
+        "ticketLimit": { "info": "There is a 6 ticket limit for this event." },
+        "ageRestrictions": { "legalAgeEnforced": false },
+        "ticketing": { "safeTix": { "enabled": true } },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/events/vvG1zZ98S_QNSZ?locale=en-us"
+          },
+          "attractions": [
+            { "href": "/discovery/v2/attractions/K8vZ91718XV?locale=en-us" },
+            { "href": "/discovery/v2/attractions/K8vZ9171o57?locale=en-us" }
+          ],
+          "venues": [{ "href": "/discovery/v2/venues/KovZpa2Xke?locale=en-us" }]
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "State Farm Arena",
+              "type": "venue",
+              "id": "KovZpa2Xke",
+              "test": false,
+              "url": "https://www.ticketmaster.com/state-farm-arena-tickets-atlanta/venue/114689",
+              "locale": "en-us",
+              "aliases": ["phillips areana", "philips arena", "phillips arena"],
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dbimages/22348v.jpg",
+                  "width": 450,
+                  "height": 255,
+                  "fallback": false
+                }
+              ],
+              "postalCode": "30303",
+              "timezone": "America/New_York",
+              "city": { "name": "Atlanta" },
+              "state": { "name": "Georgia", "stateCode": "GA" },
+              "country": {
+                "name": "United States Of America",
+                "countryCode": "US"
+              },
+              "address": { "line1": "One State Farm Drive" },
+              "location": {
+                "longitude": "-84.394569",
+                "latitude": "33.757796"
+              },
+              "markets": [
+                { "name": "Atlanta", "id": "10" },
+                { "name": "All of US", "id": "51" }
+              ],
+              "dmas": [
+                { "id": 200 },
+                { "id": 220 },
+                { "id": 221 },
+                { "id": 258 },
+                { "id": 327 },
+                { "id": 384 }
+              ],
+              "social": { "twitter": { "handle": "@statefarmarena" } },
+              "boxOfficeInfo": {
+                "phoneNumberDetail": "404-878-3000 - State Farm Arena Box Office 1-866-715-1500 - Atlanta Hawks",
+                "openHoursDetail": "The Box Office is open on event days and for the first day of all on-sales. (Hours will vary based upon the events and time of on-sales).",
+                "acceptedPaymentDetail": "Accepts: cash, Visa, Mastercard, Discover, American Express",
+                "willCallDetail": "Located at main box office on Centennial Olympic Park Drive. Available for pickup beginning 1 1/2 hours prior to event. Closing time will vary by event. PLEASE BRING A PICTURE ID, THE ACTUAL CREDIT CARD USED TO PURCHASE THE TICKETS, AND YOUR ORDER NUMBER."
+              },
+              "parkingDetail": "Parking is available in various lots around State Farm Arena including Centennial Garage and the CNN Deck located on Centennial Olympic Park Drive across from the arena. Both lots may be entered from Centennial Olympic Park Drive or Spring Street. Accessible parking is available in both lots. Price varies by event. The Philips Lot, located beneath the CNN Parking lot area, directly across from State Farm Arena, is adjacent to “The Gulch” and can be entered from the downward ramp on Centennial Olympic Park Drive.",
+              "accessibleSeatingDetail": "Accessible seating is available in throughout the arena in various price categories. Seating for the sight/hearing impaired available in the lower level. All accessible seating is subject to availability. All levels of the Arena are accessible by elevator and escalator.",
+              "generalInfo": {
+                "generalRule": "No smoking inside arena. No glass bottles, aluminum cans, coolers, thermoses, outside food, or alcoholic beverages No banners or laser pointers. No Backpacks.",
+                "childRule": "For most events, everyone two and older must have a ticket. For Sesame Street Live, children one and older must have a ticket. Please see the ticket information for each event."
+              },
+              "upcomingEvents": {
+                "_total": 38,
+                "ticketmaster": 38,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/venues/KovZpa2Xke?locale=en-us"
+                }
+              }
+            }
+          ],
+          "attractions": [
+            {
+              "name": "Atlanta Hawks",
+              "type": "attraction",
+              "id": "K8vZ91718XV",
+              "test": false,
+              "url": "https://www.ticketmaster.com.au/atlanta-hawks-tickets/artist/805898",
+              "locale": "en-us",
+              "externalLinks": {
+                "twitter": [{ "url": "https://twitter.com/atlhawks" }],
+                "facebook": [{ "url": "https://www.facebook.com/hawks" }],
+                "wiki": [
+                  { "url": "https://en.wikipedia.org/wiki/Atlanta_Hawks" }
+                ],
+                "instagram": [{ "url": "https://www.instagram.com/atlhawks" }],
+                "homepage": [{ "url": "https://www.nba.com/hawks/" }]
+              },
+              "aliases": ["alenta hawks", "atlanta hawks"],
+              "images": [
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": { "id": "KZFzniwnSyZfZ7v7nE", "name": "Sports" },
+                  "genre": { "id": "KnvZfZ7vAde", "name": "Basketball" },
+                  "subGenre": { "id": "KZazBEonSMnZfZ7vFJA", "name": "NBA" },
+                  "type": { "id": "KZAyXgnZfZ7v7l1", "name": "Group" },
+                  "subType": { "id": "KZFzBErXgnZfZ7vA7d", "name": "Team" },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "_total": 25,
+                "tmr": 3,
+                "ticketmaster": 22,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ91718XV?locale=en-us"
+                }
+              }
+            },
+            {
+              "name": "New York Knicks",
+              "type": "attraction",
+              "id": "K8vZ9171o57",
+              "test": false,
+              "url": "https://www.ticketmaster.com.au/new-york-knicks-tickets/artist/805988",
+              "locale": "en-us",
+              "externalLinks": {
+                "twitter": [{ "url": "https://twitter.com/nyknicks" }],
+                "wiki": [
+                  { "url": "https://en.wikipedia.org/wiki/New_York_Knicks" }
+                ],
+                "facebook": [{ "url": "https://www.facebook.com/NYKnicks" }],
+                "instagram": [{ "url": "https://instagram.com/nyknicks" }],
+                "homepage": [{ "url": "https://www.nba.com/knicks/" }]
+              },
+              "aliases": [
+                "knicks",
+                "new york knicks",
+                "new york knickerbockers",
+                "new york nicks",
+                "new yourk knicks",
+                "ny knicks",
+                "ny nicks"
+              ],
+              "images": [
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/403/fb1379e0-0c54-4550-a940-81a175dbd403_1339871_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/403/fb1379e0-0c54-4550-a940-81a175dbd403_1339871_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/403/fb1379e0-0c54-4550-a940-81a175dbd403_1339871_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/403/fb1379e0-0c54-4550-a940-81a175dbd403_1339871_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/403/fb1379e0-0c54-4550-a940-81a175dbd403_1339871_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/403/fb1379e0-0c54-4550-a940-81a175dbd403_1339871_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/403/fb1379e0-0c54-4550-a940-81a175dbd403_1339871_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/403/fb1379e0-0c54-4550-a940-81a175dbd403_1339871_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/403/fb1379e0-0c54-4550-a940-81a175dbd403_1339871_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/403/fb1379e0-0c54-4550-a940-81a175dbd403_1339871_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": { "id": "KZFzniwnSyZfZ7v7nE", "name": "Sports" },
+                  "genre": { "id": "KnvZfZ7vAde", "name": "Basketball" },
+                  "subGenre": { "id": "KZazBEonSMnZfZ7vFJA", "name": "NBA" },
+                  "type": { "id": "KZAyXgnZfZ7v7l1", "name": "Group" },
+                  "subType": { "id": "KZFzBErXgnZfZ7vA7d", "name": "Team" },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "_total": 23,
+                "tmr": 3,
+                "ticketmaster": 20,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ9171o57?locale=en-us"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Atlanta Hawks vs. Boston Celtics",
+        "type": "event",
+        "id": "vvG1zZ98S_jSSx",
+        "test": false,
+        "url": "https://www.ticketmaster.com/atlanta-hawks-vs-boston-celtics-atlanta-georgia-03-11-2023/event/0E005D0CD9733CE2",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          }
+        ],
+        "sales": {
+          "public": {
+            "startDateTime": "2022-08-29T16:00:00Z",
+            "startTBD": false,
+            "startTBA": false,
+            "endDateTime": "2023-03-12T01:30:00Z"
+          },
+          "presales": [
+            {
+              "startDateTime": "2022-08-25T15:00:00Z",
+              "endDateTime": "2022-08-29T15:59:00Z",
+              "name": "Chase Presale"
+            },
+            {
+              "startDateTime": "2022-08-25T16:00:00Z",
+              "endDateTime": "2022-08-29T15:59:00Z",
+              "name": "Atlanta Hawks Presale"
+            }
+          ]
+        },
+        "dates": {
+          "start": {
+            "localDate": "2023-03-11",
+            "localTime": "19:30:00",
+            "dateTime": "2023-03-12T00:30:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": { "code": "onsale" },
+          "spanMultipleDays": false
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": { "id": "KZFzniwnSyZfZ7v7nE", "name": "Sports" },
+            "genre": { "id": "KnvZfZ7vAde", "name": "Basketball" },
+            "subGenre": { "id": "KZazBEonSMnZfZ7vFJA", "name": "NBA" },
+            "type": { "id": "KZAyXgnZfZ7v7l1", "name": "Group" },
+            "subType": { "id": "KZFzBErXgnZfZ7vA7d", "name": "Team" },
+            "family": false
+          }
+        ],
+        "promoter": {
+          "id": "695",
+          "name": "NBA REGULAR SEASON",
+          "description": "NBA REGULAR SEASON / NTL / USA"
+        },
+        "promoters": [
+          {
+            "id": "695",
+            "name": "NBA REGULAR SEASON",
+            "description": "NBA REGULAR SEASON / NTL / USA"
+          }
+        ],
+        "priceRanges": [
+          { "type": "standard", "currency": "USD", "min": 69.0, "max": 981.0 }
+        ],
+        "products": [
+          {
+            "name": "State Farm Arena Parking Hawks vs. Boston Celtics",
+            "id": "vvG1zZ98mKTxkG",
+            "url": "https://www.ticketmaster.com/state-farm-arena-parking-hawks-vs-atlanta-georgia-03-11-2023/event/0E005D0B93FE218C",
+            "type": "Parking",
+            "classifications": [
+              {
+                "primary": true,
+                "segment": {
+                  "id": "KZFzniwnSyZfZ7v7n1",
+                  "name": "Miscellaneous"
+                },
+                "genre": { "id": "KnvZfZ7v7ll", "name": "Undefined" },
+                "subGenre": {
+                  "id": "KZazBEonSMnZfZ7vAv1",
+                  "name": "Undefined"
+                },
+                "type": { "id": "KZAyXgnZfZ7vAva", "name": "Parking" },
+                "subType": { "id": "KZFzBErXgnZfZ7vAFe", "name": "Regular" },
+                "family": false
+              }
+            ]
+          }
+        ],
+        "seatmap": {
+          "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/0E005D0CD9733CE2/staticImage?type=png&systemId=HOST"
+        },
+        "accessibility": { "ticketLimit": 4 },
+        "ticketLimit": { "info": "There is a 6 ticket limit for this event." },
+        "ageRestrictions": { "legalAgeEnforced": false },
+        "ticketing": { "safeTix": { "enabled": true } },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/events/vvG1zZ98S_jSSx?locale=en-us"
+          },
+          "attractions": [
+            { "href": "/discovery/v2/attractions/K8vZ91718XV?locale=en-us" },
+            { "href": "/discovery/v2/attractions/K8vZ91718Xf?locale=en-us" }
+          ],
+          "venues": [{ "href": "/discovery/v2/venues/KovZpa2Xke?locale=en-us" }]
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "State Farm Arena",
+              "type": "venue",
+              "id": "KovZpa2Xke",
+              "test": false,
+              "url": "https://www.ticketmaster.com/state-farm-arena-tickets-atlanta/venue/114689",
+              "locale": "en-us",
+              "aliases": ["phillips areana", "philips arena", "phillips arena"],
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dbimages/22348v.jpg",
+                  "width": 450,
+                  "height": 255,
+                  "fallback": false
+                }
+              ],
+              "postalCode": "30303",
+              "timezone": "America/New_York",
+              "city": { "name": "Atlanta" },
+              "state": { "name": "Georgia", "stateCode": "GA" },
+              "country": {
+                "name": "United States Of America",
+                "countryCode": "US"
+              },
+              "address": { "line1": "One State Farm Drive" },
+              "location": {
+                "longitude": "-84.394569",
+                "latitude": "33.757796"
+              },
+              "markets": [
+                { "name": "Atlanta", "id": "10" },
+                { "name": "All of US", "id": "51" }
+              ],
+              "dmas": [
+                { "id": 200 },
+                { "id": 220 },
+                { "id": 221 },
+                { "id": 258 },
+                { "id": 327 },
+                { "id": 384 }
+              ],
+              "social": { "twitter": { "handle": "@statefarmarena" } },
+              "boxOfficeInfo": {
+                "phoneNumberDetail": "404-878-3000 - State Farm Arena Box Office 1-866-715-1500 - Atlanta Hawks",
+                "openHoursDetail": "The Box Office is open on event days and for the first day of all on-sales. (Hours will vary based upon the events and time of on-sales).",
+                "acceptedPaymentDetail": "Accepts: cash, Visa, Mastercard, Discover, American Express",
+                "willCallDetail": "Located at main box office on Centennial Olympic Park Drive. Available for pickup beginning 1 1/2 hours prior to event. Closing time will vary by event. PLEASE BRING A PICTURE ID, THE ACTUAL CREDIT CARD USED TO PURCHASE THE TICKETS, AND YOUR ORDER NUMBER."
+              },
+              "parkingDetail": "Parking is available in various lots around State Farm Arena including Centennial Garage and the CNN Deck located on Centennial Olympic Park Drive across from the arena. Both lots may be entered from Centennial Olympic Park Drive or Spring Street. Accessible parking is available in both lots. Price varies by event. The Philips Lot, located beneath the CNN Parking lot area, directly across from State Farm Arena, is adjacent to “The Gulch” and can be entered from the downward ramp on Centennial Olympic Park Drive.",
+              "accessibleSeatingDetail": "Accessible seating is available in throughout the arena in various price categories. Seating for the sight/hearing impaired available in the lower level. All accessible seating is subject to availability. All levels of the Arena are accessible by elevator and escalator.",
+              "generalInfo": {
+                "generalRule": "No smoking inside arena. No glass bottles, aluminum cans, coolers, thermoses, outside food, or alcoholic beverages No banners or laser pointers. No Backpacks.",
+                "childRule": "For most events, everyone two and older must have a ticket. For Sesame Street Live, children one and older must have a ticket. Please see the ticket information for each event."
+              },
+              "upcomingEvents": {
+                "_total": 37,
+                "ticketmaster": 37,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/venues/KovZpa2Xke?locale=en-us"
+                }
+              }
+            }
+          ],
+          "attractions": [
+            {
+              "name": "Atlanta Hawks",
+              "type": "attraction",
+              "id": "K8vZ91718XV",
+              "test": false,
+              "url": "https://www.ticketmaster.com.au/atlanta-hawks-tickets/artist/805898",
+              "locale": "en-us",
+              "externalLinks": {
+                "twitter": [{ "url": "https://twitter.com/atlhawks" }],
+                "facebook": [{ "url": "https://www.facebook.com/hawks" }],
+                "wiki": [
+                  { "url": "https://en.wikipedia.org/wiki/Atlanta_Hawks" }
+                ],
+                "instagram": [{ "url": "https://www.instagram.com/atlhawks" }],
+                "homepage": [{ "url": "https://www.nba.com/hawks/" }]
+              },
+              "aliases": ["alenta hawks", "atlanta hawks"],
+              "images": [
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": { "id": "KZFzniwnSyZfZ7v7nE", "name": "Sports" },
+                  "genre": { "id": "KnvZfZ7vAde", "name": "Basketball" },
+                  "subGenre": { "id": "KZazBEonSMnZfZ7vFJA", "name": "NBA" },
+                  "type": { "id": "KZAyXgnZfZ7v7l1", "name": "Group" },
+                  "subType": { "id": "KZFzBErXgnZfZ7vA7d", "name": "Team" },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "_total": 25,
+                "tmr": 3,
+                "ticketmaster": 22,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ91718XV?locale=en-us"
+                }
+              }
+            },
+            {
+              "name": "Boston Celtics",
+              "type": "attraction",
+              "id": "K8vZ91718Xf",
+              "test": false,
+              "url": "https://www.ticketmaster.com.au/boston-celtics-tickets/artist/805903",
+              "locale": "en-us",
+              "externalLinks": {
+                "twitter": [{ "url": "https://twitter.com/celtics" }],
+                "facebook": [
+                  { "url": "https://www.facebook.com/bostonceltics" }
+                ],
+                "wiki": [
+                  { "url": "https://en.wikipedia.org/wiki/Boston_Celtics" }
+                ],
+                "instagram": [{ "url": "https://www.instagram.com/celtics" }],
+                "homepage": [{ "url": "https://www.nba.com/celtics/" }]
+              },
+              "images": [
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": { "id": "KZFzniwnSyZfZ7v7nE", "name": "Sports" },
+                  "genre": { "id": "KnvZfZ7vAde", "name": "Basketball" },
+                  "subGenre": { "id": "KZazBEonSMnZfZ7vFJA", "name": "NBA" },
+                  "type": { "id": "KZAyXgnZfZ7v7l1", "name": "Group" },
+                  "subType": { "id": "KZFzBErXgnZfZ7vA7d", "name": "Team" },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "_total": 24,
+                "tmr": 3,
+                "ticketmaster": 21,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ91718Xf?locale=en-us"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Washington Wizards vs. Atlanta Hawks",
+        "type": "event",
+        "id": "G5vfZ9odk7wTt",
+        "test": false,
+        "url": "https://www.ticketmaster.com/washington-wizards-vs-atlanta-hawks-washington-district-of-columbia-03-10-2023/event/15005D10C6132FE9",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          }
+        ],
+        "sales": {
+          "public": { "startTBD": false, "startTBA": false },
+          "presales": [
+            {
+              "startDateTime": "2022-08-17T19:00:00Z",
+              "endDateTime": "2022-08-29T02:00:00Z",
+              "name": "Resale Onsale"
+            },
+            {
+              "startDateTime": "2022-08-29T13:30:00Z",
+              "endDateTime": "2022-08-31T03:59:00Z",
+              "name": "TM Presale"
+            }
+          ]
+        },
+        "dates": {
+          "start": {
+            "localDate": "2023-03-10",
+            "localTime": "19:00:00",
+            "dateTime": "2023-03-11T00:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": { "code": "onsale" },
+          "spanMultipleDays": false
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": { "id": "KZFzniwnSyZfZ7v7nE", "name": "Sports" },
+            "genre": { "id": "KnvZfZ7vAde", "name": "Basketball" },
+            "subGenre": { "id": "KZazBEonSMnZfZ7vFJA", "name": "NBA" },
+            "type": { "id": "KZAyXgnZfZ7v7l1", "name": "Group" },
+            "subType": { "id": "KZFzBErXgnZfZ7vA7d", "name": "Team" },
+            "family": false
+          }
+        ],
+        "promoter": {
+          "id": "695",
+          "name": "NBA REGULAR SEASON",
+          "description": "NBA REGULAR SEASON / NTL / USA"
+        },
+        "promoters": [
+          {
+            "id": "695",
+            "name": "NBA REGULAR SEASON",
+            "description": "NBA REGULAR SEASON / NTL / USA"
+          }
+        ],
+        "priceRanges": [
+          { "type": "standard", "currency": "USD", "min": 17.0, "max": 888.0 }
+        ],
+        "products": [
+          {
+            "name": "PARKWHIZ CAPITAL ONE ARENA",
+            "id": "G5vfZ9p1BeKd0",
+            "url": "https://www.ticketmaster.com/parkwhiz-capital-one-arena-washington-district-of-columbia-03-10-2023/event/15005D62BA0930E4",
+            "type": "Upsell",
+            "classifications": [
+              {
+                "primary": true,
+                "segment": {
+                  "id": "KZFzniwnSyZfZ7v7n1",
+                  "name": "Miscellaneous"
+                },
+                "genre": { "id": "KnvZfZ7v7ll", "name": "Undefined" },
+                "subGenre": {
+                  "id": "KZazBEonSMnZfZ7vAv1",
+                  "name": "Undefined"
+                },
+                "type": { "id": "KZAyXgnZfZ7vAva", "name": "Parking" },
+                "subType": { "id": "KZFzBErXgnZfZ7vAFe", "name": "Regular" },
+                "family": false
+              }
+            ]
+          }
+        ],
+        "seatmap": {
+          "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/15005D10C6132FE9/staticImage?type=png&systemId=HOST"
+        },
+        "accessibility": { "ticketLimit": 10 },
+        "ageRestrictions": { "legalAgeEnforced": false },
+        "ticketing": { "safeTix": { "enabled": true } },
+        "_links": {
+          "self": { "href": "/discovery/v2/events/G5vfZ9odk7wTt?locale=en-us" },
+          "attractions": [
+            { "href": "/discovery/v2/attractions/K8vZ9171oVf?locale=en-us" },
+            { "href": "/discovery/v2/attractions/K8vZ91718XV?locale=en-us" }
+          ],
+          "venues": [{ "href": "/discovery/v2/venues/KovZpaKuJe?locale=en-us" }]
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Capital One Arena",
+              "type": "venue",
+              "id": "KovZpaKuJe",
+              "test": false,
+              "url": "https://www.ticketmaster.com/capital-one-arena-tickets-washington/venue/172453",
+              "locale": "en-us",
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dbimages/21796v.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                }
+              ],
+              "postalCode": "20004",
+              "timezone": "America/New_York",
+              "city": { "name": "Washington" },
+              "state": { "name": "District of Columbia", "stateCode": "DC" },
+              "country": {
+                "name": "United States Of America",
+                "countryCode": "US"
+              },
+              "address": { "line1": "601 F Street NW" },
+              "location": {
+                "longitude": "-77.020029",
+                "latitude": "38.897412"
+              },
+              "markets": [{ "name": " DC and Maryland\"", "id": "47" }],
+              "dmas": [{ "id": 224 }, { "id": 377 }, { "id": 409 }],
+              "boxOfficeInfo": {
+                "phoneNumberDetail": "General Information... 202-628-3200 Accessible Seating Only.. 202-661-5065",
+                "openHoursDetail": "Box office is open on non-event days from 12pm-4pm (Monday-Friday); closed on non-event Saturdays and Sundays Box office is open on non-event days from 12pm-4pm (Monday-Friday); closed on non-event Saturdays and Sundays *Hours subject to change",
+                "acceptedPaymentDetail": "Cash, Visa, MasterCard, American Express, Discover",
+                "willCallDetail": "Will Call tickets can be picked up anytime the Box Office is open, thru event start time. Customers must present the actual credit card used to place the order and a valid photo ID."
+              },
+              "parkingDetail": "-Street and Paylot parking are available. -Capital One Arena Parking Garage is located at 6th & G Streets NW, and is open to the public 7AM to 12Midnight 7 days a week. The 2 story underground garage has 475 pkg spaces & elevator access to Capital One Arena. Capital One Arena parking facility offers event, daily, & monthly parking(upon availability) 202-628-3200 ext7992",
+              "accessibleSeatingDetail": "To better accommodate your needs, Capital One Arena has requested that all accessible seating ticket accommodations be solicited only through their representatives. Please contact a Capital One Arena representative for further help with your ticket purchase.* Advance ticket purchase may be required. * Box office information is subject to change.",
+              "generalInfo": {
+                "generalRule": "All patrons and bags are subject to search prior to entering Capital One Arena. To increase fan safety and expedite entry, Capital One Arena has implemented a strict no bag policy. Bags, backpacks, and purses will not be permitted inside the arena. Only wallet-size clutches, no larger than 5x7, will be permitted into the arena. Small medical and parenting bags will be permitted on a case by case basis and will be subject to increased security screening. If you are bringing a medical or parenting bag, please use the entrance on the corner of 6th and F Street. Any guest who declines to be searched or is in possession of prohibited items may be denied entry or ejected from the facility. Capital One Arena does not allow fans and patrons to bring in outside food or beverages. For more information on Capital One Arena security and bag policies and a list of prohibited items please click here https://www.capitalonearena.com/articles/capital-one-arena-security-policy Thank you for your cooperation and understanding.",
+                "childRule": "- Children ages 3 and older must have a ticket!! -Certain events, such as Feld events require a ticket starting at age 2"
+              },
+              "upcomingEvents": {
+                "_total": 57,
+                "ticketmaster": 57,
+                "_filtered": 0
+              },
+              "ada": {
+                "adaPhones": "202-661-5065",
+                "adaCustomCopy": "To better accommodate your needs, Capital One Arena has requested that all accessible seating ticket accommodations be solicited only through their representatives. Please contact a Capital One Arena representative for further help with your ticket purchase.* Advance ticket purchase may be required.\n\n* Box office information is subject to change.",
+                "adaHours": "ADA Hours ... 10:00AM - 5PM (Monday-Friday)"
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/venues/KovZpaKuJe?locale=en-us"
+                }
+              }
+            }
+          ],
+          "attractions": [
+            {
+              "name": "Washington Wizards",
+              "type": "attraction",
+              "id": "K8vZ9171oVf",
+              "test": false,
+              "url": "https://www.ticketmaster.com.au/washington-wizards-tickets/artist/806042",
+              "locale": "en-us",
+              "externalLinks": {
+                "twitter": [{ "url": "https://twitter.com/WashWizards" }],
+                "wiki": [
+                  { "url": "https://en.wikipedia.org/wiki/Washington_Wizards" }
+                ],
+                "facebook": [{ "url": "https://www.facebook.com/Wizards" }],
+                "instagram": [
+                  { "url": "https://www.instagram.com/washwizards/" }
+                ],
+                "homepage": [{ "url": "https://www.nba.com/wizards/" }]
+              },
+              "aliases": [
+                "washington wizards",
+                "washington wizard",
+                "washington wizards basketball",
+                "washington wizzards",
+                "washinton wizards",
+                "wizards basketball"
+              ],
+              "images": [
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": { "id": "KZFzniwnSyZfZ7v7nE", "name": "Sports" },
+                  "genre": { "id": "KnvZfZ7vAde", "name": "Basketball" },
+                  "subGenre": { "id": "KZazBEonSMnZfZ7vFJA", "name": "NBA" },
+                  "type": { "id": "KZAyXgnZfZ7v7l1", "name": "Group" },
+                  "subType": { "id": "KZFzBErXgnZfZ7vA7d", "name": "Team" },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "_total": 25,
+                "tmr": 2,
+                "ticketmaster": 23,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ9171oVf?locale=en-us"
+                }
+              }
+            },
+            {
+              "name": "Atlanta Hawks",
+              "type": "attraction",
+              "id": "K8vZ91718XV",
+              "test": false,
+              "url": "https://www.ticketmaster.com.au/atlanta-hawks-tickets/artist/805898",
+              "locale": "en-us",
+              "externalLinks": {
+                "twitter": [{ "url": "https://twitter.com/atlhawks" }],
+                "facebook": [{ "url": "https://www.facebook.com/hawks" }],
+                "wiki": [
+                  { "url": "https://en.wikipedia.org/wiki/Atlanta_Hawks" }
+                ],
+                "instagram": [{ "url": "https://www.instagram.com/atlhawks" }],
+                "homepage": [{ "url": "https://www.nba.com/hawks/" }]
+              },
+              "aliases": ["alenta hawks", "atlanta hawks"],
+              "images": [
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/ae2/5beb62d8-2c29-4c5c-aa7d-c7513e229ae2_1340121_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": { "id": "KZFzniwnSyZfZ7v7nE", "name": "Sports" },
+                  "genre": { "id": "KnvZfZ7vAde", "name": "Basketball" },
+                  "subGenre": { "id": "KZazBEonSMnZfZ7vFJA", "name": "NBA" },
+                  "type": { "id": "KZAyXgnZfZ7v7l1", "name": "Group" },
+                  "subType": { "id": "KZFzBErXgnZfZ7vA7d", "name": "Team" },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "_total": 25,
+                "tmr": 3,
+                "ticketmaster": 22,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ91718XV?locale=en-us"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "first": {
+      "href": "/discovery/v2/events?attractionId=K8vZ91718XV&locale=*&page=0&size=3"
+    },
+    "self": {
+      "href": "/discovery/v2/events?size=3&attractionId=K8vZ91718XV&locale=*"
+    },
+    "next": {
+      "href": "/discovery/v2/events?attractionId=K8vZ91718XV&locale=*&page=1&size=3"
+    },
+    "last": {
+      "href": "/discovery/v2/events?attractionId=K8vZ91718XV&locale=*&page=8&size=3"
+    }
+  }
+}

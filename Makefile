@@ -10,7 +10,7 @@ clean:
 	rm -f *.tmp
 # docker for front end: runs website on local 3000 port
 frontend-docker:
-	docker run -dp 3000:3000 front-end
+	docker run --rm -dp 3000:3000 front-end
 # Docker for running the backend as a developer on local machine
 backend-dev-docker:
 	docker run --rm -it -p 5000:5000 SportsRightNow-backend-dev
