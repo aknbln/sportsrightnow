@@ -2,6 +2,9 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import Home from './pages/Home'
 import About from './pages/About'
+import Players from './pages/Players'
+import Teams from './pages/Teams'
+import Events from './pages/Events'
 import NotFound from './pages/NotFound'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -48,6 +51,9 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="*" element={<NotFound/>}/>
+          <Route path="/players" element={<Players />}/>
+          <Route path="/teams" element={<Teams />}/>
+          <Route path="/events" element={<Events />}/>
         </Routes>
       </Router>
     </div>
