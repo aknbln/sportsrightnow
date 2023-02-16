@@ -1,5 +1,5 @@
 import React from 'react'
-import Emirates from "../../assets/images/emirates.jpg"
+import Emirates from "../../assets/images/Emirates.jpg"
 import {Link} from 'react-router-dom'
 
 
