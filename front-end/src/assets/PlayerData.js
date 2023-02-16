@@ -17,7 +17,7 @@ const playerData = [
         image: Kevin,
         team: "Manchester City",
         league: "EPL",
-        age: "21",
+        age: "31",
         country: "United Kingdom",
         player_id: "2",        
     },
