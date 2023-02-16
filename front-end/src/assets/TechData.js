@@ -5,8 +5,8 @@ import Postman from './images/logos/postman.png'
 import Amplify from './images/logos/amplify.png'
 import Gitlab from "./images/logos/gitlab.png"
 import VSC from "./images/logos/vscode.png"
-import Zoom from "./images/logos/teams.png"
-import Teams from "./images/logos/zoom.png"
+import Teams from "./images/logos/teams.png"
+import Zoom from "./images/logos/zoom.png"
 import Discord from "./images/logos/discord.png"
 import Notion from "./images/logos/notion.png"
 
