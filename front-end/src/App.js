@@ -18,7 +18,7 @@ function App() {
     <div>
       <Router>
 
-      <Navbar bg='light'>
+      <Navbar bg='dark' variant='dark'>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Container>

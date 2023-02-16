@@ -9,12 +9,12 @@ import { playerData } from '../assets/PlayerData'
 const Players = ({}) => {
   return (
     <div className="Players">
-      <header className="Players-header">
+      <header className="App-header">
         <h1>Players</h1>
         <p>Find your favorite players!</p>
       </header>
       
-      <div className="Players-body">
+      <div className="App-body">
         <Container style={{padding: '3vh'}}>
           <h2>Players</h2>
           <hr style={{backgroundColor: 'white', height: "2px"}}/>

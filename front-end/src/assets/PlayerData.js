@@ -8,6 +8,8 @@ const playerData = [
         image: Lebron,
         team: "Los Angeles Lakers",
         league: "NBA",
+        age: "38",
+        country: "USA",
         player_id: "1",
     },
     {
@@ -15,12 +17,16 @@ const playerData = [
         image: Kevin,
         team: "Manchester City",
         league: "EPL",
+        age: "21",
+        country: "United Kingdom",
         player_id: "2",        
     },
     {
         name: "Mitch Marner",
         image: Mitch,
         team: "Toronto Maple Leafs",
+        age: "25",
+        country: "Canada",
         league: "NHL",
         player_id: "3",
     }

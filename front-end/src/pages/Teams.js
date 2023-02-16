@@ -9,12 +9,12 @@ import { sportsTeamData } from '../assets/SportsTeamData'
 const Teams = ({}) => {
   return (
     <div className="Teams">
-      <header className="Teams-header">
+      <header className="App-header">
         <h1>Teams</h1>
         <p>Find your favorite teams!</p>
       </header>
       
-      <div className="Teams-body">
+      <div className="App-body">
         <Container style={{padding: '3vh'}}>
           <h2>Teams</h2>
           <hr style={{backgroundColor: 'white', height: "2px"}}/>

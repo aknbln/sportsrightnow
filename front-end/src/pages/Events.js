@@ -9,12 +9,12 @@ import { eventData } from '../assets/EventData'
 const Events = ({}) => {
   return (
     <div className="Events">
-      <header className="Events-header">
+      <header className="App-header">
         <h1>Events</h1>
         <p>Find your upcoming events!</p>
       </header>
       
-      <div className="Players-body">
+      <div className="App-body">
         <Container style={{padding: '3vh'}}>
           <h2>Events</h2>
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
