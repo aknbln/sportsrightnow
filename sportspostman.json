@@ -1,0 +1,383 @@
+{
+	"info": {
+		"_postman_id": "113cada8-491c-445b-8e47-a9828ba7e97e",
+		"name": "SportsRightNow",
+		"description": "# Introduction\nWhat does your API do?\n\nGet info from all sports teams, players and events\n\n# Overview\nProvide an easy to navigate website with an intuitive way of keeping track of upcoming events, the teams participating, and the players as well.\n\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25853479"
+	},
+	"item": [
+		{
+			"name": "https://api.sportsrightnow.me/players",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/players",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"players"
+					]
+				},
+				"description": "Get All Players"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/players",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"players"
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "https://api.sportsrightnow.me/teams",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/teams",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"teams"
+					]
+				},
+				"description": "Get All Teams"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/teams",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"teams"
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "https://api.sportsrightnow.me/events",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/events",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"events"
+					]
+				},
+				"description": "Get All Events"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/events",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"events"
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "https://api.sportsrightnow.me/players?filter_name=filter_value",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/players?filter_name=filter_value",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"players"
+					],
+					"query": [
+						{
+							"key": "filter_name",
+							"value": "filter_value"
+						}
+					]
+				},
+				"description": "Filter Players by Team"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/players?filter_name=filter_value",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"players"
+							],
+							"query": [
+								{
+									"key": "filter_name",
+									"value": "filter_value"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "https://api.sportsrightnow.me/teams?filter_name=filter_value",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/teams?filter_name=filter_value",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"teams"
+					],
+					"query": [
+						{
+							"key": "filter_name",
+							"value": "filter_value"
+						}
+					]
+				},
+				"description": "Filter Teams by Event"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/teams?filter_name=filter_value",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"teams"
+							],
+							"query": [
+								{
+									"key": "filter_name",
+									"value": "filter_value"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "https://api.sportsrightnow.me/events?filter_name=filter_value",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/events?filter_name=filter_value",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"events"
+					],
+					"query": [
+						{
+							"key": "filter_name",
+							"value": "filter_value"
+						}
+					]
+				},
+				"description": "Filter Events by Date"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/events?filter_name=filter_value",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"events"
+							],
+							"query": [
+								{
+									"key": "filter_name",
+									"value": "filter_value"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	]
+}
