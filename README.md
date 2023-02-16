@@ -1,6 +1,44 @@
 # cs373-idb-18
 
-Team: Travis Aldrich, Akin Bilen, Eric Li, Tommy Ly, Johann Ramirez
+Website Link: https://www.sportsrightnow.me/
+
+Pipelines Link: https://gitlab.com/johannramirez07/cs373-idb-18/-/pipelines
+
+# Team: 
+Travis Aldrich - tga385 - tgaldr2
+
+Akin Bilen - ab73797 - aknbln
+
+Eric Li - el27249 - neepsy
+
+Tommy Ly - thl526 - tommylySchool
+
+Johann Ramirez - jsr3368 - johannramirez07
+
+## Phase I:
+Git SHA - b9eaeb7d018f485a07a368e3ab9b4b67dd860055
+Leader - Eric
+
+### Hours Worked:
+Travis Aldrich - Predicted: 8 Hrs - Actual: 8 Hrs
+
+Akin Bilen - Predicted: 8 Hrs - Actual: 9 Hrs
+
+Eric Li - Predicted: 8 Hrs - Actual: 11 Hrs
+
+Tommy Ly - Predicted: 8 Hrs - Actual: 8 Hrs
+
+Johann Ramirez - Predicted: 8 Hrs - Actual: 9 Hrs
+
+### Comments:
+I can't believe we finished with 3 minutes before midnight!!!!
+
+
+
+
+
+
+
 
 # Project Name: SportsRightNow
 
