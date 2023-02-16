@@ -17,7 +17,7 @@ const TeamCard = (props) => {
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Win/Loss: {record}</Card.Text>
       </Card.Body>
       <Card.Footer style= {{backgroundColor: 'dimgray'}}>
-        <Button href={`/player/${team_id}`} class="btn btn-primary stretched-link"
+        <Button href={`/teams/${team_id}`} class="btn btn-primary stretched-link"
         style= {{backgroundColor: '#3d405b', borderColor: 'black'}}>
           More Info
         </Button>

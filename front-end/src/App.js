@@ -13,6 +13,8 @@ import {LinkContainer} from 'react-router-bootstrap'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import { NavDropdown } from 'react-bootstrap'
 
+import Team1 from './pages/instances/Team1'
+
 function App() {
   return (
     <div>
@@ -54,6 +56,19 @@ function App() {
           <Route path="/players" element={<Players />}/>
           <Route path="/teams" element={<Teams />}/>
           <Route path="/events" element={<Events />}/>
+          
+          <Route path="/teams/1" element={<Team1 />}/>
+          <Route path="/teams/2" element={<Events />}/>
+          <Route path="/teams/3" element={<Events />}/>
+
+          <Route path="/players/1" element={<Events />}/>
+          <Route path="/players/2" element={<Events />}/>
+          <Route path="/players/3" element={<Events />}/>
+
+          <Route path="/events/1" element={<Events />}/>
+          <Route path="/events/2" element={<Events />}/>
+          <Route path="/events/3" element={<Events />}/>
+
         </Routes>
       </Router>
     </div>

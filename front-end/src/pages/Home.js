@@ -15,9 +15,6 @@ const Home = ({}) =>{
               <p>
                 Welcome to the amazing Sports Now Database!
               </p>
-              <Link to="/About">About</Link>
-              <TestButton color='gainsboro' text='Button One'/>
-              <TestButton color='aqua' text='Button Two'/>
             </div>
           </div>
     )

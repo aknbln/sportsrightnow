@@ -17,7 +17,7 @@ const PlayerCard = (props) => {
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Nationality: {country}</Card.Text>
       </Card.Body>
       <Card.Footer style= {{backgroundColor: 'dimgray'}}>
-        <Button href={`/player/${player_id}`} class="btn btn-primary stretched-link"
+        <Button href={`/players/${player_id}`} class="btn btn-primary stretched-link"
         style= {{backgroundColor: '#3d405b', borderColor: 'black'}}>
           More Info
         </Button>
