@@ -16,7 +16,8 @@ Tommy Ly - thl526 - tommylySchool
 Johann Ramirez - jsr3368 - johannramirez07
 
 ## Phase I:
-Git SHA - b9eaeb7d018f485a07a368e3ab9b4b67dd860055
+Git SHA - dba29bd547fa7710c80d94bc0e4b5642dff57a97
+
 Leader - Eric
 
 ### Hours Worked:
@@ -31,7 +32,7 @@ Tommy Ly - Predicted: 8 Hrs - Actual: 8 Hrs
 Johann Ramirez - Predicted: 8 Hrs - Actual: 9 Hrs
 
 ### Comments:
-I can't believe we finished with 3 minutes before midnight!!!!
+I can't believe we finished with 2 minutes before midnight!!!!
 
 
 
