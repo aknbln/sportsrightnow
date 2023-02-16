@@ -6,6 +6,6 @@ stages:
 build_front_end:
   stage: build
   script:
-    - cd ../frontend
+    - cd front-end
     - npm install
     - CI=false npm run-script build
