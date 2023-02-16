@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Home from './pages/Home'
 import About from './pages/About'
 import Players from './pages/Players'
+import Players1 from './pages/instances/Players1'
+import Players2 from './pages/instances/Players2'
+import Players3 from './pages/instances/Players3'
 import Teams from './pages/Teams'
 import Events from './pages/Events'
 import NotFound from './pages/NotFound'
@@ -61,9 +64,9 @@ function App() {
           <Route path="/teams/2" element={<Events />}/>
           <Route path="/teams/3" element={<Events />}/>
 
-          <Route path="/players/1" element={<Events />}/>
-          <Route path="/players/2" element={<Events />}/>
-          <Route path="/players/3" element={<Events />}/>
+          <Route path="/players/1" element={<Players1 />}/>
+          <Route path="/players/2" element={<Players2 />}/>
+          <Route path="/players/3" element={<Players3 />}/>
 
           <Route path="/events/1" element={<Events />}/>
           <Route path="/events/2" element={<Events />}/>
