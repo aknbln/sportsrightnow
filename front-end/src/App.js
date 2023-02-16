@@ -6,6 +6,9 @@ import Players from './pages/Players'
 import Players1 from './pages/instances/Players1'
 import Players2 from './pages/instances/Players2'
 import Players3 from './pages/instances/Players3'
+import Event1 from './pages/instances/Event1'
+import Event2 from './pages/instances/Event2'
+import Event3 from './pages/instances/Event3'
 import Teams from './pages/Teams'
 import Events from './pages/Events'
 import NotFound from './pages/NotFound'
@@ -71,9 +74,9 @@ function App() {
           <Route path="/players/2" element={<Players2 />}/>
           <Route path="/players/3" element={<Players3 />}/>
 
-          <Route path="/events/1" element={<Events />}/>
-          <Route path="/events/2" element={<Events />}/>
-          <Route path="/events/3" element={<Events />}/>
+          <Route path="/events/1" element={<Event1 />}/>
+          <Route path="/events/2" element={<Event2 />}/>
+          <Route path="/events/3" element={<Event3 />}/>
 
         </Routes>
       </Router>
