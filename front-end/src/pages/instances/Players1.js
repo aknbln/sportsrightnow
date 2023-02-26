@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Lebron from "../../assets/images/Lebron.jpg"
-import {Link} from 'react-router-dom'
+import {Link, useSearchParams} from 'react-router-dom'
 
 
 const Players1 = ({}) =>{
+
+    const [searchParams, setSearchParams] = useSearchParams()
+    const [playerId, setPlayerId] = useState(0)
+
+    useEffect(() => {
+      setPlayerId(searchParams.get("id"))
+    })
+
     return (
         <div className="App">
             <header className="App-header">
-              <h1>Lebron James</h1>
+              <h1>Lebron James - {playerId}</h1>
             </header>
             <div className='App-body'>
                 <div style={{display: "flex", flexDirection: "row", justifyContent: "center"}}>

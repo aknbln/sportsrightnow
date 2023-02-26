@@ -6,6 +6,9 @@ import Players from './pages/Players'
 import Players1 from './pages/instances/Players1'
 import Players2 from './pages/instances/Players2'
 import Players3 from './pages/instances/Players3'
+import Teams1 from './pages/instances/Teams1'
+import Teams2 from './pages/instances/Teams2'
+import Teams3 from './pages/instances/Teams3'
 import Event1 from './pages/instances/Event1'
 import Event2 from './pages/instances/Event2'
 import Event3 from './pages/instances/Event3'
@@ -15,20 +18,17 @@ import NotFound from './pages/NotFound'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar'
+import ScrollToTop from './components/ScrollToTop';
 import {LinkContainer} from 'react-router-bootstrap'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import { NavDropdown } from 'react-bootstrap'
 
-import Teams1 from './pages/instances/Teams1'
-import Teams2 from './pages/instances/Teams2'
-import Teams3 from './pages/instances/Teams3'
+
 
 
 function App() {
   return (
     <div>
-      <Router>
-
       <Navbar bg='dark' variant='dark'>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -57,7 +57,6 @@ function App() {
         </Container>
         </Navbar.Collapse>
       </Navbar>
-
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
@@ -79,7 +78,6 @@ function App() {
           <Route path="/events/3" element={<Event3 />}/>
 
         </Routes>
-      </Router>
     </div>
   );
 }        
