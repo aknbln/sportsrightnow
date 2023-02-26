@@ -2,9 +2,17 @@ import React from "react";
 
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import { Navigate, useNavigate, useSearchParams } from "react-router-dom";
 
 const PlayerCard = (props) => {
   const { name, image, team, league, age, country, player_id } = props.playerData;
+  const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate()
+
+  function ButtonClicked(id) {
+    navigate("/Players/" + id + "?id=" + id)
+  }
+
   return (
     <Card
     style= {{backgroundColor: 'lightgray'}}>
@@ -17,7 +25,7 @@ const PlayerCard = (props) => {
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Nationality: {country}</Card.Text>
       </Card.Body>
       <Card.Footer style= {{backgroundColor: 'dimgray'}}>
-        <Button href={`/players/${player_id}`} class="btn btn-primary stretched-link"
+        <Button class="btn btn-primary stretched-link" onClick={() => ButtonClicked(player_id)}
         style= {{backgroundColor: '#3d405b', borderColor: 'black'}}>
           More Info
         </Button>
