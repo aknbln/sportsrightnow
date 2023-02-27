@@ -10,7 +10,7 @@ const Players1 = ({}) =>{
 
     useEffect(() => {
       setPlayerId(searchParams.get("id"))
-    })
+    }, [])
 
     return (
         <div className="App">
