@@ -24,6 +24,5 @@ def create_json_file(file_path, default_data = {}):
     """
     file_exists = os.path.exists(file_path)
     print(file_exists)
-    if(not file_exists):
-        with open(file_path, 'w') as file:
-            json.dump(default_data, file, indent = JSON_INDENT)
+    with open(file_path, 'w') as file:
+        json.dump(default_data, file, indent = JSON_INDENT)
