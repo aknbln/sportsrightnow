@@ -10,7 +10,7 @@ const PlayerCard = (props) => {
   const navigate = useNavigate()
 
   function ButtonClicked(id) {
-    navigate("/Players/" + id + "?id=" + id)
+    navigate("/players/instance?id=" + id)
   }
 
   return (

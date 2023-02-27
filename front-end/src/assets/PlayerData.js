@@ -10,6 +10,7 @@ const playerData = [
         league: "NBA",
         age: "38",
         country: "USA",
+        height: "6' 9\"",
         player_id: "1",
     },
     {
@@ -19,6 +20,7 @@ const playerData = [
         league: "EPL",
         age: "31",
         country: "United Kingdom",
+        height: "5' 11\"",
         player_id: "2",        
     },
     {
@@ -28,6 +30,7 @@ const playerData = [
         age: "25",
         country: "Canada",
         league: "NHL",
+        height: "6' 0\"",
         player_id: "3",
     }
 ];
