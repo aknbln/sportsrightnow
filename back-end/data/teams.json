@@ -1008,7 +1008,7 @@
     "MLB": {
         "status": 200,
         "time": "2023-02-27T06:11:05.524Z",
-        "teams": 29,
+        "teams": 30,
         "results": [
             {
                 "team": "Chicago White Sox",
@@ -1017,7 +1017,26 @@
                 "conference": "American League",
                 "division": "Central",
                 "league": "MLB",
-                "abbreviation": "CWS"
+                "abbreviation": "CWS",
+                "rank": 1,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/7.png",
+                "winStreak": 0
+            },
+            {
+                "team": "Cleveland Guardians",
+                "mascot": "Guardians",
+                "location": "Cleveland",
+                "conference": "American League",
+                "division": "Central",
+                "league": "MLB",
+                "abbreviation": "CLE",
+                "rank": 3,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/9.png",
+                "winStreak": 0
             },
             {
                 "team": "Detroit Tigers",
@@ -1026,7 +1045,12 @@
                 "conference": "American League",
                 "division": "Central",
                 "league": "MLB",
-                "abbreviation": "DET"
+                "abbreviation": "DET",
+                "rank": 4,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/12.png",
+                "winStreak": 0
             },
             {
                 "team": "Kansas City Royals",
@@ -1035,7 +1059,12 @@
                 "conference": "American League",
                 "division": "Central",
                 "league": "MLB",
-                "abbreviation": "KC"
+                "abbreviation": "KC",
+                "rank": 2,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/16.png",
+                "winStreak": 0
             },
             {
                 "team": "Minnesota Twins",
@@ -1044,7 +1073,12 @@
                 "conference": "American League",
                 "division": "Central",
                 "league": "MLB",
-                "abbreviation": "MIN"
+                "abbreviation": "MIN",
+                "rank": 5,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/22.png",
+                "winStreak": 0
             },
             {
                 "team": "Baltimore Orioles",
@@ -1053,7 +1087,12 @@
                 "conference": "American League",
                 "division": "East",
                 "league": "MLB",
-                "abbreviation": "BAL"
+                "abbreviation": "BAL",
+                "rank": 2,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/4.png",
+                "winStreak": 0
             },
             {
                 "team": "Boston Red Sox",
@@ -1062,7 +1101,12 @@
                 "conference": "American League",
                 "division": "East",
                 "league": "MLB",
-                "abbreviation": "BOS"
+                "abbreviation": "BOS",
+                "rank": 5,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/5.png",
+                "winStreak": 0
             },
             {
                 "team": "New York Yankees",
@@ -1071,7 +1115,12 @@
                 "conference": "American League",
                 "division": "East",
                 "league": "MLB",
-                "abbreviation": "NYY"
+                "abbreviation": "NYY",
+                "rank": 3,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/25.png",
+                "winStreak": 0
             },
             {
                 "team": "Tampa Bay Rays",
@@ -1080,7 +1129,12 @@
                 "conference": "American League",
                 "division": "East",
                 "league": "MLB",
-                "abbreviation": "TB"
+                "abbreviation": "TB",
+                "rank": 4,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/34.png",
+                "winStreak": 0
             },
             {
                 "team": "Toronto Blue Jays",
@@ -1089,7 +1143,12 @@
                 "conference": "American League",
                 "division": "East",
                 "league": "MLB",
-                "abbreviation": "TOR"
+                "abbreviation": "TOR",
+                "rank": 1,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/36.png",
+                "winStreak": 0
             },
             {
                 "team": "Houston Astros",
@@ -1098,7 +1157,12 @@
                 "conference": "American League",
                 "division": "West",
                 "league": "MLB",
-                "abbreviation": "HOU"
+                "abbreviation": "HOU",
+                "rank": 4,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/15.png",
+                "winStreak": 0
             },
             {
                 "team": "Los Angeles Angels",
@@ -1107,7 +1171,12 @@
                 "conference": "American League",
                 "division": "West",
                 "league": "MLB",
-                "abbreviation": "LAA"
+                "abbreviation": "LAA",
+                "rank": 1,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/17.png",
+                "winStreak": 0
             },
             {
                 "team": "Oakland Athletics",
@@ -1116,7 +1185,12 @@
                 "conference": "American League",
                 "division": "West",
                 "league": "MLB",
-                "abbreviation": "OAK"
+                "abbreviation": "OAK",
+                "rank": 5,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/26.png",
+                "winStreak": 0
             },
             {
                 "team": "Seattle Mariners",
@@ -1125,7 +1199,12 @@
                 "conference": "American League",
                 "division": "West",
                 "league": "MLB",
-                "abbreviation": "SEA"
+                "abbreviation": "SEA",
+                "rank": 3,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/32.png",
+                "winStreak": 0
             },
             {
                 "team": "Texas Rangers",
@@ -1134,7 +1213,12 @@
                 "conference": "American League",
                 "division": "West",
                 "league": "MLB",
-                "abbreviation": "TEX"
+                "abbreviation": "TEX",
+                "rank": 2,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/35.png",
+                "winStreak": 0
             },
             {
                 "team": "Chicago Cubs",
@@ -1143,7 +1227,12 @@
                 "conference": "National League",
                 "division": "Central",
                 "league": "MLB",
-                "abbreviation": "CHC"
+                "abbreviation": "CHC",
+                "rank": 2,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/6.png",
+                "winStreak": 0
             },
             {
                 "team": "Cincinnati Reds",
@@ -1152,7 +1241,12 @@
                 "conference": "National League",
                 "division": "Central",
                 "league": "MLB",
-                "abbreviation": "CIN"
+                "abbreviation": "CIN",
+                "rank": 3,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/8.png",
+                "winStreak": 0
             },
             {
                 "team": "Milwaukee Brewers",
@@ -1161,7 +1255,12 @@
                 "conference": "National League",
                 "division": "Central",
                 "league": "MLB",
-                "abbreviation": "MIL"
+                "abbreviation": "MIL",
+                "rank": 1,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/20.png",
+                "winStreak": 0
             },
             {
                 "team": "Pittsburgh Pirates",
@@ -1170,7 +1269,12 @@
                 "conference": "National League",
                 "division": "Central",
                 "league": "MLB",
-                "abbreviation": "PIT"
+                "abbreviation": "PIT",
+                "rank": 4,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/28.png",
+                "winStreak": 0
             },
             {
                 "team": "St. Louis Cardinals",
@@ -1179,7 +1283,12 @@
                 "conference": "National League",
                 "division": "Central",
                 "league": "MLB",
-                "abbreviation": "STL"
+                "abbreviation": "STL",
+                "rank": 13,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/33.png",
+                "winStreak": 0
             },
             {
                 "team": "Atlanta Braves",
@@ -1188,7 +1297,12 @@
                 "conference": "National League",
                 "division": "East",
                 "league": "MLB",
-                "abbreviation": "ATL"
+                "abbreviation": "ATL",
+                "rank": 1,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/3.png",
+                "winStreak": 0
             },
             {
                 "team": "Miami Marlins",
@@ -1197,7 +1311,12 @@
                 "conference": "National League",
                 "division": "East",
                 "league": "MLB",
-                "abbreviation": "MIA"
+                "abbreviation": "MIA",
+                "rank": 5,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/19.png",
+                "winStreak": 0
             },
             {
                 "team": "New York Mets",
@@ -1206,7 +1325,12 @@
                 "conference": "National League",
                 "division": "East",
                 "league": "MLB",
-                "abbreviation": "NYM"
+                "abbreviation": "NYM",
+                "rank": 4,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/24.png",
+                "winStreak": 0
             },
             {
                 "team": "Philadelphia Phillies",
@@ -1215,7 +1339,12 @@
                 "conference": "National League",
                 "division": "East",
                 "league": "MLB",
-                "abbreviation": "PHI"
+                "abbreviation": "PHI",
+                "rank": 3,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/27.png",
+                "winStreak": 0
             },
             {
                 "team": "Washington Nationals",
@@ -1224,7 +1353,12 @@
                 "conference": "National League",
                 "division": "East",
                 "league": "MLB",
-                "abbreviation": "WSH"
+                "abbreviation": "WSH",
+                "rank": 2,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/37.png",
+                "winStreak": 0
             },
             {
                 "team": "Arizona Diamondbacks",
@@ -1233,7 +1367,12 @@
                 "conference": "National League",
                 "division": "West",
                 "league": "MLB",
-                "abbreviation": "ARI"
+                "abbreviation": "ARI",
+                "rank": 1,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/2.png",
+                "winStreak": 0
             },
             {
                 "team": "Colorado Rockies",
@@ -1242,7 +1381,12 @@
                 "conference": "National League",
                 "division": "West",
                 "league": "MLB",
-                "abbreviation": "COL"
+                "abbreviation": "COL",
+                "rank": 3,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/10.png",
+                "winStreak": 0
             },
             {
                 "team": "Los Angeles Dodgers",
@@ -1251,7 +1395,12 @@
                 "conference": "National League",
                 "division": "West",
                 "league": "MLB",
-                "abbreviation": "LAD"
+                "abbreviation": "LAD",
+                "rank": 2,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/18.png",
+                "winStreak": 0
             },
             {
                 "team": "San Diego Padres",
@@ -1260,7 +1409,12 @@
                 "conference": "National League",
                 "division": "West",
                 "league": "MLB",
-                "abbreviation": "SD"
+                "abbreviation": "SD",
+                "rank": 5,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/30.png",
+                "winStreak": 0
             },
             {
                 "team": "San Francisco Giants",
@@ -1269,7 +1423,12 @@
                 "conference": "National League",
                 "division": "West",
                 "league": "MLB",
-                "abbreviation": "SF"
+                "abbreviation": "SF",
+                "rank": 4,
+                "totalWins": 0,
+                "totalLosses": 0,
+                "logo": "https://media.api-sports.io/baseball/teams/31.png",
+                "winStreak": 0
             }
         ]
     }

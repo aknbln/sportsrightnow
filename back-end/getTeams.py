@@ -6,7 +6,7 @@ from Scrape import create_json_file, SCRAPE_DIR_NAME, SCRAPE_DIR_PATH
 TEAMS_JSON_PATH = SCRAPE_DIR_PATH + SCRAPE_DIR_NAME + "/Teams.json"
 NBA_TEAMS_JSON_PATH = SCRAPE_DIR_PATH + SCRAPE_DIR_NAME + "/NBA_Teams.json"
 NFL_TEAMS_JSON_PATH = SCRAPE_DIR_PATH + SCRAPE_DIR_NAME + "/NFL_Teams.json"
-
+MLB_TEAMS_JSON_PATH = SCRAPE_DIR_PATH + SCRAPE_DIR_NAME + "/MLB_Teams.json"
 #THINGS WE HAVE TO DO
 
 def get_teams(league):
@@ -41,6 +41,19 @@ def get_nfl_teams_info():
     response = requests.request("GET", url, headers=headers, params=querystring)
     create_json_file(NFL_TEAMS_JSON_PATH, response.json())
     
+def get_mlb_teams_info():
+    url = "https://api-baseball.p.rapidapi.com/standings"
+
+    querystring = {"league":"1","season":"2022"}
+
+    headers = {
+        "X-RapidAPI-Key": "0c466f6bcfmshcc828ed94ad95d9p13d7abjsn41fb37c9d661",
+        "X-RapidAPI-Host": "api-baseball.p.rapidapi.com"
+    }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+    create_json_file(MLB_TEAMS_JSON_PATH, response.json())
+
 #scrapes the NBA standings info
 def get_nba_teams_info():
     url = "https://api-nba-v1.p.rapidapi.com/standings"
@@ -102,6 +115,29 @@ def update_nfl_teams_info():
         create_json_file(TEAMS_JSON_PATH, data)
 
 
+#https://rapidapi.com/api-sports/api/api-baseball
+def update_mlb_teams_info():
+    f = open(f'./data/MLB_Teams.json')
+    standings_data = json.load(f)
+
+    #get the teams from the file 
+    teams_file = open('./data/Teams.json')
+    data = json.load(teams_file)
+
+    for i in standings_data['response'][0]:
+        cur_team = find_elem(data['MLB']['results'], i['team']['name'])
+        print(cur_team)
+        
+        #assign more fields to the json object, modifies data object will have to write back to the file though
+        if(cur_team != None):
+            cur_team['rank'] =  i['position']
+            cur_team['totalWins'] =  i['games']['win']['total']
+            cur_team['totalLosses'] = i['games']['lose']['total']
+            cur_team['logo'] = i['team']['logo']
+            cur_team['winStreak'] = 0
+            create_json_file(TEAMS_JSON_PATH, data)
+
+
 #Finds the element in the list
 def find_elem(json_object, name):
     for dict in json_object:
@@ -121,6 +157,9 @@ def main():
     i = 1
     #get_nfl_teams_info()
     #update_nfl_teams_info()
+
+    #get_mlb_teams_info()
+    update_mlb_teams_info()
 
 
 if __name__=="__main__":
