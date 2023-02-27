@@ -498,7 +498,14 @@
                 "conference": "AFC",
                 "division": "East",
                 "league": "NFL",
-                "abbreviation": "BUF"
+                "abbreviation": "BUF",
+                "rank": 1,
+                "totalWins": 13,
+                "homeWins": 7,
+                "awayWins": 6,
+                "totalLosses": 3,
+                "logo": "https://media.api-sports.io/american-football/teams/20.png",
+                "winStreak": "W7"
             },
             {
                 "team": "Miami Dolphins",
@@ -507,7 +514,14 @@
                 "conference": "AFC",
                 "division": "East",
                 "league": "NFL",
-                "abbreviation": "MIA"
+                "abbreviation": "MIA",
+                "rank": 2,
+                "totalWins": 9,
+                "homeWins": 6,
+                "awayWins": 3,
+                "totalLosses": 8,
+                "logo": "https://media.api-sports.io/american-football/teams/25.png",
+                "winStreak": "W1"
             },
             {
                 "team": "New England Patriots",
@@ -516,7 +530,14 @@
                 "conference": "AFC",
                 "division": "East",
                 "league": "NFL",
-                "abbreviation": "NE"
+                "abbreviation": "NE",
+                "rank": 3,
+                "totalWins": 8,
+                "homeWins": 4,
+                "awayWins": 4,
+                "totalLosses": 9,
+                "logo": "https://media.api-sports.io/american-football/teams/3.png",
+                "winStreak": "L1"
             },
             {
                 "team": "New York Jets",
@@ -525,7 +546,14 @@
                 "conference": "AFC",
                 "division": "East",
                 "league": "NFL",
-                "abbreviation": "NYJ"
+                "abbreviation": "NYJ",
+                "rank": 4,
+                "totalWins": 7,
+                "homeWins": 3,
+                "awayWins": 4,
+                "totalLosses": 10,
+                "logo": "https://media.api-sports.io/american-football/teams/13.png",
+                "winStreak": "L6"
             },
             {
                 "team": "Baltimore Ravens",
@@ -534,7 +562,14 @@
                 "conference": "AFC",
                 "division": "North",
                 "league": "NFL",
-                "abbreviation": "BAL"
+                "abbreviation": "BAL",
+                "rank": 2,
+                "totalWins": 10,
+                "homeWins": 5,
+                "awayWins": 5,
+                "totalLosses": 7,
+                "logo": "https://media.api-sports.io/american-football/teams/5.png",
+                "winStreak": "L2"
             },
             {
                 "team": "Cincinnati Bengals",
@@ -543,7 +578,14 @@
                 "conference": "AFC",
                 "division": "North",
                 "league": "NFL",
-                "abbreviation": "CIN"
+                "abbreviation": "CIN",
+                "rank": 1,
+                "totalWins": 12,
+                "homeWins": 6,
+                "awayWins": 6,
+                "totalLosses": 4,
+                "logo": "https://media.api-sports.io/american-football/teams/10.png",
+                "winStreak": "W8"
             },
             {
                 "team": "Cleveland Browns",
@@ -552,7 +594,14 @@
                 "conference": "AFC",
                 "division": "North",
                 "league": "NFL",
-                "abbreviation": "CLE"
+                "abbreviation": "CLE",
+                "rank": 4,
+                "totalWins": 7,
+                "homeWins": 4,
+                "awayWins": 3,
+                "totalLosses": 10,
+                "logo": "https://media.api-sports.io/american-football/teams/9.png",
+                "winStreak": "L1"
             },
             {
                 "team": "Pittsburgh Steelers",
@@ -561,7 +610,14 @@
                 "conference": "AFC",
                 "division": "North",
                 "league": "NFL",
-                "abbreviation": "PIT"
+                "abbreviation": "PIT",
+                "rank": 3,
+                "totalWins": 9,
+                "homeWins": 4,
+                "awayWins": 5,
+                "totalLosses": 8,
+                "logo": "https://media.api-sports.io/american-football/teams/22.png",
+                "winStreak": "W4"
             },
             {
                 "team": "Houston Texans",
@@ -570,7 +626,14 @@
                 "conference": "AFC",
                 "division": "South",
                 "league": "NFL",
-                "abbreviation": "HOU"
+                "abbreviation": "HOU",
+                "rank": 4,
+                "totalWins": 3,
+                "homeWins": 0,
+                "awayWins": 3,
+                "totalLosses": 13,
+                "logo": "https://media.api-sports.io/american-football/teams/26.png",
+                "winStreak": "W1"
             },
             {
                 "team": "Indianapolis Colts",
@@ -579,7 +642,14 @@
                 "conference": "AFC",
                 "division": "South",
                 "league": "NFL",
-                "abbreviation": "IND"
+                "abbreviation": "IND",
+                "rank": 3,
+                "totalWins": 4,
+                "homeWins": 2,
+                "awayWins": 2,
+                "totalLosses": 12,
+                "logo": "https://media.api-sports.io/american-football/teams/21.png",
+                "winStreak": "L7"
             },
             {
                 "team": "Jacksonville Jaguars",
@@ -588,7 +658,14 @@
                 "conference": "AFC",
                 "division": "South",
                 "league": "NFL",
-                "abbreviation": "JAX"
+                "abbreviation": "JAX",
+                "rank": 1,
+                "totalWins": 9,
+                "homeWins": 5,
+                "awayWins": 4,
+                "totalLosses": 8,
+                "logo": "https://media.api-sports.io/american-football/teams/2.png",
+                "winStreak": "W5"
             },
             {
                 "team": "Tennessee Titans",
@@ -597,7 +674,14 @@
                 "conference": "AFC",
                 "division": "South",
                 "league": "NFL",
-                "abbreviation": "TEN"
+                "abbreviation": "TEN",
+                "rank": 2,
+                "totalWins": 7,
+                "homeWins": 3,
+                "awayWins": 4,
+                "totalLosses": 10,
+                "logo": "https://media.api-sports.io/american-football/teams/6.png",
+                "winStreak": "L7"
             },
             {
                 "team": "Denver Broncos",
@@ -606,7 +690,14 @@
                 "conference": "AFC",
                 "division": "West",
                 "league": "NFL",
-                "abbreviation": "DEN"
+                "abbreviation": "DEN",
+                "rank": 4,
+                "totalWins": 5,
+                "homeWins": 4,
+                "awayWins": 1,
+                "totalLosses": 12,
+                "logo": "https://media.api-sports.io/american-football/teams/28.png",
+                "winStreak": "W1"
             },
             {
                 "team": "Kansas City Chiefs",
@@ -615,7 +706,14 @@
                 "conference": "AFC",
                 "division": "West",
                 "league": "NFL",
-                "abbreviation": "KC"
+                "abbreviation": "KC",
+                "rank": 1,
+                "totalWins": 14,
+                "homeWins": 7,
+                "awayWins": 7,
+                "totalLosses": 3,
+                "logo": "https://media.api-sports.io/american-football/teams/17.png",
+                "winStreak": "W5"
             },
             {
                 "team": "Las Vegas Raiders",
@@ -624,7 +722,14 @@
                 "conference": "AFC",
                 "division": "West",
                 "league": "NFL",
-                "abbreviation": "LV"
+                "abbreviation": "LV",
+                "rank": 3,
+                "totalWins": 6,
+                "homeWins": 4,
+                "awayWins": 2,
+                "totalLosses": 11,
+                "logo": "https://media.api-sports.io/american-football/teams/1.png",
+                "winStreak": "L3"
             },
             {
                 "team": "Los Angeles Chargers",
@@ -633,7 +738,14 @@
                 "conference": "AFC",
                 "division": "West",
                 "league": "NFL",
-                "abbreviation": "LAC"
+                "abbreviation": "LAC",
+                "rank": 2,
+                "totalWins": 10,
+                "homeWins": 5,
+                "awayWins": 5,
+                "totalLosses": 7,
+                "logo": "https://media.api-sports.io/american-football/teams/30.png",
+                "winStreak": "L1"
             },
             {
                 "team": "Dallas Cowboys",
@@ -642,7 +754,14 @@
                 "conference": "NFC",
                 "division": "East",
                 "league": "NFL",
-                "abbreviation": "DAL"
+                "abbreviation": "DAL",
+                "rank": 2,
+                "totalWins": 12,
+                "homeWins": 8,
+                "awayWins": 4,
+                "totalLosses": 5,
+                "logo": "https://media.api-sports.io/american-football/teams/29.png",
+                "winStreak": "L1"
             },
             {
                 "team": "New York Giants",
@@ -651,7 +770,14 @@
                 "conference": "NFC",
                 "division": "East",
                 "league": "NFL",
-                "abbreviation": "NYG"
+                "abbreviation": "NYG",
+                "rank": 3,
+                "totalWins": 9,
+                "homeWins": 5,
+                "awayWins": 4,
+                "totalLosses": 7,
+                "logo": "https://media.api-sports.io/american-football/teams/4.png",
+                "winStreak": "L1"
             },
             {
                 "team": "Philadelphia Eagles",
@@ -660,7 +786,14 @@
                 "conference": "NFC",
                 "division": "East",
                 "league": "NFL",
-                "abbreviation": "PHI"
+                "abbreviation": "PHI",
+                "rank": 1,
+                "totalWins": 14,
+                "homeWins": 7,
+                "awayWins": 7,
+                "totalLosses": 3,
+                "logo": "https://media.api-sports.io/american-football/teams/12.png",
+                "winStreak": "W1"
             },
             {
                 "team": "Washington Commanders",
@@ -669,7 +802,14 @@
                 "conference": "NFC",
                 "division": "East",
                 "league": "NFL",
-                "abbreviation": "WAS"
+                "abbreviation": "WAS",
+                "rank": 4,
+                "totalWins": 8,
+                "homeWins": 4,
+                "awayWins": 4,
+                "totalLosses": 8,
+                "logo": "https://media.api-sports.io/american-football/teams/18.png",
+                "winStreak": "W1"
             },
             {
                 "team": "Chicago Bears",
@@ -678,7 +818,14 @@
                 "conference": "NFC",
                 "division": "North",
                 "league": "NFL",
-                "abbreviation": "CHI"
+                "abbreviation": "CHI",
+                "rank": 4,
+                "totalWins": 3,
+                "homeWins": 2,
+                "awayWins": 1,
+                "totalLosses": 14,
+                "logo": "https://media.api-sports.io/american-football/teams/16.png",
+                "winStreak": "L10"
             },
             {
                 "team": "Detroit Lions",
@@ -687,7 +834,14 @@
                 "conference": "NFC",
                 "division": "North",
                 "league": "NFL",
-                "abbreviation": "DET"
+                "abbreviation": "DET",
+                "rank": 2,
+                "totalWins": 9,
+                "homeWins": 5,
+                "awayWins": 4,
+                "totalLosses": 8,
+                "logo": "https://media.api-sports.io/american-football/teams/7.png",
+                "winStreak": "W2"
             },
             {
                 "team": "Green Bay Packers",
@@ -696,7 +850,14 @@
                 "conference": "NFC",
                 "division": "North",
                 "league": "NFL",
-                "abbreviation": "GB"
+                "abbreviation": "GB",
+                "rank": 3,
+                "totalWins": 8,
+                "homeWins": 5,
+                "awayWins": 3,
+                "totalLosses": 9,
+                "logo": "https://media.api-sports.io/american-football/teams/15.png",
+                "winStreak": "L1"
             },
             {
                 "team": "Minnesota Vikings",
@@ -705,7 +866,14 @@
                 "conference": "NFC",
                 "division": "North",
                 "league": "NFL",
-                "abbreviation": "MIN"
+                "abbreviation": "MIN",
+                "rank": 1,
+                "totalWins": 13,
+                "homeWins": 8,
+                "awayWins": 5,
+                "totalLosses": 4,
+                "logo": "https://media.api-sports.io/american-football/teams/32.png",
+                "winStreak": "W1"
             },
             {
                 "team": "Atlanta Falcons",
@@ -714,7 +882,14 @@
                 "conference": "NFC",
                 "division": "South",
                 "league": "NFL",
-                "abbreviation": "ATL"
+                "abbreviation": "ATL",
+                "rank": 4,
+                "totalWins": 7,
+                "homeWins": 6,
+                "awayWins": 1,
+                "totalLosses": 10,
+                "logo": "https://media.api-sports.io/american-football/teams/8.png",
+                "winStreak": "W2"
             },
             {
                 "team": "Carolina Panthers",
@@ -723,7 +898,14 @@
                 "conference": "NFC",
                 "division": "South",
                 "league": "NFL",
-                "abbreviation": "CAR"
+                "abbreviation": "CAR",
+                "rank": 2,
+                "totalWins": 7,
+                "homeWins": 5,
+                "awayWins": 2,
+                "totalLosses": 10,
+                "logo": "https://media.api-sports.io/american-football/teams/19.png",
+                "winStreak": "W1"
             },
             {
                 "team": "New Orleans Saints",
@@ -732,7 +914,14 @@
                 "conference": "NFC",
                 "division": "South",
                 "league": "NFL",
-                "abbreviation": "NO"
+                "abbreviation": "NO",
+                "rank": 3,
+                "totalWins": 7,
+                "homeWins": 4,
+                "awayWins": 3,
+                "totalLosses": 10,
+                "logo": "https://media.api-sports.io/american-football/teams/27.png",
+                "winStreak": "L1"
             },
             {
                 "team": "Tampa Bay Buccaneers",
@@ -741,7 +930,14 @@
                 "conference": "NFC",
                 "division": "South",
                 "league": "NFL",
-                "abbreviation": "TB"
+                "abbreviation": "TB",
+                "rank": 1,
+                "totalWins": 8,
+                "homeWins": 5,
+                "awayWins": 3,
+                "totalLosses": 9,
+                "logo": "https://media.api-sports.io/american-football/teams/24.png",
+                "winStreak": "L1"
             },
             {
                 "team": "Arizona Cardinals",
@@ -750,7 +946,14 @@
                 "conference": "NFC",
                 "division": "West",
                 "league": "NFL",
-                "abbreviation": "ARI"
+                "abbreviation": "ARI",
+                "rank": 4,
+                "totalWins": 4,
+                "homeWins": 1,
+                "awayWins": 3,
+                "totalLosses": 13,
+                "logo": "https://media.api-sports.io/american-football/teams/11.png",
+                "winStreak": "L7"
             },
             {
                 "team": "Los Angeles Rams",
@@ -759,7 +962,14 @@
                 "conference": "NFC",
                 "division": "West",
                 "league": "NFL",
-                "abbreviation": "LAR"
+                "abbreviation": "LAR",
+                "rank": 3,
+                "totalWins": 5,
+                "homeWins": 4,
+                "awayWins": 1,
+                "totalLosses": 12,
+                "logo": "https://media.api-sports.io/american-football/teams/31.png",
+                "winStreak": "L2"
             },
             {
                 "team": "San Francisco 49ers",
@@ -768,7 +978,14 @@
                 "conference": "NFC",
                 "division": "West",
                 "league": "NFL",
-                "abbreviation": "SF"
+                "abbreviation": "SF",
+                "rank": 1,
+                "totalWins": 13,
+                "homeWins": 8,
+                "awayWins": 5,
+                "totalLosses": 4,
+                "logo": "https://media.api-sports.io/american-football/teams/14.png",
+                "winStreak": "W10"
             },
             {
                 "team": "Seattle Seahawks",
@@ -777,7 +994,14 @@
                 "conference": "NFC",
                 "division": "West",
                 "league": "NFL",
-                "abbreviation": "SEA"
+                "abbreviation": "SEA",
+                "rank": 2,
+                "totalWins": 9,
+                "homeWins": 5,
+                "awayWins": 4,
+                "totalLosses": 8,
+                "logo": "https://media.api-sports.io/american-football/teams/23.png",
+                "winStreak": "W2"
             }
         ]
     },

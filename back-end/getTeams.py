@@ -5,7 +5,7 @@ from Scrape import create_json_file, SCRAPE_DIR_NAME, SCRAPE_DIR_PATH
 
 TEAMS_JSON_PATH = SCRAPE_DIR_PATH + SCRAPE_DIR_NAME + "/Teams.json"
 NBA_TEAMS_JSON_PATH = SCRAPE_DIR_PATH + SCRAPE_DIR_NAME + "/NBA_Teams.json"
-
+NFL_TEAMS_JSON_PATH = SCRAPE_DIR_PATH + SCRAPE_DIR_NAME + "/NFL_Teams.json"
 
 #THINGS WE HAVE TO DO
 
@@ -28,7 +28,18 @@ def get_teams(league):
 
     #Populate info about NBA Teams
 
+def get_nfl_teams_info():
+    url = "https://api-american-football.p.rapidapi.com/standings"
 
+    querystring = {"league":"1","season":"2022"}
+
+    headers = {
+        "X-RapidAPI-Key": "0c466f6bcfmshcc828ed94ad95d9p13d7abjsn41fb37c9d661",
+        "X-RapidAPI-Host": "api-american-football.p.rapidapi.com"
+    }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+    create_json_file(NFL_TEAMS_JSON_PATH, response.json())
     
 #scrapes the NBA standings info
 def get_nba_teams_info():
@@ -48,8 +59,8 @@ def get_nba_teams_info():
 
 
 #update the teams info with details
-def update_teams_info(league):
-    f = open(f'./data/{league}_Teams.json')
+def update_nba_teams_info():
+    f = open(f'./data/NBA_Teams.json')
     standings_data = json.load(f)
 
     #get the teams from the file 
@@ -57,7 +68,7 @@ def update_teams_info(league):
     data = json.load(teams_file)
 
     for i in standings_data['response']:
-        cur_team = find_elem(data[league]["results"], i['team']['name'])
+        cur_team = find_elem(data['NBA']["results"], i['team']['name'])
         
         #assign more fields to the json object, modifies data object will have to write back to the file though
         cur_team['rank'] = i['conference']['rank']
@@ -65,6 +76,27 @@ def update_teams_info(league):
         cur_team['homeWins'] = i['win']['home']
         cur_team['awayWins'] = cur_team['totalWins'] - cur_team['homeWins']
         cur_team['totalLosses'] = i['conference']['loss']
+        cur_team['logo'] = i['team']['logo']
+        cur_team['winStreak'] = i['streak']
+        create_json_file(TEAMS_JSON_PATH, data)
+
+def update_nfl_teams_info():
+    f = open(f'./data/NFL_Teams.json')
+    standings_data = json.load(f)
+
+    #get the teams from the file 
+    teams_file = open('./data/Teams.json')
+    data = json.load(teams_file)
+
+    for i in standings_data['response']:
+        cur_team = find_elem(data['NFL']["results"], i['team']['name'])
+        
+        #assign more fields to the json object, modifies data object will have to write back to the file though
+        cur_team['rank'] =  i['position']
+        cur_team['totalWins'] =  i['won']
+        cur_team['homeWins'] = int(i['records']['home'][0])
+        cur_team['awayWins'] = cur_team['totalWins'] - cur_team['homeWins']
+        cur_team['totalLosses'] = i['lost']
         cur_team['logo'] = i['team']['logo']
         cur_team['winStreak'] = i['streak']
         create_json_file(TEAMS_JSON_PATH, data)
@@ -86,6 +118,10 @@ def main():
     #update_nba_teams_info()
 
     ### NEXT STEPS
+    i = 1
+    #get_nfl_teams_info()
+    #update_nfl_teams_info()
+
 
 if __name__=="__main__":
     main()
