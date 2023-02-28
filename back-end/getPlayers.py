@@ -31,7 +31,7 @@ def filter_nba_players():
 
     for team in jsonfile['body']:
         cur_team = {
-            'teamName': team['teamCity'] + team['teamName'],
+            'teamName': team['teamCity'] + " " + team['teamName'],
             'players': []
             }
 

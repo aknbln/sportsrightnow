@@ -1,7 +1,7 @@
 {
     "NBA": [
         {
-            "teamName": "OrlandoMagic",
+            "teamName": "Orlando Magic",
             "players": [
                 {
                     "name": "Caleb Houstan",
@@ -214,7 +214,7 @@
             ]
         },
         {
-            "teamName": "MinnesotaTimberwolves",
+            "teamName": "Minnesota Timberwolves",
             "players": [
                 {
                     "name": "Nathan Knight",
@@ -440,7 +440,7 @@
             ]
         },
         {
-            "teamName": "MiamiHeat",
+            "teamName": "Miami Heat",
             "players": [
                 {
                     "name": "Gabe Vincent",
@@ -666,7 +666,7 @@
             ]
         },
         {
-            "teamName": "BostonCeltics",
+            "teamName": "Boston Celtics",
             "players": [
                 {
                     "name": "Robert Williams III",
@@ -879,7 +879,7 @@
             ]
         },
         {
-            "teamName": "Los AngelesClippers",
+            "teamName": "Los Angeles Clippers",
             "players": [
                 {
                     "name": "Paul George",
@@ -1105,7 +1105,7 @@
             ]
         },
         {
-            "teamName": "DenverNuggets",
+            "teamName": "Denver Nuggets",
             "players": [
                 {
                     "name": "Bruce Brown",
@@ -1331,7 +1331,7 @@
             ]
         },
         {
-            "teamName": "DetroitPistons",
+            "teamName": "Detroit Pistons",
             "players": [
                 {
                     "name": "Isaiah Stewart",
@@ -1557,7 +1557,7 @@
             ]
         },
         {
-            "teamName": "AtlantaHawks",
+            "teamName": "Atlanta Hawks",
             "players": [
                 {
                     "name": "Aaron Holiday",
@@ -1783,7 +1783,7 @@
             ]
         },
         {
-            "teamName": "ClevelandCavaliers",
+            "teamName": "Cleveland Cavaliers",
             "players": [
                 {
                     "name": "Darius Garland",
@@ -1996,7 +1996,7 @@
             ]
         },
         {
-            "teamName": "TorontoRaptors",
+            "teamName": "Toronto Raptors",
             "players": [
                 {
                     "name": "Christian Koloko",
@@ -2222,7 +2222,7 @@
             ]
         },
         {
-            "teamName": "WashingtonWizards",
+            "teamName": "Washington Wizards",
             "players": [
                 {
                     "name": "Daniel Gafford",
@@ -2435,7 +2435,7 @@
             ]
         },
         {
-            "teamName": "PhoenixSuns",
+            "teamName": "Phoenix Suns",
             "players": [
                 {
                     "name": "Devin Booker",
@@ -2648,7 +2648,7 @@
             ]
         },
         {
-            "teamName": "San AntonioSpurs",
+            "teamName": "San Antonio Spurs",
             "players": [
                 {
                     "name": "Jeremy Sochan",
@@ -2900,7 +2900,7 @@
             ]
         },
         {
-            "teamName": "ChicagoBulls",
+            "teamName": "Chicago Bulls",
             "players": [
                 {
                     "name": "Ayo Dosunmu",
@@ -3126,7 +3126,7 @@
             ]
         },
         {
-            "teamName": "CharlotteHornets",
+            "teamName": "Charlotte Hornets",
             "players": [
                 {
                     "name": "Terry Rozier",
@@ -3326,7 +3326,7 @@
             ]
         },
         {
-            "teamName": "Philadelphia76ers",
+            "teamName": "Philadelphia 76ers",
             "players": [
                 {
                     "name": "Joel Embiid",
@@ -3552,7 +3552,7 @@
             ]
         },
         {
-            "teamName": "New OrleansPelicans",
+            "teamName": "New Orleans Pelicans",
             "players": [
                 {
                     "name": "Kira Lewis Jr.",
@@ -3778,7 +3778,7 @@
             ]
         },
         {
-            "teamName": "SacramentoKings",
+            "teamName": "Sacramento Kings",
             "players": [
                 {
                     "name": "Richaun Holmes",
@@ -4004,7 +4004,7 @@
             ]
         },
         {
-            "teamName": "DallasMavericks",
+            "teamName": "Dallas Mavericks",
             "players": [
                 {
                     "name": "Reggie Bullock",
@@ -4230,7 +4230,7 @@
             ]
         },
         {
-            "teamName": "HoustonRockets",
+            "teamName": "Houston Rockets",
             "players": [
                 {
                     "name": "Tari Eason",
@@ -4430,7 +4430,7 @@
             ]
         },
         {
-            "teamName": "BrooklynNets",
+            "teamName": "Brooklyn Nets",
             "players": [
                 {
                     "name": "Patty Mills",
@@ -4643,7 +4643,7 @@
             ]
         },
         {
-            "teamName": "New YorkKnicks",
+            "teamName": "New York Knicks",
             "players": [
                 {
                     "name": "Evan Fournier",
@@ -4843,7 +4843,7 @@
             ]
         },
         {
-            "teamName": "UtahJazz",
+            "teamName": "Utah Jazz",
             "players": [
                 {
                     "name": "Kris Dunn",
@@ -5056,7 +5056,7 @@
             ]
         },
         {
-            "teamName": "Oklahoma CityThunder",
+            "teamName": "Oklahoma City Thunder",
             "players": [
                 {
                     "name": "Justin Jackson",
@@ -5282,7 +5282,7 @@
             ]
         },
         {
-            "teamName": "PortlandTrail Blazers",
+            "teamName": "Portland Trail Blazers",
             "players": [
                 {
                     "name": "Justise Winslow",
@@ -5508,7 +5508,7 @@
             ]
         },
         {
-            "teamName": "IndianaPacers",
+            "teamName": "Indiana Pacers",
             "players": [
                 {
                     "name": "Oshae Brissett",
@@ -5734,7 +5734,7 @@
             ]
         },
         {
-            "teamName": "MilwaukeeBucks",
+            "teamName": "Milwaukee Bucks",
             "players": [
                 {
                     "name": "Wesley Matthews",
@@ -5947,7 +5947,7 @@
             ]
         },
         {
-            "teamName": "Golden StateWarriors",
+            "teamName": "Golden State Warriors",
             "players": [
                 {
                     "name": "Klay Thompson",
@@ -6160,7 +6160,7 @@
             ]
         },
         {
-            "teamName": "MemphisGrizzlies",
+            "teamName": "Memphis Grizzlies",
             "players": [
                 {
                     "name": "Vince Williams Jr.",
@@ -6386,7 +6386,7 @@
             ]
         },
         {
-            "teamName": "Los AngelesLakers",
+            "teamName": "Los Angeles Lakers",
             "players": [
                 {
                     "name": "Rui Hachimura",
