@@ -5,7 +5,7 @@ import requests
 
 # important file paths
 SCRAPE_DIR_PATH = "./"
-SCRAPE_DIR_NAME = "data"
+SCRAPE_DIR_NAME = "data/Team-Info"
 SCRIPT_PATH = os.path.realpath(os.path.dirname(__file__))
 
 # JSON file paths

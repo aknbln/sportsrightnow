@@ -126,7 +126,7 @@ def update_mlb_teams_info():
 
     for i in standings_data['response'][0]:
         cur_team = find_elem(data['MLB']['results'], i['team']['name'])
-        print(cur_team)
+        #print(cur_team)
         
         #assign more fields to the json object, modifies data object will have to write back to the file though
         if(cur_team != None):
@@ -159,7 +159,7 @@ def main():
     #update_nfl_teams_info()
 
     #get_mlb_teams_info()
-    update_mlb_teams_info()
+    #update_mlb_teams_info()
 
 
 if __name__=="__main__":
