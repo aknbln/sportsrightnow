@@ -13,7 +13,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "2",
                     "team-abbr": "ORL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "1/9/2003"
                 },
                 {
                     "name": "Bol Bol",
@@ -25,7 +26,8 @@
                     "height-feet": "7-2",
                     "jersey-num": "10",
                     "team-abbr": "ORL",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "11/16/1999"
                 },
                 {
                     "name": "Goga Bitadze",
@@ -37,7 +39,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "35",
                     "team-abbr": "ORL",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "7/20/1999"
                 },
                 {
                     "name": "Moritz Wagner",
@@ -49,7 +52,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "21",
                     "team-abbr": "ORL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "4/26/1997"
                 },
                 {
                     "name": "Paolo Banchero",
@@ -61,7 +65,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "5",
                     "team-abbr": "ORL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "11/12/2002"
                 },
                 {
                     "name": "Admiral Schofield",
@@ -73,7 +78,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "25",
                     "team-abbr": "ORL",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "3/30/1997"
                 },
                 {
                     "name": "Franz Wagner",
@@ -85,7 +91,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "22",
                     "team-abbr": "ORL",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "8/27/2001"
                 },
                 {
                     "name": "Jonathan Isaac",
@@ -97,7 +104,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "1",
                     "team-abbr": "ORL",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "10/3/1997"
                 },
                 {
                     "name": "Gary Harris",
@@ -109,7 +117,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "14",
                     "team-abbr": "ORL",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "9/14/1994"
                 },
                 {
                     "name": "Cole Anthony",
@@ -121,7 +130,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "50",
                     "team-abbr": "ORL",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "5/15/2000"
                 },
                 {
                     "name": "Chuma Okeke",
@@ -133,7 +143,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "3",
                     "team-abbr": "ORL",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "8/18/1998"
                 },
                 {
                     "name": "Kevon Harris",
@@ -145,7 +156,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "7",
                     "team-abbr": "ORL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "6/24/1997"
                 },
                 {
                     "name": "Jalen Suggs",
@@ -157,7 +169,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "4",
                     "team-abbr": "ORL",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "6/3/2001"
                 },
                 {
                     "name": "Markelle Fultz",
@@ -169,7 +182,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "20",
                     "team-abbr": "ORL",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "5/29/1998"
                 },
                 {
                     "name": "Michael Carter-Williams",
@@ -181,7 +195,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "11",
                     "team-abbr": "ORL",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "10/10/1991"
                 },
                 {
                     "name": "Wendell Carter Jr.",
@@ -193,7 +208,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "34",
                     "team-abbr": "ORL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "4/16/1999"
                 }
             ]
         },
@@ -210,7 +226,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "13",
                     "team-abbr": "MIN",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "9/20/1997"
                 },
                 {
                     "name": "Naz Reid",
@@ -222,7 +239,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "11",
                     "team-abbr": "MIN",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "8/26/1999"
                 },
                 {
                     "name": "Jordan McLaughlin",
@@ -234,7 +252,8 @@
                     "height-feet": "5-11",
                     "jersey-num": "6",
                     "team-abbr": "MIN",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "4/9/1996"
                 },
                 {
                     "name": "Matt Ryan",
@@ -246,7 +265,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "37",
                     "team-abbr": "MIN",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "4/17/1997"
                 },
                 {
                     "name": "Kyle Anderson",
@@ -258,7 +278,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "5",
                     "team-abbr": "MIN",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "9/20/1993"
                 },
                 {
                     "name": "Mike Conley",
@@ -270,7 +291,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "\u2014",
                     "team-abbr": "MIN",
-                    "experience-years": "15"
+                    "experience-years": "15",
+                    "birthDay": "10/11/1987"
                 },
                 {
                     "name": "Rudy Gobert",
@@ -282,7 +304,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "27",
                     "team-abbr": "MIN",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "6/26/1992"
                 },
                 {
                     "name": "Karl-Anthony Towns",
@@ -294,7 +317,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "32",
                     "team-abbr": "MIN",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "11/15/1995"
                 },
                 {
                     "name": "Wendell Moore Jr.",
@@ -306,7 +330,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "7",
                     "team-abbr": "MIN",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "9/18/2001"
                 },
                 {
                     "name": "Jaylen Nowell",
@@ -318,7 +343,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "4",
                     "team-abbr": "MIN",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "7/9/1999"
                 },
                 {
                     "name": "Nickeil Alexander-Walker",
@@ -330,7 +356,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "\u2014",
                     "team-abbr": "MIN",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "9/2/1998"
                 },
                 {
                     "name": "Luka Garza",
@@ -342,7 +369,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "55",
                     "team-abbr": "MIN",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "12/27/1998"
                 },
                 {
                     "name": "Anthony Edwards",
@@ -354,7 +382,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "1",
                     "team-abbr": "MIN",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "8/5/2001"
                 },
                 {
                     "name": "Taurean Prince",
@@ -366,7 +395,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "12",
                     "team-abbr": "MIN",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "3/22/1994"
                 },
                 {
                     "name": "Jaden McDaniels",
@@ -378,7 +408,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "3",
                     "team-abbr": "MIN",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "9/29/2000"
                 },
                 {
                     "name": "Austin Rivers",
@@ -390,7 +421,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "25",
                     "team-abbr": "MIN",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "8/1/1992"
                 },
                 {
                     "name": "Josh Minott",
@@ -402,7 +434,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "8",
                     "team-abbr": "MIN",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "11/25/2002"
                 }
             ]
         },
@@ -419,7 +452,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "2",
                     "team-abbr": "MIA",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "6/14/1996"
                 },
                 {
                     "name": "Orlando Robinson",
@@ -431,7 +465,8 @@
                     "height-feet": "7-0",
                     "jersey-num": "25",
                     "team-abbr": "MIA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "7/10/2000"
                 },
                 {
                     "name": "Jimmy Butler",
@@ -443,7 +478,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "22",
                     "team-abbr": "MIA",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "9/14/1989"
                 },
                 {
                     "name": "Jamal Cain",
@@ -455,7 +491,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "8",
                     "team-abbr": "MIA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "3/20/1999"
                 },
                 {
                     "name": "Duncan Robinson",
@@ -467,7 +504,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "55",
                     "team-abbr": "MIA",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "4/22/1994"
                 },
                 {
                     "name": "Udonis Haslem",
@@ -479,7 +517,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "40",
                     "team-abbr": "MIA",
-                    "experience-years": "19"
+                    "experience-years": "19",
+                    "birthDay": "6/9/1980"
                 },
                 {
                     "name": "Tyler Herro",
@@ -491,7 +530,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "14",
                     "team-abbr": "MIA",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "1/20/2000"
                 },
                 {
                     "name": "Omer Yurtseven",
@@ -503,7 +543,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "77",
                     "team-abbr": "MIA",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "6/19/1998"
                 },
                 {
                     "name": "Cody Zeller",
@@ -515,7 +556,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "44",
                     "team-abbr": "MIA",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "10/5/1992"
                 },
                 {
                     "name": "Haywood Highsmith",
@@ -527,7 +569,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "24",
                     "team-abbr": "MIA",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "12/9/1996"
                 },
                 {
                     "name": "Caleb Martin",
@@ -539,7 +582,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "16",
                     "team-abbr": "MIA",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "9/28/1995"
                 },
                 {
                     "name": "Max Strus",
@@ -551,7 +595,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "31",
                     "team-abbr": "MIA",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "3/28/1996"
                 },
                 {
                     "name": "Nikola Jovic",
@@ -563,7 +608,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "5",
                     "team-abbr": "MIA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "6/9/2003"
                 },
                 {
                     "name": "Kyle Lowry",
@@ -575,7 +621,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "7",
                     "team-abbr": "MIA",
-                    "experience-years": "16"
+                    "experience-years": "16",
+                    "birthDay": "3/25/1986"
                 },
                 {
                     "name": "Kevin Love",
@@ -587,7 +634,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "42",
                     "team-abbr": "MIA",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "9/7/1988"
                 },
                 {
                     "name": "Victor Oladipo",
@@ -599,7 +647,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "4",
                     "team-abbr": "MIA",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "5/4/1992"
                 },
                 {
                     "name": "Bam Adebayo",
@@ -611,7 +660,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "13",
                     "team-abbr": "MIA",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "7/18/1997"
                 }
             ]
         },
@@ -628,7 +678,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "44",
                     "team-abbr": "BOS",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "10/17/1997"
                 },
                 {
                     "name": "Mike Muscala",
@@ -640,7 +691,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "57",
                     "team-abbr": "BOS",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "7/1/1991"
                 },
                 {
                     "name": "Sam Hauser",
@@ -652,7 +704,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "30",
                     "team-abbr": "BOS",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "12/8/1997"
                 },
                 {
                     "name": "JD Davison",
@@ -664,7 +717,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "20",
                     "team-abbr": "BOS",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "10/3/2002"
                 },
                 {
                     "name": "Mfiondu Kabengele",
@@ -676,7 +730,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "28",
                     "team-abbr": "BOS",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "8/14/1997"
                 },
                 {
                     "name": "Jayson Tatum",
@@ -688,7 +743,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "0",
                     "team-abbr": "BOS",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "3/3/1998"
                 },
                 {
                     "name": "Jaylen Brown",
@@ -700,7 +756,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "7",
                     "team-abbr": "BOS",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "10/24/1996"
                 },
                 {
                     "name": "Danilo Gallinari",
@@ -712,7 +769,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "8",
                     "team-abbr": "BOS",
-                    "experience-years": "13"
+                    "experience-years": "13",
+                    "birthDay": "8/8/1988"
                 },
                 {
                     "name": "Payton Pritchard",
@@ -724,7 +782,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "11",
                     "team-abbr": "BOS",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "1/28/1998"
                 },
                 {
                     "name": "Malcolm Brogdon",
@@ -736,7 +795,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "13",
                     "team-abbr": "BOS",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "12/11/1992"
                 },
                 {
                     "name": "Grant Williams",
@@ -748,7 +808,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "12",
                     "team-abbr": "BOS",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "11/30/1998"
                 },
                 {
                     "name": "Al Horford",
@@ -760,7 +821,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "42",
                     "team-abbr": "BOS",
-                    "experience-years": "15"
+                    "experience-years": "15",
+                    "birthDay": "6/3/1986"
                 },
                 {
                     "name": "Marcus Smart",
@@ -772,7 +834,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "36",
                     "team-abbr": "BOS",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "3/6/1994"
                 },
                 {
                     "name": "Derrick White",
@@ -784,7 +847,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "9",
                     "team-abbr": "BOS",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "7/2/1994"
                 },
                 {
                     "name": "Blake Griffin",
@@ -796,7 +860,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "91",
                     "team-abbr": "BOS",
-                    "experience-years": "12"
+                    "experience-years": "12",
+                    "birthDay": "3/16/1989"
                 },
                 {
                     "name": "Luke Kornet",
@@ -808,7 +873,8 @@
                     "height-feet": "7-2",
                     "jersey-num": "40",
                     "team-abbr": "BOS",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "7/15/1995"
                 }
             ]
         },
@@ -825,7 +891,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "13",
                     "team-abbr": "LAC",
-                    "experience-years": "12"
+                    "experience-years": "12",
+                    "birthDay": "5/2/1990"
                 },
                 {
                     "name": "Ivica Zubac",
@@ -837,7 +904,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "40",
                     "team-abbr": "LAC",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "3/18/1997"
                 },
                 {
                     "name": "Robert Covington",
@@ -849,7 +917,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "23",
                     "team-abbr": "LAC",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "12/14/1990"
                 },
                 {
                     "name": "Jason Preston",
@@ -861,7 +930,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "17",
                     "team-abbr": "LAC",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "8/10/1999"
                 },
                 {
                     "name": "Keaton Wallace",
@@ -873,7 +943,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "\u2014",
                     "team-abbr": "LAC",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "2/26/1999"
                 },
                 {
                     "name": "Amir Coffey",
@@ -885,7 +956,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "7",
                     "team-abbr": "LAC",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "6/17/1997"
                 },
                 {
                     "name": "Norman Powell",
@@ -897,7 +969,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "24",
                     "team-abbr": "LAC",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "5/25/1993"
                 },
                 {
                     "name": "Nicolas Batum",
@@ -909,7 +982,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "33",
                     "team-abbr": "LAC",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "12/14/1988"
                 },
                 {
                     "name": "Marcus Morris Sr.",
@@ -921,7 +995,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "8",
                     "team-abbr": "LAC",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "9/2/1989"
                 },
                 {
                     "name": "Eric Gordon",
@@ -933,7 +1008,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "10",
                     "team-abbr": "LAC",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "12/25/1988"
                 },
                 {
                     "name": "Moussa Diabate",
@@ -945,7 +1021,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "25",
                     "team-abbr": "LAC",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "1/21/2002"
                 },
                 {
                     "name": "Russell Westbrook",
@@ -957,7 +1034,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "0",
                     "team-abbr": "LAC",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "11/12/1988"
                 },
                 {
                     "name": "Terance Mann",
@@ -969,7 +1047,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "14",
                     "team-abbr": "LAC",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "10/18/1996"
                 },
                 {
                     "name": "Bones Hyland",
@@ -981,7 +1060,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "5",
                     "team-abbr": "LAC",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "9/14/2000"
                 },
                 {
                     "name": "Brandon Boston Jr.",
@@ -993,7 +1073,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "4",
                     "team-abbr": "LAC",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "11/28/2001"
                 },
                 {
                     "name": "Mason Plumlee",
@@ -1005,7 +1086,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "44",
                     "team-abbr": "LAC",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "3/5/1990"
                 },
                 {
                     "name": "Kawhi Leonard",
@@ -1017,7 +1099,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "2",
                     "team-abbr": "LAC",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "6/29/1991"
                 }
             ]
         },
@@ -1034,7 +1117,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "11",
                     "team-abbr": "DEN",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "8/15/1996"
                 },
                 {
                     "name": "Ish Smith",
@@ -1046,7 +1130,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "14",
                     "team-abbr": "DEN",
-                    "experience-years": "12"
+                    "experience-years": "12",
+                    "birthDay": "7/5/1988"
                 },
                 {
                     "name": "Vlatko Cancar",
@@ -1058,7 +1143,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "31",
                     "team-abbr": "DEN",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "4/10/1997"
                 },
                 {
                     "name": "Collin Gillespie",
@@ -1070,7 +1156,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "21",
                     "team-abbr": "DEN",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "6/25/1999"
                 },
                 {
                     "name": "Christian Braun",
@@ -1082,7 +1169,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "0",
                     "team-abbr": "DEN",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "4/17/2001"
                 },
                 {
                     "name": "Jack White",
@@ -1094,7 +1182,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "10",
                     "team-abbr": "DEN",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "8/5/1997"
                 },
                 {
                     "name": "Jeff Green",
@@ -1106,7 +1195,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "32",
                     "team-abbr": "DEN",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "8/28/1986"
                 },
                 {
                     "name": "Michael Porter Jr.",
@@ -1118,7 +1208,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "1",
                     "team-abbr": "DEN",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "6/29/1998"
                 },
                 {
                     "name": "Peyton Watson",
@@ -1130,7 +1221,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "8",
                     "team-abbr": "DEN",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "9/11/2002"
                 },
                 {
                     "name": "Thomas Bryant",
@@ -1142,7 +1234,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "13",
                     "team-abbr": "DEN",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "7/31/1997"
                 },
                 {
                     "name": "Kentavious Caldwell-Pope",
@@ -1154,7 +1247,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "5",
                     "team-abbr": "DEN",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "2/18/1993"
                 },
                 {
                     "name": "Jamal Murray",
@@ -1166,7 +1260,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "27",
                     "team-abbr": "DEN",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "2/23/1997"
                 },
                 {
                     "name": "Zeke Nnaji",
@@ -1178,7 +1273,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "22",
                     "team-abbr": "DEN",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "1/9/2001"
                 },
                 {
                     "name": "DeAndre Jordan",
@@ -1190,7 +1286,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "6",
                     "team-abbr": "DEN",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "7/21/1988"
                 },
                 {
                     "name": "Nikola Jokic",
@@ -1202,7 +1299,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "15",
                     "team-abbr": "DEN",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "2/19/1995"
                 },
                 {
                     "name": "Aaron Gordon",
@@ -1214,7 +1312,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "50",
                     "team-abbr": "DEN",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "9/16/1995"
                 },
                 {
                     "name": "Reggie Jackson",
@@ -1226,7 +1325,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "7",
                     "team-abbr": "DEN",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "4/16/1990"
                 }
             ]
         },
@@ -1243,7 +1343,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "28",
                     "team-abbr": "DET",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "5/22/2001"
                 },
                 {
                     "name": "Marvin Bagley III",
@@ -1255,7 +1356,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "35",
                     "team-abbr": "DET",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "3/14/1999"
                 },
                 {
                     "name": "Rodney McGruder",
@@ -1267,7 +1369,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "17",
                     "team-abbr": "DET",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "7/29/1991"
                 },
                 {
                     "name": "Jaden Ivey",
@@ -1279,7 +1382,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "23",
                     "team-abbr": "DET",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "2/13/2002"
                 },
                 {
                     "name": "Jared Rhoden",
@@ -1291,7 +1395,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "\u2014",
                     "team-abbr": "DET",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "8/27/1999"
                 },
                 {
                     "name": "Cory Joseph",
@@ -1303,7 +1408,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "18",
                     "team-abbr": "DET",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "8/20/1991"
                 },
                 {
                     "name": "Isaiah Livers",
@@ -1315,7 +1421,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "12",
                     "team-abbr": "DET",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "7/28/1998"
                 },
                 {
                     "name": "Cade Cunningham",
@@ -1327,7 +1434,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "2",
                     "team-abbr": "DET",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "9/25/2001"
                 },
                 {
                     "name": "Nerlens Noel",
@@ -1339,7 +1447,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "9",
                     "team-abbr": "DET",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "4/10/1994"
                 },
                 {
                     "name": "Buddy Boeheim",
@@ -1351,7 +1460,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "27",
                     "team-abbr": "DET",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "11/11/1999"
                 },
                 {
                     "name": "Bojan Bogdanovic",
@@ -1363,7 +1473,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "44",
                     "team-abbr": "DET",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "4/18/1989"
                 },
                 {
                     "name": "Alec Burks",
@@ -1375,7 +1486,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "5",
                     "team-abbr": "DET",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "7/20/1991"
                 },
                 {
                     "name": "Hamidou Diallo",
@@ -1387,7 +1499,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "6",
                     "team-abbr": "DET",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "7/31/1998"
                 },
                 {
                     "name": "Jalen Duren",
@@ -1399,7 +1512,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "0",
                     "team-abbr": "DET",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "11/18/2003"
                 },
                 {
                     "name": "Killian Hayes",
@@ -1411,7 +1525,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "7",
                     "team-abbr": "DET",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "7/27/2001"
                 },
                 {
                     "name": "James Wiseman",
@@ -1423,7 +1538,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "13",
                     "team-abbr": "DET",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "3/31/2001"
                 },
                 {
                     "name": "R.J. Hampton",
@@ -1435,7 +1551,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "14",
                     "team-abbr": "DET",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "2/7/2001"
                 }
             ]
         },
@@ -1452,7 +1569,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "3",
                     "team-abbr": "ATL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "9/30/1996"
                 },
                 {
                     "name": "Clint Capela",
@@ -1464,7 +1582,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "15",
                     "team-abbr": "ATL",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "5/18/1994"
                 },
                 {
                     "name": "Trae Young",
@@ -1476,7 +1595,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "11",
                     "team-abbr": "ATL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "9/19/1998"
                 },
                 {
                     "name": "Vit Krejci",
@@ -1488,7 +1608,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "27",
                     "team-abbr": "ATL",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "6/19/2000"
                 },
                 {
                     "name": "De'Andre Hunter",
@@ -1500,7 +1621,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "12",
                     "team-abbr": "ATL",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "12/2/1997"
                 },
                 {
                     "name": "Donovan Williams",
@@ -1512,7 +1634,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "4",
                     "team-abbr": "ATL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "9/6/2001"
                 },
                 {
                     "name": "AJ Griffin",
@@ -1524,7 +1647,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "14",
                     "team-abbr": "ATL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "8/25/2003"
                 },
                 {
                     "name": "Jalen Johnson",
@@ -1536,7 +1660,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "1",
                     "team-abbr": "ATL",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "12/18/2001"
                 },
                 {
                     "name": "Bogdan Bogdanovic",
@@ -1548,7 +1673,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "13",
                     "team-abbr": "ATL",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "8/18/1992"
                 },
                 {
                     "name": "Garrison Mathews",
@@ -1560,7 +1686,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "25",
                     "team-abbr": "ATL",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "10/24/1996"
                 },
                 {
                     "name": "Tyrese Martin",
@@ -1572,7 +1699,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "22",
                     "team-abbr": "ATL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "3/7/1999"
                 },
                 {
                     "name": "Trent Forrest",
@@ -1584,7 +1712,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "2",
                     "team-abbr": "ATL",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "6/12/1998"
                 },
                 {
                     "name": "John Collins",
@@ -1596,7 +1725,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "20",
                     "team-abbr": "ATL",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "9/23/1997"
                 },
                 {
                     "name": "Bruno Fernando",
@@ -1608,7 +1738,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "24",
                     "team-abbr": "ATL",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "8/15/1998"
                 },
                 {
                     "name": "Dejounte Murray",
@@ -1620,7 +1751,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "5",
                     "team-abbr": "ATL",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "9/19/1996"
                 },
                 {
                     "name": "Onyeka Okongwu",
@@ -1632,7 +1764,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "17",
                     "team-abbr": "ATL",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "12/11/2000"
                 },
                 {
                     "name": "Saddiq Bey",
@@ -1644,7 +1777,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "41",
                     "team-abbr": "ATL",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "4/9/1999"
                 }
             ]
         },
@@ -1661,7 +1795,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "10",
                     "team-abbr": "CLE",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "1/26/2000"
                 },
                 {
                     "name": "Ricky Rubio",
@@ -1673,7 +1808,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "13",
                     "team-abbr": "CLE",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "10/21/1990"
                 },
                 {
                     "name": "Donovan Mitchell",
@@ -1685,7 +1821,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "45",
                     "team-abbr": "CLE",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "9/7/1996"
                 },
                 {
                     "name": "Isaac Okoro",
@@ -1697,7 +1834,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "35",
                     "team-abbr": "CLE",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "1/26/2001"
                 },
                 {
                     "name": "Lamar Stevens",
@@ -1709,7 +1847,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "8",
                     "team-abbr": "CLE",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "7/9/1997"
                 },
                 {
                     "name": "Danny Green",
@@ -1721,7 +1860,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "\u2014",
                     "team-abbr": "CLE",
-                    "experience-years": "13"
+                    "experience-years": "13",
+                    "birthDay": "6/22/1987"
                 },
                 {
                     "name": "Raul Neto",
@@ -1733,7 +1873,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "19",
                     "team-abbr": "CLE",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "5/19/1992"
                 },
                 {
                     "name": "Dean Wade",
@@ -1745,7 +1886,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "32",
                     "team-abbr": "CLE",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "11/20/1996"
                 },
                 {
                     "name": "Caris LeVert",
@@ -1757,7 +1899,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "3",
                     "team-abbr": "CLE",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "8/25/1994"
                 },
                 {
                     "name": "Evan Mobley",
@@ -1769,7 +1912,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "4",
                     "team-abbr": "CLE",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "6/18/2001"
                 },
                 {
                     "name": "Isaiah Mobley",
@@ -1781,7 +1925,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "15",
                     "team-abbr": "CLE",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "9/24/1999"
                 },
                 {
                     "name": "Robin Lopez",
@@ -1793,7 +1938,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "33",
                     "team-abbr": "CLE",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "4/1/1988"
                 },
                 {
                     "name": "Mamadi Diakite",
@@ -1805,7 +1951,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "21",
                     "team-abbr": "CLE",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "1/21/1997"
                 },
                 {
                     "name": "Jarrett Allen",
@@ -1817,7 +1964,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "31",
                     "team-abbr": "CLE",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "4/21/1998"
                 },
                 {
                     "name": "Dylan Windler",
@@ -1829,7 +1977,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "9",
                     "team-abbr": "CLE",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "9/22/1996"
                 },
                 {
                     "name": "Cedi Osman",
@@ -1841,7 +1990,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "16",
                     "team-abbr": "CLE",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "4/8/1995"
                 }
             ]
         },
@@ -1858,7 +2008,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "35",
                     "team-abbr": "TOR",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "6/20/2000"
                 },
                 {
                     "name": "Juancho Hernangomez",
@@ -1870,7 +2021,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "41",
                     "team-abbr": "TOR",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "9/28/1995"
                 },
                 {
                     "name": "Chris Boucher",
@@ -1882,7 +2034,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "25",
                     "team-abbr": "TOR",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "1/11/1993"
                 },
                 {
                     "name": "Gary Trent Jr.",
@@ -1894,7 +2047,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "33",
                     "team-abbr": "TOR",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "1/18/1999"
                 },
                 {
                     "name": "Otto Porter Jr.",
@@ -1906,7 +2060,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "32",
                     "team-abbr": "TOR",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "6/3/1993"
                 },
                 {
                     "name": "Dalano Banton",
@@ -1918,7 +2073,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "45",
                     "team-abbr": "TOR",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "11/7/1999"
                 },
                 {
                     "name": "Scottie Barnes",
@@ -1930,7 +2086,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "4",
                     "team-abbr": "TOR",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "8/1/2001"
                 },
                 {
                     "name": "Fred VanVleet",
@@ -1942,7 +2099,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "23",
                     "team-abbr": "TOR",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "2/25/1994"
                 },
                 {
                     "name": "Jeff Dowtin",
@@ -1954,7 +2112,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "20",
                     "team-abbr": "TOR",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "5/10/1997"
                 },
                 {
                     "name": "Malachi Flynn",
@@ -1966,7 +2125,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "22",
                     "team-abbr": "TOR",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "5/9/1998"
                 },
                 {
                     "name": "Pascal Siakam",
@@ -1978,7 +2138,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "43",
                     "team-abbr": "TOR",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "4/2/1994"
                 },
                 {
                     "name": "Jakob Poeltl",
@@ -1990,7 +2151,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "\u2014",
                     "team-abbr": "TOR",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "10/15/1995"
                 },
                 {
                     "name": "Thaddeus Young",
@@ -2002,7 +2164,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "21",
                     "team-abbr": "TOR",
-                    "experience-years": "15"
+                    "experience-years": "15",
+                    "birthDay": "6/21/1988"
                 },
                 {
                     "name": "Joe Wieskamp",
@@ -2014,7 +2177,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "11",
                     "team-abbr": "TOR",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "8/23/1999"
                 },
                 {
                     "name": "Ron Harper Jr.",
@@ -2026,7 +2190,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "8",
                     "team-abbr": "TOR",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "4/12/2000"
                 },
                 {
                     "name": "OG Anunoby",
@@ -2038,7 +2203,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "3",
                     "team-abbr": "TOR",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "7/17/1997"
                 },
                 {
                     "name": "Precious Achiuwa",
@@ -2050,7 +2216,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "5",
                     "team-abbr": "TOR",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "9/19/1999"
                 }
             ]
         },
@@ -2067,7 +2234,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "21",
                     "team-abbr": "WAS",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "10/1/1998"
                 },
                 {
                     "name": "Jordan Goodwin",
@@ -2079,7 +2247,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "7",
                     "team-abbr": "WAS",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/23/1998"
                 },
                 {
                     "name": "Anthony Gill",
@@ -2091,7 +2260,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "16",
                     "team-abbr": "WAS",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "10/17/1992"
                 },
                 {
                     "name": "Deni Avdija",
@@ -2103,7 +2273,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "9",
                     "team-abbr": "WAS",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "1/3/2001"
                 },
                 {
                     "name": "Kyle Kuzma",
@@ -2115,7 +2286,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "33",
                     "team-abbr": "WAS",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "7/24/1995"
                 },
                 {
                     "name": "Bradley Beal",
@@ -2127,7 +2299,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "3",
                     "team-abbr": "WAS",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "6/28/1993"
                 },
                 {
                     "name": "Delon Wright",
@@ -2139,7 +2312,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "55",
                     "team-abbr": "WAS",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "4/26/1992"
                 },
                 {
                     "name": "Kristaps Porzingis",
@@ -2151,7 +2325,8 @@
                     "height-feet": "7-3",
                     "jersey-num": "6",
                     "team-abbr": "WAS",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "8/2/1995"
                 },
                 {
                     "name": "Kendrick Nunn",
@@ -2163,7 +2338,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "20",
                     "team-abbr": "WAS",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "8/3/1995"
                 },
                 {
                     "name": "Quenton Jackson",
@@ -2175,7 +2351,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "29",
                     "team-abbr": "WAS",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "9/15/1998"
                 },
                 {
                     "name": "Isaiah Todd",
@@ -2187,7 +2364,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "14",
                     "team-abbr": "WAS",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/17/2001"
                 },
                 {
                     "name": "Corey Kispert",
@@ -2199,7 +2377,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "24",
                     "team-abbr": "WAS",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "3/3/1999"
                 },
                 {
                     "name": "Vernon Carey Jr.",
@@ -2211,7 +2390,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "13",
                     "team-abbr": "WAS",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "2/25/2001"
                 },
                 {
                     "name": "Johnny Davis",
@@ -2223,7 +2403,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "1",
                     "team-abbr": "WAS",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "2/27/2002"
                 },
                 {
                     "name": "Taj Gibson",
@@ -2235,7 +2416,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "67",
                     "team-abbr": "WAS",
-                    "experience-years": "13"
+                    "experience-years": "13",
+                    "birthDay": "6/24/1985"
                 },
                 {
                     "name": "Monte Morris",
@@ -2247,7 +2429,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "22",
                     "team-abbr": "WAS",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "6/27/1995"
                 }
             ]
         },
@@ -2264,7 +2447,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "1",
                     "team-abbr": "PHO",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "10/30/1996"
                 },
                 {
                     "name": "Landry Shamet",
@@ -2276,7 +2460,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "14",
                     "team-abbr": "PHO",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "3/13/1997"
                 },
                 {
                     "name": "Damion Lee",
@@ -2288,7 +2473,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "10",
                     "team-abbr": "PHO",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "10/21/1992"
                 },
                 {
                     "name": "Jock Landale",
@@ -2300,7 +2486,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "11",
                     "team-abbr": "PHO",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/25/1995"
                 },
                 {
                     "name": "Kevin Durant",
@@ -2312,7 +2499,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "35",
                     "team-abbr": "PHO",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "9/29/1988"
                 },
                 {
                     "name": "Terrence Ross",
@@ -2324,7 +2512,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "8",
                     "team-abbr": "PHO",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "2/5/1991"
                 },
                 {
                     "name": "Ish Wainright",
@@ -2336,7 +2525,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "12",
                     "team-abbr": "PHO",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "9/12/1994"
                 },
                 {
                     "name": "Josh Okogie",
@@ -2348,7 +2538,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "2",
                     "team-abbr": "PHO",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "9/1/1998"
                 },
                 {
                     "name": "Saben Lee",
@@ -2360,7 +2551,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "\u2014",
                     "team-abbr": "PHO",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "6/23/1999"
                 },
                 {
                     "name": "Chris Paul",
@@ -2372,7 +2564,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "3",
                     "team-abbr": "PHO",
-                    "experience-years": "17"
+                    "experience-years": "17",
+                    "birthDay": "5/6/1985"
                 },
                 {
                     "name": "Torrey Craig",
@@ -2384,7 +2577,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "0",
                     "team-abbr": "PHO",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "12/19/1990"
                 },
                 {
                     "name": "T.J. Warren",
@@ -2396,7 +2590,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "21",
                     "team-abbr": "PHO",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "9/5/1993"
                 },
                 {
                     "name": "Darius Bazley",
@@ -2408,7 +2603,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "55",
                     "team-abbr": "PHO",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "6/12/2000"
                 },
                 {
                     "name": "Bismack Biyombo",
@@ -2420,7 +2616,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "18",
                     "team-abbr": "PHO",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "8/28/1992"
                 },
                 {
                     "name": "Cameron Payne",
@@ -2432,7 +2629,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "15",
                     "team-abbr": "PHO",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "8/8/1994"
                 },
                 {
                     "name": "Deandre Ayton",
@@ -2444,7 +2642,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "22",
                     "team-abbr": "PHO",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "7/23/1998"
                 }
             ]
         },
@@ -2461,7 +2660,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "10",
                     "team-abbr": "SA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "5/20/2003"
                 },
                 {
                     "name": "Keita Bates-Diop",
@@ -2473,7 +2673,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "31",
                     "team-abbr": "SA",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "1/23/1996"
                 },
                 {
                     "name": "Romeo Langford",
@@ -2485,7 +2686,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "35",
                     "team-abbr": "SA",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "10/25/1999"
                 },
                 {
                     "name": "Malaki Branham",
@@ -2497,7 +2699,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "22",
                     "team-abbr": "SA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "5/12/2003"
                 },
                 {
                     "name": "Dominick Barlow",
@@ -2509,7 +2712,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "26",
                     "team-abbr": "SA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "5/26/2003"
                 },
                 {
                     "name": "Khem Birch",
@@ -2521,7 +2725,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "92",
                     "team-abbr": "SA",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "9/28/1992"
                 },
                 {
                     "name": "Devonte' Graham",
@@ -2533,7 +2738,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "\u2014",
                     "team-abbr": "SA",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "2/22/1995"
                 },
                 {
                     "name": "Devin Vassell",
@@ -2545,7 +2751,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "24",
                     "team-abbr": "SA",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "8/23/2000"
                 },
                 {
                     "name": "Keldon Johnson",
@@ -2557,7 +2764,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "3",
                     "team-abbr": "SA",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "10/11/1999"
                 },
                 {
                     "name": "Tre Jones",
@@ -2569,7 +2777,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "33",
                     "team-abbr": "SA",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "1/8/2000"
                 },
                 {
                     "name": "Doug McDermott",
@@ -2581,7 +2790,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "17",
                     "team-abbr": "SA",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "1/3/1992"
                 },
                 {
                     "name": "Zach Collins",
@@ -2593,7 +2803,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "23",
                     "team-abbr": "SA",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "11/19/1997"
                 },
                 {
                     "name": "Charles Bassey",
@@ -2605,7 +2816,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "28",
                     "team-abbr": "SA",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/28/2000"
                 },
                 {
                     "name": "Noah Vonleh",
@@ -2617,7 +2829,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "\u2014",
                     "team-abbr": "SA",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "8/24/1995"
                 },
                 {
                     "name": "Isaiah Roby",
@@ -2629,7 +2842,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "18",
                     "team-abbr": "SA",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "2/3/1998"
                 },
                 {
                     "name": "Julian Champagnie",
@@ -2641,7 +2855,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "55",
                     "team-abbr": "SA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "6/29/2001"
                 },
                 {
                     "name": "Gorgui Dieng",
@@ -2653,7 +2868,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "41",
                     "team-abbr": "SA",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "1/18/1990"
                 },
                 {
                     "name": "Blake Wesley",
@@ -2665,7 +2881,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "14",
                     "team-abbr": "SA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "3/16/2003"
                 },
                 {
                     "name": "Alize Johnson",
@@ -2677,7 +2894,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "19",
                     "team-abbr": "SA",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "4/22/1996"
                 }
             ]
         },
@@ -2694,7 +2912,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "12",
                     "team-abbr": "CHI",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "1/17/2000"
                 },
                 {
                     "name": "Coby White",
@@ -2706,7 +2925,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "0",
                     "team-abbr": "CHI",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "2/16/2000"
                 },
                 {
                     "name": "Marko Simonovic",
@@ -2718,7 +2938,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "19",
                     "team-abbr": "CHI",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/15/1999"
                 },
                 {
                     "name": "Terry Taylor",
@@ -2730,7 +2951,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "32",
                     "team-abbr": "CHI",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "9/23/1999"
                 },
                 {
                     "name": "Nikola Vucevic",
@@ -2742,7 +2964,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "9",
                     "team-abbr": "CHI",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "10/24/1990"
                 },
                 {
                     "name": "Patrick Williams",
@@ -2754,7 +2977,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "44",
                     "team-abbr": "CHI",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "8/26/2001"
                 },
                 {
                     "name": "Goran Dragic",
@@ -2766,7 +2990,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "7",
                     "team-abbr": "CHI",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "5/6/1986"
                 },
                 {
                     "name": "Zach LaVine",
@@ -2778,7 +3003,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "8",
                     "team-abbr": "CHI",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "3/10/1995"
                 },
                 {
                     "name": "Andre Drummond",
@@ -2790,7 +3016,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "3",
                     "team-abbr": "CHI",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "8/10/1993"
                 },
                 {
                     "name": "DeMar DeRozan",
@@ -2802,7 +3029,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "11",
                     "team-abbr": "CHI",
-                    "experience-years": "13"
+                    "experience-years": "13",
+                    "birthDay": "8/7/1989"
                 },
                 {
                     "name": "Javonte Green",
@@ -2814,7 +3042,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "24",
                     "team-abbr": "CHI",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "7/23/1993"
                 },
                 {
                     "name": "Alex Caruso",
@@ -2826,7 +3055,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "6",
                     "team-abbr": "CHI",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "2/28/1994"
                 },
                 {
                     "name": "Patrick Beverley",
@@ -2838,7 +3068,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "21",
                     "team-abbr": "CHI",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "7/12/1988"
                 },
                 {
                     "name": "Dalen Terry",
@@ -2850,7 +3081,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "25",
                     "team-abbr": "CHI",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "7/12/2002"
                 },
                 {
                     "name": "Derrick Jones Jr.",
@@ -2862,7 +3094,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "5",
                     "team-abbr": "CHI",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "2/15/1997"
                 },
                 {
                     "name": "Carlik Jones",
@@ -2874,7 +3107,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "22",
                     "team-abbr": "CHI",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "12/23/1997"
                 },
                 {
                     "name": "Lonzo Ball",
@@ -2886,7 +3120,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "2",
                     "team-abbr": "CHI",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "10/27/1997"
                 }
             ]
         },
@@ -2903,7 +3138,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "3",
                     "team-abbr": "CHA",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "3/17/1994"
                 },
                 {
                     "name": "JT Thor",
@@ -2915,7 +3151,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "21",
                     "team-abbr": "CHA",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "8/26/2002"
                 },
                 {
                     "name": "LaMelo Ball",
@@ -2927,7 +3164,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "1",
                     "team-abbr": "CHA",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "8/22/2001"
                 },
                 {
                     "name": "Cody Martin",
@@ -2939,7 +3177,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "11",
                     "team-abbr": "CHA",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "9/28/1995"
                 },
                 {
                     "name": "P.J. Washington",
@@ -2951,7 +3190,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "25",
                     "team-abbr": "CHA",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "8/23/1998"
                 },
                 {
                     "name": "Svi Mykhailiuk",
@@ -2963,7 +3203,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "10",
                     "team-abbr": "CHA",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "6/10/1997"
                 },
                 {
                     "name": "Nick Richards",
@@ -2975,7 +3216,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "4",
                     "team-abbr": "CHA",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "11/29/1997"
                 },
                 {
                     "name": "Mark Williams",
@@ -2987,7 +3229,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "5",
                     "team-abbr": "CHA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "12/16/2001"
                 },
                 {
                     "name": "Kai Jones",
@@ -2999,7 +3242,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "23",
                     "team-abbr": "CHA",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "1/19/2001"
                 },
                 {
                     "name": "Dennis Smith Jr.",
@@ -3011,7 +3255,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "8",
                     "team-abbr": "CHA",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "11/25/1997"
                 },
                 {
                     "name": "Theo Maledon",
@@ -3023,7 +3268,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "9",
                     "team-abbr": "CHA",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "6/12/2001"
                 },
                 {
                     "name": "Gordon Hayward",
@@ -3035,7 +3281,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "20",
                     "team-abbr": "CHA",
-                    "experience-years": "12"
+                    "experience-years": "12",
+                    "birthDay": "3/23/1990"
                 },
                 {
                     "name": "Kelly Oubre Jr.",
@@ -3047,7 +3294,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "12",
                     "team-abbr": "CHA",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "12/9/1995"
                 },
                 {
                     "name": "James Bouknight",
@@ -3059,7 +3307,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "2",
                     "team-abbr": "CHA",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "9/18/2000"
                 },
                 {
                     "name": "Bryce McGowens",
@@ -3071,7 +3320,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "7",
                     "team-abbr": "CHA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "11/8/2002"
                 }
             ]
         },
@@ -3088,7 +3338,8 @@
                     "height-feet": "7-0",
                     "jersey-num": "21",
                     "team-abbr": "PHI",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "3/16/1994"
                 },
                 {
                     "name": "Mac McClung",
@@ -3100,7 +3351,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "37",
                     "team-abbr": "PHI",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "1/6/1999"
                 },
                 {
                     "name": "Paul Reed",
@@ -3112,7 +3364,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "44",
                     "team-abbr": "PHI",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "6/14/1999"
                 },
                 {
                     "name": "P.J. Tucker",
@@ -3124,7 +3377,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "17",
                     "team-abbr": "PHI",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "5/5/1985"
                 },
                 {
                     "name": "Furkan Korkmaz",
@@ -3136,7 +3390,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "30",
                     "team-abbr": "PHI",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "7/24/1997"
                 },
                 {
                     "name": "Montrezl Harrell",
@@ -3148,7 +3403,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "5",
                     "team-abbr": "PHI",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "1/26/1994"
                 },
                 {
                     "name": "De'Anthony Melton",
@@ -3160,7 +3416,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "8",
                     "team-abbr": "PHI",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "5/28/1998"
                 },
                 {
                     "name": "Danuel House Jr.",
@@ -3172,7 +3429,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "25",
                     "team-abbr": "PHI",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "6/7/1993"
                 },
                 {
                     "name": "Georges Niang",
@@ -3184,7 +3442,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "20",
                     "team-abbr": "PHI",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "6/17/1993"
                 },
                 {
                     "name": "Dewayne Dedmon",
@@ -3196,7 +3455,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "14",
                     "team-abbr": "PHI",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "8/12/1989"
                 },
                 {
                     "name": "Louis King",
@@ -3208,7 +3468,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "\u2014",
                     "team-abbr": "PHI",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "4/6/1999"
                 },
                 {
                     "name": "Tyrese Maxey",
@@ -3220,7 +3481,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "0",
                     "team-abbr": "PHI",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "11/4/2000"
                 },
                 {
                     "name": "Jalen McDaniels",
@@ -3232,7 +3494,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "7",
                     "team-abbr": "PHI",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "1/31/1998"
                 },
                 {
                     "name": "James Harden",
@@ -3244,7 +3507,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "1",
                     "team-abbr": "PHI",
-                    "experience-years": "13"
+                    "experience-years": "13",
+                    "birthDay": "8/26/1989"
                 },
                 {
                     "name": "Jaden Springer",
@@ -3256,7 +3520,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "11",
                     "team-abbr": "PHI",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "9/25/2002"
                 },
                 {
                     "name": "Tobias Harris",
@@ -3268,7 +3533,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "12",
                     "team-abbr": "PHI",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "7/15/1992"
                 },
                 {
                     "name": "Shake Milton",
@@ -3280,7 +3546,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "18",
                     "team-abbr": "PHI",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "9/26/1996"
                 }
             ]
         },
@@ -3297,7 +3564,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "13",
                     "team-abbr": "NO",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "4/6/2001"
                 },
                 {
                     "name": "Herbert Jones",
@@ -3309,7 +3577,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "5",
                     "team-abbr": "NO",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/6/1998"
                 },
                 {
                     "name": "E.J. Liddell",
@@ -3321,7 +3590,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "32",
                     "team-abbr": "NO",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "12/18/2000"
                 },
                 {
                     "name": "Trey Murphy III",
@@ -3333,7 +3603,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "25",
                     "team-abbr": "NO",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "6/18/2000"
                 },
                 {
                     "name": "Larry Nance Jr.",
@@ -3345,7 +3616,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "22",
                     "team-abbr": "NO",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "1/1/1993"
                 },
                 {
                     "name": "Brandon Ingram",
@@ -3357,7 +3629,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "14",
                     "team-abbr": "NO",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "9/2/1997"
                 },
                 {
                     "name": "Dereon Seabron",
@@ -3369,7 +3642,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "0",
                     "team-abbr": "NO",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "5/26/2000"
                 },
                 {
                     "name": "Willy Hernangomez",
@@ -3381,7 +3655,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "9",
                     "team-abbr": "NO",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "5/27/1994"
                 },
                 {
                     "name": "Jonas Valanciunas",
@@ -3393,7 +3668,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "17",
                     "team-abbr": "NO",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "5/6/1992"
                 },
                 {
                     "name": "Garrett Temple",
@@ -3405,7 +3681,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "41",
                     "team-abbr": "NO",
-                    "experience-years": "12"
+                    "experience-years": "12",
+                    "birthDay": "5/8/1986"
                 },
                 {
                     "name": "Dyson Daniels",
@@ -3417,7 +3694,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "11",
                     "team-abbr": "NO",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "3/17/2003"
                 },
                 {
                     "name": "Naji Marshall",
@@ -3429,7 +3707,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "8",
                     "team-abbr": "NO",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "1/24/1998"
                 },
                 {
                     "name": "Jose Alvarado",
@@ -3441,7 +3720,8 @@
                     "height-feet": "6-0",
                     "jersey-num": "15",
                     "team-abbr": "NO",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "4/12/1998"
                 },
                 {
                     "name": "Jaxson Hayes",
@@ -3453,7 +3733,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "10",
                     "team-abbr": "NO",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "5/23/2000"
                 },
                 {
                     "name": "CJ McCollum",
@@ -3465,7 +3746,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "3",
                     "team-abbr": "NO",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "9/19/1991"
                 },
                 {
                     "name": "Zion Williamson",
@@ -3477,7 +3759,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "1",
                     "team-abbr": "NO",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "7/6/2000"
                 },
                 {
                     "name": "Josh Richardson",
@@ -3489,7 +3772,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "2",
                     "team-abbr": "NO",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "9/15/1993"
                 }
             ]
         },
@@ -3506,7 +3790,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "22",
                     "team-abbr": "SAC",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "10/15/1993"
                 },
                 {
                     "name": "Keon Ellis",
@@ -3518,7 +3803,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "23",
                     "team-abbr": "SAC",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "1/8/2000"
                 },
                 {
                     "name": "Malik Monk",
@@ -3530,7 +3816,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "0",
                     "team-abbr": "SAC",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "2/4/1998"
                 },
                 {
                     "name": "Trey Lyles",
@@ -3542,7 +3829,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "41",
                     "team-abbr": "SAC",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "11/5/1995"
                 },
                 {
                     "name": "Kevin Huerter",
@@ -3554,7 +3842,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "9",
                     "team-abbr": "SAC",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "8/27/1998"
                 },
                 {
                     "name": "De'Aaron Fox",
@@ -3566,7 +3855,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "5",
                     "team-abbr": "SAC",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "12/20/1997"
                 },
                 {
                     "name": "Kessler Edwards",
@@ -3578,7 +3868,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "17",
                     "team-abbr": "SAC",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "8/9/2000"
                 },
                 {
                     "name": "P.J. Dozier",
@@ -3590,7 +3881,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "\u2014",
                     "team-abbr": "SAC",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "10/25/1996"
                 },
                 {
                     "name": "Keegan Murray",
@@ -3602,7 +3894,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "13",
                     "team-abbr": "SAC",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "8/19/2000"
                 },
                 {
                     "name": "Matthew Dellavedova",
@@ -3614,7 +3907,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "8",
                     "team-abbr": "SAC",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "9/8/1990"
                 },
                 {
                     "name": "Davion Mitchell",
@@ -3626,7 +3920,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "15",
                     "team-abbr": "SAC",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "9/5/1998"
                 },
                 {
                     "name": "Neemias Queta",
@@ -3638,7 +3933,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "88",
                     "team-abbr": "SAC",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "7/13/1999"
                 },
                 {
                     "name": "Terence Davis",
@@ -3650,7 +3946,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "3",
                     "team-abbr": "SAC",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "5/16/1997"
                 },
                 {
                     "name": "Harrison Barnes",
@@ -3662,7 +3959,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "40",
                     "team-abbr": "SAC",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "5/30/1992"
                 },
                 {
                     "name": "Alex Len",
@@ -3674,7 +3972,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "25",
                     "team-abbr": "SAC",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "6/16/1993"
                 },
                 {
                     "name": "Chimezie Metu",
@@ -3686,7 +3985,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "7",
                     "team-abbr": "SAC",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "3/22/1997"
                 },
                 {
                     "name": "Domantas Sabonis",
@@ -3698,7 +3998,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "10",
                     "team-abbr": "SAC",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "5/3/1996"
                 }
             ]
         },
@@ -3715,7 +4016,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "25",
                     "team-abbr": "DAL",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "3/16/1991"
                 },
                 {
                     "name": "A.J. Lawson",
@@ -3727,7 +4029,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "9",
                     "team-abbr": "DAL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "7/15/2000"
                 },
                 {
                     "name": "Christian Wood",
@@ -3739,7 +4042,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "35",
                     "team-abbr": "DAL",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "9/27/1995"
                 },
                 {
                     "name": "Frank Ntilikina",
@@ -3751,7 +4055,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "21",
                     "team-abbr": "DAL",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "7/28/1998"
                 },
                 {
                     "name": "Dwight Powell",
@@ -3763,7 +4068,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "7",
                     "team-abbr": "DAL",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "7/20/1991"
                 },
                 {
                     "name": "Josh Green",
@@ -3775,7 +4081,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "8",
                     "team-abbr": "DAL",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "11/16/2000"
                 },
                 {
                     "name": "Justin Holiday",
@@ -3787,7 +4094,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "0",
                     "team-abbr": "DAL",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "4/5/1989"
                 },
                 {
                     "name": "Luka Doncic",
@@ -3799,7 +4107,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "77",
                     "team-abbr": "DAL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "2/28/1999"
                 },
                 {
                     "name": "Tim Hardaway Jr.",
@@ -3811,7 +4120,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "11",
                     "team-abbr": "DAL",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "3/16/1992"
                 },
                 {
                     "name": "JaVale McGee",
@@ -3823,7 +4133,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "00",
                     "team-abbr": "DAL",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "1/19/1988"
                 },
                 {
                     "name": "Markieff Morris",
@@ -3835,7 +4146,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "13",
                     "team-abbr": "DAL",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "9/2/1989"
                 },
                 {
                     "name": "Kyrie Irving",
@@ -3847,7 +4159,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "2",
                     "team-abbr": "DAL",
-                    "experience-years": "11"
+                    "experience-years": "11",
+                    "birthDay": "3/23/1992"
                 },
                 {
                     "name": "Theo Pinson",
@@ -3859,7 +4172,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "1",
                     "team-abbr": "DAL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "11/5/1995"
                 },
                 {
                     "name": "Maxi Kleber",
@@ -3871,7 +4185,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "42",
                     "team-abbr": "DAL",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "1/29/1992"
                 },
                 {
                     "name": "Davis Bertans",
@@ -3883,7 +4198,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "44",
                     "team-abbr": "DAL",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "11/12/1992"
                 },
                 {
                     "name": "McKinley Wright IV",
@@ -3895,7 +4211,8 @@
                     "height-feet": "5-11",
                     "jersey-num": "23",
                     "team-abbr": "DAL",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/25/1998"
                 },
                 {
                     "name": "Jaden Hardy",
@@ -3907,7 +4224,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "3",
                     "team-abbr": "DAL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "7/5/2002"
                 }
             ]
         },
@@ -3924,7 +4242,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "17",
                     "team-abbr": "HOU",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "5/10/2001"
                 },
                 {
                     "name": "Jalen Green",
@@ -3936,7 +4255,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "4",
                     "team-abbr": "HOU",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "2/9/2002"
                 },
                 {
                     "name": "Kenyon Martin Jr.",
@@ -3948,7 +4268,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "6",
                     "team-abbr": "HOU",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "1/6/2001"
                 },
                 {
                     "name": "Jae'Sean Tate",
@@ -3960,7 +4281,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "8",
                     "team-abbr": "HOU",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "10/28/1995"
                 },
                 {
                     "name": "Darius Days",
@@ -3972,7 +4294,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "5",
                     "team-abbr": "HOU",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "10/20/1999"
                 },
                 {
                     "name": "Josh Christopher",
@@ -3984,7 +4307,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "9",
                     "team-abbr": "HOU",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "12/8/2001"
                 },
                 {
                     "name": "Boban Marjanovic",
@@ -3996,7 +4320,8 @@
                     "height-feet": "7-4",
                     "jersey-num": "51",
                     "team-abbr": "HOU",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "8/15/1988"
                 },
                 {
                     "name": "Trevor Hudgins",
@@ -4008,7 +4333,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "12",
                     "team-abbr": "HOU",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "3/23/1999"
                 },
                 {
                     "name": "Usman Garuba",
@@ -4020,7 +4346,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "16",
                     "team-abbr": "HOU",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "3/9/2002"
                 },
                 {
                     "name": "Frank Kaminsky",
@@ -4032,7 +4359,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "\u2014",
                     "team-abbr": "HOU",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "4/4/1993"
                 },
                 {
                     "name": "Alperen Sengun",
@@ -4044,7 +4372,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "28",
                     "team-abbr": "HOU",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "7/25/2002"
                 },
                 {
                     "name": "Daishen Nix",
@@ -4056,7 +4385,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "15",
                     "team-abbr": "HOU",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "2/13/2002"
                 },
                 {
                     "name": "TyTy Washington Jr.",
@@ -4068,7 +4398,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "0",
                     "team-abbr": "HOU",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "11/15/2001"
                 },
                 {
                     "name": "Jabari Smith Jr.",
@@ -4080,7 +4411,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "1",
                     "team-abbr": "HOU",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "5/13/2003"
                 },
                 {
                     "name": "Kevin Porter Jr.",
@@ -4092,7 +4424,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "3",
                     "team-abbr": "HOU",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "5/4/2000"
                 }
             ]
         },
@@ -4109,7 +4442,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "8",
                     "team-abbr": "BKN",
-                    "experience-years": "13"
+                    "experience-years": "13",
+                    "birthDay": "8/11/1988"
                 },
                 {
                     "name": "Yuta Watanabe",
@@ -4121,7 +4455,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "18",
                     "team-abbr": "BKN",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "10/13/1994"
                 },
                 {
                     "name": "Ben Simmons",
@@ -4133,7 +4468,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "10",
                     "team-abbr": "BKN",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "7/20/1996"
                 },
                 {
                     "name": "Cam Thomas",
@@ -4145,7 +4481,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "24",
                     "team-abbr": "BKN",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/13/2001"
                 },
                 {
                     "name": "Nic Claxton",
@@ -4157,7 +4494,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "33",
                     "team-abbr": "BKN",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "4/17/1999"
                 },
                 {
                     "name": "Royce O'Neale",
@@ -4169,7 +4507,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "00",
                     "team-abbr": "BKN",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "6/5/1993"
                 },
                 {
                     "name": "Mikal Bridges",
@@ -4181,7 +4520,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "1",
                     "team-abbr": "BKN",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "8/30/1996"
                 },
                 {
                     "name": "Seth Curry",
@@ -4193,7 +4533,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "30",
                     "team-abbr": "BKN",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "8/23/1990"
                 },
                 {
                     "name": "Day'Ron Sharpe",
@@ -4205,7 +4546,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "20",
                     "team-abbr": "BKN",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "11/6/2001"
                 },
                 {
                     "name": "Dru Smith",
@@ -4217,7 +4559,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "9",
                     "team-abbr": "BKN",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "12/30/1997"
                 },
                 {
                     "name": "Spencer Dinwiddie",
@@ -4229,7 +4572,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "26",
                     "team-abbr": "BKN",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "4/6/1993"
                 },
                 {
                     "name": "Dorian Finney-Smith",
@@ -4241,7 +4585,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "28",
                     "team-abbr": "BKN",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "5/4/1993"
                 },
                 {
                     "name": "Joe Harris",
@@ -4253,7 +4598,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "12",
                     "team-abbr": "BKN",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "9/6/1991"
                 },
                 {
                     "name": "Cameron Johnson",
@@ -4265,7 +4611,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "2",
                     "team-abbr": "BKN",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "3/3/1996"
                 },
                 {
                     "name": "Edmond Sumner",
@@ -4277,7 +4624,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "4",
                     "team-abbr": "BKN",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "12/31/1995"
                 },
                 {
                     "name": "David Duke Jr.",
@@ -4289,7 +4637,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "6",
                     "team-abbr": "BKN",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/13/1999"
                 }
             ]
         },
@@ -4306,7 +4655,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "13",
                     "team-abbr": "NY",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "10/29/1992"
                 },
                 {
                     "name": "Miles McBride",
@@ -4318,7 +4668,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "2",
                     "team-abbr": "NY",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "9/8/2000"
                 },
                 {
                     "name": "Jalen Brunson",
@@ -4330,7 +4681,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "11",
                     "team-abbr": "NY",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "8/31/1996"
                 },
                 {
                     "name": "Isaiah Hartenstein",
@@ -4342,7 +4694,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "55",
                     "team-abbr": "NY",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "5/5/1998"
                 },
                 {
                     "name": "Mitchell Robinson",
@@ -4354,7 +4707,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "23",
                     "team-abbr": "NY",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "4/1/1998"
                 },
                 {
                     "name": "Jericho Sims",
@@ -4366,7 +4720,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "45",
                     "team-abbr": "NY",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/20/1998"
                 },
                 {
                     "name": "Immanuel Quickley",
@@ -4378,7 +4733,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "5",
                     "team-abbr": "NY",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "6/17/1999"
                 },
                 {
                     "name": "Obi Toppin",
@@ -4390,7 +4746,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "1",
                     "team-abbr": "NY",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "3/4/1998"
                 },
                 {
                     "name": "Quentin Grimes",
@@ -4402,7 +4759,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "6",
                     "team-abbr": "NY",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "5/8/2000"
                 },
                 {
                     "name": "Derrick Rose",
@@ -4414,7 +4772,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "4",
                     "team-abbr": "NY",
-                    "experience-years": "13"
+                    "experience-years": "13",
+                    "birthDay": "10/4/1988"
                 },
                 {
                     "name": "Julius Randle",
@@ -4426,7 +4785,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "30",
                     "team-abbr": "NY",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "11/29/1994"
                 },
                 {
                     "name": "RJ Barrett",
@@ -4438,7 +4798,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "9",
                     "team-abbr": "NY",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "6/14/2000"
                 },
                 {
                     "name": "Trevor Keels",
@@ -4450,7 +4811,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "0",
                     "team-abbr": "NY",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "8/26/2003"
                 },
                 {
                     "name": "DaQuan Jeffries",
@@ -4462,7 +4824,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "8",
                     "team-abbr": "NY",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "8/30/1997"
                 },
                 {
                     "name": "Josh Hart",
@@ -4474,7 +4837,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "3",
                     "team-abbr": "NY",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "3/6/1995"
                 }
             ]
         },
@@ -4491,7 +4855,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "11",
                     "team-abbr": "UTA",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "3/18/1994"
                 },
                 {
                     "name": "Kelly Olynyk",
@@ -4503,7 +4868,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "41",
                     "team-abbr": "UTA",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "4/19/1991"
                 },
                 {
                     "name": "Frank Jackson",
@@ -4515,7 +4881,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "3",
                     "team-abbr": "UTA",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "5/4/1998"
                 },
                 {
                     "name": "Udoka Azubuike",
@@ -4527,7 +4894,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "20",
                     "team-abbr": "UTA",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "9/17/1999"
                 },
                 {
                     "name": "Micah Potter",
@@ -4539,7 +4907,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "25",
                     "team-abbr": "UTA",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "4/6/1998"
                 },
                 {
                     "name": "Ochai Agbaji",
@@ -4551,7 +4920,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "30",
                     "team-abbr": "UTA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "4/20/2000"
                 },
                 {
                     "name": "Johnny Juzang",
@@ -4563,7 +4933,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "33",
                     "team-abbr": "UTA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "3/17/2001"
                 },
                 {
                     "name": "Jordan Clarkson",
@@ -4575,7 +4946,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "00",
                     "team-abbr": "UTA",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "6/7/1992"
                 },
                 {
                     "name": "Talen Horton-Tucker",
@@ -4587,7 +4959,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "0",
                     "team-abbr": "UTA",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "11/25/2000"
                 },
                 {
                     "name": "Damian Jones",
@@ -4599,7 +4972,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "15",
                     "team-abbr": "UTA",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "6/30/1995"
                 },
                 {
                     "name": "Simone Fontecchio",
@@ -4611,7 +4985,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "16",
                     "team-abbr": "UTA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "12/9/1995"
                 },
                 {
                     "name": "Lauri Markkanen",
@@ -4623,7 +4998,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "23",
                     "team-abbr": "UTA",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "5/22/1997"
                 },
                 {
                     "name": "Juan Toscano-Anderson",
@@ -4635,7 +5011,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "95",
                     "team-abbr": "UTA",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "4/10/1993"
                 },
                 {
                     "name": "Collin Sexton",
@@ -4647,7 +5024,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "2",
                     "team-abbr": "UTA",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "1/4/1999"
                 },
                 {
                     "name": "Walker Kessler",
@@ -4659,7 +5037,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "24",
                     "team-abbr": "UTA",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "7/26/2001"
                 },
                 {
                     "name": "Rudy Gay",
@@ -4671,7 +5050,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "22",
                     "team-abbr": "UTA",
-                    "experience-years": "16"
+                    "experience-years": "16",
+                    "birthDay": "8/17/1986"
                 }
             ]
         },
@@ -4688,7 +5068,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "\u2014",
                     "team-abbr": "OKC",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "3/28/1995"
                 },
                 {
                     "name": "Jalen Williams",
@@ -4700,7 +5081,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "8",
                     "team-abbr": "OKC",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "4/14/2001"
                 },
                 {
                     "name": "Dario Saric",
@@ -4712,7 +5094,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "9",
                     "team-abbr": "OKC",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "4/8/1994"
                 },
                 {
                     "name": "Olivier Sarr",
@@ -4724,7 +5107,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "30",
                     "team-abbr": "OKC",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "2/20/1999"
                 },
                 {
                     "name": "Josh Giddey",
@@ -4736,7 +5120,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "3",
                     "team-abbr": "OKC",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/10/2002"
                 },
                 {
                     "name": "Tre Mann",
@@ -4748,7 +5133,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "23",
                     "team-abbr": "OKC",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "2/3/2001"
                 },
                 {
                     "name": "Ousmane Dieng",
@@ -4760,7 +5146,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "13",
                     "team-abbr": "OKC",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "5/21/2003"
                 },
                 {
                     "name": "Luguentz Dort",
@@ -4772,7 +5159,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "5",
                     "team-abbr": "OKC",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "4/19/1999"
                 },
                 {
                     "name": "Kenrich Williams",
@@ -4784,7 +5172,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "34",
                     "team-abbr": "OKC",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "12/2/1994"
                 },
                 {
                     "name": "Jeremiah Robinson-Earl",
@@ -4796,7 +5185,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "50",
                     "team-abbr": "OKC",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "11/3/2000"
                 },
                 {
                     "name": "Chet Holmgren",
@@ -4808,7 +5198,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "7",
                     "team-abbr": "OKC",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "5/1/2002"
                 },
                 {
                     "name": "Lindy Waters III",
@@ -4820,7 +5211,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "12",
                     "team-abbr": "OKC",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "7/28/1997"
                 },
                 {
                     "name": "Aleksej Pokusevski",
@@ -4832,7 +5224,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "17",
                     "team-abbr": "OKC",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "12/26/2001"
                 },
                 {
                     "name": "Aaron Wiggins",
@@ -4844,7 +5237,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "21",
                     "team-abbr": "OKC",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "1/2/1999"
                 },
                 {
                     "name": "Shai Gilgeous-Alexander",
@@ -4856,7 +5250,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "2",
                     "team-abbr": "OKC",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "7/12/1998"
                 },
                 {
                     "name": "Jaylin Williams",
@@ -4868,7 +5263,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "6",
                     "team-abbr": "OKC",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "6/29/2002"
                 },
                 {
                     "name": "Isaiah Joe",
@@ -4880,7 +5276,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "11",
                     "team-abbr": "OKC",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "7/2/1999"
                 }
             ]
         },
@@ -4897,7 +5294,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "26",
                     "team-abbr": "POR",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "3/26/1996"
                 },
                 {
                     "name": "Trendon Watford",
@@ -4909,7 +5307,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "2",
                     "team-abbr": "POR",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "11/9/2000"
                 },
                 {
                     "name": "Damian Lillard",
@@ -4921,7 +5320,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "0",
                     "team-abbr": "POR",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "7/15/1990"
                 },
                 {
                     "name": "Jabari Walker",
@@ -4933,7 +5333,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "34",
                     "team-abbr": "POR",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "7/30/2002"
                 },
                 {
                     "name": "Anfernee Simons",
@@ -4945,7 +5346,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "1",
                     "team-abbr": "POR",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "6/8/1999"
                 },
                 {
                     "name": "Ryan Arcidiacono",
@@ -4957,7 +5359,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "51",
                     "team-abbr": "POR",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "3/26/1994"
                 },
                 {
                     "name": "Matisse Thybulle",
@@ -4969,7 +5372,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "4",
                     "team-abbr": "POR",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "3/4/1997"
                 },
                 {
                     "name": "Drew Eubanks",
@@ -4981,7 +5385,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "24",
                     "team-abbr": "POR",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "2/1/1997"
                 },
                 {
                     "name": "Cam Reddish",
@@ -4993,7 +5398,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "\u2014",
                     "team-abbr": "POR",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "9/1/1999"
                 },
                 {
                     "name": "Shaedon Sharpe",
@@ -5005,7 +5411,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "17",
                     "team-abbr": "POR",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "5/30/2003"
                 },
                 {
                     "name": "Nassir Little",
@@ -5017,7 +5424,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "10",
                     "team-abbr": "POR",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "2/11/2000"
                 },
                 {
                     "name": "John Butler Jr.",
@@ -5029,7 +5437,8 @@
                     "height-feet": "7-2",
                     "jersey-num": "21",
                     "team-abbr": "POR",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "12/4/2002"
                 },
                 {
                     "name": "Keon Johnson",
@@ -5041,7 +5450,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "6",
                     "team-abbr": "POR",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "3/10/2002"
                 },
                 {
                     "name": "Ibou Badji",
@@ -5053,7 +5463,8 @@
                     "height-feet": "7-2",
                     "jersey-num": "41",
                     "team-abbr": "POR",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "10/13/2002"
                 },
                 {
                     "name": "Jusuf Nurkic",
@@ -5065,7 +5476,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "27",
                     "team-abbr": "POR",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "8/23/1994"
                 },
                 {
                     "name": "Jerami Grant",
@@ -5077,7 +5489,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "9",
                     "team-abbr": "POR",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "3/12/1994"
                 },
                 {
                     "name": "Kevin Knox II",
@@ -5089,7 +5502,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "11",
                     "team-abbr": "POR",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "8/11/1999"
                 }
             ]
         },
@@ -5106,7 +5520,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "12",
                     "team-abbr": "IND",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "6/20/1998"
                 },
                 {
                     "name": "Daniel Theis",
@@ -5118,7 +5533,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "27",
                     "team-abbr": "IND",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "4/4/1992"
                 },
                 {
                     "name": "T.J. McConnell",
@@ -5130,7 +5546,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "9",
                     "team-abbr": "IND",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "3/25/1992"
                 },
                 {
                     "name": "Buddy Hield",
@@ -5142,7 +5559,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "24",
                     "team-abbr": "IND",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "12/17/1992"
                 },
                 {
                     "name": "Andrew Nembhard",
@@ -5154,7 +5572,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "2",
                     "team-abbr": "IND",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "1/16/2000"
                 },
                 {
                     "name": "Bennedict Mathurin",
@@ -5166,7 +5585,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "00",
                     "team-abbr": "IND",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "6/19/2002"
                 },
                 {
                     "name": "Jalen Smith",
@@ -5178,7 +5598,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "25",
                     "team-abbr": "IND",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "3/16/2000"
                 },
                 {
                     "name": "Tyrese Haliburton",
@@ -5190,7 +5611,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "0",
                     "team-abbr": "IND",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "2/29/2000"
                 },
                 {
                     "name": "Chris Duarte",
@@ -5202,7 +5624,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "3",
                     "team-abbr": "IND",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "6/13/1997"
                 },
                 {
                     "name": "Aaron Nesmith",
@@ -5214,7 +5637,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "23",
                     "team-abbr": "IND",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "10/16/1999"
                 },
                 {
                     "name": "Isaiah Jackson",
@@ -5226,7 +5650,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "22",
                     "team-abbr": "IND",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "1/10/2002"
                 },
                 {
                     "name": "George Hill",
@@ -5238,7 +5663,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "7",
                     "team-abbr": "IND",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "5/4/1986"
                 },
                 {
                     "name": "Myles Turner",
@@ -5250,7 +5676,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "33",
                     "team-abbr": "IND",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "3/24/1996"
                 },
                 {
                     "name": "Jordan Nwora",
@@ -5262,7 +5689,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "13",
                     "team-abbr": "IND",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "9/9/1998"
                 },
                 {
                     "name": "James Johnson",
@@ -5274,7 +5702,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "16",
                     "team-abbr": "IND",
-                    "experience-years": "13"
+                    "experience-years": "13",
+                    "birthDay": "2/20/1987"
                 },
                 {
                     "name": "Trevelin Queen",
@@ -5286,7 +5715,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "8",
                     "team-abbr": "IND",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "2/25/1997"
                 },
                 {
                     "name": "Kendall Brown",
@@ -5298,7 +5728,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "10",
                     "team-abbr": "IND",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "5/11/2003"
                 }
             ]
         },
@@ -5315,7 +5746,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "23",
                     "team-abbr": "MIL",
-                    "experience-years": "13"
+                    "experience-years": "13",
+                    "birthDay": "10/14/1986"
                 },
                 {
                     "name": "Giannis Antetokounmpo",
@@ -5327,7 +5759,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "34",
                     "team-abbr": "MIL",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "12/6/1994"
                 },
                 {
                     "name": "Pat Connaughton",
@@ -5339,7 +5772,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "24",
                     "team-abbr": "MIL",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "1/6/1993"
                 },
                 {
                     "name": "Brook Lopez",
@@ -5351,7 +5785,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "11",
                     "team-abbr": "MIL",
-                    "experience-years": "14"
+                    "experience-years": "14",
+                    "birthDay": "4/1/1988"
                 },
                 {
                     "name": "Jae Crowder",
@@ -5363,7 +5798,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "99",
                     "team-abbr": "MIL",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "7/6/1990"
                 },
                 {
                     "name": "Meyers Leonard",
@@ -5375,7 +5811,8 @@
                     "height-feet": "7-0",
                     "jersey-num": "3",
                     "team-abbr": "MIL",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "2/27/1992"
                 },
                 {
                     "name": "Jrue Holiday",
@@ -5387,7 +5824,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "21",
                     "team-abbr": "MIL",
-                    "experience-years": "13"
+                    "experience-years": "13",
+                    "birthDay": "6/12/1990"
                 },
                 {
                     "name": "A.J. Green",
@@ -5399,7 +5837,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "20",
                     "team-abbr": "MIL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "9/27/1999"
                 },
                 {
                     "name": "Bobby Portis",
@@ -5411,7 +5850,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "9",
                     "team-abbr": "MIL",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "2/10/1995"
                 },
                 {
                     "name": "Jevon Carter",
@@ -5423,7 +5863,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "5",
                     "team-abbr": "MIL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "9/14/1995"
                 },
                 {
                     "name": "Joe Ingles",
@@ -5435,7 +5876,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "7",
                     "team-abbr": "MIL",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "10/2/1987"
                 },
                 {
                     "name": "Khris Middleton",
@@ -5447,7 +5889,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "22",
                     "team-abbr": "MIL",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "8/12/1991"
                 },
                 {
                     "name": "Sandro Mamukelashvili",
@@ -5459,7 +5902,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "54",
                     "team-abbr": "MIL",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "5/23/1999"
                 },
                 {
                     "name": "MarJon Beauchamp",
@@ -5471,7 +5915,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "0",
                     "team-abbr": "MIL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "10/12/2000"
                 },
                 {
                     "name": "Thanasis Antetokounmpo",
@@ -5483,7 +5928,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "43",
                     "team-abbr": "MIL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "7/18/1992"
                 },
                 {
                     "name": "Grayson Allen",
@@ -5495,7 +5941,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "12",
                     "team-abbr": "MIL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "10/8/1995"
                 }
             ]
         },
@@ -5512,7 +5959,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "11",
                     "team-abbr": "GS",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "2/8/1990"
                 },
                 {
                     "name": "Anthony Lamb",
@@ -5524,7 +5972,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "40",
                     "team-abbr": "GS",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "1/20/1998"
                 },
                 {
                     "name": "Andrew Wiggins",
@@ -5536,7 +5985,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "22",
                     "team-abbr": "GS",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "2/23/1995"
                 },
                 {
                     "name": "Patrick Baldwin Jr.",
@@ -5548,7 +5998,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "7",
                     "team-abbr": "GS",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "11/18/2002"
                 },
                 {
                     "name": "Jonathan Kuminga",
@@ -5560,7 +6011,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "00",
                     "team-abbr": "GS",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "10/6/2002"
                 },
                 {
                     "name": "Stephen Curry",
@@ -5572,7 +6024,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "30",
                     "team-abbr": "GS",
-                    "experience-years": "13"
+                    "experience-years": "13",
+                    "birthDay": "3/14/1988"
                 },
                 {
                     "name": "Moses Moody",
@@ -5584,7 +6037,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "4",
                     "team-abbr": "GS",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "5/31/2002"
                 },
                 {
                     "name": "Ty Jerome",
@@ -5596,7 +6050,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "10",
                     "team-abbr": "GS",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "7/8/1997"
                 },
                 {
                     "name": "Jordan Poole",
@@ -5608,7 +6063,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "3",
                     "team-abbr": "GS",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "6/19/1999"
                 },
                 {
                     "name": "JaMychal Green",
@@ -5620,7 +6076,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "1",
                     "team-abbr": "GS",
-                    "experience-years": "8"
+                    "experience-years": "8",
+                    "birthDay": "6/21/1990"
                 },
                 {
                     "name": "Andre Iguodala",
@@ -5632,7 +6089,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "9",
                     "team-abbr": "GS",
-                    "experience-years": "18"
+                    "experience-years": "18",
+                    "birthDay": "1/28/1984"
                 },
                 {
                     "name": "Gary Payton II",
@@ -5644,7 +6102,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "8",
                     "team-abbr": "GS",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "12/1/1992"
                 },
                 {
                     "name": "Draymond Green",
@@ -5656,7 +6115,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "23",
                     "team-abbr": "GS",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "3/4/1990"
                 },
                 {
                     "name": "Donte DiVincenzo",
@@ -5668,7 +6128,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "0",
                     "team-abbr": "GS",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "1/31/1997"
                 },
                 {
                     "name": "Kevon Looney",
@@ -5680,7 +6141,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "5",
                     "team-abbr": "GS",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "2/6/1996"
                 },
                 {
                     "name": "Ryan Rollins",
@@ -5692,7 +6154,8 @@
                     "height-feet": "6-3",
                     "jersey-num": "2",
                     "team-abbr": "GS",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "7/3/2002"
                 }
             ]
         },
@@ -5709,7 +6172,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "5",
                     "team-abbr": "MEM",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "8/30/2000"
                 },
                 {
                     "name": "Kennedy Chandler",
@@ -5721,7 +6185,8 @@
                     "height-feet": "5-11",
                     "jersey-num": "1",
                     "team-abbr": "MEM",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "9/16/2002"
                 },
                 {
                     "name": "Jaren Jackson Jr.",
@@ -5733,7 +6198,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "13",
                     "team-abbr": "MEM",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "9/15/1999"
                 },
                 {
                     "name": "John Konchar",
@@ -5745,7 +6211,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "46",
                     "team-abbr": "MEM",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "3/22/1996"
                 },
                 {
                     "name": "Desmond Bane",
@@ -5757,7 +6224,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "22",
                     "team-abbr": "MEM",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "6/25/1998"
                 },
                 {
                     "name": "Xavier Tillman",
@@ -5769,7 +6237,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "2",
                     "team-abbr": "MEM",
-                    "experience-years": "2"
+                    "experience-years": "2",
+                    "birthDay": "1/12/1999"
                 },
                 {
                     "name": "Ziaire Williams",
@@ -5781,7 +6250,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "8",
                     "team-abbr": "MEM",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "9/12/2001"
                 },
                 {
                     "name": "Santi Aldama",
@@ -5793,7 +6263,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "7",
                     "team-abbr": "MEM",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "1/10/2001"
                 },
                 {
                     "name": "Tyus Jones",
@@ -5805,7 +6276,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "21",
                     "team-abbr": "MEM",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "5/10/1996"
                 },
                 {
                     "name": "Luke Kennard",
@@ -5817,7 +6289,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "10",
                     "team-abbr": "MEM",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "6/24/1996"
                 },
                 {
                     "name": "Brandon Clarke",
@@ -5829,7 +6302,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "15",
                     "team-abbr": "MEM",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "9/19/1996"
                 },
                 {
                     "name": "Steven Adams",
@@ -5841,7 +6315,8 @@
                     "height-feet": "6-11",
                     "jersey-num": "4",
                     "team-abbr": "MEM",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "7/20/1993"
                 },
                 {
                     "name": "David Roddy",
@@ -5853,7 +6328,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "27",
                     "team-abbr": "MEM",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "3/27/2001"
                 },
                 {
                     "name": "Kenneth Lofton Jr.",
@@ -5865,7 +6341,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "6",
                     "team-abbr": "MEM",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "8/14/2002"
                 },
                 {
                     "name": "Jake LaRavia",
@@ -5877,7 +6354,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "3",
                     "team-abbr": "MEM",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "11/3/2001"
                 },
                 {
                     "name": "Ja Morant",
@@ -5889,7 +6367,8 @@
                     "height-feet": "6-2",
                     "jersey-num": "12",
                     "team-abbr": "MEM",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "8/10/1999"
                 },
                 {
                     "name": "Dillon Brooks",
@@ -5901,7 +6380,8 @@
                     "height-feet": "6-6",
                     "jersey-num": "24",
                     "team-abbr": "MEM",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "1/22/1996"
                 }
             ]
         },
@@ -5918,7 +6398,8 @@
                     "height-feet": "6-8",
                     "jersey-num": "28",
                     "team-abbr": "LAL",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "2/8/1998"
                 },
                 {
                     "name": "Troy Brown Jr.",
@@ -5930,7 +6411,8 @@
                     "height-feet": "6-7",
                     "jersey-num": "7",
                     "team-abbr": "LAL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "7/28/1999"
                 },
                 {
                     "name": "Scotty Pippen Jr.",
@@ -5942,7 +6424,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "14",
                     "team-abbr": "LAL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "11/10/2000"
                 },
                 {
                     "name": "Malik Beasley",
@@ -5954,7 +6437,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "5",
                     "team-abbr": "LAL",
-                    "experience-years": "6"
+                    "experience-years": "6",
+                    "birthDay": "11/26/1996"
                 },
                 {
                     "name": "Sterling Brown",
@@ -5966,7 +6450,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "\u2014",
                     "team-abbr": "LAL",
-                    "experience-years": "5"
+                    "experience-years": "5",
+                    "birthDay": "2/10/1995"
                 },
                 {
                     "name": "Wenyen Gabriel",
@@ -5978,7 +6463,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "35",
                     "team-abbr": "LAL",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "3/26/1997"
                 },
                 {
                     "name": "Max Christie",
@@ -5990,7 +6476,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "10",
                     "team-abbr": "LAL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "2/10/2003"
                 },
                 {
                     "name": "Dennis Schroder",
@@ -6002,7 +6489,8 @@
                     "height-feet": "6-1",
                     "jersey-num": "17",
                     "team-abbr": "LAL",
-                    "experience-years": "9"
+                    "experience-years": "9",
+                    "birthDay": "9/15/1993"
                 },
                 {
                     "name": "Mo Bamba",
@@ -6014,7 +6502,8 @@
                     "height-feet": "7-1",
                     "jersey-num": "12",
                     "team-abbr": "LAL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "5/12/1998"
                 },
                 {
                     "name": "Austin Reaves",
@@ -6026,7 +6515,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "15",
                     "team-abbr": "LAL",
-                    "experience-years": "1"
+                    "experience-years": "1",
+                    "birthDay": "5/29/1998"
                 },
                 {
                     "name": "Jarred Vanderbilt",
@@ -6038,7 +6528,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "2",
                     "team-abbr": "LAL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "4/3/1999"
                 },
                 {
                     "name": "Lonnie Walker IV",
@@ -6050,7 +6541,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "4",
                     "team-abbr": "LAL",
-                    "experience-years": "4"
+                    "experience-years": "4",
+                    "birthDay": "12/14/1998"
                 },
                 {
                     "name": "Davon Reed",
@@ -6062,7 +6554,8 @@
                     "height-feet": "6-5",
                     "jersey-num": "11",
                     "team-abbr": "LAL",
-                    "experience-years": "3"
+                    "experience-years": "3",
+                    "birthDay": "6/11/1995"
                 },
                 {
                     "name": "LeBron James",
@@ -6074,7 +6567,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "6",
                     "team-abbr": "LAL",
-                    "experience-years": "19"
+                    "experience-years": "19",
+                    "birthDay": "12/30/1984"
                 },
                 {
                     "name": "Anthony Davis",
@@ -6086,7 +6580,8 @@
                     "height-feet": "6-10",
                     "jersey-num": "3",
                     "team-abbr": "LAL",
-                    "experience-years": "10"
+                    "experience-years": "10",
+                    "birthDay": "3/11/1993"
                 },
                 {
                     "name": "D'Angelo Russell",
@@ -6098,7 +6593,8 @@
                     "height-feet": "6-4",
                     "jersey-num": "1",
                     "team-abbr": "LAL",
-                    "experience-years": "7"
+                    "experience-years": "7",
+                    "birthDay": "2/23/1996"
                 },
                 {
                     "name": "Cole Swider",
@@ -6110,7 +6606,8 @@
                     "height-feet": "6-9",
                     "jersey-num": "20",
                     "team-abbr": "LAL",
-                    "experience-years": "R"
+                    "experience-years": "R",
+                    "birthDay": "5/8/1999"
                 }
             ]
         }

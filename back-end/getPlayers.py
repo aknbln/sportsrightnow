@@ -51,6 +51,7 @@ def filter_nba_players():
                 'jersey-num': player['jerseyNum'],
                 'team-abbr': player['team'],
                 'experience-years': player['exp'],
+                'birthDay': player['bDay']
             })
 
         nba_players['NBA'].append(cur_team)
