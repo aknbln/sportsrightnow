@@ -12,7 +12,7 @@ def get_nba_players():
     querystring = {"schedules":"true","rosters":"true"}
 
     headers = {
-        "X-RapidAPI-Key": "0c466f6bcfmshcc828ed94ad95d9p13d7abjsn41fb37c9d661",
+        "X-RapidAPI-Key": "XXXXXXXXXX",
         "X-RapidAPI-Host": "tank01-fantasy-stats.p.rapidapi.com"
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
