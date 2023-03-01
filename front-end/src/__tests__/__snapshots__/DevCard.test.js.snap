@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DevCard renders correctly 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "backgroundColor": "lightgray",
+    }
+  }
+>
+  <img
+    className="card-img-top"
+    src="question.png"
+    style={
+      Object {
+        "height": "20vw",
+        "objectFit": "cover",
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+    >
+      <span
+        style={
+          Object {
+            "color": "#404040",
+            "font": "Sans-Serif",
+            "fontSize": "17px",
+          }
+        }
+      >
+        Devy Dev
+      </span>
+    </div>
+    <div
+      className="card-subtitle h6"
+    >
+      <span
+        style={
+          Object {
+            "color": "#404040",
+            "font": "Sans-Serif",
+            "fontSize": "17px",
+          }
+        }
+      >
+        @
+        dev
+      </span>
+    </div>
+    <p
+      className="card-text"
+    >
+      <span
+        style={
+          Object {
+            "color": "#404040",
+            "font": "Sans-Serif",
+            "fontSize": "17px",
+          }
+        }
+      >
+        Role: 
+        Morale Support
+      </span>
+    </p>
+    <p
+      className="card-text"
+    >
+      <span
+        style={
+          Object {
+            "color": "#404040",
+            "font": "Sans-Serif",
+            "fontSize": "17px",
+          }
+        }
+      >
+        I'm a dev!
+      </span>
+    </p>
+  </div>
+  <div
+    className="text-muted card-footer"
+    style={
+      Object {
+        "backgroundColor": "dimgray",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "black",
+          "font": "Sans-Serif",
+          "fontSize": "17px",
+        }
+      }
+    >
+      Commits: 
+      0
+       
+    </span>
+    <br />
+    <span
+      style={
+        Object {
+          "color": "black",
+          "font": "Sans-Serif",
+          "fontSize": "17px",
+        }
+      }
+    >
+      Issues: 
+      0
+       
+    </span>
+    <br />
+    <span
+      style={
+        Object {
+          "color": "black",
+          "font": "Sans-Serif",
+          "fontSize": "17px",
+        }
+      }
+    >
+      Unit Tests: 
+      0
+    </span>
+  </div>
+</div>
+`;

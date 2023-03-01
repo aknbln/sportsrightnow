@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerCard renders correctly 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "backgroundColor": "lightgray",
+    }
+  }
+>
+  <img
+    className="card-img-top"
+    src="question.png"
+    style={
+      Object {
+        "height": "20vw",
+        "objectFit": "cover",
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+      style={
+        Object {
+          "color": "#333232",
+          "fontSize": "3vh",
+        }
+      }
+    >
+      Bobby Basketball
+    </div>
+    <p
+      className="card-text"
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": "2vh",
+        }
+      }
+    >
+      Team: 
+      Buffalo Ballers
+    </p>
+    <p
+      className="card-text"
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": "2vh",
+        }
+      }
+    >
+      League: 
+      NBA
+    </p>
+    <p
+      className="card-text"
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": "2vh",
+        }
+      }
+    >
+      Age: 
+      100
+    </p>
+    <p
+      className="card-text"
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": "2vh",
+        }
+      }
+    >
+      Nationality: 
+      USA
+    </p>
+  </div>
+  <div
+    className="card-footer"
+    style={
+      Object {
+        "backgroundColor": "dimgray",
+      }
+    }
+  >
+    <button
+      class="btn btn-primary stretched-link"
+      className="btn btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3d405b",
+          "borderColor": "black",
+        }
+      }
+      type="button"
+    >
+      More Info
+    </button>
+  </div>
+</div>
+`;

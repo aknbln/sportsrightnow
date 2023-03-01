@@ -6,7 +6,6 @@ import { Navigate, useNavigate, useSearchParams } from "react-router-dom";
 
 const PlayerCard = (props) => {
   const { name, image, team, league, age, country, player_id } = props.playerData;
-  const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate()
 
   function ButtonClicked(id) {

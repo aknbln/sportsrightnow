@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DevCard renders correctly 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "backgroundColor": "lightgray",
+    }
+  }
+>
+  <img
+    className="card-img-top"
+    src="question.png"
+    style={
+      Object {
+        "height": "20vw",
+        "objectFit": "cover",
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": "4vh",
+        }
+      }
+    >
+      Jest
+    </div>
+    <p
+      className="card-text"
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": "2.5vh",
+        }
+      }
+    >
+      Javascript unit test library
+    </p>
+  </div>
+  <div
+    className="card-footer"
+    style={
+      Object {
+        "backgroundColor": "dimgray",
+      }
+    }
+  >
+    <a
+      class="btn btn-primary stretched-link"
+      className="btn btn-primary"
+      disabled={false}
+      href="https://jestjs.io/"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#3d405b",
+          "borderColor": "black",
+        }
+      }
+      tabIndex={0}
+    >
+      More Info
+    </a>
+  </div>
+</div>
+`;

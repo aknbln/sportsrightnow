@@ -4,6 +4,7 @@ import { techData } from '../assets/TechData'
 import { apiData } from '../assets/APIData'
 import DeveloperCard from '../components/DeveloperCard'
 import TechCard from '../components/TechCard'
+import { sumTests } from '../Utils'
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container";
@@ -55,10 +56,7 @@ const fetchGitlabStats = async () => {
     })
   })
 
-  // TODO: Unit tests aren't part of GitLab API. I guess we just hardcode them locally??
-  teamData.forEach((member) => {
-    totalTests += member.unit_tests
-  })
+  totalTests = sumTests(teamData);
 
   return {
     totalCommits: totalCommits,
