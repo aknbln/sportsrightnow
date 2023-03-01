@@ -38,17 +38,17 @@ function App() {
                 <Nav.Link>About</Nav.Link>
               </LinkContainer>
 
-              <NavDropdown title="Models" id="models-dropdown">
-                <LinkContainer to = "/Players">
-                  <NavDropdown.Item>Players</NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to = "/Teams">
-                  <NavDropdown.Item>Teams</NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to = "/Events">
-                  <NavDropdown.Item>Events</NavDropdown.Item>
-                </LinkContainer>
-              </NavDropdown>
+              
+              <LinkContainer to = "/Players">
+                <Nav.Link>Players</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to = "/Teams">
+                <Nav.Link>Teams</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to = "/Events">
+                <Nav.Link>Events</Nav.Link>
+              </LinkContainer>
+              
             </Nav>
         </Container>
         </Navbar.Collapse>
