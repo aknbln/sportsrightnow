@@ -54,7 +54,7 @@ const teamData = [
     bio: "I am a senior majoring in CS here at UT Austin. I want to learn how to develop a dynamic web app that can connect and read data from a backend data base.",
     commits: 0,
     issues: 0,
-    unit_tests: 0,
+    unit_tests: 1,
   },
   {
     name: "Tommy Ly",
@@ -66,7 +66,7 @@ const teamData = [
     bio: "Hi my name is Tommy and I am a 3rd year Computer Science Major at UT Austin. I'm interested in software engineering, machine learning, and game development.",
     commits: 0,
     issues: 0,
-    unit_tests: 0,
+    unit_tests: 1,
   },
 ];
 

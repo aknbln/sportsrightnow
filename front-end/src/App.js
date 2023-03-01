@@ -38,7 +38,6 @@ function App() {
                 <Nav.Link>About</Nav.Link>
               </LinkContainer>
 
-              
               <LinkContainer to = "/Players">
                 <Nav.Link>Players</Nav.Link>
               </LinkContainer>
@@ -48,7 +47,6 @@ function App() {
               <LinkContainer to = "/Events">
                 <Nav.Link>Events</Nav.Link>
               </LinkContainer>
-              
             </Nav>
         </Container>
         </Navbar.Collapse>

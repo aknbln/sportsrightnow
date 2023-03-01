@@ -16,7 +16,7 @@ const ax = axios.create({
 });
 
 const fetchGitlabStats = async () => {
-  let totalCommits = 0, totalIssues = 0
+  let totalCommits = 0, totalIssues = 0, totalTests = 0
 
   // Fetch commit stats
   await ax
@@ -56,10 +56,14 @@ const fetchGitlabStats = async () => {
   })
 
   // TODO: Unit tests aren't part of GitLab API. I guess we just hardcode them locally??
+  teamData.forEach((member) => {
+    totalTests += member.unit_tests
+  })
 
   return {
     totalCommits: totalCommits,
     totalIssues: totalIssues,
+    totalTests: totalTests,
     teamData: teamData
   }
 }
@@ -83,6 +87,7 @@ const About = ({}) =>{
         const stats = await fetchGitlabStats();
         setTotalCommits(stats.totalCommits)
         setTotalIssues(stats.totalIssues)
+        setTotalTests(stats.totalTests)
         setTeam(stats.teamData)
     }
 
