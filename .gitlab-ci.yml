@@ -2,6 +2,7 @@ image: node:latest
 
 stages:
   - build
+  - test
 
 build_front_end:
   stage: build
@@ -9,3 +10,10 @@ build_front_end:
     - cd front-end
     - npm install
     - CI=false npm run-script build
+
+front_end_unit_test:
+  stage: test
+  script:
+    - cd front-end
+    - npm install
+    - CI=true npm test
