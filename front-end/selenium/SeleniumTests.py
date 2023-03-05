@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import sys
@@ -82,10 +83,17 @@ def run_test(test, pass_msg, fail_msg):
         return 0
 
 
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
+chrome_options.add_argument("--log-level=3")
+
 if sys.platform == "win32":
-    driver = webdriver.Chrome('./chromedriver-win.exe')
+
+    driver = webdriver.Chrome('./chromedriver-win.exe', options=chrome_options)
 elif sys.platform == "linux":
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(options=chrome_options)
 else:
     print("Unsupported OS! Use windows or linux.")
     exit(-1)
