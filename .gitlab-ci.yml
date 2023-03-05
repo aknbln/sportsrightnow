@@ -17,3 +17,28 @@ front_end_unit_test:
     - cd front-end
     - npm install
     - CI=true npm test
+
+# Adapted from here https://nander.cc/using-selenium-within-a-docker-container
+front_end_selenium_tests:
+  stage: test
+  image: python:3.9
+  script:
+    - cd front_end
+    - pip install --upgrade pip
+    - pip install --no-cache-dir selenium
+    - apt-get update
+
+    # Install chrome
+    - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+    - sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+    - apt-get -y update
+    - apt-get install -y google-chrome-stable
+
+    # Get webdriver
+    - apt-get install -yqq unzip
+    - wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`/chromedriver_linux64.zip
+    - unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
+
+    # Run the tests
+    - python3 /selenium/SeleniumTests.py
+
