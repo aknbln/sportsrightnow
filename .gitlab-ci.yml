@@ -23,7 +23,7 @@ front_end_selenium_tests:
   stage: test
   image: python:3.9
   script:
-    - cd front_end
+    - cd front-end
     - pip install --upgrade pip
     - pip install --no-cache-dir selenium
     - apt-get update
