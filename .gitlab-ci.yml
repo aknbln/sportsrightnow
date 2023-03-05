@@ -40,5 +40,5 @@ front_end_selenium_tests:
     - unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
 
     # Run the tests
-    - python3 /selenium/SeleniumTests.py
+    - python3 ./selenium/SeleniumTests.py
 
