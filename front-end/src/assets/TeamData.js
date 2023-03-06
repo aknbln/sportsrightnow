@@ -54,7 +54,7 @@ const teamData = [
     bio: "I am a senior majoring in CS here at UT Austin. I want to learn how to develop a dynamic web app that can connect and read data from a backend data base.",
     commits: 0,
     issues: 0,
-    unit_tests: 16,
+    unit_tests: 23,
   },
   {
     name: "Tommy Ly",
