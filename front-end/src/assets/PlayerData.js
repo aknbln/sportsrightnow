@@ -12,6 +12,7 @@ const playerData = [
         country: "USA",
         height: "6' 9\"",
         player_id: "1",
+        team_id: "1"
     },
     {
         name: "Kevin De Bruyne",
@@ -21,7 +22,8 @@ const playerData = [
         age: "31",
         country: "United Kingdom",
         height: "5' 11\"",
-        player_id: "2",        
+        player_id: "2",  
+        team_id: "2"      
     },
     {
         name: "Mitch Marner",
@@ -32,6 +34,7 @@ const playerData = [
         league: "NHL",
         height: "6' 0\"",
         player_id: "3",
+        team_id: "3"
     }
 ];
 

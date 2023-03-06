@@ -8,6 +8,7 @@ const PlayersInstance = ({}) =>{
     const [searchParams, setSearchParams] = useSearchParams()
     const [playerId, setPlayerId] = useState(0)
     const [currentData, setCurrentData] = useState([])
+    const teamString = '/teams/' + currentData.team_id
 
     useEffect(() => {
       let id = searchParams.get("id")
@@ -34,6 +35,7 @@ const PlayersInstance = ({}) =>{
               <br/>
               <br/>
               <Link to='/players'>Back</Link>
+              <Link to={teamString}>{currentData.team}</Link>
             </div>
           </div>
     )
