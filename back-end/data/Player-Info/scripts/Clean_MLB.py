@@ -56,7 +56,7 @@ def getPhotoOfPlayer():
             for player in team['players']:
 
                 if player['name'] == player_headshot['longName']:
-                    player['headshot'] = player_headshot['mlbHeadshot']
+                    player['jersey-num'] = player_headshot['jerseyNum']
 
     create_json_file('../Players.json', players)
 
