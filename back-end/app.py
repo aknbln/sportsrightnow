@@ -25,6 +25,15 @@ def get_players():
         query = paginate(query, page, perPage)
     result = player_schema.dump(query, many=True)
     return jsonify({"data": result, "meta": {"count": count}})
+    #way to use to_dict in case above ever breaks
+    # page = request.args.get('page')
+    # perPage = request.args.get('perPage')
+    # maxId = int(perPage) * int(page)
+    # minId = maxId - int(perPage)
+    # players = Player.query.filter(Player.id < maxId).filter(Player.id >= minId).order_by(Player.id).all()
+    # return jsonify([player.to_dict() for player in players])
+
+
 
 @app.route("/teams")
 def get_teams():
