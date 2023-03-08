@@ -64,10 +64,66 @@ def add_jerseyNums():
     f = open('../Players.json') 
     players  = json.load(f)
     nfl_players = players['NFL']
-    
-    for teams in nfl_players:
+    mlb_players = players['MLB']
+    nba_players = players['NBA']
+    for teams in nba_players:
         for player in teams['players']:
-            player['pos'] = player['Position']
+            player['headshot'] = player["logo"]
+            del player["logo"]
+
+
+    # for teams in mlb_players:
+    #     for player in teams['players']:
+    #         #height currently looks like                     "height": "6' 2\"",
+    #         #remove the \"
+    #         temp = player['height'][:-1]
+    #         del player['height'] 
+    #         #remove the ' and replace with -
+    #         player['height-feet'] = temp.replace("'", "-")
+    #         player["weight-pounds"] = str(player['weight'])
+    #         del player['weight']
+    #         temp = player["birth_date"]
+    #         dash = temp.replace('-', '/')
+    #         player["birthDay"] = dash[5:8] + dash[8:] + dash[0:4]
+    #         del player["birth_date"]
+
+    
+    # for teams in nfl_players:
+    #     # print("number of teams: ", len(nfl_players))
+    #     for player in teams['players']:
+    #         # player['pos'] = player['Position']
+    #         del player["PlayerID"]
+    #         del player['Number']
+    #         del player['College']
+    #         del player['FirstName']
+    #         del player['LastName']
+    #         del player['Position']
+    #         del player['Status']
+    #         #turn player["HeightFeet"] from int to string
+    #         play = player["HeightFeet"] 
+    #         player["height-feet"] = str(player["HeightFeet"]) + "-" + str(player["HeightInches"])
+    #         del player["Height"]
+    #         del player["HeightFeet"]
+    #         del player["HeightInches"]
+    #         player["weight-pounds"] = str(player['Weight'])
+    #         del player["Weight"]
+    #         del player["FantasyPosition"]
+    #         del player["Active"]
+    #         del player["PositionCategory"]
+    #         del player["Name"]
+    #         player["headshot"] = player["PhotoUrl"]
+    #         fields = ["BirthDateString", "PhotoUrl", "ByeWeek", "UpcomingGameOpponent", "UpcomingGameWeek", "ShortName", "AverageDraftPosition", "DepthPositionCategory", "DepthPosition", "DepthOrder", "DepthDisplayOrder", "CurrentTeam", "CollegeDraftTeam", "CollegeDraftRound", "CollegeDraftPick", "IsUndraftedFreeAgent", "UpcomingOpponentRank", "UpcomingOpponentPositionRank", "CurrentStatus", "UpcomingSalary", "FantasyAlarmPlayerID", "SportRadarPlayerID", "RotoworldPlayerID", "RotoWirePlayerID", "StatsPlayerID", "SportsDirectPlayerID", "XmlTeamPlayerID", "FanDuelPlayerID", "DraftKingsPlayerID", "YahooPlayerID", "InjuryStatus", "InjuryBodyPart", "InjuryStartDate", "InjuryNotes", "FanDuelName", "DraftKingsName", "YahooName", "FantasyPositionDepthOrder", "InjuryPractice", "InjuryPracticeDescription", "DeclaredInactive", "UpcomingFanDuelSalary", "UpcomingDraftKingsSalary", "UpcomingYahooSalary", "TeamID", "GlobalTeamID", "FantasyDraftPlayerID", "FantasyDraftName", "UsaTodayPlayerID","UsaTodayHeadshotUrl", "UsaTodayHeadshotNoBackgroundUrl", "UsaTodayHeadshotUpdated", "UsaTodayHeadshotNoBackgroundUpdated",  "PlayerSeason", "LatestNews"]
+    #         for field in fields:
+    #             del player[field]
+    #         #BirthDate looks like this"1994-12-12T00:00:00" so remove the "T00:00:00" and change "1994-12-12" to "12/12/1984"
+    #         birthday_withoutT =  player['BirthDate'].split('T')[0]
+    #         #now instead of "1994-12-12T00:00:00" it is "1994/12/12"
+    #         #replace the - with / 
+    #         dash = birthday_withoutT.replace('-', '/')
+    #         player["birthDay"] = dash[5:8] + dash[8:] + dash[0:4]
+    #         del player["BirthDate"]
+    #         del player["ExperienceString"]
+
 
 
     with open('../Players.json', 'w') as file:
