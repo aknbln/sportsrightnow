@@ -50,13 +50,13 @@ def getPhotoOfPlayer():
     players  = json.load(f)
     mlb_teams = players['MLB']
 
-    for player_headshot in mlb_players_headshots['body']:
-        for team in mlb_teams:
+    for team in mlb_teams:
+        for player in team['players']:
+            player['pos'] = player['position']
             
-            for player in team['players']:
 
-                if player['name'] == player_headshot['longName']:
-                    player['jersey-num'] = player_headshot['jerseyNum']
+
+    
 
     create_json_file('../Players.json', players)
 

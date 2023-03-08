@@ -67,15 +67,8 @@ def add_jerseyNums():
     
     for teams in nfl_players:
         for player in teams['players']:
-            for messy_data in nfl_file['body']:
-                if player['Name'] == messy_data['espnName']:
-                    player['name'] = messy_data['espnName']
-                    player['jersey-num'] = messy_data['jerseyNum']
-                    player['espnLink'] = messy_data['espnLink']
-                    if player['College'] is None:
-                        player['college'] = messy_data['school']
-                    else:
-                        player['college'] = player['College']
+            player['pos'] = player['Position']
+
 
     with open('../Players.json', 'w') as file:
         json.dump(players, file, indent = 4)
