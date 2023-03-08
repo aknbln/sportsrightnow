@@ -122,7 +122,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Golden State Warriors",
+            "awayTeam": "Phoenix Suns"
         },
         "Phoenix Suns vs. Milwaukee Bucks": {
             "name": "Phoenix Suns vs. Milwaukee Bucks",
@@ -235,7 +237,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Phoenix Suns",
+            "awayTeam": "Milwaukee Bucks"
         },
         "Phoenix Suns vs. Oklahoma City Thunder": {
             "name": "Phoenix Suns vs. Oklahoma City Thunder",
@@ -348,7 +352,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Phoenix Suns",
+            "awayTeam": "Oklahoma City Thunder"
         },
         "Phoenix Suns vs. Sacramento Kings": {
             "name": "Phoenix Suns vs. Sacramento Kings",
@@ -461,7 +467,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Phoenix Suns",
+            "awayTeam": "Sacramento Kings"
         },
         "Sacramento Kings vs. Phoenix Suns": {
             "name": "Sacramento Kings vs. Phoenix Suns",
@@ -587,7 +595,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Sacramento Kings",
+            "awayTeam": "Phoenix Suns"
         },
         "Phoenix Suns vs. Orlando Magic": {
             "name": "Phoenix Suns vs. Orlando Magic",
@@ -700,7 +710,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Phoenix Suns",
+            "awayTeam": "Orlando Magic"
         },
         "Oklahoma City Thunder vs. Phoenix Suns": {
             "name": "Oklahoma City Thunder vs. Phoenix Suns",
@@ -810,7 +822,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Oklahoma City Thunder",
+            "awayTeam": "Phoenix Suns"
         },
         "Phoenix Suns vs. Minnesota Timberwolves": {
             "name": "Phoenix Suns vs. Minnesota Timberwolves",
@@ -923,7 +937,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Phoenix Suns",
+            "awayTeam": "Minnesota Timberwolves"
         },
         "Phoenix Suns vs. San Antonio Spurs": {
             "name": "Phoenix Suns vs. San Antonio Spurs",
@@ -1036,7 +1052,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Phoenix Suns",
+            "awayTeam": "San Antonio Spurs"
         },
         "Utah Jazz vs. Phoenix Suns": {
             "name": "Utah Jazz vs. Phoenix Suns",
@@ -1155,7 +1173,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Utah Jazz",
+            "awayTeam": "Phoenix Suns"
         },
         "NBA Finals: TBD at Warriors Rd 4 Hm Gm P": {
             "name": "NBA Finals: TBD at Warriors Rd 4 Hm Gm P",
@@ -1277,7 +1297,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "",
+            "awayTeam": ""
         },
         "NBA Play-In Tournament: TBD at Warriors: West Hm Gm 1": {
             "name": "NBA Play-In Tournament: TBD at Warriors: West Hm Gm 1",
@@ -1399,7 +1421,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "",
+            "awayTeam": ""
         },
         "NBA Play-In Tournament: TBD at Warriors: West Hm Gm 2": {
             "name": "NBA Play-In Tournament: TBD at Warriors: West Hm Gm 2",
@@ -1521,7 +1545,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "",
+            "awayTeam": ""
         },
         "Los Angeles Lakers vs. Golden State Warriors": {
             "name": "Los Angeles Lakers vs. Golden State Warriors",
@@ -1638,7 +1664,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Los Angeles Lakers",
+            "awayTeam": "Golden State Warriors"
         },
         "Dallas Mavericks vs. Phoenix Suns": {
             "name": "Dallas Mavericks vs. Phoenix Suns",
@@ -1761,7 +1789,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Dallas Mavericks",
+            "awayTeam": "Phoenix Suns"
         },
         "Boston Celtics vs. New York Knicks": {
             "name": "Boston Celtics vs. New York Knicks",
@@ -1912,7 +1942,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Boston Celtics",
+            "awayTeam": "New York Knicks"
         },
         "Wizards vs Bucks (City Edition t-shirt - first 10,000 fans)": {
             "name": "Wizards vs Bucks (City Edition t-shirt - first 10,000 fans)",
@@ -2033,7 +2065,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "",
+            "awayTeam": ""
         },
         "New Orleans Pelicans vs. Los Angeles Lakers": {
             "name": "New Orleans Pelicans vs. Los Angeles Lakers",
@@ -2106,7 +2140,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "New Orleans Pelicans",
+            "awayTeam": "Los Angeles Lakers"
         },
         "Philadelphia 76ers vs. Portland Trail Blazers": {
             "name": "Philadelphia 76ers vs. Portland Trail Blazers",
@@ -2204,7 +2240,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Philadelphia 76ers",
+            "awayTeam": "Portland Trail Blazers"
         }
     },
     "MLB": {
@@ -3170,7 +3208,9 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Los Angeles Dodgers",
+            "awayTeam": "Chicago Cubs"
         }
     }
 }
