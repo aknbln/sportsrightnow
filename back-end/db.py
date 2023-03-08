@@ -2,6 +2,22 @@
 import json
 from models import app, db, Player, Team, Event
 
+import pymysql
+
+def test():
+    #may need to move this to top of models.py with the rest of the app.config stuff
+    conn = pymysql.connect(
+        host= 'sports-real.c2djuzvxaqfd.us-east-2.rds.amazonaws.com', 
+        port = '3306',
+        user = 'admin', 
+        password = 'sportsnow',
+        db = 'sports-real',
+        )
+    #logic for adding to table, test to see if it works after running the app
+    cursor=conn.cursor()
+    cursor.execute(populate_db)
+    cursor.commit()
+
 def populate_db():
     populate_players()
     populate_teams()

@@ -3,6 +3,8 @@ from models import app, db, Player, Team, Event
 from schema import player_schema, team_schema, event_schema
 from sqlalchemy.sql import text, column, desc
 import json
+#does this import the function to use?
+from db import test
 
 
 @app.route("/")
@@ -14,6 +16,22 @@ def home():
         error_text = "<p>The error:<br>" + str(e) + "</p>"
         hed = "<h1>Something is broken.</h1>"
         return hed + error_text
+    
+
+# test
+# @app.route("/")
+# def home():
+#     try:
+#         #calls function from db.py
+#         test()
+#         db.test()
+#         # db.session.query(column("1")).from_statement(text("SELECT 1")).all()
+#         return "We made it"
+#     except Exception as e:
+#         error_text = "<p>The error:<br>" + str(e) + "</p>"
+#         hed = "<h1>Something is broken.</h1>"
+#         return hed + error_text
+
 
 @app.route("/players")
 def get_players():
