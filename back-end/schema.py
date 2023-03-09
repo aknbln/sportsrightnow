@@ -1,5 +1,5 @@
 from flask_marshmallow import Marshmallow
-from models import Player, Team, Event, Tag, ApartmentImage
+from models import Player, Team, Event
 from marshmallow_sqlalchemy import SQLAlchemyAutoSchema, fields
 
 ma = Marshmallow()

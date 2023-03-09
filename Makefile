@@ -13,10 +13,10 @@ frontend-docker:
 	docker run --rm -dp 3000:3000 front-end
 # Docker for running the backend as a developer on local machine
 backend-dev-docker:
-	docker run --rm -it -p 5000:5000 SportsRightNow-backend-dev
+	docker run --rm -it -p 5000:5000 sportsrightnow-backend-dev
 #build backend
 build-backend :
-	docker build -t SportsRightNow-backend-dev -f dev.Dockerfile .
+	docker build -t sportsrightnow-backend-dev -f dev.Dockerfile .
 #build frontend
 build-frontend :
 	docker build -t front-end front-end/

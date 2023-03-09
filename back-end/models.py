@@ -19,7 +19,7 @@ class Player(db.Model) :
     __tablename__ = 'players'
     id = db.Column(db.String(50), primary_key = True)
     name = db.Column(db.String(50))
-    team_id = db.Column(db.String(50), db.ForeignKey('team.id'))
+    # team_id = db.Column(db.String(50), db.ForeignKey('team.id'))
     position = db.Column(db.String(50))
     college = db.Column(db.String(50))
     weight = db.Column(db.Integer)
@@ -56,7 +56,7 @@ class Team(db.Model) :
     logo = db.Column(db.String(50))
     city = db.Column(db.String(50))
     league = db.Column(db.String(50))
-    players = db.relationship('Player', backref = 'team')
+    # players = db.relationship('Player', backref = 'team')
 
     def to_dict(self):
         return {
