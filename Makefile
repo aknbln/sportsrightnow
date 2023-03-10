@@ -11,9 +11,9 @@ clean:
 # docker for front end: runs website on local 3000 port
 frontend-docker:
 	docker run --rm -dp 3000:3000 front-end
-# Docker for running the backend as a developer on local machine
+# Docker for running the backend as a developer on local machine, or do docker run -d --rm -it -p 5000:5000 sportsrightnow-backend-dev to exit out of the terminal while contianer runs in background
 backend-dev-docker:
-	docker run --rm -it -p 5000:5000 sportsrightnow-backend-dev
+	docker run --rm -it -d -p 8080:80 sportsrightnow-backend-dev 
 #build backend
 build-backend :
 	docker build -t sportsrightnow-backend-dev -f dev.Dockerfile .

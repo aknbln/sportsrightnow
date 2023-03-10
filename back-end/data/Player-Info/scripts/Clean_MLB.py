@@ -6,9 +6,10 @@ SCRAPE_DIR_NAME = "data/Player-Info"
 JSON_INDENT = 4
 MLB_PLAYERS_JSON_PATH = SCRAPE_DIR_PATH + "/MLB_Headshots.json"
 
+
 def load_MLB_data():
-# Load the raw data from a file or API
-    with open('MLB_Players_2022.json', 'r') as f:
+    # Load the raw data from a file or API
+    with open("MLB_Players_2022.json", "r") as f:
         raw_data = json.load(f)
 
     # Create a dictionary to store the teams and their players
@@ -22,14 +23,13 @@ def load_MLB_data():
         team_name = team
 
         for player in raw_data[team]:
-            player_info = {key: player[key] for key in player if key != 'Team'}
+            player_info = {key: player[key] for key in player if key != "Team"}
             if team_name in teams:
-                teams[team_name]['players'].append(player_info)
+                teams[team_name]["players"].append(player_info)
             else:
-                teams[team_name] = {'teamName': team_name, 'players': [player_info]}
+                teams[team_name] = {"teamName": team_name, "players": [player_info]}
 
-
-    teams = {'MLB': list(teams.values())}
+    teams = {"MLB": list(teams.values())}
 
 
 def getPhotoOfPlayer():
@@ -43,29 +43,26 @@ def getPhotoOfPlayer():
     # response = requests.request("GET", url, headers=headers)
     # create_json_file(MLB_PLAYERS_JSON_PATH, response.json())
 
-    g = open('../MLB_Headshots.json')
+    g = open("../MLB_Headshots.json")
     mlb_players_headshots = json.load(g)
 
-    f = open('../Players.json') 
-    players  = json.load(f)
-    mlb_teams = players['MLB']
+    f = open("../Players.json")
+    players = json.load(f)
+    mlb_teams = players["MLB"]
 
     for team in mlb_teams:
-        for player in team['players']:
-            player['pos'] = player['position']
-            
+        for player in team["players"]:
+            player["pos"] = player["position"]
+
+    create_json_file("../Players.json", players)
 
 
-    
-
-    create_json_file('../Players.json', players)
-
-def create_json_file(file_path, default_data = {}):
+def create_json_file(file_path, default_data={}):
     """
     creates a json file with a list at the specified path if it does not exist
     """
-    with open(file_path, 'w') as file:
-        json.dump(default_data, file, indent = JSON_INDENT)
+    with open(file_path, "w") as file:
+        json.dump(default_data, file, indent=JSON_INDENT)
 
 
 def main():
@@ -74,6 +71,7 @@ def main():
     # get_nfl_players()
     getPhotoOfPlayer()
 
+
 if __name__ == "__main__":
     main()
 
@@ -81,4 +79,4 @@ if __name__ == "__main__":
 # Write the teams to a JSON file
 # with open('MLB_Players_prepped.json', 'w') as f:
 #     json.dump(teams, f, indent=4)
-    # json.dump(list(teams.values()), f)
+# json.dump(list(teams.values()), f)

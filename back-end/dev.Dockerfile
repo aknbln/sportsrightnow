@@ -1,4 +1,5 @@
-FROM ubuntu:latest
+# FROM ubuntu:latest
+FROM python:latest
 ENV DEBIAN_FRONTEND=noninteractive
 
 # COPY ./badproxy /etc/apt/apt.conf.d/99fixbadproxy
@@ -15,7 +16,9 @@ COPY requirements.txt usr/src/backend/requirements.txt
 WORKDIR /usr/src/backend
 
 RUN pip3 install -r requirements.txt
+RUN pip install black
 
-EXPOSE 5000
+EXPOSE 80
 
-CMD ["python3", "app.py"]
+ENTRYPOINT ["python3"]
+CMD ["app.py"]

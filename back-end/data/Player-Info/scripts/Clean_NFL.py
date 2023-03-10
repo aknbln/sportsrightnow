@@ -33,7 +33,7 @@ team_abbreviations = {
     "SEA": "Seattle Seahawks",
     "TB": "Tampa Bay Buccaneers",
     "TEN": "Tennessee Titans",
-    "WAS": "Washington Football Team"
+    "WAS": "Washington Football Team",
 }
 
 # Load the JSON file
@@ -57,27 +57,27 @@ team_abbreviations = {
 #     if UpcomingGameOpponent in team_abbreviations:  # Check if it's a valid abbreviation
 #         player["UpcomingGameOpponent"] = team_abbreviations[UpcomingGameOpponent]  # Replace with team name
 
+
 def add_jerseyNums():
-    file =  open("../NFL_Players.json")
+    file = open("../NFL_Players.json")
     nfl_file = json.load(file)
 
-    f = open('../Players.json') 
-    players  = json.load(f)
-    nfl_players = players['NFL']
-    mlb_players = players['MLB']
-    nba_players = players['NBA']
+    f = open("../Players.json")
+    players = json.load(f)
+    nfl_players = players["NFL"]
+    mlb_players = players["MLB"]
+    nba_players = players["NBA"]
     for teams in nba_players:
-        for player in teams['players']:
-            player['headshot'] = player["logo"]
+        for player in teams["players"]:
+            player["headshot"] = player["logo"]
             del player["logo"]
-
 
     # for teams in mlb_players:
     #     for player in teams['players']:
     #         #height currently looks like                     "height": "6' 2\"",
     #         #remove the \"
     #         temp = player['height'][:-1]
-    #         del player['height'] 
+    #         del player['height']
     #         #remove the ' and replace with -
     #         player['height-feet'] = temp.replace("'", "-")
     #         player["weight-pounds"] = str(player['weight'])
@@ -87,7 +87,6 @@ def add_jerseyNums():
     #         player["birthDay"] = dash[5:8] + dash[8:] + dash[0:4]
     #         del player["birth_date"]
 
-    
     # for teams in nfl_players:
     #     # print("number of teams: ", len(nfl_players))
     #     for player in teams['players']:
@@ -100,7 +99,7 @@ def add_jerseyNums():
     #         del player['Position']
     #         del player['Status']
     #         #turn player["HeightFeet"] from int to string
-    #         play = player["HeightFeet"] 
+    #         play = player["HeightFeet"]
     #         player["height-feet"] = str(player["HeightFeet"]) + "-" + str(player["HeightInches"])
     #         del player["Height"]
     #         del player["HeightFeet"]
@@ -118,16 +117,14 @@ def add_jerseyNums():
     #         #BirthDate looks like this"1994-12-12T00:00:00" so remove the "T00:00:00" and change "1994-12-12" to "12/12/1984"
     #         birthday_withoutT =  player['BirthDate'].split('T')[0]
     #         #now instead of "1994-12-12T00:00:00" it is "1994/12/12"
-    #         #replace the - with / 
+    #         #replace the - with /
     #         dash = birthday_withoutT.replace('-', '/')
     #         player["birthDay"] = dash[5:8] + dash[8:] + dash[0:4]
     #         del player["BirthDate"]
     #         del player["ExperienceString"]
 
-
-
-    with open('../Players.json', 'w') as file:
-        json.dump(players, file, indent = 4)
+    with open("../Players.json", "w") as file:
+        json.dump(players, file, indent=4)
 
 
 add_jerseyNums()

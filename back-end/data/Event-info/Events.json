@@ -124,7 +124,8 @@
                 }
             ],
             "homeTeam": "Golden State Warriors",
-            "awayTeam": "Phoenix Suns"
+            "awayTeam": "Phoenix Suns",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/c26/f3bc3686-a6c2-4324-a6cb-18ab2441ac26_1339991_CUSTOM.jpg"
         },
         "Phoenix Suns vs. Milwaukee Bucks": {
             "name": "Phoenix Suns vs. Milwaukee Bucks",
@@ -239,7 +240,8 @@
                 }
             ],
             "homeTeam": "Phoenix Suns",
-            "awayTeam": "Milwaukee Bucks"
+            "awayTeam": "Milwaukee Bucks",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/c62/0636ff21-e369-4b8c-bee4-214ea0a81c62_1339761_CUSTOM.jpg"
         },
         "Phoenix Suns vs. Oklahoma City Thunder": {
             "name": "Phoenix Suns vs. Oklahoma City Thunder",
@@ -354,7 +356,8 @@
                 }
             ],
             "homeTeam": "Phoenix Suns",
-            "awayTeam": "Oklahoma City Thunder"
+            "awayTeam": "Oklahoma City Thunder",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/c62/0636ff21-e369-4b8c-bee4-214ea0a81c62_1339761_CUSTOM.jpg"
         },
         "Phoenix Suns vs. Sacramento Kings": {
             "name": "Phoenix Suns vs. Sacramento Kings",
@@ -469,7 +472,8 @@
                 }
             ],
             "homeTeam": "Phoenix Suns",
-            "awayTeam": "Sacramento Kings"
+            "awayTeam": "Sacramento Kings",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/c62/0636ff21-e369-4b8c-bee4-214ea0a81c62_1339761_CUSTOM.jpg"
         },
         "Sacramento Kings vs. Phoenix Suns": {
             "name": "Sacramento Kings vs. Phoenix Suns",
@@ -597,7 +601,8 @@
                 }
             ],
             "homeTeam": "Sacramento Kings",
-            "awayTeam": "Phoenix Suns"
+            "awayTeam": "Phoenix Suns",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/022/6fdae8b5-6fa8-4793-8829-edef2a77a022_1339671_CUSTOM.jpg"
         },
         "Phoenix Suns vs. Orlando Magic": {
             "name": "Phoenix Suns vs. Orlando Magic",
@@ -712,7 +717,8 @@
                 }
             ],
             "homeTeam": "Phoenix Suns",
-            "awayTeam": "Orlando Magic"
+            "awayTeam": "Orlando Magic",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/c62/0636ff21-e369-4b8c-bee4-214ea0a81c62_1339761_CUSTOM.jpg"
         },
         "Oklahoma City Thunder vs. Phoenix Suns": {
             "name": "Oklahoma City Thunder vs. Phoenix Suns",
@@ -824,7 +830,8 @@
                 }
             ],
             "homeTeam": "Oklahoma City Thunder",
-            "awayTeam": "Phoenix Suns"
+            "awayTeam": "Phoenix Suns",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/64d/149d3f0b-cd16-4b25-9567-373cbf96b64d_1339861_CUSTOM.jpg"
         },
         "Phoenix Suns vs. Minnesota Timberwolves": {
             "name": "Phoenix Suns vs. Minnesota Timberwolves",
@@ -939,7 +946,8 @@
                 }
             ],
             "homeTeam": "Phoenix Suns",
-            "awayTeam": "Minnesota Timberwolves"
+            "awayTeam": "Minnesota Timberwolves",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/c62/0636ff21-e369-4b8c-bee4-214ea0a81c62_1339761_CUSTOM.jpg"
         },
         "Phoenix Suns vs. San Antonio Spurs": {
             "name": "Phoenix Suns vs. San Antonio Spurs",
@@ -1054,7 +1062,8 @@
                 }
             ],
             "homeTeam": "Phoenix Suns",
-            "awayTeam": "San Antonio Spurs"
+            "awayTeam": "San Antonio Spurs",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/c62/0636ff21-e369-4b8c-bee4-214ea0a81c62_1339761_CUSTOM.jpg"
         },
         "Utah Jazz vs. Phoenix Suns": {
             "name": "Utah Jazz vs. Phoenix Suns",
@@ -1175,7 +1184,8 @@
                 }
             ],
             "homeTeam": "Utah Jazz",
-            "awayTeam": "Phoenix Suns"
+            "awayTeam": "Phoenix Suns",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/a01/dc895acf-863e-4f90-9316-98302e99fa01_1761311_CUSTOM.jpg"
         },
         "NBA Finals: TBD at Warriors Rd 4 Hm Gm P": {
             "name": "NBA Finals: TBD at Warriors Rd 4 Hm Gm P",
@@ -1298,8 +1308,9 @@
                     }
                 }
             ],
-            "homeTeam": "",
-            "awayTeam": ""
+            "homeTeam": "Golden State Warriors",
+            "awayTeam": "TBD",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/c26/f3bc3686-a6c2-4324-a6cb-18ab2441ac26_1339991_CUSTOM.jpg"
         },
         "NBA Play-In Tournament: TBD at Warriors: West Hm Gm 1": {
             "name": "NBA Play-In Tournament: TBD at Warriors: West Hm Gm 1",
@@ -1422,8 +1433,9 @@
                     }
                 }
             ],
-            "homeTeam": "",
-            "awayTeam": ""
+            "homeTeam": "Golden State Warriors",
+            "awayTeam": "TBD",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/c26/f3bc3686-a6c2-4324-a6cb-18ab2441ac26_1339991_CUSTOM.jpg"
         },
         "NBA Play-In Tournament: TBD at Warriors: West Hm Gm 2": {
             "name": "NBA Play-In Tournament: TBD at Warriors: West Hm Gm 2",
@@ -1546,8 +1558,9 @@
                     }
                 }
             ],
-            "homeTeam": "",
-            "awayTeam": ""
+            "homeTeam": "Golden State Warriors",
+            "awayTeam": "TBD",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/c26/f3bc3686-a6c2-4324-a6cb-18ab2441ac26_1339991_CUSTOM.jpg"
         },
         "Los Angeles Lakers vs. Golden State Warriors": {
             "name": "Los Angeles Lakers vs. Golden State Warriors",
@@ -1666,7 +1679,8 @@
                 }
             ],
             "homeTeam": "Los Angeles Lakers",
-            "awayTeam": "Golden State Warriors"
+            "awayTeam": "Golden State Warriors",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/c90/965833d9-2f76-4e79-bd87-f2bc61282c90_1339931_CUSTOM.jpg"
         },
         "Dallas Mavericks vs. Phoenix Suns": {
             "name": "Dallas Mavericks vs. Phoenix Suns",
@@ -1791,7 +1805,8 @@
                 }
             ],
             "homeTeam": "Dallas Mavericks",
-            "awayTeam": "Phoenix Suns"
+            "awayTeam": "Phoenix Suns",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/2cc/8cab8695-459e-4d89-9bbb-95156868b2cc_1340021_CUSTOM.jpg"
         },
         "Boston Celtics vs. New York Knicks": {
             "name": "Boston Celtics vs. New York Knicks",
@@ -1944,7 +1959,8 @@
                 }
             ],
             "homeTeam": "Boston Celtics",
-            "awayTeam": "New York Knicks"
+            "awayTeam": "New York Knicks",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_CUSTOM.jpg"
         },
         "Wizards vs Bucks (City Edition t-shirt - first 10,000 fans)": {
             "name": "Wizards vs Bucks (City Edition t-shirt - first 10,000 fans)",
@@ -2066,8 +2082,9 @@
                     }
                 }
             ],
-            "homeTeam": "",
-            "awayTeam": ""
+            "homeTeam": "Washington Wizards",
+            "awayTeam": "Milwaukee Bucks",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/120/d05753bc-fa2b-4253-9a38-4b4d41a04120_1339611_CUSTOM.jpg"
         },
         "New Orleans Pelicans vs. Los Angeles Lakers": {
             "name": "New Orleans Pelicans vs. Los Angeles Lakers",
@@ -2142,7 +2159,8 @@
                 }
             ],
             "homeTeam": "New Orleans Pelicans",
-            "awayTeam": "Los Angeles Lakers"
+            "awayTeam": "Los Angeles Lakers",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/b1c/4be191e2-6357-433c-a421-aa1ffb2e8b1c_1340051_CUSTOM.jpg"
         },
         "Philadelphia 76ers vs. Portland Trail Blazers": {
             "name": "Philadelphia 76ers vs. Portland Trail Blazers",
@@ -2242,7 +2260,8 @@
                 }
             ],
             "homeTeam": "Philadelphia 76ers",
-            "awayTeam": "Portland Trail Blazers"
+            "awayTeam": "Portland Trail Blazers",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/94e/ec74f677-ac36-4f43-9eda-df3fec87e94e_1490311_CUSTOM.jpg"
         }
     },
     "MLB": {
@@ -2348,7 +2367,10 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "St. Louis Cardinals",
+            "awayTeam": "Chicago Cubs",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/771/56f937da-0582-454e-9c27-d81f533c0771_1859051_CUSTOM.jpg"
         },
         "MLB London Series - St. Louis Cardinals v Chicago Cubs (Sunday)": {
             "name": "MLB London Series - St. Louis Cardinals v Chicago Cubs (Sunday)",
@@ -2452,7 +2474,10 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "St. Louis Cardinals",
+            "awayTeam": "Chicago Cubs",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/771/56f937da-0582-454e-9c27-d81f533c0771_1859051_CUSTOM.jpg"
         },
         "Baltimore Orioles vs. New York Yankees": {
             "name": "Baltimore Orioles vs. New York Yankees",
@@ -2522,7 +2547,10 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Baltimore Orioles",
+            "awayTeam": "New York Yankees",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/984/7eed9b97-027d-4f51-aec6-90661557d984_1575321_CUSTOM.jpg"
         },
         "Los Angeles Dodgers vs. Arizona Diamondbacks": {
             "name": "Los Angeles Dodgers vs. Arizona Diamondbacks",
@@ -2592,7 +2620,10 @@
                         }
                     }
                 }
-            ]
+            ],
+            "hometeamimage": "https://s1.ticketm.net/dam/a/2f4/5f8bca36-3127-4f87-b573-3dd6485642f4_1344231_CUSTOM.jpg",
+            "homeTeam": "Los Angeles Dodgers",
+            "awayTeam": "Arizona Diamondbacks"
         },
         "Colorado Rockies vs. New York Yankees": {
             "name": "Colorado Rockies vs. New York Yankees",
@@ -2702,7 +2733,10 @@
                         }
                     }
                 }
-            ]
+            ],
+            "hometeamimage": "https://s1.ticketm.net/dam/a/00a/db7db318-0e27-4def-9c7c-5985e1eca00a_1343951_CUSTOM.jpg",
+            "homeTeam": "Colorado Rockies",
+            "awayTeam": "New York Yankees"
         },
         "Los Angeles Dodgers vs. Los Angeles Angels": {
             "name": "Los Angeles Dodgers vs. Los Angeles Angels",
@@ -2772,7 +2806,10 @@
                         }
                     }
                 }
-            ]
+            ],
+            "hometeamimage": "https://s1.ticketm.net/dam/a/2f4/5f8bca36-3127-4f87-b573-3dd6485642f4_1344231_CUSTOM.jpg",
+            "homeTeam": "Los Angeles Dodgers",
+            "awayTeam": "Los Angeles Angels"
         },
         "Arizona Diamondbacks vs. Los Angeles Dodgers": {
             "name": "Arizona Diamondbacks vs. Los Angeles Dodgers",
@@ -2881,7 +2918,10 @@
                         }
                     }
                 }
-            ]
+            ],
+            "hometeamimage": "https://s1.ticketm.net/dam/a/b94/2fd30063-94c2-4b49-ac2c-be074ff93b94_1344481_CUSTOM.jpg",
+            "homeTeam": "Arizona Diamondbacks",
+            "awayTeam": "Los Angeles Dodgers"
         },
         "Atlanta Braves vs. New York Yankees": {
             "name": "Atlanta Braves vs. New York Yankees",
@@ -3001,7 +3041,10 @@
                         }
                     }
                 }
-            ]
+            ],
+            "hometeamimage": "https://s1.ticketm.net/dam/a/880/2c96bb81-1225-423b-9ce3-86a3c2565880_1344381_CUSTOM.jpg",
+            "homeTeam": "Atlanta Braves",
+            "awayTeam": "New York Yankees"
         },
         "Chicago Cubs vs. Los Angeles Dodgers": {
             "name": "Chicago Cubs vs. Los Angeles Dodgers",
@@ -3071,7 +3114,10 @@
                         }
                     }
                 }
-            ]
+            ],
+            "hometeamimage": "https://s1.ticketm.net/dam/a/7ad/4e6ba9a2-ac8c-41e3-8394-ad20a4fb47ad_1343401_CUSTOM.jpg",
+            "homeTeam": "Chicago Cubs",
+            "awayTeam": "Los Angeles Dodgers"
         },
         "Texas Rangers vs. New York Yankees": {
             "name": "Texas Rangers vs. New York Yankees",
@@ -3093,7 +3139,9 @@
                 "spanMultipleDays": false
             },
             "priceRanges": null,
-            "seatmap": null,
+            "seatmap": {
+                "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/0C005C5CD48C4981/staticImage?type=png&systemId=HOST"
+            },
             "ticketLimit": null,
             "_embedded": [
                 {
@@ -3139,7 +3187,10 @@
                         }
                     }
                 }
-            ]
+            ],
+            "homeTeam": "Texas Rangers",
+            "awayTeam": "New York Yankees",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/e7a/fc690a70-e3e2-4d16-964c-35d34475fe7a_1343281_CUSTOM.jpg"
         },
         "Los Angeles Dodgers vs. Chicago Cubs": {
             "name": "Los Angeles Dodgers vs. Chicago Cubs",
@@ -3210,7 +3261,8 @@
                 }
             ],
             "homeTeam": "Los Angeles Dodgers",
-            "awayTeam": "Chicago Cubs"
+            "awayTeam": "Chicago Cubs",
+            "hometeamimage": "https://s1.ticketm.net/dam/a/2f4/5f8bca36-3127-4f87-b573-3dd6485642f4_1344231_CUSTOM.jpg"
         }
     }
 }

@@ -13,10 +13,10 @@ import sys
 
 
 class TestColors:
-    OK = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    RESET = '\033[0m'
+    OK = "\033[92m"
+    WARNING = "\033[93m"
+    FAIL = "\033[91m"
+    RESET = "\033[0m"
 
 
 class SeleniumTests:
@@ -31,17 +31,23 @@ class SeleniumTests:
         self.driver.get("https://www.sportsrightnow.me/")
         self.driver.find_element(By.LINK_TEXT, "About").click()
 
-        team_header = self.driver.find_element(By.CSS_SELECTOR, ".container:nth-child(1) > h2")
+        team_header = self.driver.find_element(
+            By.CSS_SELECTOR, ".container:nth-child(1) > h2"
+        )
         driver.execute_script("arguments[0].scrollIntoView();", team_header)
         WebDriverWait(driver, 5).until(expected_conditions.visibility_of(team_header))
         assert team_header.text == "Our Team"
 
-        tech_header = self.driver.find_element(By.CSS_SELECTOR, ".container:nth-child(2) > h2")
+        tech_header = self.driver.find_element(
+            By.CSS_SELECTOR, ".container:nth-child(2) > h2"
+        )
         driver.execute_script("arguments[0].scrollIntoView();", tech_header)
         WebDriverWait(driver, 5).until(expected_conditions.visibility_of(tech_header))
         assert tech_header.text == "Technologies Utilized"
 
-        api_header = self.driver.find_element(By.CSS_SELECTOR, ".container:nth-child(3) > h2")
+        api_header = self.driver.find_element(
+            By.CSS_SELECTOR, ".container:nth-child(3) > h2"
+        )
         self.driver.execute_script("arguments[0].scrollIntoView();", api_header)
         WebDriverWait(driver, 5).until(expected_conditions.visibility_of(api_header))
         assert api_header.text == "APIs Utilized"
@@ -63,7 +69,9 @@ class SeleniumTests:
 
         btn = self.driver.find_element(By.CLASS_NAME, "btn-primary")
         self.driver.execute_script("arguments[0].scrollIntoView();", btn)
-        WebDriverWait(self.driver, 5).until(expected_conditions.element_to_be_clickable((By.CLASS_NAME, "btn-primary")))
+        WebDriverWait(self.driver, 5).until(
+            expected_conditions.element_to_be_clickable((By.CLASS_NAME, "btn-primary"))
+        )
         time.sleep(2)
         btn.click()
         url = self.driver.current_url
@@ -78,7 +86,9 @@ class SeleniumTests:
         self.driver.get("https://www.sportsrightnow.me/")
         self.driver.get("https://www.sportsrightnow.me/fakepage")
         assert self.driver.find_element(By.CSS_SELECTOR, "h1").text == "404"
-        assert self.driver.find_element(By.LINK_TEXT, "Return Home").text == "Return Home"
+        assert (
+            self.driver.find_element(By.LINK_TEXT, "Return Home").text == "Return Home"
+        )
         self.driver.find_element(By.LINK_TEXT, "Return Home").click()
         assert self.driver.find_element(By.CSS_SELECTOR, "h2").text == "Sports Now"
 
@@ -106,13 +116,17 @@ class SeleniumTests:
         self.driver.get("https://www.sportsrightnow.me/")
         link = self.driver.find_element(By.LINK_TEXT, "Teams")
         link.click()
-        assert self.driver.find_element(By.CSS_SELECTOR, "p").text == "Find your favorite teams!"
+        assert (
+            self.driver.find_element(By.CSS_SELECTOR, "p").text
+            == "Find your favorite teams!"
+        )
 
     def test_events(self):
         self.driver.get("https://www.sportsrightnow.me/")
         link = self.driver.find_element(By.LINK_TEXT, "Events")
         link.click()
         assert self.driver.find_element(By.CSS_SELECTOR, "h2").text == "Events"
+
 
 # returns 0 if okay, 1 if fail (error counter)
 def run_test(test, pass_msg, fail_msg):
@@ -135,7 +149,7 @@ chrome_options.add_argument("--log-level=3")
 
 if sys.platform == "win32":
 
-    driver = webdriver.Chrome('./chromedriver-win.exe', options=chrome_options)
+    driver = webdriver.Chrome("./chromedriver-win.exe", options=chrome_options)
 elif sys.platform == "linux":
     driver = webdriver.Chrome(options=chrome_options)
 else:
@@ -149,35 +163,62 @@ error_count = 0
 test_count = 0
 
 test_count += 1
-error_count += run_test(selenium_tests.test_navbar_elements, "Navbar OK", "Navbar is missing elements")
+error_count += run_test(
+    selenium_tests.test_navbar_elements, "Navbar OK", "Navbar is missing elements"
+)
 
 test_count += 1
-error_count += run_test(selenium_tests.test_navbar_home, "Navbar home link OK", "Navbar home link not working")
+error_count += run_test(
+    selenium_tests.test_navbar_home,
+    "Navbar home link OK",
+    "Navbar home link not working",
+)
 
 test_count += 1
-error_count += run_test(selenium_tests.test_not_found, "404 page OK", "404 page not working")
+error_count += run_test(
+    selenium_tests.test_not_found, "404 page OK", "404 page not working"
+)
 
 test_count += 1
-error_count += run_test(selenium_tests.test_not_found_home, "404 page home link OK", "404 page home link not working")
+error_count += run_test(
+    selenium_tests.test_not_found_home,
+    "404 page home link OK",
+    "404 page home link not working",
+)
 
 test_count += 1
-error_count += run_test(selenium_tests.test_about, "About page OK", "About page not working")
+error_count += run_test(
+    selenium_tests.test_about, "About page OK", "About page not working"
+)
 
 test_count += 1
-error_count += run_test(selenium_tests.test_not_found, "About page repo link OK", "About page repo link not working")
+error_count += run_test(
+    selenium_tests.test_not_found,
+    "About page repo link OK",
+    "About page repo link not working",
+)
 
 test_count += 1
-error_count += run_test(selenium_tests.test_about_infobutton,
-                        "About page info button OK", "About page info button not working")
+error_count += run_test(
+    selenium_tests.test_about_infobutton,
+    "About page info button OK",
+    "About page info button not working",
+)
 
 test_count += 1
-error_count += run_test(selenium_tests.test_players, "Players page OK", "Cannot access players page")
+error_count += run_test(
+    selenium_tests.test_players, "Players page OK", "Cannot access players page"
+)
 
 test_count += 1
-error_count += run_test(selenium_tests.test_teams, "Teams page OK", "Cannot access teams page")
+error_count += run_test(
+    selenium_tests.test_teams, "Teams page OK", "Cannot access teams page"
+)
 
 test_count += 1
-error_count += run_test(selenium_tests.test_events, "Events page OK", "Cannot access events page")
+error_count += run_test(
+    selenium_tests.test_events, "Events page OK", "Cannot access events page"
+)
 
 passed = test_count - error_count
 print()

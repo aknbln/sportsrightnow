@@ -3,10 +3,7 @@ import json
 
 # set the API endpoint and parameters
 url = "https://statsapi.mlb.com/api/v1/sports/1/players"
-params = {
-    "season": "2022",
-    "hydrate": "team,position"
-}
+params = {"season": "2022", "hydrate": "team,position"}
 
 # send the request to the API and retrieve the data
 response = requests.get(url, params=params)
@@ -39,7 +36,7 @@ for player in data["people"]:
         "birth_date": birth_date,
         # "birth_city": birth_city,
         "current_age": current_age,
-        "position": position
+        "position": position,
     }
 
     # player_data = {"name": name, "position": position}
