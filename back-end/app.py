@@ -65,6 +65,22 @@ def get_player(r_id):
     try:
         # zero index to get first one
         result = player_schema.dump(query, many=True)[0]
+
+        events = get_events()
+
+        num_of_events = 2
+        events = []
+        for i in events['data']:
+
+            if (result['team'] == events['data'][i]['homeTeam'] or
+            result['team'] == events['data'][i]['awayTeam']):
+                events.append(events['data'][i])
+                num_of_events -= 1
+
+            if num_of_events == 0:
+                break
+        
+        result['events'] = events
     except IndexError:
         return return_error(f"Invalid player ID: {r_id}")
     player = query.first()
