@@ -20,6 +20,8 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import { NavDropdown } from 'react-bootstrap'
 
 import PlayersInstance from './pages/PlayerInstance';
+import TeamsInstance from './pages/TeamInstance'
+import EventsInstance from './pages/EventInstance';
 
 
 function App() {
@@ -59,15 +61,11 @@ function App() {
           <Route path="/teams" element={<Teams />}/>
           <Route path="/events" element={<Events />}/>
           
-          <Route path="/teams/1" element={<Teams1 />}/>
-          <Route path="/teams/2" element={<Teams2 />}/>
-          <Route path="/teams/3" element={<Teams3 />}/>
+          <Route path="/teams/instance" element={<TeamsInstance />}/>
 
           <Route path="/players/instance" element={<PlayersInstance />}/>
 
-          <Route path="/events/1" element={<Event1 />}/>
-          <Route path="/events/2" element={<Event2 />}/>
-          <Route path="/events/3" element={<Event3 />}/>
+          <Route path="/events/instance" element={<EventsInstance />}/>
 
         </Routes>
     </div>
