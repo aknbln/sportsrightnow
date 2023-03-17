@@ -18,8 +18,8 @@ class Player(db.Model):
     __tablename__ = "players"
     id = db.Column(db.String(250), primary_key=True)
     name = db.Column(db.String(250))
-    team_id = db.Column(db.String(250))
     team = db.Column(db.String(250))
+    team_id = db.Column(db.String(250))
     position = db.Column(db.String(250))
     college = db.Column(db.String(250))
     weight = db.Column(db.Integer)

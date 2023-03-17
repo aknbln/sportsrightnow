@@ -13,7 +13,7 @@ def populate_players():
         league_names = ["NBA", "NFL", "MLB"]
 
         i = 0
-        j = 0
+        j = 1
         for league in leagues:
 
             for team in leagues[league]:
@@ -26,6 +26,7 @@ def populate_players():
                             "id": j,
                             "name": player["name"] if "name" in player else None,
                             "team": team["teamName"],
+                            "team_id": team['team_id'], 
                             "position": player["position"]
                             if "position" in player
                             else player["pos"]
@@ -50,7 +51,7 @@ def populate_players():
                             if "jersey-num" in player
                             else "0",
                             "league": league_names[i],
-                            "team_id": team['team_id'] 
+                            
                         }
                         j += 1
                         # print("hi")
@@ -83,7 +84,7 @@ def populate_teams():
 def populate_events():
     with open("data/Event-info/Events.json") as f:
         leagues = json.load(f)
-        j = 0
+        j = 1
         for league in leagues:
             for event in leagues[league]:
                 db_row = {
