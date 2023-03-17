@@ -62,11 +62,10 @@ def populate_players():
 def populate_teams():
     with open("data/Team-Info/Teams.json") as f:
         leagues = json.load(f)
-        j = 0
         for league in leagues:
             for team in leagues[league]["results"]:
                 db_row = {
-                    "id": j,
+                    "id": team['team_id'],
                     "name": team["team"],
                     "division": team["division"],
                     "conference": team["conference"],
@@ -76,9 +75,7 @@ def populate_teams():
                     "logo": team["logo"],
                     "city": team["location"],
                     "league": team["league"],
-                    "team_id": team['team_id'] 
                 }
-                j += 1
                 db.session.add(Team(**db_row))
         db.session.commit()
 

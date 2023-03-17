@@ -41,4 +41,6 @@ pull:
 	git pull
 	git status
 
+format:
+	$(BLACK) ./back-end/schema.py
 all:
