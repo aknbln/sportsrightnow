@@ -7,10 +7,10 @@ app = Flask(__name__)
 CORS(app)
 app.debug = True
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-app.config[
-    "SQLALCHEMY_DATABASE_URI"
-] = "mysql+pymysql://admin:sportsnow@awseb-e-xhfngawiag-stack-awsebrdsdatabase-s4mrqsdheeme.cs5wmldwpa7o.us-west-2.rds.amazonaws.com:3306/ebdb"
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydb.db' #local db
+# app.config[
+#     "SQLALCHEMY_DATABASE_URI"
+# ] = "mysql+pymysql://admin:sportsnow@awseb-e-xhfngawiag-stack-awsebrdsdatabase-s4mrqsdheeme.cs5wmldwpa7o.us-west-2.rds.amazonaws.com:3306/ebdb"
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydb.db' #local db
 db = SQLAlchemy(app)
 
 
@@ -18,7 +18,7 @@ class Player(db.Model):
     __tablename__ = "players"
     id = db.Column(db.String(250), primary_key=True)
     name = db.Column(db.String(250))
-    # team = db.relationship('Team', backref = 'players')
+    team_id = db.Column(db.String(250))
     team = db.Column(db.String(250))
     position = db.Column(db.String(250))
     college = db.Column(db.String(250))
@@ -34,7 +34,7 @@ class Player(db.Model):
             "id": self.id,
             "name": self.name,
             "team": self.team,
-            # "team_id": self.team_id,
+            "team_id": self.team_id,
             "position": self.position,
             "college": self.college,
             "weight": self.weight,
@@ -88,7 +88,8 @@ class Event(db.Model):
     home_team = db.Column(db.String(250))
     away_team = db.Column(db.String(250))
     home_team_image = db.Column(db.String(250))
-
+    home_team_id = db.Column(db.String(250))
+    away_team_id = db.Column(db.String(250))
     def to_dict(self):
         return {
             "id": self.id,
@@ -102,4 +103,6 @@ class Event(db.Model):
             "home_team": self.home_team,
             "away_team": self.away_team,
             "home_team_image": self.home_team_image,
+            "home_team_id" : self.homeTeamId,
+            "away_team_id" : self.awayTeamId,
         }

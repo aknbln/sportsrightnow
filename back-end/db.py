@@ -50,6 +50,7 @@ def populate_players():
                             if "jersey-num" in player
                             else "0",
                             "league": league_names[i],
+                            "team_id": team['team_id'] 
                         }
                         j += 1
                         # print("hi")
@@ -75,6 +76,7 @@ def populate_teams():
                     "logo": team["logo"],
                     "city": team["location"],
                     "league": team["league"],
+                    "team_id": team['team_id'] 
                 }
                 j += 1
                 db.session.add(Team(**db_row))
@@ -103,6 +105,8 @@ def populate_events():
                     if "awayTeam" in leagues[league][event]
                     else "",
                     "home_team_image": leagues[league][event]["hometeamimage"],
+                    "home_team_id": leagues[league][event]["homeTeamId"],
+                    "away_team_id": leagues[league][event]["awayTeamId"],
                 }
                 j += 1
                 db.session.add(Event(**db_row))

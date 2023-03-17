@@ -144,7 +144,7 @@ def main():
     # filter_nba_players()
     # get_nfl_players()
     #filter_nfl_players()
-    #add_teamIds()
+    add_teamIds()
 
 
 if __name__ == "__main__":
