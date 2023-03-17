@@ -66,21 +66,32 @@ def get_player(r_id):
         # zero index to get first one
         result = player_schema.dump(query, many=True)[0]
 
+
+        #get 2 events for the player
         events = get_events()
 
         num_of_events = 2
-        events = []
+        players_events = []
         for i in events['data']:
 
-            if (result['team'] == events['data'][i]['homeTeam'] or
-            result['team'] == events['data'][i]['awayTeam']):
-                events.append(events['data'][i])
+            if (events['data'][i]['home_team_id'] == result['team_id'] or 
+            events['data'][i]['away_team_id'] == result['team_id']):
+                players_events.append(events['data'][i])
                 num_of_events -= 1
 
             if num_of_events == 0:
                 break
         
-        result['events'] = events
+        result['events'] = players_events
+
+        teams = get_teams()
+
+        #get team info for the player
+        for i in teams['data']:
+            if teams['data'][i]['id'] == result['team_id']:
+                result['team_info'] = teams['data'][i]
+                break
+
     except IndexError:
         return return_error(f"Invalid player ID: {r_id}")
     player = query.first()
@@ -93,6 +104,40 @@ def get_team(r_id):
     query = db.session.query(Team).filter_by(id=r_id)
     try:
         result = team_schema.dump(query, many=True)[0]
+
+
+        #get 2 events related to team
+        events = get_events()
+
+        num_of_events = 2
+        team_events = []
+        for i in events['data']:
+
+            if (events['data'][i]['home_team_id'] == result['team_id'] or 
+            events['data'][i]['away_team_id'] == result['team_id']):
+                team_events.append(events['data'][i])
+                num_of_events -= 1
+
+            if num_of_events == 0:
+                break
+        
+        result['events'] = team_events
+
+        #get players related to team
+        players = get_players()
+        players_info = []
+
+        num_of_players = 2
+        for i in players['data']:
+            if players['data'][i]['team_id'] == result['id']:
+                players_info.append(players['data'][i])
+                num_of_players -= 1
+            
+            if num_of_players == 0:
+                break
+    
+        result['players_info'] = players_info
+
     except IndexError:
         return return_error(f"Invalid team ID: {r_id}")
     team = query.first()
@@ -105,8 +150,42 @@ def get_team(r_id):
 @app.route("/events/<int:r_id>")
 def get_event(r_id):
     query = db.session.query(Event).filter_by(id=r_id)
+
+
     try:
         result = event_schema.dump(query, many=True)[0]
+
+
+        teams = get_teams()
+
+        #when this is 2 we know we collected all the info for home and away teams
+        teams_found = 0
+        #get team info for the event
+        for i in teams['data']:
+            if teams['data'][i]['id'] == result['home_team_id']:
+                result['home_team_info'] = teams['data'][i]
+                teams_found += 1
+            elif teams['data'][i]['id'] == result['away_team_id']:
+                result['away_team_info'] = teams['data'][i]
+                teams_found += 1
+            
+            if teams_found == 2:
+                break
+
+        #get players related to team
+        players = get_players()
+        home_players_info = []
+        away_players_info = []
+
+        for i in players['data']:
+            if players['data'][i]['team_id'] == result['home_team_id']:
+                home_players_info.append(players['data'][i])
+            elif players['data'][i]['team_id'] == result['away_team_id']:
+                away_players_info.append(players['data'][i])
+
+        result['home_players_info'] = home_players_info
+        result['away_players_info'] = away_players_info
+
     except IndexError:
         return return_error(f"Invalid event ID: {r_id}")
     event = query.first()
