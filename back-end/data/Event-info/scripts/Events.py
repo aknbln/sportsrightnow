@@ -5,17 +5,28 @@ import requests
 def add_teams_to_events():
     f = open("../Events.json")
     events = json.load(f)
-    for mlbevents in events["MLB"]:
-        nba_event = events["MLB"][mlbevents]
-        # split the name of the event by vs to get the home and away team
-        teams = nba_event["name"].split(" vs. ")
-        if len(teams) == 2:
-            nba_event["homeTeam"] = teams[0]
-            nba_event["awayTeam"] = teams[1]
+    for all_sport_events in events:
+        for sport_events in events[all_sport_events]:
+            print(sport_events)
+            events[all_sport_events][sport_events]['homeTeamId'] = find_teamId(events[all_sport_events][sport_events]['homeTeam'])
+            events[all_sport_events][sport_events]['awayTeamId'] = find_teamId(events[all_sport_events][sport_events]['awayTeam'])
+            # split the name of the event by vs to get the home and away team
+            # teams = nba_event["name"].split(" vs. ")
+            # if len(teams) == 2:
+            #     nba_event["homeTeam"] = teams[0]
+            #     nba_event["awayTeam"] = teams[1]
 
     with open("../Events.json", "w") as file:
         json.dump(events, file, indent=4)
 
+def find_teamId(name):
+    teams_file = open("../../../data/Team-Info/Teams.json")
+    data = json.load(teams_file)
+    for i in data:
+
+        for k in data[i]['results']:
+            if k['team'] == name:
+                return k['team_id']
 
 # def add_event_image():
 #     # url = "https://app.ticketmaster.com/discovery/v2/events"
