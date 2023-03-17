@@ -150,6 +150,20 @@ def find_elem(json_object, name):
             return dict
 
 
+def add_teamIds():
+
+    # get the teams from the file
+    teams_file = open("./data/Team-Info/Teams.json")
+    data = json.load(teams_file)
+    j = 1
+    for i in data:
+
+        for k in data[i]['results']:
+            k['team_id'] = j
+            j+= 1
+    
+    create_json_file(TEAMS_JSON_PATH, data)
+
 def main():
 
     #### STEPS DONE ####
@@ -165,6 +179,7 @@ def main():
 
     # get_mlb_teams_info()
     # update_mlb_teams_info()
+    add_teamIds()
 
 
 if __name__ == "__main__":

@@ -211,7 +211,8 @@
                     "birthDay": "4/16/1999",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628976.png"
                 }
-            ]
+            ],
+            "team_id": 14
         },
         {
             "teamName": "Minnesota Timberwolves",
@@ -437,7 +438,8 @@
                     "birthDay": "11/25/2002",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631169.png"
                 }
-            ]
+            ],
+            "team_id": 17
         },
         {
             "teamName": "Miami Heat",
@@ -663,7 +665,8 @@
                     "birthDay": "7/18/1997",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628389.png"
                 }
-            ]
+            ],
+            "team_id": 13
         },
         {
             "teamName": "Boston Celtics",
@@ -876,7 +879,8 @@
                     "birthDay": "7/15/1995",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628436.png"
                 }
-            ]
+            ],
+            "team_id": 1
         },
         {
             "teamName": "Los Angeles Clippers",
@@ -1102,7 +1106,8 @@
                     "birthDay": "6/29/1991",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202695.png"
                 }
-            ]
+            ],
+            "team_id": 22
         },
         {
             "teamName": "Denver Nuggets",
@@ -1328,7 +1333,8 @@
                     "birthDay": "4/16/1990",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202704.png"
                 }
-            ]
+            ],
+            "team_id": 16
         },
         {
             "teamName": "Detroit Pistons",
@@ -1554,7 +1560,8 @@
                     "birthDay": "2/7/2001",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630181.png"
                 }
-            ]
+            ],
+            "team_id": 8
         },
         {
             "teamName": "Atlanta Hawks",
@@ -1780,7 +1787,8 @@
                     "birthDay": "4/9/1999",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630180.png"
                 }
-            ]
+            ],
+            "team_id": 11
         },
         {
             "teamName": "Cleveland Cavaliers",
@@ -1993,7 +2001,8 @@
                     "birthDay": "4/8/1995",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626224.png"
                 }
-            ]
+            ],
+            "team_id": 7
         },
         {
             "teamName": "Toronto Raptors",
@@ -2219,7 +2228,8 @@
                     "birthDay": "9/19/1999",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png"
                 }
-            ]
+            ],
+            "team_id": 5
         },
         {
             "teamName": "Washington Wizards",
@@ -2432,7 +2442,8 @@
                     "birthDay": "6/27/1995",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628420.png"
                 }
-            ]
+            ],
+            "team_id": 15
         },
         {
             "teamName": "Phoenix Suns",
@@ -2645,7 +2656,8 @@
                     "birthDay": "7/23/1998",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629028.png"
                 }
-            ]
+            ],
+            "team_id": 24
         },
         {
             "teamName": "San Antonio Spurs",
@@ -2897,7 +2909,8 @@
                     "birthDay": "4/22/1996",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628993.png"
                 }
-            ]
+            ],
+            "team_id": 30
         },
         {
             "teamName": "Chicago Bulls",
@@ -3123,7 +3136,8 @@
                     "birthDay": "10/27/1997",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628366.png"
                 }
-            ]
+            ],
+            "team_id": 6
         },
         {
             "teamName": "Charlotte Hornets",
@@ -3323,7 +3337,8 @@
                     "birthDay": "11/8/2002",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631121.png"
                 }
-            ]
+            ],
+            "team_id": 12
         },
         {
             "teamName": "Philadelphia 76ers",
@@ -3549,7 +3564,8 @@
                     "birthDay": "9/26/1996",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629003.png"
                 }
-            ]
+            ],
+            "team_id": 4
         },
         {
             "teamName": "New Orleans Pelicans",
@@ -3775,7 +3791,8 @@
                     "birthDay": "9/15/1993",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626196.png"
                 }
-            ]
+            ],
+            "team_id": 29
         },
         {
             "teamName": "Sacramento Kings",
@@ -4001,7 +4018,8 @@
                     "birthDay": "5/3/1996",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627734.png"
                 }
-            ]
+            ],
+            "team_id": 25
         },
         {
             "teamName": "Dallas Mavericks",
@@ -4227,7 +4245,8 @@
                     "birthDay": "7/5/2002",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630702.png"
                 }
-            ]
+            ],
+            "team_id": 26
         },
         {
             "teamName": "Houston Rockets",
@@ -4427,7 +4446,8 @@
                     "birthDay": "5/4/2000",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629645.png"
                 }
-            ]
+            ],
+            "team_id": 27
         },
         {
             "teamName": "Brooklyn Nets",
@@ -4640,7 +4660,8 @@
                     "birthDay": "10/13/1999",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630561.png"
                 }
-            ]
+            ],
+            "team_id": 2
         },
         {
             "teamName": "New York Knicks",
@@ -4840,7 +4861,8 @@
                     "birthDay": "3/6/1995",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628404.png"
                 }
-            ]
+            ],
+            "team_id": 3
         },
         {
             "teamName": "Utah Jazz",
@@ -5053,7 +5075,8 @@
                     "birthDay": "8/17/1986",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/200752.png"
                 }
-            ]
+            ],
+            "team_id": 20
         },
         {
             "teamName": "Oklahoma City Thunder",
@@ -5279,7 +5302,8 @@
                     "birthDay": "7/2/1999",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630198.png"
                 }
-            ]
+            ],
+            "team_id": 18
         },
         {
             "teamName": "Portland Trail Blazers",
@@ -5505,7 +5529,8 @@
                     "birthDay": "8/11/1999",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628995.png"
                 }
-            ]
+            ],
+            "team_id": 19
         },
         {
             "teamName": "Indiana Pacers",
@@ -5731,7 +5756,8 @@
                     "birthDay": "5/11/2003",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631112.png"
                 }
-            ]
+            ],
+            "team_id": 9
         },
         {
             "teamName": "Milwaukee Bucks",
@@ -5944,7 +5970,8 @@
                     "birthDay": "10/8/1995",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png"
                 }
-            ]
+            ],
+            "team_id": 10
         },
         {
             "teamName": "Golden State Warriors",
@@ -6157,7 +6184,8 @@
                     "birthDay": "7/3/2002",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631157.png"
                 }
-            ]
+            ],
+            "team_id": 21
         },
         {
             "teamName": "Memphis Grizzlies",
@@ -6383,7 +6411,8 @@
                     "birthDay": "1/22/1996",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628415.png"
                 }
-            ]
+            ],
+            "team_id": 28
         },
         {
             "teamName": "Los Angeles Lakers",
@@ -6609,7 +6638,8 @@
                     "birthDay": "5/8/1999",
                     "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631306.png"
                 }
-            ]
+            ],
+            "team_id": 23
         }
     ],
     "NFL": [
@@ -7770,7 +7800,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/20803.png",
                     "birthDay": "03/251998"
                 }
-            ]
+            ],
+            "team_id": 59
         },
         {
             "teamName": "Atlanta Falcons",
@@ -8947,7 +8978,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/20450.png",
                     "birthDay": "01/241996"
                 }
-            ]
+            ],
+            "team_id": 55
         },
         {
             "teamName": "Baltimore Ravens",
@@ -9970,7 +10002,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/22867.png",
                     "birthDay": "12/151998"
                 }
-            ]
+            ],
+            "team_id": 35
         },
         {
             "teamName": "Buffalo Bills",
@@ -11017,7 +11050,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/20002.png",
                     "birthDay": "07/111997"
                 }
-            ]
+            ],
+            "team_id": 31
         },
         {
             "teamName": "Carolina Panthers",
@@ -11994,7 +12028,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/18069.png",
                     "birthDay": "01/111994"
                 }
-            ]
+            ],
+            "team_id": 56
         },
         {
             "teamName": "Chicago Bears",
@@ -13045,7 +13080,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/21890.png",
                     "birthDay": "06/131997"
                 }
-            ]
+            ],
+            "team_id": 51
         },
         {
             "teamName": "Cincinnati Bengals",
@@ -14082,7 +14118,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/18083.png",
                     "birthDay": "07/011994"
                 }
-            ]
+            ],
+            "team_id": 36
         },
         {
             "teamName": "Cleveland Browns",
@@ -15179,7 +15216,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/19846.png",
                     "birthDay": "03/111996"
                 }
-            ]
+            ],
+            "team_id": 37
         },
         {
             "teamName": "Dallas Cowboys",
@@ -16258,7 +16296,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/22820.png",
                     "birthDay": "02/101998"
                 }
-            ]
+            ],
+            "team_id": 47
         },
         {
             "teamName": "Denver Broncos",
@@ -17467,7 +17506,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/17295.png",
                     "birthDay": "12/291992"
                 }
-            ]
+            ],
+            "team_id": 43
         },
         {
             "teamName": "Detroit Lions",
@@ -18522,7 +18562,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/21887.png",
                     "birthDay": "12/271997"
                 }
-            ]
+            ],
+            "team_id": 52
         },
         {
             "teamName": "Green Bay Packers",
@@ -19513,7 +19554,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/23518.png",
                     "birthDay": "09/291999"
                 }
-            ]
+            ],
+            "team_id": 53
         },
         {
             "teamName": "Houston Texans",
@@ -20542,7 +20584,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/13181.png",
                     "birthDay": "09/061987"
                 }
-            ]
+            ],
+            "team_id": 39
         },
         {
             "teamName": "Indianapolis Colts",
@@ -21691,7 +21734,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/17933.png",
                     "birthDay": "03/171994"
                 }
-            ]
+            ],
+            "team_id": 40
         },
         {
             "teamName": "Jacksonville Jaguars",
@@ -22728,7 +22772,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/19086.png",
                     "birthDay": "06/021994"
                 }
-            ]
+            ],
+            "team_id": 41
         },
         {
             "teamName": "Kansas City Chiefs",
@@ -23709,7 +23754,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/20934.png",
                     "birthDay": "08/091996"
                 }
-            ]
+            ],
+            "team_id": 44
         },
         {
             "teamName": "Las Vegas Raiders",
@@ -24836,7 +24882,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/20757.png",
                     "birthDay": "05/171997"
                 }
-            ]
+            ],
+            "team_id": 45
         },
         {
             "teamName": "Los Angeles Chargers",
@@ -25943,7 +25990,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/18333.png",
                     "birthDay": "05/081994"
                 }
-            ]
+            ],
+            "team_id": 46
         },
         {
             "teamName": "Miami Dolphins",
@@ -26966,7 +27014,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/22062.png",
                     "birthDay": "08/211997"
                 }
-            ]
+            ],
+            "team_id": 32
         },
         {
             "teamName": "Minnesota Vikings",
@@ -27965,7 +28014,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/16849.png",
                     "birthDay": "10/291994"
                 }
-            ]
+            ],
+            "team_id": 54
         },
         {
             "teamName": "New England Patriots",
@@ -29040,7 +29090,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/16851.png",
                     "birthDay": "03/021992"
                 }
-            ]
+            ],
+            "team_id": 33
         },
         {
             "teamName": "New Orleans Saints",
@@ -30161,7 +30212,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/21422.png",
                     "birthDay": "10/201995"
                 }
-            ]
+            ],
+            "team_id": 57
         },
         {
             "teamName": "New York Giants",
@@ -31258,7 +31310,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/16767.png",
                     "birthDay": "06/201994"
                 }
-            ]
+            ],
+            "team_id": 48
         },
         {
             "teamName": "New York Jets",
@@ -32327,7 +32380,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/13722.png",
                     "birthDay": "06/301988"
                 }
-            ]
+            ],
+            "team_id": 34
         },
         {
             "teamName": "Philadelphia Eagles",
@@ -33410,7 +33464,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/13393.png",
                     "birthDay": "05/181990"
                 }
-            ]
+            ],
+            "team_id": 49
         },
         {
             "teamName": "Pittsburgh Steelers",
@@ -34545,7 +34600,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/18952.png",
                     "birthDay": "06/031994"
                 }
-            ]
+            ],
+            "team_id": 38
         },
         {
             "teamName": "San Francisco 49ers",
@@ -35656,7 +35712,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/21867.png",
                     "birthDay": "10/031997"
                 }
-            ]
+            ],
+            "team_id": 61
         },
         {
             "teamName": "Seattle Seahawks",
@@ -36763,7 +36820,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/12450.png",
                     "birthDay": "03/251987"
                 }
-            ]
+            ],
+            "team_id": 62
         },
         {
             "teamName": "Tampa Bay Buccaneers",
@@ -37810,7 +37868,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/20894.png",
                     "birthDay": "03/041997"
                 }
-            ]
+            ],
+            "team_id": 58
         },
         {
             "teamName": "Tennessee Titans",
@@ -38987,7 +39046,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/22758.png",
                     "birthDay": "11/101997"
                 }
-            ]
+            ],
+            "team_id": 42
         },
         {
             "teamName": "Washington Football Team",
@@ -40038,7 +40098,8 @@
                     "headshot": "https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/22092.png",
                     "birthDay": "04/141999"
                 }
-            ]
+            ],
+            "team_id": null
         }
     ],
     "MLB": [
@@ -40639,7 +40700,8 @@
                     "weight-pounds": "212",
                     "birthDay": "11/071992"
                 }
-            ]
+            ],
+            "team_id": 87
         },
         {
             "teamName": "New York Yankees",
@@ -41212,7 +41274,8 @@
                     "weight-pounds": "215",
                     "birthDay": "02/041995"
                 }
-            ]
+            ],
+            "team_id": 70
         },
         {
             "teamName": "Houston Astros",
@@ -41717,7 +41780,8 @@
                     "weight-pounds": "235",
                     "birthDay": "02/201983"
                 }
-            ]
+            ],
+            "team_id": 73
         },
         {
             "teamName": "Chicago White Sox",
@@ -42214,7 +42278,8 @@
                     "weight-pounds": "205",
                     "birthDay": "08/281993"
                 }
-            ]
+            ],
+            "team_id": 63
         },
         {
             "teamName": "Oakland Athletics",
@@ -42919,7 +42984,8 @@
                     "weight-pounds": "222",
                     "birthDay": "05/301994"
                 }
-            ]
+            ],
+            "team_id": 75
         },
         {
             "teamName": "Atlanta Braves",
@@ -43482,7 +43548,8 @@
                     "weight-pounds": "210",
                     "birthDay": "02/101989"
                 }
-            ]
+            ],
+            "team_id": 83
         },
         {
             "teamName": "Tampa Bay Rays",
@@ -44159,7 +44226,8 @@
                     "weight-pounds": "235",
                     "birthDay": "03/251991"
                 }
-            ]
+            ],
+            "team_id": 71
         },
         {
             "teamName": "Milwaukee Brewers",
@@ -44708,7 +44776,8 @@
                     "weight-pounds": "207",
                     "birthDay": "12/051991"
                 }
-            ]
+            ],
+            "team_id": 80
         },
         {
             "teamName": "San Diego Padres",
@@ -45237,7 +45306,8 @@
                     "weight-pounds": "221",
                     "birthDay": "08/241994"
                 }
-            ]
+            ],
+            "team_id": 91
         },
         {
             "teamName": "Los Angeles Angels",
@@ -45942,7 +46012,8 @@
                     "weight-pounds": "205",
                     "birthDay": "03/261992"
                 }
-            ]
+            ],
+            "team_id": 74
         },
         {
             "teamName": "Baltimore Orioles",
@@ -46569,7 +46640,8 @@
                     "weight-pounds": "220",
                     "birthDay": "02/091995"
                 }
-            ]
+            ],
+            "team_id": 68
         },
         {
             "teamName": "Arizona Diamondbacks",
@@ -47166,7 +47238,8 @@
                     "weight-pounds": "203",
                     "birthDay": "10/241994"
                 }
-            ]
+            ],
+            "team_id": 88
         },
         {
             "teamName": "Los Angeles Dodgers",
@@ -47695,7 +47768,8 @@
                     "weight-pounds": "195",
                     "birthDay": "06/091992"
                 }
-            ]
+            ],
+            "team_id": 90
         },
         {
             "teamName": "Minnesota Twins",
@@ -48364,7 +48438,8 @@
                     "weight-pounds": "210",
                     "birthDay": "09/272000"
                 }
-            ]
+            ],
+            "team_id": 67
         },
         {
             "teamName": "Miami Marlins",
@@ -48945,7 +49020,8 @@
                     "weight-pounds": "259",
                     "birthDay": "12/211996"
                 }
-            ]
+            ],
+            "team_id": 84
         },
         {
             "teamName": "San Francisco Giants",
@@ -49590,7 +49666,8 @@
                     "weight-pounds": "220",
                     "birthDay": "09/091993"
                 }
-            ]
+            ],
+            "team_id": 92
         },
         {
             "teamName": "Detroit Tigers",
@@ -50175,7 +50252,8 @@
                     "weight-pounds": "220",
                     "birthDay": "10/061997"
                 }
-            ]
+            ],
+            "team_id": 65
         },
         {
             "teamName": "Texas Rangers",
@@ -50770,7 +50848,8 @@
                     "weight-pounds": "195",
                     "birthDay": "06/261994"
                 }
-            ]
+            ],
+            "team_id": 77
         },
         {
             "teamName": "Pittsburgh Pirates",
@@ -51473,7 +51552,8 @@
                     "weight-pounds": "215",
                     "birthDay": "05/011998"
                 }
-            ]
+            ],
+            "team_id": 81
         },
         {
             "teamName": "Boston Red Sox",
@@ -52064,7 +52144,8 @@
                     "weight-pounds": "181",
                     "birthDay": "05/191996"
                 }
-            ]
+            ],
+            "team_id": 69
         },
         {
             "teamName": "Cincinnati Reds",
@@ -52799,7 +52880,8 @@
                     "weight-pounds": "245",
                     "birthDay": "08/011995"
                 }
-            ]
+            ],
+            "team_id": 79
         },
         {
             "teamName": "New York Mets",
@@ -53418,7 +53500,8 @@
                     "weight-pounds": "180",
                     "birthDay": "06/191988"
                 }
-            ]
+            ],
+            "team_id": 85
         },
         {
             "teamName": "Philadelphia Phillies",
@@ -53999,7 +54082,8 @@
                     "weight-pounds": "195",
                     "birthDay": "05/301990"
                 }
-            ]
+            ],
+            "team_id": 86
         },
         {
             "teamName": "Chicago Cubs",
@@ -54648,7 +54732,8 @@
                     "weight-pounds": "185",
                     "birthDay": "07/091995"
                 }
-            ]
+            ],
+            "team_id": 78
         },
         {
             "teamName": "Toronto Blue Jays",
@@ -55177,7 +55262,8 @@
                     "weight-pounds": "185",
                     "birthDay": "11/271992"
                 }
-            ]
+            ],
+            "team_id": 72
         },
         {
             "teamName": "St. Louis Cardinals",
@@ -55714,7 +55800,8 @@
                     "weight-pounds": "200",
                     "birthDay": "02/191998"
                 }
-            ]
+            ],
+            "team_id": 82
         },
         {
             "teamName": "Cleveland Guardians",
@@ -56231,7 +56318,8 @@
                     "weight-pounds": "205",
                     "birthDay": "11/301994"
                 }
-            ]
+            ],
+            "team_id": 64
         },
         {
             "teamName": "Colorado Rockies",
@@ -56724,7 +56812,8 @@
                     "weight-pounds": "208",
                     "birthDay": "09/121991"
                 }
-            ]
+            ],
+            "team_id": 89
         },
         {
             "teamName": "Kansas City Royals",
@@ -57299,7 +57388,8 @@
                     "weight-pounds": "220",
                     "birthDay": "09/271999"
                 }
-            ]
+            ],
+            "team_id": 66
         },
         {
             "teamName": "Seattle Mariners",
@@ -57884,7 +57974,8 @@
                     "weight-pounds": "230",
                     "birthDay": "08/171993"
                 }
-            ]
+            ],
+            "team_id": 76
         }
     ]
 }
