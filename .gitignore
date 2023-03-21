@@ -25,3 +25,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /front-end/selenium/chromedriver-win.exe
+back-end/AWSCLIV2.pkg
+back-end/aws-elastic-beanstalk-cli-setup/

@@ -21,14 +21,10 @@ def get_players():
     page = request.args.get("page", type=int)
     perPage = request.args.get("perPage", type=int)
     query = db.session.query(Player)
-    print(f'query before is : {query}')
     count = query.count()
     if page is not None:
         query = paginate(query, page, perPage)
-    print(f'query after is : {query}')
     result = player_schema.dump(query, many = True)
-
-    print(f'result is : {result}')
     return jsonify({"data": result, "meta": {"count": count}})
     # way to use to_dict in case above ever breaks
     # page = request.args.get('page')
@@ -73,18 +69,14 @@ def get_player(r_id):
         #get 2 events for the player
         events_query = db.session.query(Event)
         events = event_schema.dump(events_query, many = True)
-        num_of_events = 2
         player_events = []
         for event in events:
             
             if (event['home_team_id'] == result['team_id'] or 
             event['away_team_id'] == result['team_id']):
                 player_events.append(event)
-                num_of_events -= 1
 
-            if num_of_events == 0:
-                break
-        
+    
         result['events'] = player_events
 
         teams_query = db.session.query(Team)
@@ -114,17 +106,13 @@ def get_team(r_id):
         #get 2 events related to team
         events_query = db.session.query(Event)
         events = event_schema.dump(events_query, many = True)
-        num_of_events = 2
         team_events = []
         for event in events:
             
             if (event['home_team_id'] == result['id'] or 
             event['away_team_id'] == result['id']):
                 team_events.append(event)
-                num_of_events -= 1
 
-            if num_of_events == 0:
-                break
         
         result['events'] = team_events
 
@@ -134,14 +122,10 @@ def get_team(r_id):
         players = player_schema.dump(players_query, many = True)
         players_info = []
 
-        num_of_players = 2
         for player in players:
             if player['team_id'] == result['id']:
                 players_info.append(player)
-                num_of_players -= 1
-            
-            if num_of_players == 0:
-                break
+
     
         result['players_info'] = players_info
 

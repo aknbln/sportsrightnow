@@ -7,10 +7,10 @@ app = Flask(__name__)
 CORS(app)
 app.debug = True
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-# app.config[
-#     "SQLALCHEMY_DATABASE_URI"
-# ] = "mysql+pymysql://admin:sportsnow@awseb-e-xhfngawiag-stack-awsebrdsdatabase-s4mrqsdheeme.cs5wmldwpa7o.us-west-2.rds.amazonaws.com:3306/ebdb"
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydb.db' #local db
+app.config[
+    "SQLALCHEMY_DATABASE_URI"
+] = "mysql+pymysql://admin:sportsnow@awseb-e-xhfngawiag-stack-awsebrdsdatabase-s4mrqsdheeme.cs5wmldwpa7o.us-west-2.rds.amazonaws.com:3306/ebdb"
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydb.db' #local db
 db = SQLAlchemy(app)
 
 
@@ -22,11 +22,11 @@ class Player(db.Model):
     team_id = db.Column(db.String(250))
     position = db.Column(db.String(250))
     college = db.Column(db.String(250))
-    weight = db.Column(db.Integer)
-    height = db.Column(db.Integer)
+    weight = db.Column(db.String(250))
+    height = db.Column(db.String(250))
     birthdate = db.Column(db.String(250))
     headshot = db.Column(db.String(250))
-    jersey = db.Column(db.Integer)
+    jersey = db.Column(db.String(250))
     league = db.Column(db.String(250))
 
     def to_dict(self):

@@ -1015,23 +1015,6 @@
                 "team_id": 59
             },
             {
-                "team": "Los Angeles Rams",
-                "mascot": "Rams",
-                "location": "Los Angeles",
-                "conference": "NFC",
-                "division": "West",
-                "league": "NFL",
-                "abbreviation": "LAR",
-                "rank": 3,
-                "totalWins": 5,
-                "homeWins": 4,
-                "awayWins": 1,
-                "totalLosses": 12,
-                "logo": "https://media.api-sports.io/american-football/teams/31.png",
-                "winStreak": "L2",
-                "team_id": 60
-            },
-            {
                 "team": "San Francisco 49ers",
                 "mascot": "49ers",
                 "location": "San Francisco",
@@ -1046,7 +1029,7 @@
                 "totalLosses": 4,
                 "logo": "https://media.api-sports.io/american-football/teams/14.png",
                 "winStreak": "W10",
-                "team_id": 61
+                "team_id": 60
             },
             {
                 "team": "Seattle Seahawks",
@@ -1063,7 +1046,7 @@
                 "totalLosses": 8,
                 "logo": "https://media.api-sports.io/american-football/teams/23.png",
                 "winStreak": "W2",
-                "team_id": 62
+                "team_id": 61
             }
         ]
     },
@@ -1085,7 +1068,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/7.png",
                 "winStreak": 0,
-                "team_id": 63
+                "team_id": 62
             },
             {
                 "team": "Cleveland Guardians",
@@ -1100,7 +1083,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/9.png",
                 "winStreak": 0,
-                "team_id": 64
+                "team_id": 63
             },
             {
                 "team": "Detroit Tigers",
@@ -1115,7 +1098,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/12.png",
                 "winStreak": 0,
-                "team_id": 65
+                "team_id": 64
             },
             {
                 "team": "Kansas City Royals",
@@ -1130,7 +1113,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/16.png",
                 "winStreak": 0,
-                "team_id": 66
+                "team_id": 65
             },
             {
                 "team": "Minnesota Twins",
@@ -1145,7 +1128,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/22.png",
                 "winStreak": 0,
-                "team_id": 67
+                "team_id": 66
             },
             {
                 "team": "Baltimore Orioles",
@@ -1160,7 +1143,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/4.png",
                 "winStreak": 0,
-                "team_id": 68
+                "team_id": 67
             },
             {
                 "team": "Boston Red Sox",
@@ -1175,7 +1158,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/5.png",
                 "winStreak": 0,
-                "team_id": 69
+                "team_id": 68
             },
             {
                 "team": "New York Yankees",
@@ -1190,7 +1173,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/25.png",
                 "winStreak": 0,
-                "team_id": 70
+                "team_id": 69
             },
             {
                 "team": "Tampa Bay Rays",
@@ -1205,7 +1188,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/34.png",
                 "winStreak": 0,
-                "team_id": 71
+                "team_id": 70
             },
             {
                 "team": "Toronto Blue Jays",
@@ -1220,7 +1203,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/36.png",
                 "winStreak": 0,
-                "team_id": 72
+                "team_id": 71
             },
             {
                 "team": "Houston Astros",
@@ -1235,7 +1218,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/15.png",
                 "winStreak": 0,
-                "team_id": 73
+                "team_id": 72
             },
             {
                 "team": "Los Angeles Angels",
@@ -1250,7 +1233,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/17.png",
                 "winStreak": 0,
-                "team_id": 74
+                "team_id": 73
             },
             {
                 "team": "Oakland Athletics",
@@ -1265,7 +1248,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/26.png",
                 "winStreak": 0,
-                "team_id": 75
+                "team_id": 74
             },
             {
                 "team": "Seattle Mariners",
@@ -1280,7 +1263,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/32.png",
                 "winStreak": 0,
-                "team_id": 76
+                "team_id": 75
             },
             {
                 "team": "Texas Rangers",
@@ -1295,7 +1278,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/35.png",
                 "winStreak": 0,
-                "team_id": 77
+                "team_id": 76
             },
             {
                 "team": "Chicago Cubs",
@@ -1310,7 +1293,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/6.png",
                 "winStreak": 0,
-                "team_id": 78
+                "team_id": 77
             },
             {
                 "team": "Cincinnati Reds",
@@ -1325,7 +1308,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/8.png",
                 "winStreak": 0,
-                "team_id": 79
+                "team_id": 78
             },
             {
                 "team": "Milwaukee Brewers",
@@ -1340,7 +1323,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/20.png",
                 "winStreak": 0,
-                "team_id": 80
+                "team_id": 79
             },
             {
                 "team": "Pittsburgh Pirates",
@@ -1355,7 +1338,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/28.png",
                 "winStreak": 0,
-                "team_id": 81
+                "team_id": 80
             },
             {
                 "team": "St. Louis Cardinals",
@@ -1370,7 +1353,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/33.png",
                 "winStreak": 0,
-                "team_id": 82
+                "team_id": 81
             },
             {
                 "team": "Atlanta Braves",
@@ -1385,7 +1368,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/3.png",
                 "winStreak": 0,
-                "team_id": 83
+                "team_id": 82
             },
             {
                 "team": "Miami Marlins",
@@ -1400,7 +1383,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/19.png",
                 "winStreak": 0,
-                "team_id": 84
+                "team_id": 83
             },
             {
                 "team": "New York Mets",
@@ -1415,7 +1398,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/24.png",
                 "winStreak": 0,
-                "team_id": 85
+                "team_id": 84
             },
             {
                 "team": "Philadelphia Phillies",
@@ -1430,7 +1413,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/27.png",
                 "winStreak": 0,
-                "team_id": 86
+                "team_id": 85
             },
             {
                 "team": "Washington Nationals",
@@ -1445,7 +1428,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/37.png",
                 "winStreak": 0,
-                "team_id": 87
+                "team_id": 86
             },
             {
                 "team": "Arizona Diamondbacks",
@@ -1460,7 +1443,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/2.png",
                 "winStreak": 0,
-                "team_id": 88
+                "team_id": 87
             },
             {
                 "team": "Colorado Rockies",
@@ -1475,7 +1458,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/10.png",
                 "winStreak": 0,
-                "team_id": 89
+                "team_id": 88
             },
             {
                 "team": "Los Angeles Dodgers",
@@ -1490,7 +1473,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/18.png",
                 "winStreak": 0,
-                "team_id": 90
+                "team_id": 89
             },
             {
                 "team": "San Diego Padres",
@@ -1505,7 +1488,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/30.png",
                 "winStreak": 0,
-                "team_id": 91
+                "team_id": 90
             },
             {
                 "team": "San Francisco Giants",
@@ -1520,7 +1503,7 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/31.png",
                 "winStreak": 0,
-                "team_id": 92
+                "team_id": 91
             }
         ]
     }
