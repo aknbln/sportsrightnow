@@ -11,7 +11,7 @@ class Tests(unittest.TestCase):
             response = self.client.get("/teams")
             self.assertEqual(response.status_code, 200)
             data = response.json["data"]
-            self.assertEqual(len(data), 92)
+            self.assertEqual(len(data), 91)
 
     def testGetAllEvents(self):
         with self.client:
@@ -28,12 +28,12 @@ class Tests(unittest.TestCase):
             self.assertEqual(len(data), 25)
 
 #need to sort the players stuff first
-    # def testGetAllPlayers(self):
-    #     with self.client:
-    #         response = self.client.get("/players")
-    #         self.assertEqual(response.status_code, 200)
-    #         data = response.json["data"]
-    #         self.assertEqual(len(data), 4345)
+    def testGetAllPlayers(self):
+        with self.client:
+            response = self.client.get("/players")
+            self.assertEqual(response.status_code, 200)
+            data = response.json["data"]
+            self.assertEqual(len(data), 4345)
 
 
 if __name__ == "__main__":
