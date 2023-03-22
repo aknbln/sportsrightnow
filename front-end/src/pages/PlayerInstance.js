@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { playerData } from '../assets/PlayerData'
 import {Link, useSearchParams} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
+
 
 import axios from 'axios'
 
@@ -13,6 +15,18 @@ const PlayersInstance = ({}) =>{
     const [searchParams, setSearchParams] = useSearchParams()
     const [playerId, setPlayerId] = useState(0)
     const [fetchedData, setFetchedData] = useState([])
+    const [teamData, setTeamData] = useState([])
+    const [eventData, setEventData] = useState([])
+
+    const navigate = useNavigate()
+
+    function NavigateTeam(id){
+      navigate("/teams/instance?id=" + id)
+    }
+
+    function NavigateEvent(id){
+      navigate("/events/instance?id=" + id)
+    }
 
     useEffect(() => {
       let id = searchParams.get("id")
@@ -20,10 +34,15 @@ const PlayersInstance = ({}) =>{
       const fetchData = async() => {
         await ax
         .get(id)
-        .then((response) => (console.log(response.data.data), setFetchedData(response.data.data)))
+        .then((response) => (
+          console.log(response.data.data), 
+          setFetchedData(response.data.data), 
+          setTeamData(response.data.data.team_info),
+          setEventData(response.data.data.events)))
       }
 
       fetchData();
+
     }, [])
 
     
@@ -38,7 +57,7 @@ const PlayersInstance = ({}) =>{
                     <img src={fetchedData.headshot} style={{float: 'left', width:'25%'}} alt="picture" />
                     <div style={{width: "10%"}}/>
                     <p style={{float: 'right'}}>
-                        Team: {fetchedData.team} <br/>
+                        Team: <Link to={`/teams/instance?id=${teamData.id}`} >{teamData.name}</Link><br/>
                         League: {fetchedData.league} <br/>
                         Birthday: {fetchedData.birthdate} <br/>
                         Height: {fetchedData.height} <br/>
@@ -48,7 +67,16 @@ const PlayersInstance = ({}) =>{
                 </div>
               <br/>
               <br/>
-              <Link to='/players'>Back</Link>
+              <br/>
+              <hr style={{backgroundColor: 'white', width: "40%", margin: "auto"}}/>
+              <h2>Upcoming Events</h2>
+              {
+                eventData.map((event) => {
+                  return <p><Link to={`/events/instance?id=${event.id}`}>{event.name}</Link></p>
+                })
+              }
+              <hr style={{backgroundColor: 'white', width: "40%", margin: "auto"}}/>
+              <Link to='/players'>Back to Players</Link>
             </div>
           </div>
     )
