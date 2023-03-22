@@ -14,6 +14,8 @@ const TeamsInstance = ({}) =>{
     const [teamId, setTeamId] = useState(0)
     const [currentData, setCurrentData] = useState([])
     const [fetchedData, setFetchedData] = useState([])
+    const [playerData, setPlayerData] = useState([])
+    const [eventData, setEventData] = useState([])
 
     useEffect(() => {
       let id = searchParams.get("id")
@@ -21,7 +23,11 @@ const TeamsInstance = ({}) =>{
       const fetchData = async() => {
         await ax
         .get(id)
-        .then((response) => (console.log(response.data.data), setFetchedData(response.data.data)))
+        .then((response) => (
+          console.log(response.data.data), 
+          setFetchedData(response.data.data),
+          setPlayerData(response.data.data.players_info),
+          setEventData(response.data.data.events)))
       }
 
       fetchData();
@@ -48,7 +54,31 @@ const TeamsInstance = ({}) =>{
                 </div>
               <br/>
               <br/>
-              <Link to='/players'>Back</Link>
+              <br/>
+              <hr style={{backgroundColor: 'white', width: "40%", margin: "auto"}}/>
+
+              <div style={{padding: '1%'}}>
+                <h2>Notable Players</h2>
+                {
+                  playerData.slice(0,4).map((player) => {
+                    return <p><Link to={`/players/instance?id=${player.id}`}>{player.name}</Link></p>
+                  })
+                }
+              </div>
+
+              <hr style={{backgroundColor: 'white', width: "40%", margin: "auto"}}/>
+
+              <div style={{padding: '1%'}}>
+                <h2>Upcoming Events</h2>
+                {
+                  eventData.map((event) => {
+                    return <p><Link to={`/events/instance?id=${event.id}`}>{event.name}</Link></p>
+                  })
+                }
+              </div>
+              
+              <hr style={{backgroundColor: 'white', width: "60%", margin: "auto"}}/>
+              <Link to='/teams'>Back to Teams</Link>
             </div>
           </div>
     )
