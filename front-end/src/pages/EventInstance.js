@@ -4,7 +4,7 @@ import {Link, useSearchParams} from 'react-router-dom'
 import axios from 'axios'
 
 const ax = axios.create({
-  baseURL: "https://api.sportsrightnow.me/events/"
+  baseURL: "http://api.sportsrightnow.me/events/"
 })
 
 const EventsInstance = ({}) =>{
