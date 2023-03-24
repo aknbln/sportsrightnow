@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 const ax = axios.create({
-  baseURL: "http://api.sportsrightnow.me/players/"
+  baseURL: "https://api.sportsrightnow.me/players/"
 })
 
 const PlayersInstance = ({}) =>{

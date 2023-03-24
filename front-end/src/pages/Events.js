@@ -10,7 +10,7 @@ import { useState, useEffect, useRef } from 'react'
 import axios from 'axios';
 
 const ax = axios.create({
-  baseURL: "http://api.sportsrightnow.me/events"
+  baseURL: "https://api.sportsrightnow.me/events"
 })
 
 const Events = ({}) => {
