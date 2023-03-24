@@ -55,8 +55,8 @@ exports[`TeamCard renders correctly 1`] = `
         }
       }
     >
-      Country: 
-      USA
+      City: 
+      Buffalo
     </p>
     <p
       className="card-text"
@@ -67,8 +67,8 @@ exports[`TeamCard renders correctly 1`] = `
         }
       }
     >
-      Founded: 
-      20XX
+      Wins: 
+      999
     </p>
     <p
       className="card-text"
@@ -79,8 +79,8 @@ exports[`TeamCard renders correctly 1`] = `
         }
       }
     >
-      Win/Loss: 
-      100-0
+      Losses: 
+      -1
     </p>
   </div>
   <div

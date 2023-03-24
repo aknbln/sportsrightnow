@@ -8,28 +8,62 @@ import { sportsTeamData } from '../assets/SportsTeamData'
 import { Pagination } from 'react-bootstrap';
 import { useState, useEffect } from 'react'
 
+import axios from 'axios';
+
+const ax = axios.create({
+  baseURL: "http://api.sportsrightnow.me/teams"
+})
+
 const Teams = ({}) => {
 
   const [currentPage, setCurrentPage] = useState(1)
   const [dataSlice, setDataSlice] = useState([])
+  const [teamData, setTeamData] = useState([])
+  const [dataLength, setDataLength] = useState(0)
+  const [pageCount, setPageCount] = useState(0)
+  const [pages, setPages] = useState([])
+  const ITEMS_PER_PAGE = 8
 
+  
   let active = 1
-  let pages = []
-  for (let item = 1; item <= 3; item++){
-    pages.push(
-      <Pagination.Item key={item} active={item === currentPage} onClick={(event) => changePage(item)}>
-        {item}
-      </Pagination.Item>
-    );
+
+  function CreatePages(count){
+    let temp = []
+
+    for (let item = 1; item <= count; item++) {
+      temp.push(
+        <Pagination.Item key={item} active={item === currentPage} onClick={(event) => changePage(item)}>
+          {item}
+        </Pagination.Item>
+      )
+    }
+
+    setPages(temp)
   }
 
   useEffect(() => {
-    setDataSlice(sportsTeamData.slice(currentPage - 1,currentPage))
+    
+
+    const fetchData = async() => {
+      await ax
+      .get()
+      .then((response) => (
+        console.log(response.data.data),
+        setTeamData(response.data.data),
+        setDataLength(response.data.data.length),
+        setPageCount(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
+        CreatePages(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
+        setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)))
+      )
+    }
+
+    fetchData()
+    
   }, [])
 
-  const changePage = pageNumber => {
-    setCurrentPage(pageNumber)
-    setDataSlice(sportsTeamData.slice(pageNumber - 1,pageNumber))
+  function changePage(num) {
+    setCurrentPage(num)
+    setDataSlice(teamData.slice((num - 1) * ITEMS_PER_PAGE + 1, num * ITEMS_PER_PAGE + 1)) 
   }
 
   return (
@@ -45,6 +79,7 @@ const Teams = ({}) => {
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
             <Row xs={2} md={3} lg={4}>
               {dataSlice.map((dat) => {
+                console.log(dat)
                 return (
                   <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
                     <TeamCard sportsTeamData={dat}/>                        

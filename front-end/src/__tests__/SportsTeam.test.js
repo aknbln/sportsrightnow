@@ -13,11 +13,11 @@ import img from '../assets/images/question.png'
 const Team = 
 {
     name: "Buffalo Ballers",
-    image: img,
+    logo: img,
     league: "NBA",
-    country: "USA",
-    founded: "20XX",
-    record: "100-0",
+    totalWins: "999",
+    totalLosses: "-1",
+    city: "Buffalo",
     team_id: "999", 
 }
 
