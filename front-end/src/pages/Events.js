@@ -5,12 +5,12 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container";
 import { Pagination } from 'react-bootstrap';
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import axios from 'axios';
 
 const ax = axios.create({
-  baseURL: "http://api.sportsrightnow.me/events"
+  baseURL: "https://api.sportsrightnow.me/events"
 })
 
 const Events = ({}) => {
@@ -22,6 +22,8 @@ const Events = ({}) => {
   const [pageCount, setPageCount] = useState(0)
   const [pages, setPages] = useState([])
   const ITEMS_PER_PAGE = 8
+  const stateRef = useRef()
+  stateRef.current = eventData
 
   let active = 1
   
@@ -60,7 +62,7 @@ const Events = ({}) => {
 
   function changePage(num) {
     setCurrentPage(num)
-    setDataSlice(eventData.slice((num - 1) * ITEMS_PER_PAGE + 1, num * ITEMS_PER_PAGE + 1)) 
+    setDataSlice(stateRef.current.slice((num - 1) * ITEMS_PER_PAGE + 1, num * ITEMS_PER_PAGE + 1)) 
   }
 
   return (
@@ -76,7 +78,6 @@ const Events = ({}) => {
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
             <Row xs={2} md={3} lg={4}>
               {dataSlice.map((dat) => {
-                console.log(dat)
                 return (
                   <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
                     <EventCard eventData={dat}/>                        

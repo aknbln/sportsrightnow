@@ -6,12 +6,12 @@ import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container";
 import { sportsTeamData } from '../assets/SportsTeamData'
 import { Pagination } from 'react-bootstrap';
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import axios from 'axios';
 
 const ax = axios.create({
-  baseURL: "http://api.sportsrightnow.me/teams"
+  baseURL: "https://api.sportsrightnow.me/teams"
 })
 
 const Teams = ({}) => {
@@ -23,6 +23,8 @@ const Teams = ({}) => {
   const [pageCount, setPageCount] = useState(0)
   const [pages, setPages] = useState([])
   const ITEMS_PER_PAGE = 8
+  const stateRef = useRef()
+  stateRef.current = teamData
 
   
   let active = 1
@@ -63,7 +65,7 @@ const Teams = ({}) => {
 
   function changePage(num) {
     setCurrentPage(num)
-    setDataSlice(teamData.slice((num - 1) * ITEMS_PER_PAGE + 1, num * ITEMS_PER_PAGE + 1)) 
+    setDataSlice(stateRef.current.slice((num - 1) * ITEMS_PER_PAGE + 1, num * ITEMS_PER_PAGE + 1))
   }
 
   return (
@@ -79,7 +81,6 @@ const Teams = ({}) => {
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
             <Row xs={2} md={3} lg={4}>
               {dataSlice.map((dat) => {
-                console.log(dat)
                 return (
                   <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
                     <TeamCard sportsTeamData={dat}/>                        
