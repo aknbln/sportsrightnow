@@ -3,6 +3,10 @@ from models import app, db, Player, Team, Event
 from schema import player_schema, team_schema, event_schema
 from sqlalchemy.sql import text, column, desc
 import json
+from flask_cors import cross_origin
+
+# python3 -m virtualenv venv
+# source ./venv/bin/activate
 
 @app.route("/")
 def home():
@@ -25,14 +29,9 @@ def get_players():
     if page is not None:
         query = paginate(query, page, perPage)
     result = player_schema.dump(query, many = True)
-    return jsonify({"data": result, "meta": {"count": count}})
-    # way to use to_dict in case above ever breaks
-    # page = request.args.get('page')
-    # perPage = request.args.get('perPage')
-    # maxId = int(perPage) * int(page)
-    # minId = maxId - int(perPage)
-    # players = Player.query.filter(Player.id < maxId).filter(Player.id >= minId).order_by(Player.id).all()
-    # return jsonify([player.to_dict() for player in players])
+    response = jsonify({"data": result, "meta": {"count": count}})
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    return response
 
 
 @app.route("/teams")
@@ -44,7 +43,9 @@ def get_teams():
     if page is not None:
         query = paginate(query, page, perPage)
     result = team_schema.dump(query, many=True)
-    return jsonify({"data": result, "meta": {"count": count}})
+    response = jsonify({"data": result, "meta": {"count": count}})
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    return response
 
 
 @app.route("/events")
@@ -56,7 +57,9 @@ def get_events():
     if page is not None:
         query = paginate(query, page, perPage)
     result = event_schema.dump(query, many=True)
-    return jsonify({"data": result, "meta": {"count": count}})
+    response = jsonify({"data": result, "meta": {"count": count}})
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    return response
 
 
 @app.route("/players/<int:r_id>")
@@ -93,7 +96,9 @@ def get_player(r_id):
         return return_error(f"Invalid player ID: {r_id}")
     player = query.first()
     # return player as a jsonified?
-    return jsonify({"data": result})
+    response = jsonify({"data": result})
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    return response
 
 
 @app.route("/teams/<int:r_id>")
@@ -132,10 +137,9 @@ def get_team(r_id):
     except IndexError:
         return return_error(f"Invalid team ID: {r_id}")
     team = query.first()
-    # should we add home stadium to the event model so we can connect them here?
-    # team_events = event_schema.dump(team., many=True)
-    # what about team roster?
-    return jsonify({"data": result})
+    response = jsonify({"data": result})
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    return response
 
 
 @app.route("/events/<int:r_id>")
@@ -184,7 +188,10 @@ def get_event(r_id):
     except IndexError:
         return return_error(f"Invalid event ID: {r_id}")
     event = query.first()
-    return jsonify({"data": result})
+
+    response = jsonify({"data": result})
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    return response
 
 
 """

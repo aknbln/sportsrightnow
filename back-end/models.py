@@ -2,10 +2,12 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 
-
+from flask import Flask
+from flask_cors import CORS, cross_origin
 app = Flask(__name__)
-CORS(app)
+cors = CORS(app)
 app.debug = True
+app.config['CORS_HEADERS'] = 'Content-Type'
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config[
     "SQLALCHEMY_DATABASE_URI"
