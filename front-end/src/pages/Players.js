@@ -4,31 +4,64 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container";
 import { Pagination } from 'react-bootstrap';
-import { playerData } from '../assets/PlayerData'
 import { useState, useEffect } from 'react'
+
+import axios from 'axios';
+
+const ax = axios.create({
+  baseURL: "http://api.sportsrightnow.me/players"
+})
+
 
 const Players = ({}) => {
 
   const [currentPage, setCurrentPage] = useState(1)
   const [dataSlice, setDataSlice] = useState([])
+  const [playerData, setPlayerData] = useState([])
+  const [dataLength, setDataLength] = useState(0)
+  const [pageCount, setPageCount] = useState(0)
+  const [pages, setPages] = useState([])
+  const ITEMS_PER_PAGE = 8
 
   let active = 1
-  let pages = []
-  for (let item = 1; item <= 3; item++){
-    pages.push(
-      <Pagination.Item key={item} active={item === currentPage} onClick={(event) => changePage(item)}>
-        {item}
-      </Pagination.Item>
-    );
+
+  function CreatePages(count){
+    let temp = []
+
+    for (let item = 1; item <= count; item++) {
+      temp.push(
+        <Pagination.Item key={item} active={item === currentPage} onClick={(event) => changePage(item)}>
+          {item}
+        </Pagination.Item>
+      )
+    }
+
+    setPages(temp)
   }
 
   useEffect(() => {
-    setDataSlice(playerData.slice(currentPage - 1,currentPage))
+    
+    const fetchData = async() => {
+      await ax
+      .get()
+      .then((response) => (
+        console.log(response.data.data),
+        setPlayerData(response.data.data),
+        setDataLength(response.data.data.length),
+        setPageCount(31),
+        CreatePages(31),
+        setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)))
+      )
+    }
+
+    fetchData()
+
   }, [])
 
-  const changePage = pageNumber => {
-    setCurrentPage(pageNumber)
-    setDataSlice(playerData.slice(pageNumber - 1,pageNumber))
+
+  function changePage(num) {
+    setCurrentPage(num)
+    setDataSlice(playerData.slice((num - 1) * ITEMS_PER_PAGE + 1, num * ITEMS_PER_PAGE + 1)) 
   }
 
   return (

@@ -55,6 +55,18 @@ exports[`PlayerCard renders correctly 1`] = `
         }
       }
     >
+      Jersey #
+      100
+    </p>
+    <p
+      className="card-text"
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": "2vh",
+        }
+      }
+    >
       League: 
       NBA
     </p>
@@ -67,20 +79,8 @@ exports[`PlayerCard renders correctly 1`] = `
         }
       }
     >
-      Age: 
-      100
-    </p>
-    <p
-      className="card-text"
-      style={
-        Object {
-          "color": "#404040",
-          "fontSize": "2vh",
-        }
-      }
-    >
-      Nationality: 
-      USA
+      College: 
+      UT Austin
     </p>
   </div>
   <div

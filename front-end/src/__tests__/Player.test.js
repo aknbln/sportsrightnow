@@ -14,13 +14,12 @@ import { inchToFeet } from '../Utils'
 const Player = 
 {
     name: "Bobby Basketball",
-    image: img,
+    headshot: img,
     team: "Buffalo Ballers",
+    college: "UT Austin",
     league: "NBA",
-    age: "100",
-    country: "USA",
-    height: "12' 3\"",
-    player_id: "999",
+    jersey: "100",
+    id: "999",
 
 }
 

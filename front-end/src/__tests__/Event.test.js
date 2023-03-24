@@ -12,11 +12,11 @@ import EventCard from '../components/EventCard'
 const Event = 
 {
     name: "Buffalo Ballers vs Jovian Jabbers",
-    date: "1/01/1984",
-    location: "Jupiter",
+    local_date: "1/01/1984",
+    local_time: "00:00",
+    city: "Jupiter",
     venue: "Europa Gigadome",
-    league: "NBA",
-    event_id: "999",
+    id: "999",
 }
 
 it('EventCard data correct', () => {

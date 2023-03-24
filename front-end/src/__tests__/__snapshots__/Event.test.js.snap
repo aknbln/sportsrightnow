@@ -45,6 +45,18 @@ exports[`EventCard renders correctly 1`] = `
         }
       }
     >
+      Time: 
+      00:00
+    </p>
+    <p
+      className="card-text"
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": "2vh",
+        }
+      }
+    >
       City: 
       Jupiter
     </p>
@@ -59,18 +71,6 @@ exports[`EventCard renders correctly 1`] = `
     >
       Venue: 
       Europa Gigadome
-    </p>
-    <p
-      className="card-text"
-      style={
-        Object {
-          "color": "#404040",
-          "fontSize": "2vh",
-        }
-      }
-    >
-      League: 
-      NBA
     </p>
   </div>
   <div
