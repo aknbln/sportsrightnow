@@ -2409,8 +2409,8 @@
             "homeTeam": "St. Louis Cardinals",
             "awayTeam": "Chicago Cubs",
             "hometeamimage": "https://s1.ticketm.net/dam/a/771/56f937da-0582-454e-9c27-d81f533c0771_1859051_CUSTOM.jpg",
-            "homeTeamId": 82,
-            "awayTeamId": 78
+            "homeTeamId": 81,
+            "awayTeamId": 77
         },
         "MLB London Series - St. Louis Cardinals v Chicago Cubs (Sunday)": {
             "name": "MLB London Series - St. Louis Cardinals v Chicago Cubs (Sunday)",
@@ -2518,8 +2518,8 @@
             "homeTeam": "St. Louis Cardinals",
             "awayTeam": "Chicago Cubs",
             "hometeamimage": "https://s1.ticketm.net/dam/a/771/56f937da-0582-454e-9c27-d81f533c0771_1859051_CUSTOM.jpg",
-            "homeTeamId": 82,
-            "awayTeamId": 78
+            "homeTeamId": 81,
+            "awayTeamId": 77
         },
         "Baltimore Orioles vs. New York Yankees": {
             "name": "Baltimore Orioles vs. New York Yankees",
@@ -2593,8 +2593,8 @@
             "homeTeam": "Baltimore Orioles",
             "awayTeam": "New York Yankees",
             "hometeamimage": "https://s1.ticketm.net/dam/a/984/7eed9b97-027d-4f51-aec6-90661557d984_1575321_CUSTOM.jpg",
-            "homeTeamId": 68,
-            "awayTeamId": 70
+            "homeTeamId": 67,
+            "awayTeamId": 69
         },
         "Los Angeles Dodgers vs. Arizona Diamondbacks": {
             "name": "Los Angeles Dodgers vs. Arizona Diamondbacks",
@@ -2668,8 +2668,8 @@
             "hometeamimage": "https://s1.ticketm.net/dam/a/2f4/5f8bca36-3127-4f87-b573-3dd6485642f4_1344231_CUSTOM.jpg",
             "homeTeam": "Los Angeles Dodgers",
             "awayTeam": "Arizona Diamondbacks",
-            "homeTeamId": 90,
-            "awayTeamId": 88
+            "homeTeamId": 89,
+            "awayTeamId": 87
         },
         "Colorado Rockies vs. New York Yankees": {
             "name": "Colorado Rockies vs. New York Yankees",
@@ -2783,8 +2783,8 @@
             "hometeamimage": "https://s1.ticketm.net/dam/a/00a/db7db318-0e27-4def-9c7c-5985e1eca00a_1343951_CUSTOM.jpg",
             "homeTeam": "Colorado Rockies",
             "awayTeam": "New York Yankees",
-            "homeTeamId": 89,
-            "awayTeamId": 70
+            "homeTeamId": 88,
+            "awayTeamId": 69
         },
         "Los Angeles Dodgers vs. Los Angeles Angels": {
             "name": "Los Angeles Dodgers vs. Los Angeles Angels",
@@ -2858,8 +2858,8 @@
             "hometeamimage": "https://s1.ticketm.net/dam/a/2f4/5f8bca36-3127-4f87-b573-3dd6485642f4_1344231_CUSTOM.jpg",
             "homeTeam": "Los Angeles Dodgers",
             "awayTeam": "Los Angeles Angels",
-            "homeTeamId": 90,
-            "awayTeamId": 74
+            "homeTeamId": 89,
+            "awayTeamId": 73
         },
         "Arizona Diamondbacks vs. Los Angeles Dodgers": {
             "name": "Arizona Diamondbacks vs. Los Angeles Dodgers",
@@ -2972,8 +2972,8 @@
             "hometeamimage": "https://s1.ticketm.net/dam/a/b94/2fd30063-94c2-4b49-ac2c-be074ff93b94_1344481_CUSTOM.jpg",
             "homeTeam": "Arizona Diamondbacks",
             "awayTeam": "Los Angeles Dodgers",
-            "homeTeamId": 88,
-            "awayTeamId": 90
+            "homeTeamId": 87,
+            "awayTeamId": 89
         },
         "Atlanta Braves vs. New York Yankees": {
             "name": "Atlanta Braves vs. New York Yankees",
@@ -3097,8 +3097,8 @@
             "hometeamimage": "https://s1.ticketm.net/dam/a/880/2c96bb81-1225-423b-9ce3-86a3c2565880_1344381_CUSTOM.jpg",
             "homeTeam": "Atlanta Braves",
             "awayTeam": "New York Yankees",
-            "homeTeamId": 83,
-            "awayTeamId": 70
+            "homeTeamId": 82,
+            "awayTeamId": 69
         },
         "Chicago Cubs vs. Los Angeles Dodgers": {
             "name": "Chicago Cubs vs. Los Angeles Dodgers",
@@ -3172,8 +3172,8 @@
             "hometeamimage": "https://s1.ticketm.net/dam/a/7ad/4e6ba9a2-ac8c-41e3-8394-ad20a4fb47ad_1343401_CUSTOM.jpg",
             "homeTeam": "Chicago Cubs",
             "awayTeam": "Los Angeles Dodgers",
-            "homeTeamId": 78,
-            "awayTeamId": 90
+            "homeTeamId": 77,
+            "awayTeamId": 89
         },
         "Texas Rangers vs. New York Yankees": {
             "name": "Texas Rangers vs. New York Yankees",
@@ -3247,8 +3247,8 @@
             "homeTeam": "Texas Rangers",
             "awayTeam": "New York Yankees",
             "hometeamimage": "https://s1.ticketm.net/dam/a/e7a/fc690a70-e3e2-4d16-964c-35d34475fe7a_1343281_CUSTOM.jpg",
-            "homeTeamId": 77,
-            "awayTeamId": 70
+            "homeTeamId": 76,
+            "awayTeamId": 69
         },
         "Los Angeles Dodgers vs. Chicago Cubs": {
             "name": "Los Angeles Dodgers vs. Chicago Cubs",
@@ -3321,8 +3321,8 @@
             "homeTeam": "Los Angeles Dodgers",
             "awayTeam": "Chicago Cubs",
             "hometeamimage": "https://s1.ticketm.net/dam/a/2f4/5f8bca36-3127-4f87-b573-3dd6485642f4_1344231_CUSTOM.jpg",
-            "homeTeamId": 90,
-            "awayTeamId": 78
+            "homeTeamId": 89,
+            "awayTeamId": 77
         }
     }
 }

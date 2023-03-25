@@ -11,7 +11,6 @@ def populate_players():
     with open("data/Player-Info/Players.json") as f:
         leagues = json.load(f)
         league_names = ["NBA", "NFL", "MLB"]
-
         i = 0
         j = 1
         for league in leagues:
