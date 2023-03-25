@@ -10,7 +10,7 @@ import { useState, useEffect, useRef } from 'react'
 import axios from 'axios';
 
 const ax = axios.create({
-  baseURL: "https://api.sportsrightnow.me/events"
+  baseURL: "https://api.sportsrightnow.me/"
 })
 
 const Events = ({}) => {
@@ -43,26 +43,34 @@ const Events = ({}) => {
 
   useEffect(() => {
     
+
     const fetchData = async() => {
       await ax
-      .get()
+      .get("events")
       .then((response) => (
-        console.log(response.data.data),
-        setEventData(response.data.data),
         setDataLength(response.data.data.length),
         setPageCount(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
         CreatePages(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
-        setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)))
+        setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)),
+        changePage(1))
       )
     }
 
     fetchData()
-
+    
   }, [])
 
   function changePage(num) {
+
+    const fetch = async(pageNum) => {
+      await ax
+      .get("events", {params: {page: pageNum, perPage: ITEMS_PER_PAGE}})
+      .then((response) => (
+        setEventData(response.data.data)
+      ))
+    }
     setCurrentPage(num)
-    setDataSlice(stateRef.current.slice((num - 1) * ITEMS_PER_PAGE + 1, num * ITEMS_PER_PAGE + 1)) 
+    fetch(num)
   }
 
   return (
@@ -77,7 +85,7 @@ const Events = ({}) => {
           <h2>Events</h2>
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
             <Row xs={2} md={3} lg={4}>
-              {dataSlice.map((dat) => {
+              {eventData.map((dat) => {
                 return (
                   <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
                     <EventCard eventData={dat}/>                        

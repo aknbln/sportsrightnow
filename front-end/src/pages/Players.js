@@ -9,7 +9,7 @@ import { useState, useEffect, useRef } from 'react'
 import axios from 'axios';
 
 const ax = axios.create({
-  baseURL: "https://api.sportsrightnow.me/players"
+  baseURL: "https://api.sportsrightnow.me/"
 })
 
 
@@ -21,7 +21,7 @@ const Players = ({}) => {
   const [dataLength, setDataLength] = useState(0)
   const [pageCount, setPageCount] = useState(0)
   const [pages, setPages] = useState([])
-  const ITEMS_PER_PAGE = 8
+  const ITEMS_PER_PAGE = 12
   const stateRef = useRef()
   stateRef.current = playerData
 
@@ -43,27 +43,35 @@ const Players = ({}) => {
 
   useEffect(() => {
     
+
     const fetchData = async() => {
       await ax
-      .get()
+      .get("players")
       .then((response) => (
-        console.log(response.data.data),
-        setPlayerData(response.data.data),
         setDataLength(response.data.data.length),
-        setPageCount(31),
-        CreatePages(31),
-        setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)))
+        setPageCount(Math.min( Math.ceil(response.data.data.length / ITEMS_PER_PAGE), 32)),
+        CreatePages(Math.min( Math.ceil(response.data.data.length / ITEMS_PER_PAGE), 32)),
+        setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)),
+        changePage(1))
       )
     }
 
     fetchData()
-
+    
   }, [])
 
 
   function changePage(num) {
+
+    const fetch = async(pageNum) => {
+      await ax
+      .get("players", {params: {page: pageNum, perPage: ITEMS_PER_PAGE}})
+      .then((response) => (
+        setPlayerData(response.data.data)
+      ))
+    }
     setCurrentPage(num)
-    setDataSlice(stateRef.current.slice((num - 1) * ITEMS_PER_PAGE + 1, num * ITEMS_PER_PAGE + 1)) 
+    fetch(num)
   }
 
   return (
@@ -78,7 +86,7 @@ const Players = ({}) => {
           <h2>Players</h2>
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
             <Row xs={2} md={3} lg={4}>
-              {dataSlice.map((dat) => {
+              {playerData.map((dat) => {
                 return (
                   <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
                     <PlayerCard playerData={dat}/>                        

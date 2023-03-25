@@ -11,7 +11,7 @@ import { useState, useEffect, useRef } from 'react'
 import axios from 'axios';
 
 const ax = axios.create({
-  baseURL: "https://api.sportsrightnow.me/teams"
+  baseURL: "https://api.sportsrightnow.me/"
 })
 
 const Teams = ({}) => {
@@ -25,7 +25,7 @@ const Teams = ({}) => {
   const ITEMS_PER_PAGE = 8
   const stateRef = useRef()
   stateRef.current = teamData
-
+  stateRef.page = currentPage
   
   let active = 1
 
@@ -34,7 +34,7 @@ const Teams = ({}) => {
 
     for (let item = 1; item <= count; item++) {
       temp.push(
-        <Pagination.Item key={item} active={item === currentPage} onClick={(event) => changePage(item)}>
+        <Pagination.Item key={item} active={item === stateRef.page} onClick={(event) => changePage(item)}>
           {item}
         </Pagination.Item>
       )
@@ -48,14 +48,13 @@ const Teams = ({}) => {
 
     const fetchData = async() => {
       await ax
-      .get()
+      .get("teams")
       .then((response) => (
-        console.log(response.data.data),
-        setTeamData(response.data.data),
         setDataLength(response.data.data.length),
         setPageCount(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
         CreatePages(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
-        setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)))
+        setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)),
+        changePage(1))
       )
     }
 
@@ -64,8 +63,16 @@ const Teams = ({}) => {
   }, [])
 
   function changePage(num) {
+
+    const fetch = async(pageNum) => {
+      await ax
+      .get("teams", {params: {page: pageNum, perPage: ITEMS_PER_PAGE}})
+      .then((response) => (
+        setTeamData(response.data.data)
+      ))
+    }
     setCurrentPage(num)
-    setDataSlice(stateRef.current.slice((num - 1) * ITEMS_PER_PAGE + 1, num * ITEMS_PER_PAGE + 1))
+    fetch(num)
   }
 
   return (
@@ -80,7 +87,7 @@ const Teams = ({}) => {
           <h2>Teams</h2>
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
             <Row xs={2} md={3} lg={4}>
-              {dataSlice.map((dat) => {
+              {teamData.map((dat) => {
                 return (
                   <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
                     <TeamCard sportsTeamData={dat}/>                        
