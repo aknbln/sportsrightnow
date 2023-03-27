@@ -35,7 +35,24 @@ Johann Ramirez - Predicted: 8 Hrs - Actual: 9 Hrs
 I can't believe we finished with 2 minutes before midnight!!!!
 
 
+## Phase II:
+Git SHA - 07838822d28f2300deb62af2d7a896cd2390e4e7
 
+Leader - Akin Bilen
+
+### Hours Worked:
+Travis Aldrich - Predicted: 8 Hrs - Actual: 8 Hrs
+
+Akin Bilen - Predicted: 8 Hrs - Actual: 23 Hrs
+
+Eric Li - Predicted: 8 Hrs - Actual: 25 Hrs
+
+Tommy Ly - Predicted: 8 Hrs - Actual: 12 Hrs
+
+Johann Ramirez - Predicted: 8 Hrs - Actual: 24 Hrs
+
+### Comments:
+We are probably going to have to resubmit D:
 
 
 
