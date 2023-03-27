@@ -30,7 +30,7 @@ class Player(db.Model):
     headshot = db.Column(db.String(250))
     jersey = db.Column(db.String(250))
     league = db.Column(db.String(250))
-
+    espnLink = db.Column(db.String(250))
     def to_dict(self):
         return {
             "id": self.id,
@@ -45,6 +45,7 @@ class Player(db.Model):
             "headshot": self.headshot,
             "jersey": self.jersey,
             "league": self.league,
+            "espnLink": self.espnLink,
         }
 
 
@@ -61,7 +62,7 @@ class Team(db.Model):
     city = db.Column(db.String(250))
     league = db.Column(db.String(250))
     # players = db.relationship('Player', backref = 'team')
-
+    espnLink = db.Column(db.String(250))
     def to_dict(self):
         return {
             "id": self.id,
@@ -74,6 +75,7 @@ class Team(db.Model):
             "logo": self.logo,
             "city": self.city,
             "league": self.league,
+            "espnLink": self.espnLink,
         }
 
 
