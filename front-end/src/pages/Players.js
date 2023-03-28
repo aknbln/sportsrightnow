@@ -48,7 +48,7 @@ const Players = ({}) => {
       await ax
       .get("players")
       .then((response) => (
-        setDataLength(response.data.data.length),
+        setDataLength(Math.min(response.data.data.length, 32 * ITEMS_PER_PAGE)),
         setPageCount(Math.min( Math.ceil(response.data.data.length / ITEMS_PER_PAGE), 32)),
         CreatePages(Math.min( Math.ceil(response.data.data.length / ITEMS_PER_PAGE), 32)),
         setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)),
@@ -76,9 +76,10 @@ const Players = ({}) => {
 
   return (
     <div className="Players">
-      <header className="App-header">
+      <header className="App-header" style={{padding: "2%"}}>
         <h1>Players</h1>
         <p>Find your favorite players!</p>
+        <p>Total Players: {dataLength}</p>
       </header>
       
       <div className="App-body">

@@ -22,7 +22,7 @@ const Teams = ({}) => {
   const [dataLength, setDataLength] = useState(0)
   const [pageCount, setPageCount] = useState(0)
   const [pages, setPages] = useState([])
-  const ITEMS_PER_PAGE = 8
+  const ITEMS_PER_PAGE = 9
   const stateRef = useRef()
   stateRef.current = teamData
   stateRef.page = currentPage
@@ -77,19 +77,20 @@ const Teams = ({}) => {
 
   return (
     <div className="Teams">
-      <header className="App-header">
+      <header className="App-header" style={{padding:"2%"}}>
         <h1>Teams</h1>
         <p>Find your favorite teams!</p>
+        <p>Total teams: {dataLength}</p>
       </header>
       
       <div className="App-body">
         <Container style={{padding: '3vh'}}>
           <h2>Teams</h2>
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
-            <Row xs={2} md={3} lg={4}>
+            <Row xs={2} md={3} lg={3}>
               {teamData.map((dat) => {
                 return (
-                  <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
+                  <Col className='d-flex align-self-stretch' style={{paddingTop: '4px', minWidth: "33%", alignContent:"center"}}>
                     <TeamCard sportsTeamData={dat}/>                        
                   </Col>
                )

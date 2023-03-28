@@ -21,7 +21,7 @@ const Events = ({}) => {
   const [dataLength, setDataLength] = useState(0)
   const [pageCount, setPageCount] = useState(0)
   const [pages, setPages] = useState([])
-  const ITEMS_PER_PAGE = 8
+  const ITEMS_PER_PAGE = 9
   const stateRef = useRef()
   stateRef.current = eventData
 
@@ -75,16 +75,17 @@ const Events = ({}) => {
 
   return (
     <div className="Events">
-      <header className="App-header">
+      <header className="App-header" style={{padding:"2%"}}>
         <h1>Events</h1>
         <p>Find your upcoming events!</p>
+        <p>Total events: {dataLength}</p>
       </header>
       
       <div className="App-body">
         <Container style={{padding: '3vh'}}>
           <h2>Events</h2>
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
-            <Row xs={2} md={3} lg={4}>
+            <Row xs={2} md={3} lg={3}>
               {eventData.map((dat) => {
                 return (
                   <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>

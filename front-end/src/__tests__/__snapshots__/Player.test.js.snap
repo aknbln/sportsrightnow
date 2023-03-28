@@ -6,6 +6,7 @@ exports[`PlayerCard renders correctly 1`] = `
   style={
     Object {
       "backgroundColor": "lightgray",
+      "minWidth": "100%",
     }
   }
 >

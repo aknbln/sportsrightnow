@@ -6,6 +6,7 @@ exports[`TeamCard renders correctly 1`] = `
   style={
     Object {
       "backgroundColor": "lightgray",
+      "minWidth": "100%",
     }
   }
 >
@@ -15,7 +16,7 @@ exports[`TeamCard renders correctly 1`] = `
     style={
       Object {
         "height": "20vw",
-        "objectFit": "cover",
+        "objectFit": "contain",
         "width": "100%",
       }
     }
