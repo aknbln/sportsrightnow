@@ -42,3 +42,16 @@ front_end_selenium_tests:
     # Run the tests
     - python3 ./selenium/SeleniumTests.py
 
+back_end_unit_tests:
+  stage: test
+  image: python:latest
+  script:
+    - cd back-end
+    - apt-get clean && apt-get update
+    - apt-get install -y python3
+    - apt-get install -y python3-pip python3-dev build-essential vim
+    - apt-get install -y default-libmysqlclient-dev libpq-dev postgresql
+    - pip3 install --upgrade pip
+    - pip3 install -r requirements.txt
+    - pip install black
+    - python tests.py
