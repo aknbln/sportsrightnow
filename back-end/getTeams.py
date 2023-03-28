@@ -77,70 +77,48 @@ def get_nba_teams_info():
 
 # update the teams info with details
 def update_nba_teams_info():
-    f = open(f"./data/NBA_Teams.json")
-    standings_data = json.load(f)
-
-    # get the teams from the file
-    teams_file = open("./data/Teams.json")
+    teams_file = open("./data/Team-Info/Teams.json")
     data = json.load(teams_file)
 
-    for i in standings_data["response"]:
-        cur_team = find_elem(data["NBA"]["results"], i["team"]["name"])
-
+    for i in data["NBA"]["results"]:
+        print(str(i['abbreviation']))
+        print(str(i["team"].lower().replace(' ', '-')))
+        #https://www.espn.com/nfl/team/_/name/mia/miami-dolphins
+        i['espnLink'] = str("https://www.espn.com/nba/team/_/name/" + str(i['abbreviation']) + '/' + str(i["team"].lower().replace(' ', '-')))
         # assign more fields to the json object, modifies data object will have to write back to the file though
-        cur_team["rank"] = i["conference"]["rank"]
-        cur_team["totalWins"] = i["conference"]["win"]
-        cur_team["homeWins"] = i["win"]["home"]
-        cur_team["awayWins"] = cur_team["totalWins"] - cur_team["homeWins"]
-        cur_team["totalLosses"] = i["conference"]["loss"]
-        cur_team["logo"] = i["team"]["logo"]
-        cur_team["winStreak"] = i["streak"]
-        create_json_file(TEAMS_JSON_PATH, data)
+    
+    create_json_file(TEAMS_JSON_PATH, data)
 
 
 def update_nfl_teams_info():
-    f = open(f"./data/NFL_Teams.json")
-    standings_data = json.load(f)
 
     # get the teams from the file
-    teams_file = open("./data/Teams.json")
+    teams_file = open("./data/Team-Info/Teams.json")
     data = json.load(teams_file)
 
-    for i in standings_data["response"]:
-        cur_team = find_elem(data["NFL"]["results"], i["team"]["name"])
-
+    for i in data["NFL"]["results"]:
+        print(str(i['abbreviation']))
+        print(str(i["team"].lower().replace(' ', '-')))
+        #https://www.espn.com/nfl/team/_/name/mia/miami-dolphins
+        i['espnLink'] = str("https://www.espn.com/nfl/team/_/name/" + str(i['abbreviation']) + '/' + str(i["team"].lower().replace(' ', '-')))
         # assign more fields to the json object, modifies data object will have to write back to the file though
-        cur_team["rank"] = i["position"]
-        cur_team["totalWins"] = i["won"]
-        cur_team["homeWins"] = int(i["records"]["home"][0])
-        cur_team["awayWins"] = cur_team["totalWins"] - cur_team["homeWins"]
-        cur_team["totalLosses"] = i["lost"]
-        cur_team["logo"] = i["team"]["logo"]
-        cur_team["winStreak"] = i["streak"]
-        create_json_file(TEAMS_JSON_PATH, data)
+    
+    create_json_file(TEAMS_JSON_PATH, data)
 
 
 # https://rapidapi.com/api-sports/api/api-baseball
 def update_mlb_teams_info():
-    f = open(f"./data/MLB_Teams.json")
-    standings_data = json.load(f)
-
-    # get the teams from the file
-    teams_file = open("./data/Teams.json")
+    teams_file = open("./data/Team-Info/Teams.json")
     data = json.load(teams_file)
 
-    for i in standings_data["response"][0]:
-        cur_team = find_elem(data["MLB"]["results"], i["team"]["name"])
-        # print(cur_team)
-
+    for i in data["MLB"]["results"]:
+        print(str(i['abbreviation']))
+        print(str(i["team"].lower().replace(' ', '-')))
+        #https://www.espn.com/nfl/team/_/name/mia/miami-dolphins
+        i['espnLink'] = str("https://www.espn.com/mlb/team/_/name/" + str(i['abbreviation']) + '/' + str(i["team"].lower().replace(' ', '-')))
         # assign more fields to the json object, modifies data object will have to write back to the file though
-        if cur_team != None:
-            cur_team["rank"] = i["position"]
-            cur_team["totalWins"] = i["games"]["win"]["total"]
-            cur_team["totalLosses"] = i["games"]["lose"]["total"]
-            cur_team["logo"] = i["team"]["logo"]
-            cur_team["winStreak"] = 0
-            create_json_file(TEAMS_JSON_PATH, data)
+    
+    create_json_file(TEAMS_JSON_PATH, data)
 
 
 # Finds the element in the list
@@ -170,16 +148,16 @@ def main():
     # get_teams("NBA")
     # get_teams("NFL")
     # get_teams("MLB")
-    # update_nba_teams_info()
+    #update_nba_teams_info()
 
     ### NEXT STEPS
     i = 1
     # get_nfl_teams_info()
-    # update_nfl_teams_info()
+    #update_nfl_teams_info()
 
     # get_mlb_teams_info()
-    # update_mlb_teams_info()
-    add_teamIds()
+    #update_mlb_teams_info()
+    # add_teamIds()
 
 
 if __name__ == "__main__":

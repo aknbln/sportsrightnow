@@ -50,6 +50,9 @@ def populate_players():
                             if "jersey-num" in player
                             else "0",
                             "league": league_names[i],
+                            "espnLink": player['espnLink']
+                            if "espnLink" in player else
+                            player['espn'] if 'espn' in player else "",
                             
                         }
                         j += 1
@@ -75,6 +78,7 @@ def populate_teams():
                     "logo": team["logo"],
                     "city": team["location"],
                     "league": team["league"],
+                    "espnLink": team['espnLink']
                 }
                 db.session.add(Team(**db_row))
         db.session.commit()

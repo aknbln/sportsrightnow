@@ -19,7 +19,8 @@
                 "totalLosses": 17,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png",
                 "winStreak": 3,
-                "team_id": 1
+                "team_id": 1,
+                "espnLink": "https://www.espn.com/nba/team/_/name/BOS/boston-celtics"
             },
             {
                 "team": "Brooklyn Nets",
@@ -36,7 +37,8 @@
                 "totalLosses": 26,
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png",
                 "winStreak": 1,
-                "team_id": 2
+                "team_id": 2,
+                "espnLink": "https://www.espn.com/nba/team/_/name/BKN/brooklyn-nets"
             },
             {
                 "team": "New York Knicks",
@@ -53,7 +55,8 @@
                 "totalLosses": 27,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Knicks_de_NY.png",
                 "winStreak": 5,
-                "team_id": 3
+                "team_id": 3,
+                "espnLink": "https://www.espn.com/nba/team/_/name/NYK/new-york-knicks"
             },
             {
                 "team": "Philadelphia 76ers",
@@ -70,7 +73,8 @@
                 "totalLosses": 20,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/4/48/76ers_2016.png",
                 "winStreak": 1,
-                "team_id": 4
+                "team_id": 4,
+                "espnLink": "https://www.espn.com/nba/team/_/name/PHI/philadelphia-76ers"
             },
             {
                 "team": "Toronto Raptors",
@@ -87,7 +91,8 @@
                 "totalLosses": 32,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/8/89/Raptors2015.png",
                 "winStreak": 4,
-                "team_id": 5
+                "team_id": 5,
+                "espnLink": "https://www.espn.com/nba/team/_/name/TOR/toronto-raptors"
             },
             {
                 "team": "Chicago Bulls",
@@ -104,7 +109,8 @@
                 "totalLosses": 33,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png",
                 "winStreak": 1,
-                "team_id": 6
+                "team_id": 6,
+                "espnLink": "https://www.espn.com/nba/team/_/name/CHI/chicago-bulls"
             },
             {
                 "team": "Cleveland Cavaliers",
@@ -121,7 +127,8 @@
                 "totalLosses": 25,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/06/Cavs_de_Cleveland_logo_2017.png/150px-Cavs_de_Cleveland_logo_2017.png",
                 "winStreak": 3,
-                "team_id": 7
+                "team_id": 7,
+                "espnLink": "https://www.espn.com/nba/team/_/name/CLE/cleveland-cavaliers"
             },
             {
                 "team": "Detroit Pistons",
@@ -138,7 +145,8 @@
                 "totalLosses": 46,
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Detroit_Pistons_primary_logo_2017.png/150px-Detroit_Pistons_primary_logo_2017.png",
                 "winStreak": 4,
-                "team_id": 8
+                "team_id": 8,
+                "espnLink": "https://www.espn.com/nba/team/_/name/DET/detroit-pistons"
             },
             {
                 "team": "Indiana Pacers",
@@ -155,7 +163,8 @@
                 "totalLosses": 35,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/cf/Pacers_de_l%27Indiana_logo.svg/1180px-Pacers_de_l%27Indiana_logo.svg.png",
                 "winStreak": 1,
-                "team_id": 9
+                "team_id": 9,
+                "espnLink": "https://www.espn.com/nba/team/_/name/IND/indiana-pacers"
             },
             {
                 "team": "Milwaukee Bucks",
@@ -172,7 +181,8 @@
                 "totalLosses": 17,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Bucks2015.png",
                 "winStreak": 13,
-                "team_id": 10
+                "team_id": 10,
+                "espnLink": "https://www.espn.com/nba/team/_/name/MIL/milwaukee-bucks"
             },
             {
                 "team": "Atlanta Hawks",
@@ -189,7 +199,8 @@
                 "totalLosses": 30,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png",
                 "winStreak": 1,
-                "team_id": 11
+                "team_id": 11,
+                "espnLink": "https://www.espn.com/nba/team/_/name/ATL/atlanta-hawks"
             },
             {
                 "team": "Charlotte Hornets",
@@ -206,7 +217,8 @@
                 "totalLosses": 43,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/Hornets_de_Charlotte_logo.svg/1200px-Hornets_de_Charlotte_logo.svg.png",
                 "winStreak": 4,
-                "team_id": 12
+                "team_id": 12,
+                "espnLink": "https://www.espn.com/nba/team/_/name/CHA/charlotte-hornets"
             },
             {
                 "team": "Miami Heat",
@@ -223,7 +235,8 @@
                 "totalLosses": 29,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Miami_Heat_-_Logo.svg/1200px-Miami_Heat_-_Logo.svg.png",
                 "winStreak": 4,
-                "team_id": 13
+                "team_id": 13,
+                "espnLink": "https://www.espn.com/nba/team/_/name/MIA/miami-heat"
             },
             {
                 "team": "Orlando Magic",
@@ -240,7 +253,8 @@
                 "totalLosses": 36,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bd/Orlando_Magic_logo_2010.png",
                 "winStreak": 1,
-                "team_id": 14
+                "team_id": 14,
+                "espnLink": "https://www.espn.com/nba/team/_/name/ORL/orlando-magic"
             },
             {
                 "team": "Washington Wizards",
@@ -257,7 +271,8 @@
                 "totalLosses": 32,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/archive/d/d6/20161212034849%21Wizards2015.png",
                 "winStreak": 1,
-                "team_id": 15
+                "team_id": 15,
+                "espnLink": "https://www.espn.com/nba/team/_/name/WAS/washington-wizards"
             },
             {
                 "team": "Denver Nuggets",
@@ -274,7 +289,8 @@
                 "totalLosses": 19,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/35/Nuggets_de_Denver_2018.png/180px-Nuggets_de_Denver_2018.png",
                 "winStreak": 1,
-                "team_id": 16
+                "team_id": 16,
+                "espnLink": "https://www.espn.com/nba/team/_/name/DEN/denver-nuggets"
             },
             {
                 "team": "Minnesota Timberwolves",
@@ -291,7 +307,8 @@
                 "totalLosses": 32,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d9/Timberwolves_du_Minnesota_logo_2017.png/200px-Timberwolves_du_Minnesota_logo_2017.png",
                 "winStreak": 2,
-                "team_id": 17
+                "team_id": 17,
+                "espnLink": "https://www.espn.com/nba/team/_/name/MIN/minnesota-timberwolves"
             },
             {
                 "team": "Oklahoma City Thunder",
@@ -308,7 +325,8 @@
                 "totalLosses": 32,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/4f/Thunder_d%27Oklahoma_City_logo.svg/1200px-Thunder_d%27Oklahoma_City_logo.svg.png",
                 "winStreak": 2,
-                "team_id": 18
+                "team_id": 18,
+                "espnLink": "https://www.espn.com/nba/team/_/name/OKC/oklahoma-city-thunder"
             },
             {
                 "team": "Portland Trail Blazers",
@@ -325,7 +343,8 @@
                 "totalLosses": 31,
                 "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Portland_Trail_Blazers_logo.svg/1200px-Portland_Trail_Blazers_logo.svg.png",
                 "winStreak": 2,
-                "team_id": 19
+                "team_id": 19,
+                "espnLink": "https://www.espn.com/nba/team/_/name/POR/portland-trail-blazers"
             },
             {
                 "team": "Utah Jazz",
@@ -342,7 +361,8 @@
                 "totalLosses": 31,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/3/3b/Jazz_de_l%27Utah_logo.png",
                 "winStreak": 2,
-                "team_id": 20
+                "team_id": 20,
+                "espnLink": "https://www.espn.com/nba/team/_/name/UTA/utah-jazz"
             },
             {
                 "team": "Golden State Warriors",
@@ -359,7 +379,8 @@
                 "totalLosses": 30,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Warriors_de_Golden_State_logo.svg/1200px-Warriors_de_Golden_State_logo.svg.png",
                 "winStreak": 1,
-                "team_id": 21
+                "team_id": 21,
+                "espnLink": "https://www.espn.com/nba/team/_/name/GSW/golden-state-warriors"
             },
             {
                 "team": "Los Angeles Clippers",
@@ -376,7 +397,8 @@
                 "totalLosses": 29,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/d/d6/Los_Angeles_Clippers_logo_2010.png",
                 "winStreak": 1,
-                "team_id": 22
+                "team_id": 22,
+                "espnLink": "https://www.espn.com/nba/team/_/name/LAC/los-angeles-clippers"
             },
             {
                 "team": "Los Angeles Lakers",
@@ -393,7 +415,8 @@
                 "totalLosses": 32,
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png",
                 "winStreak": 2,
-                "team_id": 23
+                "team_id": 23,
+                "espnLink": "https://www.espn.com/nba/team/_/name/LAL/los-angeles-lakers"
             },
             {
                 "team": "Phoenix Suns",
@@ -410,7 +433,8 @@
                 "totalLosses": 29,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/5/56/Phoenix_Suns_2013.png",
                 "winStreak": 1,
-                "team_id": 24
+                "team_id": 24,
+                "espnLink": "https://www.espn.com/nba/team/_/name/PHX/phoenix-suns"
             },
             {
                 "team": "Sacramento Kings",
@@ -427,7 +451,8 @@
                 "totalLosses": 25,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Kings_de_Sacramento_logo.svg/1200px-Kings_de_Sacramento_logo.svg.png",
                 "winStreak": 2,
-                "team_id": 25
+                "team_id": 25,
+                "espnLink": "https://www.espn.com/nba/team/_/name/SAC/sacramento-kings"
             },
             {
                 "team": "Dallas Mavericks",
@@ -444,7 +469,8 @@
                 "totalLosses": 30,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b8/Mavericks_de_Dallas_logo.svg/150px-Mavericks_de_Dallas_logo.svg.png",
                 "winStreak": 1,
-                "team_id": 26
+                "team_id": 26,
+                "espnLink": "https://www.espn.com/nba/team/_/name/DAL/dallas-mavericks"
             },
             {
                 "team": "Houston Rockets",
@@ -461,7 +487,8 @@
                 "totalLosses": 46,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Houston_Rockets_logo_2003.png/330px-Houston_Rockets_logo_2003.png",
                 "winStreak": 8,
-                "team_id": 27
+                "team_id": 27,
+                "espnLink": "https://www.espn.com/nba/team/_/name/HOU/houston-rockets"
             },
             {
                 "team": "Memphis Grizzlies",
@@ -478,7 +505,8 @@
                 "totalLosses": 23,
                 "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/1200px-Memphis_Grizzlies.svg.png",
                 "winStreak": 1,
-                "team_id": 28
+                "team_id": 28,
+                "espnLink": "https://www.espn.com/nba/team/_/name/MEM/memphis-grizzlies"
             },
             {
                 "team": "New Orleans Pelicans",
@@ -495,7 +523,8 @@
                 "totalLosses": 31,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/New_Orleans_Pelicans.png/200px-New_Orleans_Pelicans.png",
                 "winStreak": 3,
-                "team_id": 29
+                "team_id": 29,
+                "espnLink": "https://www.espn.com/nba/team/_/name/NOP/new-orleans-pelicans"
             },
             {
                 "team": "San Antonio Spurs",
@@ -512,7 +541,8 @@
                 "totalLosses": 47,
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/0/0e/San_Antonio_Spurs_2018.png",
                 "winStreak": 16,
-                "team_id": 30
+                "team_id": 30,
+                "espnLink": "https://www.espn.com/nba/team/_/name/SAS/san-antonio-spurs"
             }
         ]
     },
@@ -536,7 +566,8 @@
                 "totalLosses": 3,
                 "logo": "https://media.api-sports.io/american-football/teams/20.png",
                 "winStreak": "W7",
-                "team_id": 31
+                "team_id": 31,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/BUF/buffalo-bills"
             },
             {
                 "team": "Miami Dolphins",
@@ -553,7 +584,8 @@
                 "totalLosses": 8,
                 "logo": "https://media.api-sports.io/american-football/teams/25.png",
                 "winStreak": "W1",
-                "team_id": 32
+                "team_id": 32,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/MIA/miami-dolphins"
             },
             {
                 "team": "New England Patriots",
@@ -570,7 +602,8 @@
                 "totalLosses": 9,
                 "logo": "https://media.api-sports.io/american-football/teams/3.png",
                 "winStreak": "L1",
-                "team_id": 33
+                "team_id": 33,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/NE/new-england-patriots"
             },
             {
                 "team": "New York Jets",
@@ -587,7 +620,8 @@
                 "totalLosses": 10,
                 "logo": "https://media.api-sports.io/american-football/teams/13.png",
                 "winStreak": "L6",
-                "team_id": 34
+                "team_id": 34,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/NYJ/new-york-jets"
             },
             {
                 "team": "Baltimore Ravens",
@@ -604,7 +638,8 @@
                 "totalLosses": 7,
                 "logo": "https://media.api-sports.io/american-football/teams/5.png",
                 "winStreak": "L2",
-                "team_id": 35
+                "team_id": 35,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/BAL/baltimore-ravens"
             },
             {
                 "team": "Cincinnati Bengals",
@@ -621,7 +656,8 @@
                 "totalLosses": 4,
                 "logo": "https://media.api-sports.io/american-football/teams/10.png",
                 "winStreak": "W8",
-                "team_id": 36
+                "team_id": 36,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/CIN/cincinnati-bengals"
             },
             {
                 "team": "Cleveland Browns",
@@ -638,7 +674,8 @@
                 "totalLosses": 10,
                 "logo": "https://media.api-sports.io/american-football/teams/9.png",
                 "winStreak": "L1",
-                "team_id": 37
+                "team_id": 37,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/CLE/cleveland-browns"
             },
             {
                 "team": "Pittsburgh Steelers",
@@ -655,7 +692,8 @@
                 "totalLosses": 8,
                 "logo": "https://media.api-sports.io/american-football/teams/22.png",
                 "winStreak": "W4",
-                "team_id": 38
+                "team_id": 38,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/PIT/pittsburgh-steelers"
             },
             {
                 "team": "Houston Texans",
@@ -672,7 +710,8 @@
                 "totalLosses": 13,
                 "logo": "https://media.api-sports.io/american-football/teams/26.png",
                 "winStreak": "W1",
-                "team_id": 39
+                "team_id": 39,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/HOU/houston-texans"
             },
             {
                 "team": "Indianapolis Colts",
@@ -689,7 +728,8 @@
                 "totalLosses": 12,
                 "logo": "https://media.api-sports.io/american-football/teams/21.png",
                 "winStreak": "L7",
-                "team_id": 40
+                "team_id": 40,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/IND/indianapolis-colts"
             },
             {
                 "team": "Jacksonville Jaguars",
@@ -706,7 +746,8 @@
                 "totalLosses": 8,
                 "logo": "https://media.api-sports.io/american-football/teams/2.png",
                 "winStreak": "W5",
-                "team_id": 41
+                "team_id": 41,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/JAX/jacksonville-jaguars"
             },
             {
                 "team": "Tennessee Titans",
@@ -723,7 +764,8 @@
                 "totalLosses": 10,
                 "logo": "https://media.api-sports.io/american-football/teams/6.png",
                 "winStreak": "L7",
-                "team_id": 42
+                "team_id": 42,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/TEN/tennessee-titans"
             },
             {
                 "team": "Denver Broncos",
@@ -740,7 +782,8 @@
                 "totalLosses": 12,
                 "logo": "https://media.api-sports.io/american-football/teams/28.png",
                 "winStreak": "W1",
-                "team_id": 43
+                "team_id": 43,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/DEN/denver-broncos"
             },
             {
                 "team": "Kansas City Chiefs",
@@ -757,7 +800,8 @@
                 "totalLosses": 3,
                 "logo": "https://media.api-sports.io/american-football/teams/17.png",
                 "winStreak": "W5",
-                "team_id": 44
+                "team_id": 44,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/KC/kansas-city-chiefs"
             },
             {
                 "team": "Las Vegas Raiders",
@@ -774,7 +818,8 @@
                 "totalLosses": 11,
                 "logo": "https://media.api-sports.io/american-football/teams/1.png",
                 "winStreak": "L3",
-                "team_id": 45
+                "team_id": 45,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/LV/las-vegas-raiders"
             },
             {
                 "team": "Los Angeles Chargers",
@@ -791,7 +836,8 @@
                 "totalLosses": 7,
                 "logo": "https://media.api-sports.io/american-football/teams/30.png",
                 "winStreak": "L1",
-                "team_id": 46
+                "team_id": 46,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/LAC/los-angeles-chargers"
             },
             {
                 "team": "Dallas Cowboys",
@@ -808,7 +854,8 @@
                 "totalLosses": 5,
                 "logo": "https://media.api-sports.io/american-football/teams/29.png",
                 "winStreak": "L1",
-                "team_id": 47
+                "team_id": 47,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/DAL/dallas-cowboys"
             },
             {
                 "team": "New York Giants",
@@ -825,7 +872,8 @@
                 "totalLosses": 7,
                 "logo": "https://media.api-sports.io/american-football/teams/4.png",
                 "winStreak": "L1",
-                "team_id": 48
+                "team_id": 48,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/NYG/new-york-giants"
             },
             {
                 "team": "Philadelphia Eagles",
@@ -842,7 +890,8 @@
                 "totalLosses": 3,
                 "logo": "https://media.api-sports.io/american-football/teams/12.png",
                 "winStreak": "W1",
-                "team_id": 49
+                "team_id": 49,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/PHI/philadelphia-eagles"
             },
             {
                 "team": "Washington Commanders",
@@ -859,7 +908,8 @@
                 "totalLosses": 8,
                 "logo": "https://media.api-sports.io/american-football/teams/18.png",
                 "winStreak": "W1",
-                "team_id": 50
+                "team_id": 50,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/WAS/washington-commanders"
             },
             {
                 "team": "Chicago Bears",
@@ -876,7 +926,8 @@
                 "totalLosses": 14,
                 "logo": "https://media.api-sports.io/american-football/teams/16.png",
                 "winStreak": "L10",
-                "team_id": 51
+                "team_id": 51,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/CHI/chicago-bears"
             },
             {
                 "team": "Detroit Lions",
@@ -893,7 +944,8 @@
                 "totalLosses": 8,
                 "logo": "https://media.api-sports.io/american-football/teams/7.png",
                 "winStreak": "W2",
-                "team_id": 52
+                "team_id": 52,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/DET/detroit-lions"
             },
             {
                 "team": "Green Bay Packers",
@@ -910,7 +962,8 @@
                 "totalLosses": 9,
                 "logo": "https://media.api-sports.io/american-football/teams/15.png",
                 "winStreak": "L1",
-                "team_id": 53
+                "team_id": 53,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/GB/green-bay-packers"
             },
             {
                 "team": "Minnesota Vikings",
@@ -927,7 +980,8 @@
                 "totalLosses": 4,
                 "logo": "https://media.api-sports.io/american-football/teams/32.png",
                 "winStreak": "W1",
-                "team_id": 54
+                "team_id": 54,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/MIN/minnesota-vikings"
             },
             {
                 "team": "Atlanta Falcons",
@@ -944,7 +998,8 @@
                 "totalLosses": 10,
                 "logo": "https://media.api-sports.io/american-football/teams/8.png",
                 "winStreak": "W2",
-                "team_id": 55
+                "team_id": 55,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/ATL/atlanta-falcons"
             },
             {
                 "team": "Carolina Panthers",
@@ -961,7 +1016,8 @@
                 "totalLosses": 10,
                 "logo": "https://media.api-sports.io/american-football/teams/19.png",
                 "winStreak": "W1",
-                "team_id": 56
+                "team_id": 56,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/CAR/carolina-panthers"
             },
             {
                 "team": "New Orleans Saints",
@@ -978,7 +1034,8 @@
                 "totalLosses": 10,
                 "logo": "https://media.api-sports.io/american-football/teams/27.png",
                 "winStreak": "L1",
-                "team_id": 57
+                "team_id": 57,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/NO/new-orleans-saints"
             },
             {
                 "team": "Tampa Bay Buccaneers",
@@ -995,7 +1052,8 @@
                 "totalLosses": 9,
                 "logo": "https://media.api-sports.io/american-football/teams/24.png",
                 "winStreak": "L1",
-                "team_id": 58
+                "team_id": 58,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/TB/tampa-bay-buccaneers"
             },
             {
                 "team": "Arizona Cardinals",
@@ -1012,7 +1070,8 @@
                 "totalLosses": 13,
                 "logo": "https://media.api-sports.io/american-football/teams/11.png",
                 "winStreak": "L7",
-                "team_id": 59
+                "team_id": 59,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/ARI/arizona-cardinals"
             },
             {
                 "team": "San Francisco 49ers",
@@ -1029,7 +1088,8 @@
                 "totalLosses": 4,
                 "logo": "https://media.api-sports.io/american-football/teams/14.png",
                 "winStreak": "W10",
-                "team_id": 60
+                "team_id": 60,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/SF/san-francisco-49ers"
             },
             {
                 "team": "Seattle Seahawks",
@@ -1046,7 +1106,8 @@
                 "totalLosses": 8,
                 "logo": "https://media.api-sports.io/american-football/teams/23.png",
                 "winStreak": "W2",
-                "team_id": 61
+                "team_id": 61,
+                "espnLink": "https://www.espn.com/nfl/team/_/name/SEA/seattle-seahawks"
             }
         ]
     },
@@ -1068,7 +1129,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/7.png",
                 "winStreak": 0,
-                "team_id": 62
+                "team_id": 62,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/CHW/chicago-white-sox"
             },
             {
                 "team": "Cleveland Guardians",
@@ -1083,7 +1145,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/9.png",
                 "winStreak": 0,
-                "team_id": 63
+                "team_id": 63,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/CLE/cleveland-guardians"
             },
             {
                 "team": "Detroit Tigers",
@@ -1098,7 +1161,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/12.png",
                 "winStreak": 0,
-                "team_id": 64
+                "team_id": 64,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/DET/detroit-tigers"
             },
             {
                 "team": "Kansas City Royals",
@@ -1113,7 +1177,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/16.png",
                 "winStreak": 0,
-                "team_id": 65
+                "team_id": 65,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/KC/kansas-city-royals"
             },
             {
                 "team": "Minnesota Twins",
@@ -1128,7 +1193,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/22.png",
                 "winStreak": 0,
-                "team_id": 66
+                "team_id": 66,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/MIN/minnesota-twins"
             },
             {
                 "team": "Baltimore Orioles",
@@ -1143,7 +1209,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/4.png",
                 "winStreak": 0,
-                "team_id": 67
+                "team_id": 67,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/BAL/baltimore-orioles"
             },
             {
                 "team": "Boston Red Sox",
@@ -1158,7 +1225,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/5.png",
                 "winStreak": 0,
-                "team_id": 68
+                "team_id": 68,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/BOS/boston-red-sox"
             },
             {
                 "team": "New York Yankees",
@@ -1173,7 +1241,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/25.png",
                 "winStreak": 0,
-                "team_id": 69
+                "team_id": 69,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/NYY/new-york-yankees"
             },
             {
                 "team": "Tampa Bay Rays",
@@ -1188,7 +1257,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/34.png",
                 "winStreak": 0,
-                "team_id": 70
+                "team_id": 70,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/TB/tampa-bay-rays"
             },
             {
                 "team": "Toronto Blue Jays",
@@ -1203,7 +1273,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/36.png",
                 "winStreak": 0,
-                "team_id": 71
+                "team_id": 71,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/TOR/toronto-blue-jays"
             },
             {
                 "team": "Houston Astros",
@@ -1218,7 +1289,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/15.png",
                 "winStreak": 0,
-                "team_id": 72
+                "team_id": 72,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/HOU/houston-astros"
             },
             {
                 "team": "Los Angeles Angels",
@@ -1233,7 +1305,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/17.png",
                 "winStreak": 0,
-                "team_id": 73
+                "team_id": 73,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/LAA/los-angeles-angels"
             },
             {
                 "team": "Oakland Athletics",
@@ -1248,7 +1321,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/26.png",
                 "winStreak": 0,
-                "team_id": 74
+                "team_id": 74,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/OAK/oakland-athletics"
             },
             {
                 "team": "Seattle Mariners",
@@ -1263,7 +1337,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/32.png",
                 "winStreak": 0,
-                "team_id": 75
+                "team_id": 75,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/SEA/seattle-mariners"
             },
             {
                 "team": "Texas Rangers",
@@ -1278,7 +1353,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/35.png",
                 "winStreak": 0,
-                "team_id": 76
+                "team_id": 76,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/TEX/texas-rangers"
             },
             {
                 "team": "Chicago Cubs",
@@ -1293,7 +1369,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/6.png",
                 "winStreak": 0,
-                "team_id": 77
+                "team_id": 77,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/CHC/chicago-cubs"
             },
             {
                 "team": "Cincinnati Reds",
@@ -1308,7 +1385,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/8.png",
                 "winStreak": 0,
-                "team_id": 78
+                "team_id": 78,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/CIN/cincinnati-reds"
             },
             {
                 "team": "Milwaukee Brewers",
@@ -1323,7 +1401,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/20.png",
                 "winStreak": 0,
-                "team_id": 79
+                "team_id": 79,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/MIL/milwaukee-brewers"
             },
             {
                 "team": "Pittsburgh Pirates",
@@ -1338,7 +1417,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/28.png",
                 "winStreak": 0,
-                "team_id": 80
+                "team_id": 80,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/PIT/pittsburgh-pirates"
             },
             {
                 "team": "St. Louis Cardinals",
@@ -1353,7 +1433,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/33.png",
                 "winStreak": 0,
-                "team_id": 81
+                "team_id": 81,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/STL/st.-louis-cardinals"
             },
             {
                 "team": "Atlanta Braves",
@@ -1368,7 +1449,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/3.png",
                 "winStreak": 0,
-                "team_id": 82
+                "team_id": 82,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/ATL/atlanta-braves"
             },
             {
                 "team": "Miami Marlins",
@@ -1383,7 +1465,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/19.png",
                 "winStreak": 0,
-                "team_id": 83
+                "team_id": 83,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/MIA/miami-marlins"
             },
             {
                 "team": "New York Mets",
@@ -1398,7 +1481,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/24.png",
                 "winStreak": 0,
-                "team_id": 84
+                "team_id": 84,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/NYM/new-york-mets"
             },
             {
                 "team": "Philadelphia Phillies",
@@ -1413,7 +1497,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/27.png",
                 "winStreak": 0,
-                "team_id": 85
+                "team_id": 85,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/PHI/philadelphia-phillies"
             },
             {
                 "team": "Washington Nationals",
@@ -1428,7 +1513,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/37.png",
                 "winStreak": 0,
-                "team_id": 86
+                "team_id": 86,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/WSH/washington-nationals"
             },
             {
                 "team": "Arizona Diamondbacks",
@@ -1443,7 +1529,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/2.png",
                 "winStreak": 0,
-                "team_id": 87
+                "team_id": 87,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/ARI/arizona-diamondbacks"
             },
             {
                 "team": "Colorado Rockies",
@@ -1458,7 +1545,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/10.png",
                 "winStreak": 0,
-                "team_id": 88
+                "team_id": 88,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/COL/colorado-rockies"
             },
             {
                 "team": "Los Angeles Dodgers",
@@ -1473,7 +1561,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/18.png",
                 "winStreak": 0,
-                "team_id": 89
+                "team_id": 89,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/LAD/los-angeles-dodgers"
             },
             {
                 "team": "San Diego Padres",
@@ -1488,7 +1577,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/30.png",
                 "winStreak": 0,
-                "team_id": 90
+                "team_id": 90,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/SD/san-diego-padres"
             },
             {
                 "team": "San Francisco Giants",
@@ -1503,7 +1593,8 @@
                 "totalLosses": 0,
                 "logo": "https://media.api-sports.io/baseball/teams/31.png",
                 "winStreak": 0,
-                "team_id": 91
+                "team_id": 91,
+                "espnLink": "https://www.espn.com/mlb/team/_/name/SF/san-francisco-giants"
             }
         ]
     }
