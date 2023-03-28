@@ -75,7 +75,7 @@ class SeleniumTests:
         time.sleep(2)
         btn.click()
         url = self.driver.current_url
-        assert url == "https://reactjs.org/"
+        assert url == "https://react.dev/"
 
     def test_not_found(self):
         self.driver.get("https://www.sportsrightnow.me/")
