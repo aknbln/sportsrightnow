@@ -13,3 +13,10 @@ export function inchToFeet(inches){
 
   return feet + "\' " + remainder  + "\'"
 }
+
+export function GenerateMapQuerry(str){
+  let q = str
+  q = q.replace(" ", "+")
+  q = q.concat("+stadium")
+  return q
+}
