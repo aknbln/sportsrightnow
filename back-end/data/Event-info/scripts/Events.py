@@ -27,7 +27,28 @@ def find_teamId(name):
         for k in data[i]['results']:
             if k['team'] == name:
                 return k['team_id']
+            
+def add_stadName():
+    teams_file = open("../../../data/Team-Info/Teams.json")
+    teams_data = json.load(teams_file)
 
+    events_file = open("../../../data/Event-Info/Events.json")
+    events_data = json.load(events_file)
+    #go through each league
+    for i in events_data:
+        #go through each team in the league
+        for j in teams_data[i]['results']:
+
+            for event in events_data[i]:
+                print(events_data[i][event]['homeTeamId'])
+                if events_data[i][event]['homeTeamId'] == j['team_id']:
+                    j['stadium_name'] = events_data[i][event]['_embedded']['name']
+
+
+    with open("../../Team-Info/Teams.json", "w") as file:
+        json.dump(teams_data, file, indent=4)
+
+#add_stadName()
 # def add_event_image():
 #     # url = "https://app.ticketmaster.com/discovery/v2/events"
 #     # params = {
@@ -138,7 +159,7 @@ def find_teamId(name):
 #     json.dump(events_file, file, indent = 4)
 
 # add_teams_to_events()
-add_teams_to_events()
+
 
 # add_event_image()
 # Write the combined JSON into a new file

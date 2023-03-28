@@ -78,7 +78,8 @@ def populate_teams():
                     "logo": team["logo"],
                     "city": team["location"],
                     "league": team["league"],
-                    "espnLink": team['espnLink']
+                    "espnLink": team['espnLink'],
+                    "stadium_name": team['stadium_name']
                 }
                 db.session.add(Team(**db_row))
         db.session.commit()
