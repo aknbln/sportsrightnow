@@ -20,7 +20,9 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png",
                 "winStreak": 3,
                 "team_id": 1,
+                "stadium_name": "TD Garden",
                 "espnLink": "https://www.espn.com/nba/team/_/name/BOS/boston-celtics"
+                
             },
             {
                 "team": "Brooklyn Nets",
@@ -38,6 +40,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png",
                 "winStreak": 1,
                 "team_id": 2,
+                "stadium_name": "Barclays Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/BKN/brooklyn-nets"
             },
             {
@@ -56,6 +59,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Knicks_de_NY.png",
                 "winStreak": 5,
                 "team_id": 3,
+                "stadium_name": "Madison Square Garden",
                 "espnLink": "https://www.espn.com/nba/team/_/name/NYK/new-york-knicks"
             },
             {
@@ -74,6 +78,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/4/48/76ers_2016.png",
                 "winStreak": 1,
                 "team_id": 4,
+                "stadium_name": "Wells Fargo Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/PHI/philadelphia-76ers"
             },
             {
@@ -92,6 +97,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/8/89/Raptors2015.png",
                 "winStreak": 4,
                 "team_id": 5,
+                "stadium_name": "Scotia Bank Arena",
                 "espnLink": "https://www.espn.com/nba/team/_/name/TOR/toronto-raptors"
             },
             {
@@ -110,6 +116,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png",
                 "winStreak": 1,
                 "team_id": 6,
+                "stadium_name": "United Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/CHI/chicago-bulls"
             },
             {
@@ -128,6 +135,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/06/Cavs_de_Cleveland_logo_2017.png/150px-Cavs_de_Cleveland_logo_2017.png",
                 "winStreak": 3,
                 "team_id": 7,
+                "stadium_name": "Rocket Mortgage Fieldhouse",
                 "espnLink": "https://www.espn.com/nba/team/_/name/CLE/cleveland-cavaliers"
             },
             {
@@ -146,6 +154,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Detroit_Pistons_primary_logo_2017.png/150px-Detroit_Pistons_primary_logo_2017.png",
                 "winStreak": 4,
                 "team_id": 8,
+                "stadium_name": "Little Caesars Arena",
                 "espnLink": "https://www.espn.com/nba/team/_/name/DET/detroit-pistons"
             },
             {
@@ -164,6 +173,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/cf/Pacers_de_l%27Indiana_logo.svg/1180px-Pacers_de_l%27Indiana_logo.svg.png",
                 "winStreak": 1,
                 "team_id": 9,
+                "stadium_name": "Bankers Life Fieldhouse",
                 "espnLink": "https://www.espn.com/nba/team/_/name/IND/indiana-pacers"
             },
             {
@@ -182,6 +192,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Bucks2015.png",
                 "winStreak": 13,
                 "team_id": 10,
+                "stadium_name": "Fiserv Forum",
                 "espnLink": "https://www.espn.com/nba/team/_/name/MIL/milwaukee-bucks"
             },
             {
@@ -200,6 +211,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png",
                 "winStreak": 1,
                 "team_id": 11,
+                "stadium_name": "State Farm Arena",
                 "espnLink": "https://www.espn.com/nba/team/_/name/ATL/atlanta-hawks"
             },
             {
@@ -218,6 +230,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/Hornets_de_Charlotte_logo.svg/1200px-Hornets_de_Charlotte_logo.svg.png",
                 "winStreak": 4,
                 "team_id": 12,
+                "stadium_name": "Spectrum Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/CHA/charlotte-hornets"
             },
             {
@@ -236,6 +249,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Miami_Heat_-_Logo.svg/1200px-Miami_Heat_-_Logo.svg.png",
                 "winStreak": 4,
                 "team_id": 13,
+                "stadium_name": "American Airlines Arena",
                 "espnLink": "https://www.espn.com/nba/team/_/name/MIA/miami-heat"
             },
             {
@@ -254,6 +268,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bd/Orlando_Magic_logo_2010.png",
                 "winStreak": 1,
                 "team_id": 14,
+                "stadium_name": "Amway Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/ORL/orlando-magic"
             },
             {
@@ -272,6 +287,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/archive/d/d6/20161212034849%21Wizards2015.png",
                 "winStreak": 1,
                 "team_id": 15,
+                "stadium_name": "Capital One Arena",
                 "espnLink": "https://www.espn.com/nba/team/_/name/WAS/washington-wizards"
             },
             {
@@ -290,6 +306,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/35/Nuggets_de_Denver_2018.png/180px-Nuggets_de_Denver_2018.png",
                 "winStreak": 1,
                 "team_id": 16,
+                "stadium_name": "Pepsi Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/DEN/denver-nuggets"
             },
             {
@@ -308,6 +325,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d9/Timberwolves_du_Minnesota_logo_2017.png/200px-Timberwolves_du_Minnesota_logo_2017.png",
                 "winStreak": 2,
                 "team_id": 17,
+                "stadium_name": "Target Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/MIN/minnesota-timberwolves"
             },
             {
@@ -326,6 +344,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/4f/Thunder_d%27Oklahoma_City_logo.svg/1200px-Thunder_d%27Oklahoma_City_logo.svg.png",
                 "winStreak": 2,
                 "team_id": 18,
+                "stadium_name": "Chesapeake Energy Arena",
                 "espnLink": "https://www.espn.com/nba/team/_/name/OKC/oklahoma-city-thunder"
             },
             {
@@ -344,6 +363,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Portland_Trail_Blazers_logo.svg/1200px-Portland_Trail_Blazers_logo.svg.png",
                 "winStreak": 2,
                 "team_id": 19,
+                "stadium_name": "Moda Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/POR/portland-trail-blazers"
             },
             {
@@ -362,6 +382,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/3/3b/Jazz_de_l%27Utah_logo.png",
                 "winStreak": 2,
                 "team_id": 20,
+                "stadium_name": "Vivint Smart Home Arena",
                 "espnLink": "https://www.espn.com/nba/team/_/name/UTA/utah-jazz"
             },
             {
@@ -380,6 +401,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Warriors_de_Golden_State_logo.svg/1200px-Warriors_de_Golden_State_logo.svg.png",
                 "winStreak": 1,
                 "team_id": 21,
+                "stadium_name": "Chase Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/GSW/golden-state-warriors"
             },
             {
@@ -398,6 +420,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/d/d6/Los_Angeles_Clippers_logo_2010.png",
                 "winStreak": 1,
                 "team_id": 22,
+                "stadium_name": "Staples Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/LAC/los-angeles-clippers"
             },
             {
@@ -416,6 +439,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png",
                 "winStreak": 2,
                 "team_id": 23,
+                "stadium_name": "Staples Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/LAL/los-angeles-lakers"
             },
             {
@@ -434,6 +458,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/5/56/Phoenix_Suns_2013.png",
                 "winStreak": 1,
                 "team_id": 24,
+                "stadium_name": "Talking Stick Resort Arena",
                 "espnLink": "https://www.espn.com/nba/team/_/name/PHX/phoenix-suns"
             },
             {
@@ -452,6 +477,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Kings_de_Sacramento_logo.svg/1200px-Kings_de_Sacramento_logo.svg.png",
                 "winStreak": 2,
                 "team_id": 25,
+                "stadium_name": "Golden 1 Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/SAC/sacramento-kings"
             },
             {
@@ -470,6 +496,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b8/Mavericks_de_Dallas_logo.svg/150px-Mavericks_de_Dallas_logo.svg.png",
                 "winStreak": 1,
                 "team_id": 26,
+                "stadium_name": "American Airlines Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/DAL/dallas-mavericks"
             },
             {
@@ -488,6 +515,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Houston_Rockets_logo_2003.png/330px-Houston_Rockets_logo_2003.png",
                 "winStreak": 8,
                 "team_id": 27,
+                "stadium_name": "Toyota Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/HOU/houston-rockets"
             },
             {
@@ -506,6 +534,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/1200px-Memphis_Grizzlies.svg.png",
                 "winStreak": 1,
                 "team_id": 28,
+                "stadium_name": "FedEx Forum",
                 "espnLink": "https://www.espn.com/nba/team/_/name/MEM/memphis-grizzlies"
             },
             {
@@ -524,6 +553,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/New_Orleans_Pelicans.png/200px-New_Orleans_Pelicans.png",
                 "winStreak": 3,
                 "team_id": 29,
+                "stadium_name": "Smoothie King Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/NOP/new-orleans-pelicans"
             },
             {
@@ -542,6 +572,7 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/0/0e/San_Antonio_Spurs_2018.png",
                 "winStreak": 16,
                 "team_id": 30,
+                "stadium_name": "AT&T Center",
                 "espnLink": "https://www.espn.com/nba/team/_/name/SAS/san-antonio-spurs"
             }
         ]
@@ -567,6 +598,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/20.png",
                 "winStreak": "W7",
                 "team_id": 31,
+                "stadium_name": "Bills Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/BUF/buffalo-bills"
             },
             {
@@ -585,6 +617,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/25.png",
                 "winStreak": "W1",
                 "team_id": 32,
+                "stadium_name": "Hard Rock Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/MIA/miami-dolphins"
             },
             {
@@ -603,6 +636,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/3.png",
                 "winStreak": "L1",
                 "team_id": 33,
+                "stadium_name": "Gilette Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/NE/new-england-patriots"
             },
             {
@@ -621,6 +655,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/13.png",
                 "winStreak": "L6",
                 "team_id": 34,
+                "stadium_name": "MetLife Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/NYJ/new-york-jets"
             },
             {
@@ -639,6 +674,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/5.png",
                 "winStreak": "L2",
                 "team_id": 35,
+                "stadium_name": "M&T Bank Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/BAL/baltimore-ravens"
             },
             {
@@ -657,6 +693,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/10.png",
                 "winStreak": "W8",
                 "team_id": 36,
+                "stadium_name": "Paul Brown Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/CIN/cincinnati-bengals"
             },
             {
@@ -675,6 +712,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/9.png",
                 "winStreak": "L1",
                 "team_id": 37,
+                "stadium_name": "First Energy Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/CLE/cleveland-browns"
             },
             {
@@ -693,6 +731,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/22.png",
                 "winStreak": "W4",
                 "team_id": 38,
+                "stadium_name": "Heinz Field",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/PIT/pittsburgh-steelers"
             },
             {
@@ -711,6 +750,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/26.png",
                 "winStreak": "W1",
                 "team_id": 39,
+                "stadium_name": "NRG Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/HOU/houston-texans"
             },
             {
@@ -729,6 +769,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/21.png",
                 "winStreak": "L7",
                 "team_id": 40,
+                "stadium_name": "Lucas Oil Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/IND/indianapolis-colts"
             },
             {
@@ -747,6 +788,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/2.png",
                 "winStreak": "W5",
                 "team_id": 41,
+                "stadium_name": "TIAA Bank Field",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/JAX/jacksonville-jaguars"
             },
             {
@@ -765,6 +807,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/6.png",
                 "winStreak": "L7",
                 "team_id": 42,
+                "stadium_name": "Nissan Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/TEN/tennessee-titans"
             },
             {
@@ -783,6 +826,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/28.png",
                 "winStreak": "W1",
                 "team_id": 43,
+                "stadium_name": "Empower Field at Mile High",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/DEN/denver-broncos"
             },
             {
@@ -801,6 +845,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/17.png",
                 "winStreak": "W5",
                 "team_id": 44,
+                "stadium_name": "Arrowhead Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/KC/kansas-city-chiefs"
             },
             {
@@ -819,6 +864,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/1.png",
                 "winStreak": "L3",
                 "team_id": 45,
+                "stadium_name": "Allegiant Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/LV/las-vegas-raiders"
             },
             {
@@ -837,6 +883,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/30.png",
                 "winStreak": "L1",
                 "team_id": 46,
+                "stadium_name": "SoFi Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/LAC/los-angeles-chargers"
             },
             {
@@ -855,6 +902,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/29.png",
                 "winStreak": "L1",
                 "team_id": 47,
+                "stadium_name": "AT&T Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/DAL/dallas-cowboys"
             },
             {
@@ -873,6 +921,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/4.png",
                 "winStreak": "L1",
                 "team_id": 48,
+                "stadium_name": "MetLife Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/NYG/new-york-giants"
             },
             {
@@ -891,6 +940,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/12.png",
                 "winStreak": "W1",
                 "team_id": 49,
+                "stadium_name": "Lincoln Financial Field",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/PHI/philadelphia-eagles"
             },
             {
@@ -909,6 +959,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/18.png",
                 "winStreak": "W1",
                 "team_id": 50,
+                "stadium_name": "FedEx Field",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/WAS/washington-commanders"
             },
             {
@@ -927,6 +978,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/16.png",
                 "winStreak": "L10",
                 "team_id": 51,
+                "stadium_name": "Soldier Field",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/CHI/chicago-bears"
             },
             {
@@ -945,6 +997,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/7.png",
                 "winStreak": "W2",
                 "team_id": 52,
+                "stadium_name": "Ford Field",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/DET/detroit-lions"
             },
             {
@@ -963,6 +1016,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/15.png",
                 "winStreak": "L1",
                 "team_id": 53,
+                "stadium_name": "Lambeau Field",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/GB/green-bay-packers"
             },
             {
@@ -981,6 +1035,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/32.png",
                 "winStreak": "W1",
                 "team_id": 54,
+                "stadium_name": "U.S. Bank Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/MIN/minnesota-vikings"
             },
             {
@@ -999,6 +1054,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/8.png",
                 "winStreak": "W2",
                 "team_id": 55,
+                "stadium_name": "Mercedes-Benz Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/ATL/atlanta-falcons"
             },
             {
@@ -1017,6 +1073,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/19.png",
                 "winStreak": "W1",
                 "team_id": 56,
+                "stadium_name": "Bank of America Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/CAR/carolina-panthers"
             },
             {
@@ -1035,6 +1092,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/27.png",
                 "winStreak": "L1",
                 "team_id": 57,
+                "stadium_name": "Mercedes-Benz Superdome",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/NO/new-orleans-saints"
             },
             {
@@ -1053,6 +1111,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/24.png",
                 "winStreak": "L1",
                 "team_id": 58,
+                "stadium_name": "Raymond James Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/TB/tampa-bay-buccaneers"
             },
             {
@@ -1071,6 +1130,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/11.png",
                 "winStreak": "L7",
                 "team_id": 59,
+                "stadium_name": "State Farm Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/ARI/arizona-cardinals"
             },
             {
@@ -1089,6 +1149,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/14.png",
                 "winStreak": "W10",
                 "team_id": 60,
+                "stadium_name": "Levi's Stadium",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/SF/san-francisco-49ers"
             },
             {
@@ -1107,6 +1168,7 @@
                 "logo": "https://media.api-sports.io/american-football/teams/23.png",
                 "winStreak": "W2",
                 "team_id": 61,
+                "stadium_name": "CenturyLink Field",
                 "espnLink": "https://www.espn.com/nfl/team/_/name/SEA/seattle-seahawks"
             }
         ]
@@ -1130,6 +1192,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/7.png",
                 "winStreak": 0,
                 "team_id": 62,
+                "stadium_name": "Guaranteed Rate Field",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/CHW/chicago-white-sox"
             },
             {
@@ -1146,6 +1209,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/9.png",
                 "winStreak": 0,
                 "team_id": 63,
+                "stadium_name": "Progressive Field",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/CLE/cleveland-guardians"
             },
             {
@@ -1162,6 +1226,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/12.png",
                 "winStreak": 0,
                 "team_id": 64,
+                "stadium_name": "Comerica Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/DET/detroit-tigers"
             },
             {
@@ -1178,6 +1243,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/16.png",
                 "winStreak": 0,
                 "team_id": 65,
+                "stadium_name": "Kauffman Stadium",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/KC/kansas-city-royals"
             },
             {
@@ -1194,6 +1260,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/22.png",
                 "winStreak": 0,
                 "team_id": 66,
+                "stadium_name": "Target Field",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/MIN/minnesota-twins"
             },
             {
@@ -1210,6 +1277,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/4.png",
                 "winStreak": 0,
                 "team_id": 67,
+                "stadium_name": "Oriole Park at Camden Yards",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/BAL/baltimore-orioles"
             },
             {
@@ -1226,6 +1294,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/5.png",
                 "winStreak": 0,
                 "team_id": 68,
+                "stadium_name": "Fenway Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/BOS/boston-red-sox"
             },
             {
@@ -1242,6 +1311,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/25.png",
                 "winStreak": 0,
                 "team_id": 69,
+                "stadium_name": "Yankee Stadium",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/NYY/new-york-yankees"
             },
             {
@@ -1258,6 +1328,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/34.png",
                 "winStreak": 0,
                 "team_id": 70,
+                "stadium_name": "Tropicana Field",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/TB/tampa-bay-rays"
             },
             {
@@ -1274,6 +1345,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/36.png",
                 "winStreak": 0,
                 "team_id": 71,
+                "stadium_name": "Rogers Centre",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/TOR/toronto-blue-jays"
             },
             {
@@ -1290,6 +1362,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/15.png",
                 "winStreak": 0,
                 "team_id": 72,
+                "stadium_name": "Minute Maid Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/HOU/houston-astros"
             },
             {
@@ -1306,6 +1379,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/17.png",
                 "winStreak": 0,
                 "team_id": 73,
+                "stadium_name": "Angel Stadium",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/LAA/los-angeles-angels"
             },
             {
@@ -1322,6 +1396,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/26.png",
                 "winStreak": 0,
                 "team_id": 74,
+                "stadium_name": "RingCentral Coliseum",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/OAK/oakland-athletics"
             },
             {
@@ -1338,6 +1413,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/32.png",
                 "winStreak": 0,
                 "team_id": 75,
+                "stadium_name": "T-Mobile Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/SEA/seattle-mariners"
             },
             {
@@ -1354,6 +1430,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/35.png",
                 "winStreak": 0,
                 "team_id": 76,
+                "stadium_name": "Globe Life Field",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/TEX/texas-rangers"
             },
             {
@@ -1370,6 +1447,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/6.png",
                 "winStreak": 0,
                 "team_id": 77,
+                "stadium_name": "Wrigley Field",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/CHC/chicago-cubs"
             },
             {
@@ -1386,6 +1464,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/8.png",
                 "winStreak": 0,
                 "team_id": 78,
+                "stadium_name": "Great American Ball Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/CIN/cincinnati-reds"
             },
             {
@@ -1402,6 +1481,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/20.png",
                 "winStreak": 0,
                 "team_id": 79,
+                "stadium_name": "Miller Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/MIL/milwaukee-brewers"
             },
             {
@@ -1418,6 +1498,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/28.png",
                 "winStreak": 0,
                 "team_id": 80,
+                "stadium_name": "PNC Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/PIT/pittsburgh-pirates"
             },
             {
@@ -1434,6 +1515,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/33.png",
                 "winStreak": 0,
                 "team_id": 81,
+                "stadium_name": "Busch Stadium",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/STL/st.-louis-cardinals"
             },
             {
@@ -1450,6 +1532,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/3.png",
                 "winStreak": 0,
                 "team_id": 82,
+                "stadium_name": "Truist Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/ATL/atlanta-braves"
             },
             {
@@ -1466,6 +1549,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/19.png",
                 "winStreak": 0,
                 "team_id": 83,
+                "stadium_name": "Marlins Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/MIA/miami-marlins"
             },
             {
@@ -1482,6 +1566,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/24.png",
                 "winStreak": 0,
                 "team_id": 84,
+                "stadium_name": "Citi Field",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/NYM/new-york-mets"
             },
             {
@@ -1498,6 +1583,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/27.png",
                 "winStreak": 0,
                 "team_id": 85,
+                "stadium_name": "Citizens Bank Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/PHI/philadelphia-phillies"
             },
             {
@@ -1514,6 +1600,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/37.png",
                 "winStreak": 0,
                 "team_id": 86,
+                "stadium_name": "Nationals Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/WSH/washington-nationals"
             },
             {
@@ -1530,6 +1617,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/2.png",
                 "winStreak": 0,
                 "team_id": 87,
+                "stadium_name": "Chase Field",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/ARI/arizona-diamondbacks"
             },
             {
@@ -1546,6 +1634,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/10.png",
                 "winStreak": 0,
                 "team_id": 88,
+                "stadium_name": "Coors Field",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/COL/colorado-rockies"
             },
             {
@@ -1562,6 +1651,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/18.png",
                 "winStreak": 0,
                 "team_id": 89,
+                "stadium_name": "Dodger Stadium",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/LAD/los-angeles-dodgers"
             },
             {
@@ -1578,6 +1668,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/30.png",
                 "winStreak": 0,
                 "team_id": 90,
+                "stadium_name": "Petco Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/SD/san-diego-padres"
             },
             {
@@ -1594,6 +1685,7 @@
                 "logo": "https://media.api-sports.io/baseball/teams/31.png",
                 "winStreak": 0,
                 "team_id": 91,
+                "stadium_name": "Oracle Park",
                 "espnLink": "https://www.espn.com/mlb/team/_/name/SF/san-francisco-giants"
             }
         ]
