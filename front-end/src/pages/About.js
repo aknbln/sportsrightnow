@@ -129,6 +129,10 @@ const About = ({}) =>{
                 <h4><a href="https://gitlab.com/johannramirez07/cs373-idb-18">Repo Link</a></h4>
               </Row>
               <br/>
+              <Row>
+                <h4><a href="https://documenter.getpostman.com/view/25853479/2s93JqU66C#e41f3a46-b72a-438f-8cff-8e61a6536a3c">Postman API Documentation</a></h4>
+              </Row>
+              <br/>
               <br/>
             </Container>
 
@@ -161,6 +165,20 @@ const About = ({}) =>{
                   })}
                 </Row>
             </Container>
+            
+            <hr style={{backgroundColor: 'white', width: "30%", margin: "auto"}}/>
+
+            <div style={{padding: "1%", listStyle: "none", listStyle:"inside"}}>
+            <h3>API Scraping Process</h3>
+            <ul>
+              <li>Use python scripts to automate GET requests to APIs</li>
+              <li>Convert responses into JSON format</li>
+              <li>Use python script to find connections between instances of different models</li>
+              <li>Augment JSON files with above info</li>
+              <li>Convert JSON files in SQL database for backend use</li>
+            </ul>
+            </div>
+            
           </div>
             
             

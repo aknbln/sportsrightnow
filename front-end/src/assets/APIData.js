@@ -3,6 +3,7 @@ import Tipscore from "./images/logos/tipsscore.png"
 import SportsDB from "./images/logos/sportsdb.png"
 import Ticketmaster from "./images/logos/t_logo.png"
 import Gitlab from "./images/logos/gitlab.png"
+import Googlemaps from "./images/logos/googlemaps.png"
 
 const apiData = [
   {
@@ -32,7 +33,15 @@ const apiData = [
     text:
       "GitLab is a Git based version control and Continous Integration service. Their API provides information on repositories hosted there including contributers, commits, and issues.",
     url: "https://docs.gitlab.com/ee/api/",
+  },
+  {
+    title: "Google Maps API",
+    image: Googlemaps,
+    text:
+      "Mapping and location data provider. Used to look up and display maps for venue locations and player/team home stadiums.",
+    url: "https://developers.google.com/maps",
   }
 ];
 
 export { apiData };
+
