@@ -1,0 +1,719 @@
+{
+	"info": {
+		"_postman_id": "113cada8-491c-445b-8e47-a9828ba7e97e",
+		"name": "SportsRightNow",
+		"description": "# Introduction\n\nWhat does your API do?\n\nGet info from all sports teams, players and events, and info about a specific team, player or event\n\n# Overview\n\nProvide an easy to navigate website with an intuitive way of keeping track of upcoming events, the teams participating, and the players as well.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25858260"
+	},
+	"item": [
+		{
+			"name": "https://api.sportsrightnow.me/players",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Page length is correct\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    console.log(jsonData)\r",
+							"    pm.expect(jsonData.data.length).to.eql(8);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/players?page=1&perPage=8",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"players"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1",
+							"description": "Page number (optional; for pagination)"
+						},
+						{
+							"key": "perPage",
+							"value": "8",
+							"description": "Items per page (optional; for pagination)"
+						}
+					]
+				},
+				"description": "**Get Players**\n\nWithout parameters, gets all players. Parameters can be passed for page number and items per page when pagination is required.\n\nReturns info on each player."
+			},
+			"response": [
+				{
+					"name": "https://api.sportsrightnow.me/players",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/players?page=1&perPage=8",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"players"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1",
+									"description": "Page number (optional; for pagination)"
+								},
+								{
+									"key": "perPage",
+									"value": "8",
+									"description": "Items per page (optional; for pagination)"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 06:12:13 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "nginx/1.22.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"birthdate\": \"1/9/2003\",\n            \"college\": \"Michigan\",\n            \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1631216.png\",\n            \"height\": \"6-8\",\n            \"id\": \"1\",\n            \"jersey\": \"2\",\n            \"league\": \"NBA\",\n            \"name\": \"Caleb Houstan\",\n            \"position\": \"SG\",\n            \"team\": \"Orlando Magic\",\n            \"team_id\": \"14\",\n            \"weight\": \"205\"\n        },\n        {\n            \"birthdate\": \"5/15/2000\",\n            \"college\": \"N. Carolina\",\n            \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1630175.png\",\n            \"height\": \"6-3\",\n            \"id\": \"10\",\n            \"jersey\": \"50\",\n            \"league\": \"NBA\",\n            \"name\": \"Cole Anthony\",\n            \"position\": \"PG\",\n            \"team\": \"Orlando Magic\",\n            \"team_id\": \"14\",\n            \"weight\": \"185\"\n        },\n        {\n            \"birthdate\": \"4/16/1990\",\n            \"college\": \"Boston College\",\n            \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/202704.png\",\n            \"height\": \"6-2\",\n            \"id\": \"100\",\n            \"jersey\": \"7\",\n            \"league\": \"NBA\",\n            \"name\": \"Reggie Jackson\",\n            \"position\": \"PG\",\n            \"team\": \"Denver Nuggets\",\n            \"team_id\": \"16\",\n            \"weight\": \"208\"\n        },\n        {\n            \"birthdate\": \"02/281996\",\n            \"college\": \"North Carolina-Pembroke\",\n            \"headshot\": \"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/0.png\",\n            \"height\": \"6-3\",\n            \"id\": \"1000\",\n            \"jersey\": \"72\",\n            \"league\": \"NFL\",\n            \"name\": \"Domenique Davis\",\n            \"position\": \"DT\",\n            \"team\": \"Cincinnati Bengals\",\n            \"team_id\": \"36\",\n            \"weight\": \"326\"\n        },\n        {\n            \"birthdate\": \"11/171997\",\n            \"college\": \"Alabama\",\n            \"headshot\": \"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/20987.png\",\n            \"height\": \"6-5\",\n            \"id\": \"1001\",\n            \"jersey\": \"92\",\n            \"league\": \"NFL\",\n            \"name\": \"Jonah Williams\",\n            \"position\": \"OT\",\n            \"team\": \"Cincinnati Bengals\",\n            \"team_id\": \"36\",\n            \"weight\": \"312\"\n        },\n        {\n            \"birthdate\": \"08/101996\",\n            \"college\": \"Northern Illinois\",\n            \"headshot\": \"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/20936.png\",\n            \"height\": \"6-6\",\n            \"id\": \"1002\",\n            \"jersey\": \"74\",\n            \"league\": \"NFL\",\n            \"name\": \"Max Scharping\",\n            \"position\": \"G\",\n            \"team\": \"Cincinnati Bengals\",\n            \"team_id\": \"36\",\n            \"weight\": \"325\"\n        },\n        {\n            \"birthdate\": \"07/171998\",\n            \"college\": \"Georgia Tech\",\n            \"headshot\": \"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/23697.png\",\n            \"height\": \"6-7\",\n            \"id\": \"1003\",\n            \"jersey\": \"76\",\n            \"league\": \"NFL\",\n            \"name\": \"Devin Cochran\",\n            \"position\": \"OT\",\n            \"team\": \"Cincinnati Bengals\",\n            \"team_id\": \"36\",\n            \"weight\": \"310\"\n        },\n        {\n            \"birthdate\": \"12/081997\",\n            \"college\": \"Kansas\",\n            \"headshot\": \"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/22015.png\",\n            \"height\": \"6-4\",\n            \"id\": \"1004\",\n            \"jersey\": \"77\",\n            \"league\": \"NFL\",\n            \"name\": \"Hakeem Adeniji\",\n            \"position\": \"OT\",\n            \"team\": \"Cincinnati Bengals\",\n            \"team_id\": \"36\",\n            \"weight\": \"315\"\n        }\n    ],\n    \"meta\": {\n        \"count\": 4345\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "https://api.sportsrightnow.me/teams",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Page length is correct\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    console.log(jsonData)\r",
+							"    pm.expect(jsonData.data.length).to.eql(8);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/teams?page=1&perPage=8",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"teams"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1",
+							"description": "Page number (optional; for pagination)"
+						},
+						{
+							"key": "perPage",
+							"value": "8",
+							"description": "Items per page (optional; for pagination)"
+						}
+					]
+				},
+				"description": "**Get Teams**\n\nWithout parameters, gets all teams. Parameters can be passed for page number and items per page when pagination is required.\n\nReturns each info on each team"
+			},
+			"response": [
+				{
+					"name": "https://api.sportsrightnow.me/teams",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/teams?page=1&perPage=8",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"teams"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1",
+									"description": "Page number (optional; for pagination)"
+								},
+								{
+									"key": "perPage",
+									"value": "8",
+									"description": "Items per page (optional; for pagination)"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 06:14:14 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "nginx/1.22.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"city\": \"Boston\",\n            \"conference\": \"Eastern\",\n            \"division\": \"Atlantic\",\n            \"id\": \"1\",\n            \"league\": \"NBA\",\n            \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png\",\n            \"name\": \"Boston Celtics\",\n            \"rank\": 1,\n            \"totalLosses\": 17,\n            \"totalWins\": 44\n        },\n        {\n            \"city\": \"Milwaukee\",\n            \"conference\": \"Eastern\",\n            \"division\": \"Central\",\n            \"id\": \"10\",\n            \"league\": \"NBA\",\n            \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/3/34/Bucks2015.png\",\n            \"name\": \"Milwaukee Bucks\",\n            \"rank\": 2,\n            \"totalLosses\": 17,\n            \"totalWins\": 43\n        },\n        {\n            \"city\": \"Atlanta\",\n            \"conference\": \"Eastern\",\n            \"division\": \"Southeast\",\n            \"id\": \"11\",\n            \"league\": \"NBA\",\n            \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png\",\n            \"name\": \"Atlanta Hawks\",\n            \"rank\": 8,\n            \"totalLosses\": 30,\n            \"totalWins\": 31\n        },\n        {\n            \"city\": \"Charlotte\",\n            \"conference\": \"Eastern\",\n            \"division\": \"Southeast\",\n            \"id\": \"12\",\n            \"league\": \"NBA\",\n            \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/Hornets_de_Charlotte_logo.svg/1200px-Hornets_de_Charlotte_logo.svg.png\",\n            \"name\": \"Charlotte Hornets\",\n            \"rank\": 14,\n            \"totalLosses\": 43,\n            \"totalWins\": 19\n        },\n        {\n            \"city\": \"Miami\",\n            \"conference\": \"Eastern\",\n            \"division\": \"Southeast\",\n            \"id\": \"13\",\n            \"league\": \"NBA\",\n            \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Miami_Heat_-_Logo.svg/1200px-Miami_Heat_-_Logo.svg.png\",\n            \"name\": \"Miami Heat\",\n            \"rank\": 7,\n            \"totalLosses\": 29,\n            \"totalWins\": 32\n        },\n        {\n            \"city\": \"Orlando\",\n            \"conference\": \"Eastern\",\n            \"division\": \"Southeast\",\n            \"id\": \"14\",\n            \"league\": \"NBA\",\n            \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/b/bd/Orlando_Magic_logo_2010.png\",\n            \"name\": \"Orlando Magic\",\n            \"rank\": 13,\n            \"totalLosses\": 36,\n            \"totalWins\": 25\n        },\n        {\n            \"city\": \"Washington\",\n            \"conference\": \"Eastern\",\n            \"division\": \"Southeast\",\n            \"id\": \"15\",\n            \"league\": \"NBA\",\n            \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/archive/d/d6/20161212034849%21Wizards2015.png\",\n            \"name\": \"Washington Wizards\",\n            \"rank\": 10,\n            \"totalLosses\": 32,\n            \"totalWins\": 28\n        },\n        {\n            \"city\": \"Denver\",\n            \"conference\": \"Western\",\n            \"division\": \"Northwest\",\n            \"id\": \"16\",\n            \"league\": \"NBA\",\n            \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/thumb/3/35/Nuggets_de_Denver_2018.png/180px-Nuggets_de_Denver_2018.png\",\n            \"name\": \"Denver Nuggets\",\n            \"rank\": 1,\n            \"totalLosses\": 19,\n            \"totalWins\": 42\n        }\n    ],\n    \"meta\": {\n        \"count\": 91\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "https://api.sportsrightnow.me/events",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Page length is correct\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    console.log(jsonData)\r",
+							"    pm.expect(jsonData.data.length).to.eql(8);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/events?page=1&perPage=8",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"events"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1",
+							"description": "Page number (optional; for pagination)"
+						},
+						{
+							"key": "perPage",
+							"value": "8",
+							"description": "Items per page (optional; for pagination)"
+						}
+					]
+				},
+				"description": "**Get Events**\n\nWithout parameters, gets all events. Parameters can be passed for page number and items per page when pagination is required.\n\nReturns info on events."
+			},
+			"response": [
+				{
+					"name": "https://api.sportsrightnow.me/events",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/events?page=1&perPage=8",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"events"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1",
+									"description": "Page number (optional; for pagination)"
+								},
+								{
+									"key": "perPage",
+									"value": "8",
+									"description": "Items per page (optional; for pagination)"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 06:14:16 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "nginx/1.22.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"away_team\": \"Phoenix Suns\",\n            \"away_team_id\": \"24\",\n            \"city\": \"San Francisco\",\n            \"home_team\": \"Golden State Warriors\",\n            \"home_team_id\": \"21\",\n            \"home_team_image\": \"https://s1.ticketm.net/dam/a/c26/f3bc3686-a6c2-4324-a6cb-18ab2441ac26_1339991_CUSTOM.jpg\",\n            \"id\": \"1\",\n            \"local_date\": \"2023-03-13\",\n            \"local_time\": \"19:00:00\",\n            \"name\": \"Golden State Warriorss vs. Phoenix Suns\",\n            \"seatmap\": \"https://maps.ticketmaster.com/maps/geometry/3/event/1C005D0C9F11275A/staticImage?type=png&systemId=HOST\",\n            \"url\": \"https://www.ticketmaster.com/golden-state-warriors-vs-phoenix-suns-san-francisco-california-03-13-2023/event/1C005D0C9F11275A\",\n            \"venue\": \"Chase Center\"\n        },\n        {\n            \"away_team\": \"Phoenix Suns\",\n            \"away_team_id\": \"24\",\n            \"city\": \"Salt Lake City\",\n            \"home_team\": \"Utah Jazz\",\n            \"home_team_id\": \"20\",\n            \"home_team_image\": \"https://s1.ticketm.net/dam/a/a01/dc895acf-863e-4f90-9316-98302e99fa01_1761311_CUSTOM.jpg\",\n            \"id\": \"10\",\n            \"local_date\": \"2023-03-27\",\n            \"local_time\": \"19:00:00\",\n            \"name\": \"Utah Jazz vs. Phoenix Suns\",\n            \"seatmap\": \"https://maps.ticketmaster.com/maps/geometry/3/event/1E005D0F1E1A6D1E/staticImage?type=png&systemId=HOST\",\n            \"url\": \"https://www.ticketmaster.com/utah-jazz-vs-phoenix-suns-salt-lake-city-utah-03-27-2023/event/1E005D0F1E1A6D1E\",\n            \"venue\": \"Vivint Arena\"\n        },\n        {\n            \"away_team\": \"TBD\",\n            \"away_team_id\": null,\n            \"city\": \"San Francisco\",\n            \"home_team\": \"Golden State Warriors\",\n            \"home_team_id\": \"21\",\n            \"home_team_image\": \"https://s1.ticketm.net/dam/a/c26/f3bc3686-a6c2-4324-a6cb-18ab2441ac26_1339991_CUSTOM.jpg\",\n            \"id\": \"11\",\n            \"local_date\": \"2023-06-18\",\n            \"local_time\": \"19:00:00\",\n            \"name\": \"NBA Finals: TBD at Warriors Rd 4 Hm Gm P\",\n            \"seatmap\": \"https://maps.ticketmaster.com/maps/geometry/3/event/1C005E509AD12856/staticImage?type=png&systemId=HOST\",\n            \"url\": \"https://www.ticketmaster.com/nba-finals-tbd-at-warriors-rd-san-francisco-california-06-18-2023/event/1C005E509AD12856\",\n            \"venue\": \"Chase Center\"\n        },\n        {\n            \"away_team\": \"TBD\",\n            \"away_team_id\": null,\n            \"city\": \"San Francisco\",\n            \"home_team\": \"Golden State Warriors\",\n            \"home_team_id\": \"21\",\n            \"home_team_image\": \"https://s1.ticketm.net/dam/a/c26/f3bc3686-a6c2-4324-a6cb-18ab2441ac26_1339991_CUSTOM.jpg\",\n            \"id\": \"12\",\n            \"local_date\": \"2023-04-11\",\n            \"local_time\": \"19:00:00\",\n            \"name\": \"NBA Play-In Tournament: TBD at Warriors: West Hm Gm 1\",\n            \"seatmap\": \"https://maps.ticketmaster.com/maps/geometry/3/event/1C005E509AD42859/staticImage?type=png&systemId=HOST\",\n            \"url\": \"https://www.ticketmaster.com/nba-playin-tournament-tbd-at-warriors-san-francisco-california-04-11-2023/event/1C005E509AD42859\",\n            \"venue\": \"Chase Center\"\n        },\n        {\n            \"away_team\": \"TBD\",\n            \"away_team_id\": null,\n            \"city\": \"San Francisco\",\n            \"home_team\": \"Golden State Warriors\",\n            \"home_team_id\": \"21\",\n            \"home_team_image\": \"https://s1.ticketm.net/dam/a/c26/f3bc3686-a6c2-4324-a6cb-18ab2441ac26_1339991_CUSTOM.jpg\",\n            \"id\": \"13\",\n            \"local_date\": \"2023-04-13\",\n            \"local_time\": \"19:00:00\",\n            \"name\": \"NBA Play-In Tournament: TBD at Warriors: West Hm Gm 2\",\n            \"seatmap\": \"https://maps.ticketmaster.com/maps/geometry/3/event/1C005E509AD7285B/staticImage?type=png&systemId=HOST\",\n            \"url\": \"https://www.ticketmaster.com/nba-playin-tournament-tbd-at-warriors-san-francisco-california-04-13-2023/event/1C005E509AD7285B\",\n            \"venue\": \"Chase Center\"\n        },\n        {\n            \"away_team\": \"Golden State Warriors\",\n            \"away_team_id\": \"21\",\n            \"city\": \"Los Angeles\",\n            \"home_team\": \"Los Angeles Lakers\",\n            \"home_team_id\": \"23\",\n            \"home_team_image\": \"https://s1.ticketm.net/dam/a/c90/965833d9-2f76-4e79-bd87-f2bc61282c90_1339931_CUSTOM.jpg\",\n            \"id\": \"14\",\n            \"local_date\": \"2023-03-05\",\n            \"local_time\": \"12:30:00\",\n            \"name\": \"Los Angeles Lakers vs. Golden State Warriors\",\n            \"seatmap\": \"https://maps.ticketmaster.com/maps/geometry/3/event/2C005D0F0E060CE8/staticImage?type=png&systemId=HOST\",\n            \"url\": \"https://www.ticketmaster.com/los-angeles-lakers-vs-golden-state-los-angeles-california-03-05-2023/event/2C005D0F0E060CE8\",\n            \"venue\": \"Crypto.com Arena\"\n        },\n        {\n            \"away_team\": \"Phoenix Suns\",\n            \"away_team_id\": \"24\",\n            \"city\": \"Dallas\",\n            \"home_team\": \"Dallas Mavericks\",\n            \"home_team_id\": \"26\",\n            \"home_team_image\": \"https://s1.ticketm.net/dam/a/2cc/8cab8695-459e-4d89-9bbb-95156868b2cc_1340021_CUSTOM.jpg\",\n            \"id\": \"15\",\n            \"local_date\": \"2023-03-05\",\n            \"local_time\": \"12:00:00\",\n            \"name\": \"Dallas Mavericks vs. Phoenix Suns\",\n            \"seatmap\": \"https://maps.ticketmaster.com/maps/geometry/3/event/0C005D1227767F4C/staticImage?type=png&systemId=HOST\",\n            \"url\": \"https://www.ticketmaster.com/dallas-mavericks-vs-phoenix-suns-dallas-texas-03-05-2023/event/0C005D1227767F4C\",\n            \"venue\": \"American Airlines Center\"\n        },\n        {\n            \"away_team\": \"New York Knicks\",\n            \"away_team_id\": \"3\",\n            \"city\": \"Boston\",\n            \"home_team\": \"Boston Celtics\",\n            \"home_team_id\": \"1\",\n            \"home_team_image\": \"https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_CUSTOM.jpg\",\n            \"id\": \"16\",\n            \"local_date\": \"2023-03-05\",\n            \"local_time\": \"19:30:00\",\n            \"name\": \"Boston Celtics vs. New York Knicks\",\n            \"seatmap\": \"https://maps.ticketmaster.com/maps/geometry/3/event/01005D10AA2C1EF7/staticImage?type=png&systemId=HOST\",\n            \"url\": \"https://www.ticketmaster.com/boston-celtics-vs-new-york-knicks-boston-massachusetts-03-05-2023/event/01005D10AA2C1EF7\",\n            \"venue\": \"TD Garden\"\n        }\n    ],\n    \"meta\": {\n        \"count\": 30\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "https://api.sportsrightnow.me/players/1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response data correct\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.data.team).to.eql(\"Orlando Magic\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/players/1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"players",
+						"1"
+					]
+				},
+				"description": "**Get Player By ID**\n\nGet info on the specified player. The number after the final slash is the ID of the player you are requesting.\n\nReturns info on that player, their team, and any events they are involved in."
+			},
+			"response": [
+				{
+					"name": "https://api.sportsrightnow.me/players?1=",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/players/1",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"players",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 06:09:41 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "nginx/1.22.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"birthdate\": \"1/9/2003\",\n        \"college\": \"Michigan\",\n        \"events\": [\n            {\n                \"away_team\": \"Orlando Magic\",\n                \"away_team_id\": \"14\",\n                \"city\": \"Phoenix\",\n                \"home_team\": \"Phoenix Suns\",\n                \"home_team_id\": \"24\",\n                \"home_team_image\": \"https://s1.ticketm.net/dam/a/c62/0636ff21-e369-4b8c-bee4-214ea0a81c62_1339761_CUSTOM.jpg\",\n                \"id\": \"6\",\n                \"local_date\": \"2023-03-16\",\n                \"local_time\": \"19:00:00\",\n                \"name\": \"Phoenix Suns vs. Orlando Magic\",\n                \"seatmap\": \"https://maps.ticketmaster.com/maps/geometry/3/event/19005D0B8F7714A8/staticImage?type=png&systemId=HOST\",\n                \"url\": \"https://www.ticketmaster.com/phoenix-suns-vs-orlando-magic-phoenix-arizona-03-16-2023/event/19005D0B8F7714A8\",\n                \"venue\": \"Footprint Center\"\n            }\n        ],\n        \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1631216.png\",\n        \"height\": \"6-8\",\n        \"id\": \"1\",\n        \"jersey\": \"2\",\n        \"league\": \"NBA\",\n        \"name\": \"Caleb Houstan\",\n        \"position\": \"SG\",\n        \"team\": \"Orlando Magic\",\n        \"team_id\": \"14\",\n        \"team_info\": {\n            \"city\": \"Orlando\",\n            \"conference\": \"Eastern\",\n            \"division\": \"Southeast\",\n            \"id\": \"14\",\n            \"league\": \"NBA\",\n            \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/b/bd/Orlando_Magic_logo_2010.png\",\n            \"name\": \"Orlando Magic\",\n            \"rank\": 13,\n            \"totalLosses\": 36,\n            \"totalWins\": 25\n        },\n        \"weight\": \"205\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "https://api.sportsrightnow.me/teams/1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response data correct\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.data.city).to.eql(\"Boston\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/teams/1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"teams",
+						"1"
+					]
+				},
+				"description": "**Get Team By ID**\n\nGet info on the specified team. The number after the final slash is the ID of the team you are requesting.\n\nReturns info on the requested team, its player roster, and any involved events."
+			},
+			"response": [
+				{
+					"name": "https://api.sportsrightnow.me/teams?id=",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/teams/1",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"teams",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 06:09:50 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "nginx/1.22.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"city\": \"Boston\",\n        \"conference\": \"Eastern\",\n        \"division\": \"Atlantic\",\n        \"events\": [\n            {\n                \"away_team\": \"New York Knicks\",\n                \"away_team_id\": \"3\",\n                \"city\": \"Boston\",\n                \"home_team\": \"Boston Celtics\",\n                \"home_team_id\": \"1\",\n                \"home_team_image\": \"https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_CUSTOM.jpg\",\n                \"id\": \"16\",\n                \"local_date\": \"2023-03-05\",\n                \"local_time\": \"19:30:00\",\n                \"name\": \"Boston Celtics vs. New York Knicks\",\n                \"seatmap\": \"https://maps.ticketmaster.com/maps/geometry/3/event/01005D10AA2C1EF7/staticImage?type=png&systemId=HOST\",\n                \"url\": \"https://www.ticketmaster.com/boston-celtics-vs-new-york-knicks-boston-massachusetts-03-05-2023/event/01005D10AA2C1EF7\",\n                \"venue\": \"TD Garden\"\n            }\n        ],\n        \"id\": \"1\",\n        \"league\": \"NBA\",\n        \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png\",\n        \"name\": \"Boston Celtics\",\n        \"players_info\": [\n            {\n                \"birthdate\": \"10/17/1997\",\n                \"college\": \"Texas A&amp;M\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1629057.png\",\n                \"height\": \"6-9\",\n                \"id\": \"51\",\n                \"jersey\": \"44\",\n                \"league\": \"NBA\",\n                \"name\": \"Robert Williams III\",\n                \"position\": \"C\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"237\"\n            },\n            {\n                \"birthdate\": \"7/1/1991\",\n                \"college\": \"Bucknell\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/203488.png\",\n                \"height\": \"6-11\",\n                \"id\": \"52\",\n                \"jersey\": \"57\",\n                \"league\": \"NBA\",\n                \"name\": \"Mike Muscala\",\n                \"position\": \"C\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"240\"\n            },\n            {\n                \"birthdate\": \"12/8/1997\",\n                \"college\": \"Virginia\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1630573.png\",\n                \"height\": \"6-7\",\n                \"id\": \"53\",\n                \"jersey\": \"30\",\n                \"league\": \"NBA\",\n                \"name\": \"Sam Hauser\",\n                \"position\": \"SF\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"217\"\n            },\n            {\n                \"birthdate\": \"10/3/2002\",\n                \"college\": \"Alabama\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1631120.png\",\n                \"height\": \"6-1\",\n                \"id\": \"54\",\n                \"jersey\": \"20\",\n                \"league\": \"NBA\",\n                \"name\": \"JD Davison\",\n                \"position\": \"PG\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"195\"\n            },\n            {\n                \"birthdate\": \"8/14/1997\",\n                \"college\": \"Florida St.\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1629662.png\",\n                \"height\": \"6-10\",\n                \"id\": \"55\",\n                \"jersey\": \"28\",\n                \"league\": \"NBA\",\n                \"name\": \"Mfiondu Kabengele\",\n                \"position\": \"PF\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"250\"\n            },\n            {\n                \"birthdate\": \"3/3/1998\",\n                \"college\": \"Duke\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png\",\n                \"height\": \"6-8\",\n                \"id\": \"56\",\n                \"jersey\": \"0\",\n                \"league\": \"NBA\",\n                \"name\": \"Jayson Tatum\",\n                \"position\": \"PF\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"210\"\n            },\n            {\n                \"birthdate\": \"10/24/1996\",\n                \"college\": \"California\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1627759.png\",\n                \"height\": \"6-6\",\n                \"id\": \"57\",\n                \"jersey\": \"7\",\n                \"league\": \"NBA\",\n                \"name\": \"Jaylen Brown\",\n                \"position\": \"SF\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"223\"\n            },\n            {\n                \"birthdate\": \"8/8/1988\",\n                \"college\": \"—\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/201568.png\",\n                \"height\": \"6-10\",\n                \"id\": \"58\",\n                \"jersey\": \"8\",\n                \"league\": \"NBA\",\n                \"name\": \"Danilo Gallinari\",\n                \"position\": \"PF\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"236\"\n            },\n            {\n                \"birthdate\": \"1/28/1998\",\n                \"college\": \"Oregon\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1630202.png\",\n                \"height\": \"6-1\",\n                \"id\": \"59\",\n                \"jersey\": \"11\",\n                \"league\": \"NBA\",\n                \"name\": \"Payton Pritchard\",\n                \"position\": \"PG\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"195\"\n            },\n            {\n                \"birthdate\": \"12/11/1992\",\n                \"college\": \"Virginia\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1627763.png\",\n                \"height\": \"6-4\",\n                \"id\": \"60\",\n                \"jersey\": \"13\",\n                \"league\": \"NBA\",\n                \"name\": \"Malcolm Brogdon\",\n                \"position\": \"PG\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"229\"\n            },\n            {\n                \"birthdate\": \"11/30/1998\",\n                \"college\": \"Tennessee\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png\",\n                \"height\": \"6-6\",\n                \"id\": \"61\",\n                \"jersey\": \"12\",\n                \"league\": \"NBA\",\n                \"name\": \"Grant Williams\",\n                \"position\": \"PF\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"236\"\n            },\n            {\n                \"birthdate\": \"6/3/1986\",\n                \"college\": \"Florida\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/201143.png\",\n                \"height\": \"6-9\",\n                \"id\": \"62\",\n                \"jersey\": \"42\",\n                \"league\": \"NBA\",\n                \"name\": \"Al Horford\",\n                \"position\": \"C\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"240\"\n            },\n            {\n                \"birthdate\": \"3/6/1994\",\n                \"college\": \"Okla. St.\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/203935.png\",\n                \"height\": \"6-4\",\n                \"id\": \"63\",\n                \"jersey\": \"36\",\n                \"league\": \"NBA\",\n                \"name\": \"Marcus Smart\",\n                \"position\": \"PG\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"220\"\n            },\n            {\n                \"birthdate\": \"7/2/1994\",\n                \"college\": \"Colorado\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1628401.png\",\n                \"height\": \"6-4\",\n                \"id\": \"64\",\n                \"jersey\": \"9\",\n                \"league\": \"NBA\",\n                \"name\": \"Derrick White\",\n                \"position\": \"SG\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"190\"\n            },\n            {\n                \"birthdate\": \"3/16/1989\",\n                \"college\": \"Oklahoma\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/201933.png\",\n                \"height\": \"6-9\",\n                \"id\": \"65\",\n                \"jersey\": \"91\",\n                \"league\": \"NBA\",\n                \"name\": \"Blake Griffin\",\n                \"position\": \"C\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"250\"\n            },\n            {\n                \"birthdate\": \"7/15/1995\",\n                \"college\": \"Vanderbilt\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1628436.png\",\n                \"height\": \"7-2\",\n                \"id\": \"66\",\n                \"jersey\": \"40\",\n                \"league\": \"NBA\",\n                \"name\": \"Luke Kornet\",\n                \"position\": \"C\",\n                \"team\": \"Boston Celtics\",\n                \"team_id\": \"1\",\n                \"weight\": \"250\"\n            }\n        ],\n        \"rank\": 1,\n        \"totalLosses\": 17,\n        \"totalWins\": 44\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "https://api.sportsrightnow.me/events/1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response data correct\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.data.venue).to.eql(\"Chase Center\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.sportsrightnow.me/events/1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"sportsrightnow",
+						"me"
+					],
+					"path": [
+						"events",
+						"1"
+					]
+				},
+				"description": "**Get Event By ID**\n\nGet info on the specified event. The number after the final slash is the ID of the event you are requesting.\n\nReturns info on the event, both the home and away teams, as well as the player rosters of both involved teams."
+			},
+			"response": [
+				{
+					"name": "https://api.sportsrightnow.me/events?id=",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.sportsrightnow.me/events/1",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sportsrightnow",
+								"me"
+							],
+							"path": [
+								"events",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 06:09:56 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "nginx/1.22.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"away_players_info\": [\n            {\n                \"birthdate\": \"10/30/1996\",\n                \"college\": \"Kentucky\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1626164.png\",\n                \"height\": \"6-5\",\n                \"id\": \"184\",\n                \"jersey\": \"1\",\n                \"league\": \"NBA\",\n                \"name\": \"Devin Booker\",\n                \"position\": \"SG\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"206\"\n            },\n            {\n                \"birthdate\": \"3/13/1997\",\n                \"college\": \"Wichita St.\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1629013.png\",\n                \"height\": \"6-4\",\n                \"id\": \"185\",\n                \"jersey\": \"14\",\n                \"league\": \"NBA\",\n                \"name\": \"Landry Shamet\",\n                \"position\": \"SG\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"190\"\n            },\n            {\n                \"birthdate\": \"10/21/1992\",\n                \"college\": \"Louisville\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1627814.png\",\n                \"height\": \"6-5\",\n                \"id\": \"186\",\n                \"jersey\": \"10\",\n                \"league\": \"NBA\",\n                \"name\": \"Damion Lee\",\n                \"position\": \"SG\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"210\"\n            },\n            {\n                \"birthdate\": \"10/25/1995\",\n                \"college\": \"St. Mary's (CA)\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1629111.png\",\n                \"height\": \"6-11\",\n                \"id\": \"187\",\n                \"jersey\": \"11\",\n                \"league\": \"NBA\",\n                \"name\": \"Jock Landale\",\n                \"position\": \"C\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"255\"\n            },\n            {\n                \"birthdate\": \"9/29/1988\",\n                \"college\": \"Texas\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/201142.png\",\n                \"height\": \"6-10\",\n                \"id\": \"188\",\n                \"jersey\": \"35\",\n                \"league\": \"NBA\",\n                \"name\": \"Kevin Durant\",\n                \"position\": \"PF\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"240\"\n            },\n            {\n                \"birthdate\": \"2/5/1991\",\n                \"college\": \"Washington\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/203082.png\",\n                \"height\": \"6-6\",\n                \"id\": \"189\",\n                \"jersey\": \"8\",\n                \"league\": \"NBA\",\n                \"name\": \"Terrence Ross\",\n                \"position\": \"SG\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"206\"\n            },\n            {\n                \"birthdate\": \"9/12/1994\",\n                \"college\": \"Baylor\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1630688.png\",\n                \"height\": \"6-5\",\n                \"id\": \"190\",\n                \"jersey\": \"12\",\n                \"league\": \"NBA\",\n                \"name\": \"Ish Wainright\",\n                \"position\": \"SF\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"250\"\n            },\n            {\n                \"birthdate\": \"9/1/1998\",\n                \"college\": \"Ga. Tech\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1629006.png\",\n                \"height\": \"6-4\",\n                \"id\": \"191\",\n                \"jersey\": \"2\",\n                \"league\": \"NBA\",\n                \"name\": \"Josh Okogie\",\n                \"position\": \"SF\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"213\"\n            },\n            {\n                \"birthdate\": \"6/23/1999\",\n                \"college\": \"Vanderbilt\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1630240.png\",\n                \"height\": \"6-2\",\n                \"id\": \"192\",\n                \"jersey\": \"—\",\n                \"league\": \"NBA\",\n                \"name\": \"Saben Lee\",\n                \"position\": \"PG\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"183\"\n            },\n            {\n                \"birthdate\": \"5/6/1985\",\n                \"college\": \"Wake Forest\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/101108.png\",\n                \"height\": \"6-1\",\n                \"id\": \"193\",\n                \"jersey\": \"3\",\n                \"league\": \"NBA\",\n                \"name\": \"Chris Paul\",\n                \"position\": \"PG\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"175\"\n            },\n            {\n                \"birthdate\": \"12/19/1990\",\n                \"college\": \"South Carolina Upstate\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1628470.png\",\n                \"height\": \"6-7\",\n                \"id\": \"194\",\n                \"jersey\": \"0\",\n                \"league\": \"NBA\",\n                \"name\": \"Torrey Craig\",\n                \"position\": \"SF\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"221\"\n            },\n            {\n                \"birthdate\": \"9/5/1993\",\n                \"college\": \"NC State\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/203933.png\",\n                \"height\": \"6-8\",\n                \"id\": \"195\",\n                \"jersey\": \"21\",\n                \"league\": \"NBA\",\n                \"name\": \"T.J. Warren\",\n                \"position\": \"SF\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"220\"\n            },\n            {\n                \"birthdate\": \"6/12/2000\",\n                \"college\": \"—\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1629647.png\",\n                \"height\": \"6-8\",\n                \"id\": \"196\",\n                \"jersey\": \"55\",\n                \"league\": \"NBA\",\n                \"name\": \"Darius Bazley\",\n                \"position\": \"PF\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"208\"\n            },\n            {\n                \"birthdate\": \"8/28/1992\",\n                \"college\": \"—\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/202687.png\",\n                \"height\": \"6-8\",\n                \"id\": \"197\",\n                \"jersey\": \"18\",\n                \"league\": \"NBA\",\n                \"name\": \"Bismack Biyombo\",\n                \"position\": \"C\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"255\"\n            },\n            {\n                \"birthdate\": \"8/8/1994\",\n                \"college\": \"Murray St.\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1626166.png\",\n                \"height\": \"6-1\",\n                \"id\": \"198\",\n                \"jersey\": \"15\",\n                \"league\": \"NBA\",\n                \"name\": \"Cameron Payne\",\n                \"position\": \"PG\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"183\"\n            },\n            {\n                \"birthdate\": \"7/23/1998\",\n                \"college\": \"Arizona\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1629028.png\",\n                \"height\": \"6-11\",\n                \"id\": \"199\",\n                \"jersey\": \"22\",\n                \"league\": \"NBA\",\n                \"name\": \"Deandre Ayton\",\n                \"position\": \"C\",\n                \"team\": \"Phoenix Suns\",\n                \"team_id\": \"24\",\n                \"weight\": \"250\"\n            }\n        ],\n        \"away_team\": \"Phoenix Suns\",\n        \"away_team_id\": \"24\",\n        \"away_team_info\": {\n            \"city\": \"Phoenix\",\n            \"conference\": \"Western\",\n            \"division\": \"Pacific\",\n            \"id\": \"24\",\n            \"league\": \"NBA\",\n            \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/5/56/Phoenix_Suns_2013.png\",\n            \"name\": \"Phoenix Suns\",\n            \"rank\": 4,\n            \"totalLosses\": 29,\n            \"totalWins\": 33\n        },\n        \"city\": \"San Francisco\",\n        \"home_players_info\": [\n            {\n                \"birthdate\": \"2/8/1990\",\n                \"college\": \"Washington St.\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/202691.png\",\n                \"height\": \"6-6\",\n                \"id\": \"448\",\n                \"jersey\": \"11\",\n                \"league\": \"NBA\",\n                \"name\": \"Klay Thompson\",\n                \"position\": \"SG\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"220\"\n            },\n            {\n                \"birthdate\": \"1/20/1998\",\n                \"college\": \"Vermont\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1630237.png\",\n                \"height\": \"6-6\",\n                \"id\": \"449\",\n                \"jersey\": \"40\",\n                \"league\": \"NBA\",\n                \"name\": \"Anthony Lamb\",\n                \"position\": \"SF\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"227\"\n            },\n            {\n                \"birthdate\": \"2/23/1995\",\n                \"college\": \"Kansas\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/203952.png\",\n                \"height\": \"6-7\",\n                \"id\": \"450\",\n                \"jersey\": \"22\",\n                \"league\": \"NBA\",\n                \"name\": \"Andrew Wiggins\",\n                \"position\": \"SF\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"197\"\n            },\n            {\n                \"birthdate\": \"11/18/2002\",\n                \"college\": \"Milwaukee\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1631116.png\",\n                \"height\": \"6-9\",\n                \"id\": \"451\",\n                \"jersey\": \"7\",\n                \"league\": \"NBA\",\n                \"name\": \"Patrick Baldwin Jr.\",\n                \"position\": \"SF\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"220\"\n            },\n            {\n                \"birthdate\": \"10/6/2002\",\n                \"college\": \"—\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1630228.png\",\n                \"height\": \"6-7\",\n                \"id\": \"452\",\n                \"jersey\": \"00\",\n                \"league\": \"NBA\",\n                \"name\": \"Jonathan Kuminga\",\n                \"position\": \"PF\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"225\"\n            },\n            {\n                \"birthdate\": \"3/14/1988\",\n                \"college\": \"Davidson\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png\",\n                \"height\": \"6-2\",\n                \"id\": \"453\",\n                \"jersey\": \"30\",\n                \"league\": \"NBA\",\n                \"name\": \"Stephen Curry\",\n                \"position\": \"PG\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"185\"\n            },\n            {\n                \"birthdate\": \"5/31/2002\",\n                \"college\": \"Arkansas\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1630541.png\",\n                \"height\": \"6-5\",\n                \"id\": \"454\",\n                \"jersey\": \"4\",\n                \"league\": \"NBA\",\n                \"name\": \"Moses Moody\",\n                \"position\": \"SF\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"211\"\n            },\n            {\n                \"birthdate\": \"7/8/1997\",\n                \"college\": \"Virginia\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1629660.png\",\n                \"height\": \"6-5\",\n                \"id\": \"455\",\n                \"jersey\": \"10\",\n                \"league\": \"NBA\",\n                \"name\": \"Ty Jerome\",\n                \"position\": \"SG\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"195\"\n            },\n            {\n                \"birthdate\": \"6/19/1999\",\n                \"college\": \"Michigan\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png\",\n                \"height\": \"6-4\",\n                \"id\": \"456\",\n                \"jersey\": \"3\",\n                \"league\": \"NBA\",\n                \"name\": \"Jordan Poole\",\n                \"position\": \"SG\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"194\"\n            },\n            {\n                \"birthdate\": \"6/21/1990\",\n                \"college\": \"Alabama\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/203210.png\",\n                \"height\": \"6-9\",\n                \"id\": \"457\",\n                \"jersey\": \"1\",\n                \"league\": \"NBA\",\n                \"name\": \"JaMychal Green\",\n                \"position\": \"C\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"227\"\n            },\n            {\n                \"birthdate\": \"1/28/1984\",\n                \"college\": \"Arizona\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/2738.png\",\n                \"height\": \"6-6\",\n                \"id\": \"458\",\n                \"jersey\": \"9\",\n                \"league\": \"NBA\",\n                \"name\": \"Andre Iguodala\",\n                \"position\": \"SG\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"215\"\n            },\n            {\n                \"birthdate\": \"12/1/1992\",\n                \"college\": \"Oregon St.\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1627780.png\",\n                \"height\": \"6-3\",\n                \"id\": \"459\",\n                \"jersey\": \"8\",\n                \"league\": \"NBA\",\n                \"name\": \"Gary Payton II\",\n                \"position\": \"PG\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"195\"\n            },\n            {\n                \"birthdate\": \"3/4/1990\",\n                \"college\": \"Michigan St.\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/203110.png\",\n                \"height\": \"6-6\",\n                \"id\": \"460\",\n                \"jersey\": \"23\",\n                \"league\": \"NBA\",\n                \"name\": \"Draymond Green\",\n                \"position\": \"PF\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"230\"\n            },\n            {\n                \"birthdate\": \"1/31/1997\",\n                \"college\": \"Villanova\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1628978.png\",\n                \"height\": \"6-4\",\n                \"id\": \"461\",\n                \"jersey\": \"0\",\n                \"league\": \"NBA\",\n                \"name\": \"Donte DiVincenzo\",\n                \"position\": \"SF\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"203\"\n            },\n            {\n                \"birthdate\": \"2/6/1996\",\n                \"college\": \"UCLA\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1626172.png\",\n                \"height\": \"6-9\",\n                \"id\": \"462\",\n                \"jersey\": \"5\",\n                \"league\": \"NBA\",\n                \"name\": \"Kevon Looney\",\n                \"position\": \"C\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"222\"\n            },\n            {\n                \"birthdate\": \"7/3/2002\",\n                \"college\": \"Toledo\",\n                \"headshot\": \"https://cdn.nba.com/headshots/nba/latest/1040x760/1631157.png\",\n                \"height\": \"6-3\",\n                \"id\": \"463\",\n                \"jersey\": \"2\",\n                \"league\": \"NBA\",\n                \"name\": \"Ryan Rollins\",\n                \"position\": \"SG\",\n                \"team\": \"Golden State Warriors\",\n                \"team_id\": \"21\",\n                \"weight\": \"180\"\n            }\n        ],\n        \"home_team\": \"Golden State Warriors\",\n        \"home_team_id\": \"21\",\n        \"home_team_image\": \"https://s1.ticketm.net/dam/a/c26/f3bc3686-a6c2-4324-a6cb-18ab2441ac26_1339991_CUSTOM.jpg\",\n        \"home_team_info\": {\n            \"city\": \"Golden State\",\n            \"conference\": \"Western\",\n            \"division\": \"Pacific\",\n            \"id\": \"21\",\n            \"league\": \"NBA\",\n            \"logo\": \"https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Warriors_de_Golden_State_logo.svg/1200px-Warriors_de_Golden_State_logo.svg.png\",\n            \"name\": \"Golden State Warriors\",\n            \"rank\": 7,\n            \"totalLosses\": 30,\n            \"totalWins\": 31\n        },\n        \"id\": \"1\",\n        \"local_date\": \"2023-03-13\",\n        \"local_time\": \"19:00:00\",\n        \"name\": \"Golden State Warriorss vs. Phoenix Suns\",\n        \"seatmap\": \"https://maps.ticketmaster.com/maps/geometry/3/event/1C005D0C9F11275A/staticImage?type=png&systemId=HOST\",\n        \"url\": \"https://www.ticketmaster.com/golden-state-warriors-vs-phoenix-suns-san-francisco-california-03-13-2023/event/1C005D0C9F11275A\",\n        \"venue\": \"Chase Center\"\n    }\n}"
+				}
+			]
+		}
+	]
+}

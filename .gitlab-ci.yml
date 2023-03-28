@@ -55,3 +55,12 @@ back_end_unit_tests:
     - pip3 install -r requirements.txt
     - pip install black
     - python tests.py
+
+back_end_postman_tests:
+  stage: test
+  image:
+    name: postman/newman:alpine
+    entrypoint: [""]
+  script:
+    - newman --version
+    - newman run SRN-postman.json
