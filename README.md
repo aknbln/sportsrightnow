@@ -38,6 +38,8 @@ I can't believe we finished with 2 minutes before midnight!!!!
 ## Phase II:
 Git SHA - 07838822d28f2300deb62af2d7a896cd2390e4e7
 
+Resubmission SHA - 8ca5365fcc6a6767a8027460ed8f661f4d2c80b1
+
 Leader - Akin Bilen
 
 ### Hours Worked:
@@ -45,7 +47,7 @@ Travis Aldrich - Predicted: 8 Hrs - Actual: 8 Hrs
 
 Akin Bilen - Predicted: 8 Hrs - Actual: 23 Hrs
 
-Eric Li - Predicted: 8 Hrs - Actual: 25 Hrs
+Eric Li - Predicted: 8 Hrs - Actual: 30 Hrs
 
 Tommy Ly - Predicted: 8 Hrs - Actual: 12 Hrs
 
