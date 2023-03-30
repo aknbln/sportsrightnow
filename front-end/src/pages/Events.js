@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container";
 import { Pagination } from 'react-bootstrap';
 import { useState, useEffect, useRef } from 'react'
+import Button from "react-bootstrap/Button";
 
 import axios from 'axios';
 
@@ -21,6 +22,8 @@ const Events = ({}) => {
   const [dataLength, setDataLength] = useState(0)
   const [pageCount, setPageCount] = useState(0)
   const [pages, setPages] = useState([])
+  const [loaded, setLoaded] = useState(false);
+
   const ITEMS_PER_PAGE = 9
   const stateRef = useRef()
   stateRef.current = eventData
@@ -84,6 +87,9 @@ const Events = ({}) => {
       <div className="App-body">
         <Container style={{padding: '3vh'}}>
           <h2>Events</h2>
+          <Button variant="outline-secondary" onClick={() => setLoaded(false)}>
+          Search
+        </Button>
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
             <Row xs={2} md={3} lg={3}>
               {eventData.map((dat) => {
