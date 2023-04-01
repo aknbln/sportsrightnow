@@ -8,6 +8,8 @@ import { sportsTeamData } from '../assets/SportsTeamData'
 import { Pagination } from 'react-bootstrap';
 import { useState, useEffect, useRef } from 'react'
 import Button from "react-bootstrap/Button";
+import { useForm } from 'react-hook-form';
+
 
 import axios from 'axios';
 
@@ -23,7 +25,11 @@ const Teams = ({}) => {
   const [dataLength, setDataLength] = useState(0)
   const [pageCount, setPageCount] = useState(0)
   const [pages, setPages] = useState([])
-  const [loaded, setLoaded] = useState(false);
+  const [loaded, setLoaded] = useState(false)
+
+  const {register, handleSubmit} = useForm()
+  const onSubmit = data => console.log(data)
+
   const ITEMS_PER_PAGE = 9
   const stateRef = useRef()
   stateRef.current = teamData
@@ -87,10 +93,52 @@ const Teams = ({}) => {
       
       <div className="App-body">
         <Container style={{padding: '3vh'}}>
-          <h2>Teams</h2>
-          <Button variant="outline-secondary" onClick={() => setLoaded(false)}>
-          Search
-        </Button>
+          <h1>Teams</h1>
+          <hr style={{backgroundColor: 'white', height: "2px"}}/>
+          <h2>Filter</h2>
+
+          <form onSubmit={handleSubmit(onSubmit)} style={{display: 'flex', flexWrap:"wrap", gap: "1%", rowGap:"1vh"}}>
+            <div className='Form-element'>
+              <label>Team Name</label>
+              <br/>
+              <input type="text" name="teamName" {...register("teamName")}/>
+            </div>
+            
+            <div className='Form-element'>
+              <label>City</label>
+              <br/>
+              <input type="text" name="city" {...register("city")}/>
+            </div>
+
+            <div className='Form-element'>
+              <label>League</label>
+              <br/>
+              <select {...register("league")}>
+                <option value="nba">NBA</option>
+                <option value="nfl">NFL</option>
+                <option value="mlb">MLB</option>
+              </select>
+            </div>
+
+            <div style={{width: "100%"}}/>
+
+            <div className='Form-element'>
+              <label>Win count at least</label>
+              <br/>
+              <input min="0" type="number" name="minWins" {...register("minWins")}/>
+            </div>
+
+            <div className='Form-element'>
+              <label>Loss count at most</label>
+              <br/>
+              <input min="0" type="number" name="maxLosses" {...register("maxLosses")}/>
+            </div>
+
+            <div style={{width: "100%"}}/>
+
+            <input type="submit" value="Filter" style={{width: '15%'}}/> 
+          </form>
+
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
             <Row xs={2} md={3} lg={3}>
               {teamData.map((dat) => {
