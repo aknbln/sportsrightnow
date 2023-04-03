@@ -90,6 +90,7 @@ def populate_events():
         leagues = json.load(f)
         j = 1
         for league in leagues:
+
             for event in leagues[league]:
                 db_row = {
                     "id": j,
@@ -99,7 +100,7 @@ def populate_events():
                     "local_time": leagues[league][event]["dates"]["start"]["localTime"],
                     "seatmap": leagues[league][event]["seatmap"]["staticUrl"],
                     "city": leagues[league][event]["_embedded"][0]["city"]["name"],
-                    "venue": leagues[league][event]["_embedded"][0]["name"],
+                    "venue": leagues[league][event]["_embedded"][0]["name"] + f" {league}",
                     "home_team": leagues[league][event]["homeTeam"]
                     if "homeTeam" in leagues[league][event]
                     else "",
