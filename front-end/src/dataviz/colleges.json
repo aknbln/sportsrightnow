@@ -1,0 +1,82 @@
+[
+    {
+        "Name": "Alabama",
+        "Players": 77
+    },
+    {
+        "Name": "LSU",
+        "Players": 61
+    },
+    {
+        "Name": "Ohio State",
+        "Players": 60
+    },
+    {
+        "Name": "Michigan",
+        "Players": 53
+    },
+    {
+        "Name": "Kentucky",
+        "Players": 50
+    },
+    {
+        "Name": "Georgia",
+        "Players": 49
+    },
+    {
+        "Name": "Notre Dame",
+        "Players": 47
+    },
+    {
+        "Name": "Florida",
+        "Players": 47
+    },
+    {
+        "Name": "Washington",
+        "Players": 41
+    },
+    {
+        "Name": "UCLA",
+        "Players": 41
+    },
+    {
+        "Name": "Oklahoma",
+        "Players": 41
+    },
+    {
+        "Name": "Iowa",
+        "Players": 40
+    },
+    {
+        "Name": "Texas",
+        "Players": 40
+    },
+    {
+        "Name": "Duke",
+        "Players": 39
+    },
+    {
+        "Name": "Penn State",
+        "Players": 39
+    },
+    {
+        "Name": "USC",
+        "Players": 38
+    },
+    {
+        "Name": "Clemson",
+        "Players": 36
+    },
+    {
+        "Name": "Tennessee",
+        "Players": 34
+    },
+    {
+        "Name": "Oregon",
+        "Players": 33
+    },
+    {
+        "Name": "Auburn",
+        "Players": 31
+    }
+]
