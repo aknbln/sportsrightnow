@@ -66,6 +66,7 @@ def populate_teams():
         leagues = json.load(f)
         for league in leagues:
             for team in leagues[league]["results"]:
+                print(league)
                 db_row = {
                     "id": team['team_id'],
                     "name": team["team"],
@@ -76,7 +77,7 @@ def populate_teams():
                     "totalLosses": team["totalLosses"],
                     "logo": team["logo"],
                     "city": team["location"],
-                    # "league": team["league"],
+                    "league": league,
                     # "stadium_name": team['stadium_name'],
                     # "espnLink": team['espnLink']
                     
@@ -104,6 +105,7 @@ def populate_events():
                         "id": j,
                         "name": leagues[league][event]["name"],
                         "url": leagues[league][event]["url"],
+                        "league": league,
                         "local_date": leagues[league][event]["dates"]["start"]["localDate"],
                         "local_time": leagues[league][event]["dates"]["start"]["localTime"],
                         "seatmap": leagues[league][event]["seatmap"]["staticUrl"],
@@ -124,6 +126,7 @@ def populate_events():
                         "id": j,
                         "name": leagues[league][event]["name"],
                         "url": leagues[league][event]["url"],
+                        "league": "NFL",
                         "local_date": leagues[league][event]["local_date"],
                         "local_time": leagues[league][event]["local_date"],
                         "seatmap": leagues[league][event]["seatmap"]["staticUrl"],

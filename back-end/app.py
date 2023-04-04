@@ -42,8 +42,6 @@ def get_players():
     if name is not None:
         query = query.filter(Player.name.like("%" + name + "%"))
 
-
-
     if team is not None:
         query = query.filter(Player.team == team)
 
@@ -133,7 +131,7 @@ def get_events():
     
     if league is not None:
 
-        query = query.filter(Event.venue.contains(league))
+        query = query.filter(Event.league == league)
     
     if time is not None:
         query = query.filter(Event.local_time.contains(time))

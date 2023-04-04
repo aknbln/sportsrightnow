@@ -62,7 +62,7 @@ class Team(db.Model):
     totalLosses = db.Column(db.Integer)
     logo = db.Column(db.String(250))
     city = db.Column(db.String(250))
-    # league = db.Column(db.String(250))
+    league = db.Column(db.String(250))
     # stadium_name = db.Column(db.String(250))
     # espnLink = db.Column(db.String(250))
     # players = db.relationship('Player', backref = 'team')
@@ -80,7 +80,7 @@ class Team(db.Model):
             "totalLosses": self.totalLosses,
             "logo": self.logo,
             "city": self.city,
-            # "league": self.league,
+            "league": self.league,
             # "espnLink": self.espnLink,
             # "stadium_name": self.stadium_name,
         }
