@@ -18,7 +18,7 @@ class Tests(unittest.TestCase):
             response = self.client.get("/events")
             self.assertEqual(response.status_code, 200)
             data = response.json["data"]
-            self.assertEqual(len(data), 30)
+            self.assertEqual(len(data), 284)
 
     def testGetTeamsPagination(self):
         with self.client:

@@ -6,7 +6,6 @@ def populate_db():
     populate_teams()
     populate_events()
 
-
 def populate_players():
     with open("data/Player-Info/Players.json") as f:
         leagues = json.load(f)
@@ -77,40 +76,70 @@ def populate_teams():
                     "totalLosses": team["totalLosses"],
                     "logo": team["logo"],
                     "city": team["location"],
-                    "league": team["league"],
-                    "espnLink": team['espnLink'],
-                    "stadium_name": team['stadium_name']
+                    # "league": team["league"],
+                    # "stadium_name": team['stadium_name'],
+                    # "espnLink": team['espnLink']
+                    
                 }
                 db.session.add(Team(**db_row))
         db.session.commit()
 
 
 def populate_events():
+    f2 = open("data/Team-info/Teams.json", "r")
+    teams = json.load(f2)
+    citiesdict = {}
+    for team in teams["NFL"]["results"]:
+        citiesdict[team["team"]] = team["location"]
+
+
     with open("data/Event-info/Events.json") as f:
         leagues = json.load(f)
         j = 1
         for league in leagues:
 
             for event in leagues[league]:
-                db_row = {
-                    "id": j,
-                    "name": leagues[league][event]["name"],
-                    "url": leagues[league][event]["url"],
-                    "local_date": leagues[league][event]["dates"]["start"]["localDate"],
-                    "local_time": leagues[league][event]["dates"]["start"]["localTime"],
-                    "seatmap": leagues[league][event]["seatmap"]["staticUrl"],
-                    "city": leagues[league][event]["_embedded"][0]["city"]["name"],
-                    "venue": leagues[league][event]["_embedded"][0]["name"] + f" {league}",
-                    "home_team": leagues[league][event]["homeTeam"]
-                    if "homeTeam" in leagues[league][event]
-                    else "",
-                    "away_team": leagues[league][event]["awayTeam"]
-                    if "awayTeam" in leagues[league][event]
-                    else "",
-                    "home_team_image": leagues[league][event]["hometeamimage"],
-                    "home_team_id": leagues[league][event]["homeTeamId"],
-                    "away_team_id": leagues[league][event]["awayTeamId"],
-                }
+                if league != "NFL" :
+                    db_row = {
+                        "id": j,
+                        "name": leagues[league][event]["name"],
+                        "url": leagues[league][event]["url"],
+                        "local_date": leagues[league][event]["dates"]["start"]["localDate"],
+                        "local_time": leagues[league][event]["dates"]["start"]["localTime"],
+                        "seatmap": leagues[league][event]["seatmap"]["staticUrl"],
+                        "city": leagues[league][event]["_embedded"][0]["city"]["name"],
+                        "venue": leagues[league][event]["_embedded"][0]["name"],
+                        "home_team": leagues[league][event]["homeTeam"]
+                        if "homeTeam" in leagues[league][event]
+                        else "",
+                        "away_team": leagues[league][event]["awayTeam"]
+                        if "awayTeam" in leagues[league][event]
+                        else "",
+                        "home_team_image": leagues[league][event]["hometeamimage"],
+                        "home_team_id": leagues[league][event]["homeTeamId"],
+                        "away_team_id": leagues[league][event]["awayTeamId"],
+                    }
+                else:
+                    db_row = {
+                        "id": j,
+                        "name": leagues[league][event]["name"],
+                        "url": leagues[league][event]["url"],
+                        "local_date": leagues[league][event]["local_date"],
+                        "local_time": leagues[league][event]["local_date"],
+                        "seatmap": leagues[league][event]["seatmap"]["staticUrl"],
+                        "city": citiesdict[leagues[league][event]["homeTeam"]],
+                        "venue": leagues[league][event]["venue"],
+                        "home_team": leagues[league][event]["homeTeam"]
+                        if "homeTeam" in leagues[league][event]
+                        else "",
+                        "away_team": leagues[league][event]["awayTeam"]
+                        if "awayTeam" in leagues[league][event]
+                        else "",
+                        "home_team_image": leagues[league][event]["hometeamimage"],
+                        "home_team_id": leagues[league][event]["homeTeamId"],
+                        "away_team_id": leagues[league][event]["awayTeamId"],
+                    }
+
                 j += 1
                 db.session.add(Event(**db_row))
         db.session.commit()

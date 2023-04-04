@@ -19,6 +19,50 @@ def add_teams_to_events():
     with open("../Events.json", "w") as file:
         json.dump(events, file, indent=4)
 
+def add_events_mlb(): 
+    url = "https://app.ticketmaster.com/discovery/v2/events"
+    params = {
+        "apikey": "Mvar02Ff11Tc4ZF0RTy5l6wXypDguu4D",
+        "keyword": "MLB",
+        "locale": "*"
+    }
+    response = requests.get(url, params=params)
+    data = response.json()
+    events = data["_embedded"]["events"]
+    #make events be under "MLB" field
+    data = {}
+    #add first element of events as the first element in data["MLB"]
+    data["MLB"] = [events[0]]
+    #now put second element of events as the second element in data["MLB"]
+    data["MLB"].append(events[1])
+    #iterate though each element in data["MLB"]
+    for event in events:
+        newevent = {}
+        newevent["name"] = event["name"]
+        newevent["id"] = event["id"]
+        newevent["url"] = event["url"]
+        newevent["dates"] = event["dates"]
+        newevent["priceRanges"] = event["priceRanges"]
+        newevent["seatmap"] = event["seatmap"]
+        newevent["ticketLimit"] = event["ticketLimit"]
+        newevent["_embedded"] = event["_embedded"]
+        newevent["homeTeam"] = event["homeTeam"]
+        data["MLB"].append(newevent)
+        print(event["name"])
+    #open ./MLB_cleaned.json and add the events to it
+    #instead of writing to the file, write to a new file
+    #create new file
+    #write to new file
+    #rename new file to MLB_cleaned.json
+    with open("output2.json", "w") as file:
+        # print("hi")
+        # print(events)       
+        json.dump(data, file, indent=4)
+
+add_events_mlb()
+
+
+
 def find_teamId(name):
     teams_file = open("../../../data/Team-Info/Teams.json")
     data = json.load(teams_file)
