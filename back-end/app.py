@@ -17,6 +17,25 @@ def home():
         hed = "<h1>Something is broken.</h1>"
         return hed + error_text
 
+@app.route("/search/<string:query>")
+def search_all(query):
+    terms = query.split()
+    occurrences = {
+        **search_players(terms),
+        **search_teams(terms),
+        **search_events(terms),
+    }
+    objs = sorted(occurrences.keys(), key=lambda x: occurrences[x], reverse=True)
+    players = [player for player in objs if type(player) == Player]
+    teams = [team for team in objs if type(team) == Team]
+    events = [event for event in objs if type(event) == Event]
+    player_results = player_schema.dump(players, many=True)
+    team_results = team_schema.dump(teams, many=True)
+    event_results = event_schema.dump(events, many=True)
+    return jsonify(
+        {"players": player_results, "teams": team_results, "events": event_results}
+    )
+
 @app.route("/search/<string:model>/<string:query>")
 def search_models(model, query):
     model = model.strip().lower()
