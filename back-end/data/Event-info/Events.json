@@ -3324,5 +3324,4071 @@
             "homeTeamId": 89,
             "awayTeamId": 77
         }
+    },
+    "NFL": {
+        "Atlanta Falcons vs. New Orleans Saints": {
+            "name": "Atlanta Falcons vs. New Orleans Saints",
+            "homeTeam": "Atlanta Falcons",
+            "awayTeam": "New Orleans Saints",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/atlanta-falcons-seating-chart-with-rows-at-mercedes-benz-stadium.jpg"
+            },
+            "id": 1,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "Mercedes-Benz Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/8.png",
+            "homeTeamId": 55,
+            "awayTeamId": 57
+        },
+        "Carolina Panthers vs. Cleveland Browns": {
+            "name": "Carolina Panthers vs. Cleveland Browns",
+            "homeTeam": "Carolina Panthers",
+            "awayTeam": "Cleveland Browns",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/carolina-panthers-seating-chart-with-rows-at-bank-of-america-stadium.jpg"
+            },
+            "id": 2,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "Bank of America Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/19.png",
+            "homeTeamId": 56,
+            "awayTeamId": 37
+        },
+        "Chicago Bears vs. San Francisco 49ers": {
+            "name": "Chicago Bears vs. San Francisco 49ers",
+            "homeTeam": "Chicago Bears",
+            "awayTeam": "San Francisco 49ers",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chicago-bears-seating-chart-with-rows-at-soldier-field.jpg"
+            },
+            "id": 3,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "Soldier Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/16.png",
+            "homeTeamId": 51,
+            "awayTeamId": 60
+        },
+        "Cincinnati Bengals vs. Pittsburgh Steelers": {
+            "name": "Cincinnati Bengals vs. Pittsburgh Steelers",
+            "homeTeam": "Cincinnati Bengals",
+            "awayTeam": "Pittsburgh Steelers",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bengals-seating-chart-at-paul-brown-stadium.jpg"
+            },
+            "id": 4,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "Paul Brown Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/10.png",
+            "homeTeamId": 36,
+            "awayTeamId": 38
+        },
+        "Houston Texans vs. Indianapolis Colts": {
+            "name": "Houston Texans vs. Indianapolis Colts",
+            "homeTeam": "Houston Texans",
+            "awayTeam": "Indianapolis Colts",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/houston-texans-seating-chart-with-rows-at-nrg-stadium.jpg"
+            },
+            "id": 5,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "NRG Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/26.png",
+            "homeTeamId": 39,
+            "awayTeamId": 40
+        },
+        "Detroit Lions vs. Philadelphia Eagles": {
+            "name": "Detroit Lions vs. Philadelphia Eagles",
+            "homeTeam": "Detroit Lions",
+            "awayTeam": "Philadelphia Eagles",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/detroit-lions-seating-chart-with-rows-at-ford-field.jpg"
+            },
+            "id": 6,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "Ford Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/7.png",
+            "homeTeamId": 52,
+            "awayTeamId": 49
+        },
+        "Washington Commanders vs. Jacksonville Jaguars": {
+            "name": "Washington Commanders vs. Jacksonville Jaguars",
+            "homeTeam": "Washington Commanders",
+            "awayTeam": "Jacksonville Jaguars",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/wft-seating-chart-at-fedexfield.jpg"
+            },
+            "id": 7,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "FedExField",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/18.png",
+            "homeTeamId": 50,
+            "awayTeamId": 41
+        },
+        "Miami Dolphins vs. New England Patriots": {
+            "name": "Miami Dolphins vs. New England Patriots",
+            "homeTeam": "Miami Dolphins",
+            "awayTeam": "New England Patriots",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/miami-dolphins-seating-chart-with-rows-at-hard-rock-stadium.jpg"
+            },
+            "id": 8,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "Hard Rock Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/25.png",
+            "homeTeamId": 32,
+            "awayTeamId": 33
+        },
+        "New York Jets vs. Baltimore Ravens": {
+            "name": "New York Jets vs. Baltimore Ravens",
+            "homeTeam": "New York Jets",
+            "awayTeam": "Baltimore Ravens",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 9,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/13.png",
+            "homeTeamId": 34,
+            "awayTeamId": 35
+        },
+        "Arizona Cardinals vs. Kansas City Chiefs": {
+            "name": "Arizona Cardinals vs. Kansas City Chiefs",
+            "homeTeam": "Arizona Cardinals",
+            "awayTeam": "Kansas City Chiefs",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/arizona-cardinals-seating-chart-with-rows-at-state-farm-stadium.jpg"
+            },
+            "id": 10,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "State Farm Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/11.png",
+            "homeTeamId": 59,
+            "awayTeamId": 44
+        },
+        "Minnesota Vikings vs. Green Bay Packers": {
+            "name": "Minnesota Vikings vs. Green Bay Packers",
+            "homeTeam": "Minnesota Vikings",
+            "awayTeam": "Green Bay Packers",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/vikings-seating-chart-at-u.s.-bank-stadium.jpg"
+            },
+            "id": 11,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "U.S. Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/32.png",
+            "homeTeamId": 54,
+            "awayTeamId": 53
+        },
+        "Tennessee Titans vs. New York Giants": {
+            "name": "Tennessee Titans vs. New York Giants",
+            "homeTeam": "Tennessee Titans",
+            "awayTeam": "New York Giants",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tennessee-titans-seating-chart-with-rows-at-nissan-stadium.jpg"
+            },
+            "id": 12,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "Nissan Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/6.png",
+            "homeTeamId": 42,
+            "awayTeamId": 48
+        },
+        "Los Angeles Chargers vs. Las Vegas Raiders": {
+            "name": "Los Angeles Chargers vs. Las Vegas Raiders",
+            "homeTeam": "Los Angeles Chargers",
+            "awayTeam": "Las Vegas Raiders",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/sofi-stadium-seating-chart-with-rows-for-football.jpg"
+            },
+            "id": 13,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "SoFi Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/30.png",
+            "homeTeamId": 46,
+            "awayTeamId": 45
+        },
+        "Dallas Cowboys vs. Tampa Bay Buccaneers": {
+            "name": "Dallas Cowboys vs. Tampa Bay Buccaneers",
+            "homeTeam": "Dallas Cowboys",
+            "awayTeam": "Tampa Bay Buccaneers",
+            "date": "2022-09-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/dallas-cowboys-seating-chart-with-rows-at-att-stadium-(cowboys-stadium).jpg"
+            },
+            "id": 14,
+            "url": "past_event",
+            "local_date": "2022-09-11",
+            "venue": "AT&T Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/29.png",
+            "homeTeamId": 47,
+            "awayTeamId": 58
+        },
+        "Seattle Seahawks vs. Denver Broncos": {
+            "name": "Seattle Seahawks vs. Denver Broncos",
+            "homeTeam": "Seattle Seahawks",
+            "awayTeam": "Denver Broncos",
+            "date": "2022-09-12",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/seattle-seahawks-seating-chart-with-rows-at-centurylink-field.jpg"
+            },
+            "id": 15,
+            "url": "past_event",
+            "local_date": "2022-09-12",
+            "venue": "Lumen Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/23.png",
+            "homeTeamId": 61,
+            "awayTeamId": 43
+        },
+        "Kansas City Chiefs vs. Los Angeles Chargers": {
+            "name": "Kansas City Chiefs vs. Los Angeles Chargers",
+            "homeTeam": "Kansas City Chiefs",
+            "awayTeam": "Los Angeles Chargers",
+            "date": "2022-09-15",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chiefs-seating-chart-at-arrowhead-stadium.jpg"
+            },
+            "id": 16,
+            "url": "past_event",
+            "local_date": "2022-09-15",
+            "venue": "Arrowhead Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/17.png",
+            "homeTeamId": 44,
+            "awayTeamId": 46
+        },
+        "New York Giants vs. Carolina Panthers": {
+            "name": "New York Giants vs. Carolina Panthers",
+            "homeTeam": "New York Giants",
+            "awayTeam": "Carolina Panthers",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 17,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/4.png",
+            "homeTeamId": 48,
+            "awayTeamId": 56
+        },
+        "Cleveland Browns vs. New York Jets": {
+            "name": "Cleveland Browns vs. New York Jets",
+            "homeTeam": "Cleveland Browns",
+            "awayTeam": "New York Jets",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/browns-seating-chart-at-first-energy-stadium-(cleveland-browns-stadium).jpg"
+            },
+            "id": 18,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "FirstEnergy Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/9.png",
+            "homeTeamId": 37,
+            "awayTeamId": 34
+        },
+        "Jacksonville Jaguars vs. Indianapolis Colts": {
+            "name": "Jacksonville Jaguars vs. Indianapolis Colts",
+            "homeTeam": "Jacksonville Jaguars",
+            "awayTeam": "Indianapolis Colts",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/jaguars-seating-chart-at-tiaa-bank-field.jpg"
+            },
+            "id": 19,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "TIAA Bank Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/2.png",
+            "homeTeamId": 41,
+            "awayTeamId": 40
+        },
+        "Detroit Lions vs. Washington Commanders": {
+            "name": "Detroit Lions vs. Washington Commanders",
+            "homeTeam": "Detroit Lions",
+            "awayTeam": "Washington Commanders",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/detroit-lions-seating-chart-with-rows-at-ford-field.jpg"
+            },
+            "id": 20,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "Ford Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/7.png",
+            "homeTeamId": 52,
+            "awayTeamId": 50
+        },
+        "Baltimore Ravens vs. Miami Dolphins": {
+            "name": "Baltimore Ravens vs. Miami Dolphins",
+            "homeTeam": "Baltimore Ravens",
+            "awayTeam": "Miami Dolphins",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/baltimore-ravens-seating-chart-with-rows-at-mt-bank-stadium.jpg"
+            },
+            "id": 21,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "M&T Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/5.png",
+            "homeTeamId": 35,
+            "awayTeamId": 32
+        },
+        "New Orleans Saints vs. Tampa Bay Buccaneers": {
+            "name": "New Orleans Saints vs. Tampa Bay Buccaneers",
+            "homeTeam": "New Orleans Saints",
+            "awayTeam": "Tampa Bay Buccaneers",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-orleans-saints-seating-chart-with-rows-at-superdome.jpg"
+            },
+            "id": 22,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "Caesars Superdome",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/27.png",
+            "homeTeamId": 57,
+            "awayTeamId": 58
+        },
+        "Pittsburgh Steelers vs. New England Patriots": {
+            "name": "Pittsburgh Steelers vs. New England Patriots",
+            "homeTeam": "Pittsburgh Steelers",
+            "awayTeam": "New England Patriots",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/steelers-seating-chart-at-heinz-field.jpg"
+            },
+            "id": 23,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "Heinz Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/22.png",
+            "homeTeamId": 38,
+            "awayTeamId": 33
+        },
+        "San Francisco 49ers vs. Seattle Seahawks": {
+            "name": "San Francisco 49ers vs. Seattle Seahawks",
+            "homeTeam": "San Francisco 49ers",
+            "awayTeam": "Seattle Seahawks",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/49ers-seating-chart-at-levis-stadium.jpg"
+            },
+            "id": 24,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "Levi's Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/14.png",
+            "homeTeamId": 60,
+            "awayTeamId": 61
+        },
+        "Dallas Cowboys vs. Cincinnati Bengals": {
+            "name": "Dallas Cowboys vs. Cincinnati Bengals",
+            "homeTeam": "Dallas Cowboys",
+            "awayTeam": "Cincinnati Bengals",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/dallas-cowboys-seating-chart-with-rows-at-att-stadium-(cowboys-stadium).jpg"
+            },
+            "id": 25,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "AT&T Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/29.png",
+            "homeTeamId": 47,
+            "awayTeamId": 36
+        },
+        "Las Vegas Raiders vs. Arizona Cardinals": {
+            "name": "Las Vegas Raiders vs. Arizona Cardinals",
+            "homeTeam": "Las Vegas Raiders",
+            "awayTeam": "Arizona Cardinals",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/raiders-seating-chart-at-allegiant-stadium.jpg"
+            },
+            "id": 26,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "Allegiant Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/1.png",
+            "homeTeamId": 45,
+            "awayTeamId": 59
+        },
+        "Denver Broncos vs. Houston Texans": {
+            "name": "Denver Broncos vs. Houston Texans",
+            "homeTeam": "Denver Broncos",
+            "awayTeam": "Houston Texans",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/broncos-seating-chart-at-empower-field-(at-mile-high).jpg"
+            },
+            "id": 27,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "Empower Field at Mile High",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/28.png",
+            "homeTeamId": 43,
+            "awayTeamId": 39
+        },
+        "Green Bay Packers vs. Chicago Bears": {
+            "name": "Green Bay Packers vs. Chicago Bears",
+            "homeTeam": "Green Bay Packers",
+            "awayTeam": "Chicago Bears",
+            "date": "2022-09-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/packers-seating-chart-at-lambeau-field.jpg"
+            },
+            "id": 28,
+            "url": "past_event",
+            "local_date": "2022-09-18",
+            "venue": "Lambeau Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/15.png",
+            "homeTeamId": 53,
+            "awayTeamId": 51
+        },
+        "Buffalo Bills vs. Tennessee Titans": {
+            "name": "Buffalo Bills vs. Tennessee Titans",
+            "homeTeam": "Buffalo Bills",
+            "awayTeam": "Tennessee Titans",
+            "date": "2022-09-19",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bills-seating-chart-at-highmark-stadium.jpg"
+            },
+            "id": 29,
+            "url": "past_event",
+            "local_date": "2022-09-19",
+            "venue": "Highmark Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/20.png",
+            "homeTeamId": 31,
+            "awayTeamId": 42
+        },
+        "Philadelphia Eagles vs. Minnesota Vikings": {
+            "name": "Philadelphia Eagles vs. Minnesota Vikings",
+            "homeTeam": "Philadelphia Eagles",
+            "awayTeam": "Minnesota Vikings",
+            "date": "2022-09-19",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/philadelphia-eagles-seating-chart-with-rows-at-lincoln-financial-field.jpg"
+            },
+            "id": 30,
+            "url": "past_event",
+            "local_date": "2022-09-19",
+            "venue": "Lincoln Financial Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/12.png",
+            "homeTeamId": 49,
+            "awayTeamId": 54
+        },
+        "Cleveland Browns vs. Pittsburgh Steelers": {
+            "name": "Cleveland Browns vs. Pittsburgh Steelers",
+            "homeTeam": "Cleveland Browns",
+            "awayTeam": "Pittsburgh Steelers",
+            "date": "2022-09-22",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/browns-seating-chart-at-first-energy-stadium-(cleveland-browns-stadium).jpg"
+            },
+            "id": 31,
+            "url": "past_event",
+            "local_date": "2022-09-22",
+            "venue": "FirstEnergy Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/9.png",
+            "homeTeamId": 37,
+            "awayTeamId": 38
+        },
+        "Miami Dolphins vs. Buffalo Bills": {
+            "name": "Miami Dolphins vs. Buffalo Bills",
+            "homeTeam": "Miami Dolphins",
+            "awayTeam": "Buffalo Bills",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/miami-dolphins-seating-chart-with-rows-at-hard-rock-stadium.jpg"
+            },
+            "id": 32,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "Hard Rock Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/25.png",
+            "homeTeamId": 32,
+            "awayTeamId": 31
+        },
+        "Carolina Panthers vs. New Orleans Saints": {
+            "name": "Carolina Panthers vs. New Orleans Saints",
+            "homeTeam": "Carolina Panthers",
+            "awayTeam": "New Orleans Saints",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/carolina-panthers-seating-chart-with-rows-at-bank-of-america-stadium.jpg"
+            },
+            "id": 33,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "Bank of America Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/19.png",
+            "homeTeamId": 56,
+            "awayTeamId": 57
+        },
+        "Chicago Bears vs. Houston Texans": {
+            "name": "Chicago Bears vs. Houston Texans",
+            "homeTeam": "Chicago Bears",
+            "awayTeam": "Houston Texans",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chicago-bears-seating-chart-with-rows-at-soldier-field.jpg"
+            },
+            "id": 34,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "Soldier Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/16.png",
+            "homeTeamId": 51,
+            "awayTeamId": 39
+        },
+        "New York Jets vs. Cincinnati Bengals": {
+            "name": "New York Jets vs. Cincinnati Bengals",
+            "homeTeam": "New York Jets",
+            "awayTeam": "Cincinnati Bengals",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 35,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/13.png",
+            "homeTeamId": 34,
+            "awayTeamId": 36
+        },
+        "Indianapolis Colts vs. Kansas City Chiefs": {
+            "name": "Indianapolis Colts vs. Kansas City Chiefs",
+            "homeTeam": "Indianapolis Colts",
+            "awayTeam": "Kansas City Chiefs",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/indianapolis-colts-seating-chart-with-rows-at-lucas-oil-stadium.jpg"
+            },
+            "id": 36,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "Lucas Oil Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/21.png",
+            "homeTeamId": 40,
+            "awayTeamId": 44
+        },
+        "Minnesota Vikings vs. Detroit Lions": {
+            "name": "Minnesota Vikings vs. Detroit Lions",
+            "homeTeam": "Minnesota Vikings",
+            "awayTeam": "Detroit Lions",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/vikings-seating-chart-at-u.s.-bank-stadium.jpg"
+            },
+            "id": 37,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "U.S. Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/32.png",
+            "homeTeamId": 54,
+            "awayTeamId": 52
+        },
+        "New England Patriots vs. Baltimore Ravens": {
+            "name": "New England Patriots vs. Baltimore Ravens",
+            "homeTeam": "New England Patriots",
+            "awayTeam": "Baltimore Ravens",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-england-patriots-seating-chart-with-rows-at-gillette-stadium.jpg"
+            },
+            "id": 38,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "Gillette Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/3.png",
+            "homeTeamId": 33,
+            "awayTeamId": 35
+        },
+        "Tennessee Titans vs. Las Vegas Raiders": {
+            "name": "Tennessee Titans vs. Las Vegas Raiders",
+            "homeTeam": "Tennessee Titans",
+            "awayTeam": "Las Vegas Raiders",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tennessee-titans-seating-chart-with-rows-at-nissan-stadium.jpg"
+            },
+            "id": 39,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "Nissan Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/6.png",
+            "homeTeamId": 42,
+            "awayTeamId": 45
+        },
+        "Washington Commanders vs. Philadelphia Eagles": {
+            "name": "Washington Commanders vs. Philadelphia Eagles",
+            "homeTeam": "Washington Commanders",
+            "awayTeam": "Philadelphia Eagles",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/wft-seating-chart-at-fedexfield.jpg"
+            },
+            "id": 40,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "FedExField",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/18.png",
+            "homeTeamId": 50,
+            "awayTeamId": 49
+        },
+        "Los Angeles Chargers vs. Jacksonville Jaguars": {
+            "name": "Los Angeles Chargers vs. Jacksonville Jaguars",
+            "homeTeam": "Los Angeles Chargers",
+            "awayTeam": "Jacksonville Jaguars",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/sofi-stadium-seating-chart-with-rows-for-football.jpg"
+            },
+            "id": 41,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "SoFi Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/30.png",
+            "homeTeamId": 46,
+            "awayTeamId": 41
+        },
+        "Seattle Seahawks vs. Atlanta Falcons": {
+            "name": "Seattle Seahawks vs. Atlanta Falcons",
+            "homeTeam": "Seattle Seahawks",
+            "awayTeam": "Atlanta Falcons",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/seattle-seahawks-seating-chart-with-rows-at-centurylink-field.jpg"
+            },
+            "id": 42,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "Lumen Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/23.png",
+            "homeTeamId": 61,
+            "awayTeamId": 55
+        },
+        "Tampa Bay Buccaneers vs. Green Bay Packers": {
+            "name": "Tampa Bay Buccaneers vs. Green Bay Packers",
+            "homeTeam": "Tampa Bay Buccaneers",
+            "awayTeam": "Green Bay Packers",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tampa-bay-buccaneers-seating-chart-with-rows-at-raymond-james-stadium.jpg"
+            },
+            "id": 43,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "Raymond James Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/24.png",
+            "homeTeamId": 58,
+            "awayTeamId": 53
+        },
+        "Denver Broncos vs. San Francisco 49ers": {
+            "name": "Denver Broncos vs. San Francisco 49ers",
+            "homeTeam": "Denver Broncos",
+            "awayTeam": "San Francisco 49ers",
+            "date": "2022-09-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/broncos-seating-chart-at-empower-field-(at-mile-high).jpg"
+            },
+            "id": 44,
+            "url": "past_event",
+            "local_date": "2022-09-25",
+            "venue": "Empower Field at Mile High",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/28.png",
+            "homeTeamId": 43,
+            "awayTeamId": 60
+        },
+        "New York Giants vs. Dallas Cowboys": {
+            "name": "New York Giants vs. Dallas Cowboys",
+            "homeTeam": "New York Giants",
+            "awayTeam": "Dallas Cowboys",
+            "date": "2022-09-26",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 45,
+            "url": "past_event",
+            "local_date": "2022-09-26",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/4.png",
+            "homeTeamId": 48,
+            "awayTeamId": 47
+        },
+        "Cincinnati Bengals vs. Miami Dolphins": {
+            "name": "Cincinnati Bengals vs. Miami Dolphins",
+            "homeTeam": "Cincinnati Bengals",
+            "awayTeam": "Miami Dolphins",
+            "date": "2022-09-29",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bengals-seating-chart-at-paul-brown-stadium.jpg"
+            },
+            "id": 46,
+            "url": "past_event",
+            "local_date": "2022-09-29",
+            "venue": "Paul Brown Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/10.png",
+            "homeTeamId": 36,
+            "awayTeamId": 32
+        },
+        "New Orleans Saints vs. Minnesota Vikings": {
+            "name": "New Orleans Saints vs. Minnesota Vikings",
+            "homeTeam": "New Orleans Saints",
+            "awayTeam": "Minnesota Vikings",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-orleans-saints-seating-chart-with-rows-at-superdome.jpg"
+            },
+            "id": 47,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "Caesars Superdome",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/27.png",
+            "homeTeamId": 57,
+            "awayTeamId": 54
+        },
+        "Atlanta Falcons vs. Cleveland Browns": {
+            "name": "Atlanta Falcons vs. Cleveland Browns",
+            "homeTeam": "Atlanta Falcons",
+            "awayTeam": "Cleveland Browns",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/atlanta-falcons-seating-chart-with-rows-at-mercedes-benz-stadium.jpg"
+            },
+            "id": 48,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "Mercedes-Benz Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/8.png",
+            "homeTeamId": 55,
+            "awayTeamId": 37
+        },
+        "Baltimore Ravens vs. Buffalo Bills": {
+            "name": "Baltimore Ravens vs. Buffalo Bills",
+            "homeTeam": "Baltimore Ravens",
+            "awayTeam": "Buffalo Bills",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/baltimore-ravens-seating-chart-with-rows-at-mt-bank-stadium.jpg"
+            },
+            "id": 49,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "M&T Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/5.png",
+            "homeTeamId": 35,
+            "awayTeamId": 31
+        },
+        "New York Giants vs. Chicago Bears": {
+            "name": "New York Giants vs. Chicago Bears",
+            "homeTeam": "New York Giants",
+            "awayTeam": "Chicago Bears",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 50,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/4.png",
+            "homeTeamId": 48,
+            "awayTeamId": 51
+        },
+        "Indianapolis Colts vs. Tennessee Titans": {
+            "name": "Indianapolis Colts vs. Tennessee Titans",
+            "homeTeam": "Indianapolis Colts",
+            "awayTeam": "Tennessee Titans",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/indianapolis-colts-seating-chart-with-rows-at-lucas-oil-stadium.jpg"
+            },
+            "id": 51,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "Lucas Oil Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/21.png",
+            "homeTeamId": 40,
+            "awayTeamId": 42
+        },
+        "Dallas Cowboys vs. Washington Commanders": {
+            "name": "Dallas Cowboys vs. Washington Commanders",
+            "homeTeam": "Dallas Cowboys",
+            "awayTeam": "Washington Commanders",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/dallas-cowboys-seating-chart-with-rows-at-att-stadium-(cowboys-stadium).jpg"
+            },
+            "id": 52,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "AT&T Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/29.png",
+            "homeTeamId": 47,
+            "awayTeamId": 50
+        },
+        "Detroit Lions vs. Seattle Seahawks": {
+            "name": "Detroit Lions vs. Seattle Seahawks",
+            "homeTeam": "Detroit Lions",
+            "awayTeam": "Seattle Seahawks",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/detroit-lions-seating-chart-with-rows-at-ford-field.jpg"
+            },
+            "id": 53,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "Ford Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/7.png",
+            "homeTeamId": 52,
+            "awayTeamId": 61
+        },
+        "Houston Texans vs. Los Angeles Chargers": {
+            "name": "Houston Texans vs. Los Angeles Chargers",
+            "homeTeam": "Houston Texans",
+            "awayTeam": "Los Angeles Chargers",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/houston-texans-seating-chart-with-rows-at-nrg-stadium.jpg"
+            },
+            "id": 54,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "NRG Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/26.png",
+            "homeTeamId": 39,
+            "awayTeamId": 46
+        },
+        "Philadelphia Eagles vs. Jacksonville Jaguars": {
+            "name": "Philadelphia Eagles vs. Jacksonville Jaguars",
+            "homeTeam": "Philadelphia Eagles",
+            "awayTeam": "Jacksonville Jaguars",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/philadelphia-eagles-seating-chart-with-rows-at-lincoln-financial-field.jpg"
+            },
+            "id": 55,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "Lincoln Financial Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/12.png",
+            "homeTeamId": 49,
+            "awayTeamId": 41
+        },
+        "Pittsburgh Steelers vs. New York Jets": {
+            "name": "Pittsburgh Steelers vs. New York Jets",
+            "homeTeam": "Pittsburgh Steelers",
+            "awayTeam": "New York Jets",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/steelers-seating-chart-at-heinz-field.jpg"
+            },
+            "id": 56,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "Heinz Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/22.png",
+            "homeTeamId": 38,
+            "awayTeamId": 34
+        },
+        "Carolina Panthers vs. Arizona Cardinals": {
+            "name": "Carolina Panthers vs. Arizona Cardinals",
+            "homeTeam": "Carolina Panthers",
+            "awayTeam": "Arizona Cardinals",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/carolina-panthers-seating-chart-with-rows-at-bank-of-america-stadium.jpg"
+            },
+            "id": 57,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "Bank of America Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/19.png",
+            "homeTeamId": 56,
+            "awayTeamId": 59
+        },
+        "Las Vegas Raiders vs. Denver Broncos": {
+            "name": "Las Vegas Raiders vs. Denver Broncos",
+            "homeTeam": "Las Vegas Raiders",
+            "awayTeam": "Denver Broncos",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/raiders-seating-chart-at-allegiant-stadium.jpg"
+            },
+            "id": 58,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "Allegiant Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/1.png",
+            "homeTeamId": 45,
+            "awayTeamId": 43
+        },
+        "Green Bay Packers vs. New England Patriots": {
+            "name": "Green Bay Packers vs. New England Patriots",
+            "homeTeam": "Green Bay Packers",
+            "awayTeam": "New England Patriots",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/packers-seating-chart-at-lambeau-field.jpg"
+            },
+            "id": 59,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "Lambeau Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/15.png",
+            "homeTeamId": 53,
+            "awayTeamId": 33
+        },
+        "Tampa Bay Buccaneers vs. Kansas City Chiefs": {
+            "name": "Tampa Bay Buccaneers vs. Kansas City Chiefs",
+            "homeTeam": "Tampa Bay Buccaneers",
+            "awayTeam": "Kansas City Chiefs",
+            "date": "2022-10-02",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tampa-bay-buccaneers-seating-chart-with-rows-at-raymond-james-stadium.jpg"
+            },
+            "id": 60,
+            "url": "past_event",
+            "local_date": "2022-10-02",
+            "venue": "Raymond James Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/24.png",
+            "homeTeamId": 58,
+            "awayTeamId": 44
+        },
+        "Denver Broncos vs. Indianapolis Colts": {
+            "name": "Denver Broncos vs. Indianapolis Colts",
+            "homeTeam": "Denver Broncos",
+            "awayTeam": "Indianapolis Colts",
+            "date": "2022-10-06",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/broncos-seating-chart-at-empower-field-(at-mile-high).jpg"
+            },
+            "id": 61,
+            "url": "past_event",
+            "local_date": "2022-10-06",
+            "venue": "Empower Field at Mile High",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/28.png",
+            "homeTeamId": 43,
+            "awayTeamId": 40
+        },
+        "Green Bay Packers vs. New York Giants": {
+            "name": "Green Bay Packers vs. New York Giants",
+            "homeTeam": "Green Bay Packers",
+            "awayTeam": "New York Giants",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/packers-seating-chart-at-lambeau-field.jpg"
+            },
+            "id": 62,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "Lambeau Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/15.png",
+            "homeTeamId": 53,
+            "awayTeamId": 48
+        },
+        "Tampa Bay Buccaneers vs. Atlanta Falcons": {
+            "name": "Tampa Bay Buccaneers vs. Atlanta Falcons",
+            "homeTeam": "Tampa Bay Buccaneers",
+            "awayTeam": "Atlanta Falcons",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tampa-bay-buccaneers-seating-chart-with-rows-at-raymond-james-stadium.jpg"
+            },
+            "id": 63,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "Raymond James Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/24.png",
+            "homeTeamId": 58,
+            "awayTeamId": 55
+        },
+        "Buffalo Bills vs. Pittsburgh Steelers": {
+            "name": "Buffalo Bills vs. Pittsburgh Steelers",
+            "homeTeam": "Buffalo Bills",
+            "awayTeam": "Pittsburgh Steelers",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bills-seating-chart-at-highmark-stadium.jpg"
+            },
+            "id": 64,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "Highmark Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/20.png",
+            "homeTeamId": 31,
+            "awayTeamId": 38
+        },
+        "Minnesota Vikings vs. Chicago Bears": {
+            "name": "Minnesota Vikings vs. Chicago Bears",
+            "homeTeam": "Minnesota Vikings",
+            "awayTeam": "Chicago Bears",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/vikings-seating-chart-at-u.s.-bank-stadium.jpg"
+            },
+            "id": 65,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "U.S. Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/32.png",
+            "homeTeamId": 54,
+            "awayTeamId": 51
+        },
+        "Cleveland Browns vs. Los Angeles Chargers": {
+            "name": "Cleveland Browns vs. Los Angeles Chargers",
+            "homeTeam": "Cleveland Browns",
+            "awayTeam": "Los Angeles Chargers",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/browns-seating-chart-at-first-energy-stadium-(cleveland-browns-stadium).jpg"
+            },
+            "id": 66,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "FirstEnergy Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/9.png",
+            "homeTeamId": 37,
+            "awayTeamId": 46
+        },
+        "New England Patriots vs. Detroit Lions": {
+            "name": "New England Patriots vs. Detroit Lions",
+            "homeTeam": "New England Patriots",
+            "awayTeam": "Detroit Lions",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-england-patriots-seating-chart-with-rows-at-gillette-stadium.jpg"
+            },
+            "id": 67,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "Gillette Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/3.png",
+            "homeTeamId": 33,
+            "awayTeamId": 52
+        },
+        "Jacksonville Jaguars vs. Houston Texans": {
+            "name": "Jacksonville Jaguars vs. Houston Texans",
+            "homeTeam": "Jacksonville Jaguars",
+            "awayTeam": "Houston Texans",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/jaguars-seating-chart-at-tiaa-bank-field.jpg"
+            },
+            "id": 68,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "TIAA Bank Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/2.png",
+            "homeTeamId": 41,
+            "awayTeamId": 39
+        },
+        "New York Jets vs. Miami Dolphins": {
+            "name": "New York Jets vs. Miami Dolphins",
+            "homeTeam": "New York Jets",
+            "awayTeam": "Miami Dolphins",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 69,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/13.png",
+            "homeTeamId": 34,
+            "awayTeamId": 32
+        },
+        "New Orleans Saints vs. Seattle Seahawks": {
+            "name": "New Orleans Saints vs. Seattle Seahawks",
+            "homeTeam": "New Orleans Saints",
+            "awayTeam": "Seattle Seahawks",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-orleans-saints-seating-chart-with-rows-at-superdome.jpg"
+            },
+            "id": 70,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "Caesars Superdome",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/27.png",
+            "homeTeamId": 57,
+            "awayTeamId": 61
+        },
+        "Washington Commanders vs. Tennessee Titans": {
+            "name": "Washington Commanders vs. Tennessee Titans",
+            "homeTeam": "Washington Commanders",
+            "awayTeam": "Tennessee Titans",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/wft-seating-chart-at-fedexfield.jpg"
+            },
+            "id": 71,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "FedExField",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/18.png",
+            "homeTeamId": 50,
+            "awayTeamId": 42
+        },
+        "Carolina Panthers vs. San Francisco 49ers": {
+            "name": "Carolina Panthers vs. San Francisco 49ers",
+            "homeTeam": "Carolina Panthers",
+            "awayTeam": "San Francisco 49ers",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/carolina-panthers-seating-chart-with-rows-at-bank-of-america-stadium.jpg"
+            },
+            "id": 72,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "Bank of America Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/19.png",
+            "homeTeamId": 56,
+            "awayTeamId": 60
+        },
+        "Arizona Cardinals vs. Philadelphia Eagles": {
+            "name": "Arizona Cardinals vs. Philadelphia Eagles",
+            "homeTeam": "Arizona Cardinals",
+            "awayTeam": "Philadelphia Eagles",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/arizona-cardinals-seating-chart-with-rows-at-state-farm-stadium.jpg"
+            },
+            "id": 73,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "State Farm Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/11.png",
+            "homeTeamId": 59,
+            "awayTeamId": 49
+        },
+        "Baltimore Ravens vs. Cincinnati Bengals": {
+            "name": "Baltimore Ravens vs. Cincinnati Bengals",
+            "homeTeam": "Baltimore Ravens",
+            "awayTeam": "Cincinnati Bengals",
+            "date": "2022-10-09",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/baltimore-ravens-seating-chart-with-rows-at-mt-bank-stadium.jpg"
+            },
+            "id": 74,
+            "url": "past_event",
+            "local_date": "2022-10-09",
+            "venue": "M&T Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/5.png",
+            "homeTeamId": 35,
+            "awayTeamId": 36
+        },
+        "Kansas City Chiefs vs. Las Vegas Raiders": {
+            "name": "Kansas City Chiefs vs. Las Vegas Raiders",
+            "homeTeam": "Kansas City Chiefs",
+            "awayTeam": "Las Vegas Raiders",
+            "date": "2022-10-10",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chiefs-seating-chart-at-arrowhead-stadium.jpg"
+            },
+            "id": 75,
+            "url": "past_event",
+            "local_date": "2022-10-10",
+            "venue": "Arrowhead Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/17.png",
+            "homeTeamId": 44,
+            "awayTeamId": 45
+        },
+        "Chicago Bears vs. Washington Commanders": {
+            "name": "Chicago Bears vs. Washington Commanders",
+            "homeTeam": "Chicago Bears",
+            "awayTeam": "Washington Commanders",
+            "date": "2022-10-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chicago-bears-seating-chart-with-rows-at-soldier-field.jpg"
+            },
+            "id": 76,
+            "url": "past_event",
+            "local_date": "2022-10-13",
+            "venue": "Soldier Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/16.png",
+            "homeTeamId": 51,
+            "awayTeamId": 50
+        },
+        "Atlanta Falcons vs. San Francisco 49ers": {
+            "name": "Atlanta Falcons vs. San Francisco 49ers",
+            "homeTeam": "Atlanta Falcons",
+            "awayTeam": "San Francisco 49ers",
+            "date": "2022-10-16",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/atlanta-falcons-seating-chart-with-rows-at-mercedes-benz-stadium.jpg"
+            },
+            "id": 77,
+            "url": "past_event",
+            "local_date": "2022-10-16",
+            "venue": "Mercedes-Benz Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/8.png",
+            "homeTeamId": 55,
+            "awayTeamId": 60
+        },
+        "New Orleans Saints vs. Cincinnati Bengals": {
+            "name": "New Orleans Saints vs. Cincinnati Bengals",
+            "homeTeam": "New Orleans Saints",
+            "awayTeam": "Cincinnati Bengals",
+            "date": "2022-10-16",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-orleans-saints-seating-chart-with-rows-at-superdome.jpg"
+            },
+            "id": 78,
+            "url": "past_event",
+            "local_date": "2022-10-16",
+            "venue": "Caesars Superdome",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/27.png",
+            "homeTeamId": 57,
+            "awayTeamId": 36
+        },
+        "Cleveland Browns vs. New England Patriots": {
+            "name": "Cleveland Browns vs. New England Patriots",
+            "homeTeam": "Cleveland Browns",
+            "awayTeam": "New England Patriots",
+            "date": "2022-10-16",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/browns-seating-chart-at-first-energy-stadium-(cleveland-browns-stadium).jpg"
+            },
+            "id": 79,
+            "url": "past_event",
+            "local_date": "2022-10-16",
+            "venue": "FirstEnergy Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/9.png",
+            "homeTeamId": 37,
+            "awayTeamId": 33
+        },
+        "Indianapolis Colts vs. Jacksonville Jaguars": {
+            "name": "Indianapolis Colts vs. Jacksonville Jaguars",
+            "homeTeam": "Indianapolis Colts",
+            "awayTeam": "Jacksonville Jaguars",
+            "date": "2022-10-16",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/indianapolis-colts-seating-chart-with-rows-at-lucas-oil-stadium.jpg"
+            },
+            "id": 80,
+            "url": "past_event",
+            "local_date": "2022-10-16",
+            "venue": "Lucas Oil Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/21.png",
+            "homeTeamId": 40,
+            "awayTeamId": 41
+        },
+        "Green Bay Packers vs. New York Jets": {
+            "name": "Green Bay Packers vs. New York Jets",
+            "homeTeam": "Green Bay Packers",
+            "awayTeam": "New York Jets",
+            "date": "2022-10-16",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/packers-seating-chart-at-lambeau-field.jpg"
+            },
+            "id": 81,
+            "url": "past_event",
+            "local_date": "2022-10-16",
+            "venue": "Lambeau Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/15.png",
+            "homeTeamId": 53,
+            "awayTeamId": 34
+        },
+        "Miami Dolphins vs. Minnesota Vikings": {
+            "name": "Miami Dolphins vs. Minnesota Vikings",
+            "homeTeam": "Miami Dolphins",
+            "awayTeam": "Minnesota Vikings",
+            "date": "2022-10-16",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/miami-dolphins-seating-chart-with-rows-at-hard-rock-stadium.jpg"
+            },
+            "id": 82,
+            "url": "past_event",
+            "local_date": "2022-10-16",
+            "venue": "Hard Rock Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/25.png",
+            "homeTeamId": 32,
+            "awayTeamId": 54
+        },
+        "New York Giants vs. Baltimore Ravens": {
+            "name": "New York Giants vs. Baltimore Ravens",
+            "homeTeam": "New York Giants",
+            "awayTeam": "Baltimore Ravens",
+            "date": "2022-10-16",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 83,
+            "url": "past_event",
+            "local_date": "2022-10-16",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/4.png",
+            "homeTeamId": 48,
+            "awayTeamId": 35
+        },
+        "Pittsburgh Steelers vs. Tampa Bay Buccaneers": {
+            "name": "Pittsburgh Steelers vs. Tampa Bay Buccaneers",
+            "homeTeam": "Pittsburgh Steelers",
+            "awayTeam": "Tampa Bay Buccaneers",
+            "date": "2022-10-16",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/steelers-seating-chart-at-heinz-field.jpg"
+            },
+            "id": 84,
+            "url": "past_event",
+            "local_date": "2022-10-16",
+            "venue": "Heinz Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/22.png",
+            "homeTeamId": 38,
+            "awayTeamId": 58
+        },
+        "Seattle Seahawks vs. Arizona Cardinals": {
+            "name": "Seattle Seahawks vs. Arizona Cardinals",
+            "homeTeam": "Seattle Seahawks",
+            "awayTeam": "Arizona Cardinals",
+            "date": "2022-10-16",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/seattle-seahawks-seating-chart-with-rows-at-centurylink-field.jpg"
+            },
+            "id": 85,
+            "url": "past_event",
+            "local_date": "2022-10-16",
+            "venue": "Lumen Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/23.png",
+            "homeTeamId": 61,
+            "awayTeamId": 59
+        },
+        "Kansas City Chiefs vs. Buffalo Bills": {
+            "name": "Kansas City Chiefs vs. Buffalo Bills",
+            "homeTeam": "Kansas City Chiefs",
+            "awayTeam": "Buffalo Bills",
+            "date": "2022-10-16",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chiefs-seating-chart-at-arrowhead-stadium.jpg"
+            },
+            "id": 86,
+            "url": "past_event",
+            "local_date": "2022-10-16",
+            "venue": "Arrowhead Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/17.png",
+            "homeTeamId": 44,
+            "awayTeamId": 31
+        },
+        "Philadelphia Eagles vs. Dallas Cowboys": {
+            "name": "Philadelphia Eagles vs. Dallas Cowboys",
+            "homeTeam": "Philadelphia Eagles",
+            "awayTeam": "Dallas Cowboys",
+            "date": "2022-10-16",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/philadelphia-eagles-seating-chart-with-rows-at-lincoln-financial-field.jpg"
+            },
+            "id": 87,
+            "url": "past_event",
+            "local_date": "2022-10-16",
+            "venue": "Lincoln Financial Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/12.png",
+            "homeTeamId": 49,
+            "awayTeamId": 47
+        },
+        "Los Angeles Chargers vs. Denver Broncos": {
+            "name": "Los Angeles Chargers vs. Denver Broncos",
+            "homeTeam": "Los Angeles Chargers",
+            "awayTeam": "Denver Broncos",
+            "date": "2022-10-17",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/sofi-stadium-seating-chart-with-rows-for-football.jpg"
+            },
+            "id": 88,
+            "url": "past_event",
+            "local_date": "2022-10-17",
+            "venue": "SoFi Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/30.png",
+            "homeTeamId": 46,
+            "awayTeamId": 43
+        },
+        "Arizona Cardinals vs. New Orleans Saints": {
+            "name": "Arizona Cardinals vs. New Orleans Saints",
+            "homeTeam": "Arizona Cardinals",
+            "awayTeam": "New Orleans Saints",
+            "date": "2022-10-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/arizona-cardinals-seating-chart-with-rows-at-state-farm-stadium.jpg"
+            },
+            "id": 89,
+            "url": "past_event",
+            "local_date": "2022-10-20",
+            "venue": "State Farm Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/11.png",
+            "homeTeamId": 59,
+            "awayTeamId": 57
+        },
+        "Cincinnati Bengals vs. Atlanta Falcons": {
+            "name": "Cincinnati Bengals vs. Atlanta Falcons",
+            "homeTeam": "Cincinnati Bengals",
+            "awayTeam": "Atlanta Falcons",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bengals-seating-chart-at-paul-brown-stadium.jpg"
+            },
+            "id": 90,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "Paul Brown Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/10.png",
+            "homeTeamId": 36,
+            "awayTeamId": 55
+        },
+        "Carolina Panthers vs. Tampa Bay Buccaneers": {
+            "name": "Carolina Panthers vs. Tampa Bay Buccaneers",
+            "homeTeam": "Carolina Panthers",
+            "awayTeam": "Tampa Bay Buccaneers",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/carolina-panthers-seating-chart-with-rows-at-bank-of-america-stadium.jpg"
+            },
+            "id": 91,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "Bank of America Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/19.png",
+            "homeTeamId": 56,
+            "awayTeamId": 58
+        },
+        "Baltimore Ravens vs. Cleveland Browns": {
+            "name": "Baltimore Ravens vs. Cleveland Browns",
+            "homeTeam": "Baltimore Ravens",
+            "awayTeam": "Cleveland Browns",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/baltimore-ravens-seating-chart-with-rows-at-mt-bank-stadium.jpg"
+            },
+            "id": 92,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "M&T Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/5.png",
+            "homeTeamId": 35,
+            "awayTeamId": 37
+        },
+        "Tennessee Titans vs. Indianapolis Colts": {
+            "name": "Tennessee Titans vs. Indianapolis Colts",
+            "homeTeam": "Tennessee Titans",
+            "awayTeam": "Indianapolis Colts",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tennessee-titans-seating-chart-with-rows-at-nissan-stadium.jpg"
+            },
+            "id": 93,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "Nissan Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/6.png",
+            "homeTeamId": 42,
+            "awayTeamId": 40
+        },
+        "Dallas Cowboys vs. Detroit Lions": {
+            "name": "Dallas Cowboys vs. Detroit Lions",
+            "homeTeam": "Dallas Cowboys",
+            "awayTeam": "Detroit Lions",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/dallas-cowboys-seating-chart-with-rows-at-att-stadium-(cowboys-stadium).jpg"
+            },
+            "id": 94,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "AT&T Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/29.png",
+            "homeTeamId": 47,
+            "awayTeamId": 52
+        },
+        "Washington Commanders vs. Green Bay Packers": {
+            "name": "Washington Commanders vs. Green Bay Packers",
+            "homeTeam": "Washington Commanders",
+            "awayTeam": "Green Bay Packers",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/wft-seating-chart-at-fedexfield.jpg"
+            },
+            "id": 95,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "FedExField",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/18.png",
+            "homeTeamId": 50,
+            "awayTeamId": 53
+        },
+        "Jacksonville Jaguars vs. New York Giants": {
+            "name": "Jacksonville Jaguars vs. New York Giants",
+            "homeTeam": "Jacksonville Jaguars",
+            "awayTeam": "New York Giants",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/jaguars-seating-chart-at-tiaa-bank-field.jpg"
+            },
+            "id": 96,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "TIAA Bank Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/2.png",
+            "homeTeamId": 41,
+            "awayTeamId": 48
+        },
+        "Las Vegas Raiders vs. Houston Texans": {
+            "name": "Las Vegas Raiders vs. Houston Texans",
+            "homeTeam": "Las Vegas Raiders",
+            "awayTeam": "Houston Texans",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/raiders-seating-chart-at-allegiant-stadium.jpg"
+            },
+            "id": 97,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "Allegiant Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/1.png",
+            "homeTeamId": 45,
+            "awayTeamId": 39
+        },
+        "Denver Broncos vs. New York Jets": {
+            "name": "Denver Broncos vs. New York Jets",
+            "homeTeam": "Denver Broncos",
+            "awayTeam": "New York Jets",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/broncos-seating-chart-at-empower-field-(at-mile-high).jpg"
+            },
+            "id": 98,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "Empower Field at Mile High",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/28.png",
+            "homeTeamId": 43,
+            "awayTeamId": 34
+        },
+        "San Francisco 49ers vs. Kansas City Chiefs": {
+            "name": "San Francisco 49ers vs. Kansas City Chiefs",
+            "homeTeam": "San Francisco 49ers",
+            "awayTeam": "Kansas City Chiefs",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/49ers-seating-chart-at-levis-stadium.jpg"
+            },
+            "id": 99,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "Levi's Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/14.png",
+            "homeTeamId": 60,
+            "awayTeamId": 44
+        },
+        "Los Angeles Chargers vs. Seattle Seahawks": {
+            "name": "Los Angeles Chargers vs. Seattle Seahawks",
+            "homeTeam": "Los Angeles Chargers",
+            "awayTeam": "Seattle Seahawks",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/sofi-stadium-seating-chart-with-rows-for-football.jpg"
+            },
+            "id": 100,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "SoFi Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/30.png",
+            "homeTeamId": 46,
+            "awayTeamId": 61
+        },
+        "Miami Dolphins vs. Pittsburgh Steelers": {
+            "name": "Miami Dolphins vs. Pittsburgh Steelers",
+            "homeTeam": "Miami Dolphins",
+            "awayTeam": "Pittsburgh Steelers",
+            "date": "2022-10-23",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/miami-dolphins-seating-chart-with-rows-at-hard-rock-stadium.jpg"
+            },
+            "id": 101,
+            "url": "past_event",
+            "local_date": "2022-10-23",
+            "venue": "Hard Rock Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/25.png",
+            "homeTeamId": 32,
+            "awayTeamId": 38
+        },
+        "New England Patriots vs. Chicago Bears": {
+            "name": "New England Patriots vs. Chicago Bears",
+            "homeTeam": "New England Patriots",
+            "awayTeam": "Chicago Bears",
+            "date": "2022-10-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-england-patriots-seating-chart-with-rows-at-gillette-stadium.jpg"
+            },
+            "id": 102,
+            "url": "past_event",
+            "local_date": "2022-10-24",
+            "venue": "Gillette Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/3.png",
+            "homeTeamId": 33,
+            "awayTeamId": 51
+        },
+        "Tampa Bay Buccaneers vs. Baltimore Ravens": {
+            "name": "Tampa Bay Buccaneers vs. Baltimore Ravens",
+            "homeTeam": "Tampa Bay Buccaneers",
+            "awayTeam": "Baltimore Ravens",
+            "date": "2022-10-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tampa-bay-buccaneers-seating-chart-with-rows-at-raymond-james-stadium.jpg"
+            },
+            "id": 103,
+            "url": "past_event",
+            "local_date": "2022-10-27",
+            "venue": "Raymond James Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/24.png",
+            "homeTeamId": 58,
+            "awayTeamId": 35
+        },
+        "Jacksonville Jaguars vs. Denver Broncos": {
+            "name": "Jacksonville Jaguars vs. Denver Broncos",
+            "homeTeam": "Jacksonville Jaguars",
+            "awayTeam": "Denver Broncos",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/jaguars-seating-chart-at-tiaa-bank-field.jpg"
+            },
+            "id": 104,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "TIAA Bank Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/2.png",
+            "homeTeamId": 41,
+            "awayTeamId": 43
+        },
+        "Detroit Lions vs. Miami Dolphins": {
+            "name": "Detroit Lions vs. Miami Dolphins",
+            "homeTeam": "Detroit Lions",
+            "awayTeam": "Miami Dolphins",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/detroit-lions-seating-chart-with-rows-at-ford-field.jpg"
+            },
+            "id": 105,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "Ford Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/7.png",
+            "homeTeamId": 52,
+            "awayTeamId": 32
+        },
+        "Philadelphia Eagles vs. Pittsburgh Steelers": {
+            "name": "Philadelphia Eagles vs. Pittsburgh Steelers",
+            "homeTeam": "Philadelphia Eagles",
+            "awayTeam": "Pittsburgh Steelers",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/philadelphia-eagles-seating-chart-with-rows-at-lincoln-financial-field.jpg"
+            },
+            "id": 106,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "Lincoln Financial Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/12.png",
+            "homeTeamId": 49,
+            "awayTeamId": 38
+        },
+        "Atlanta Falcons vs. Carolina Panthers": {
+            "name": "Atlanta Falcons vs. Carolina Panthers",
+            "homeTeam": "Atlanta Falcons",
+            "awayTeam": "Carolina Panthers",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/atlanta-falcons-seating-chart-with-rows-at-mercedes-benz-stadium.jpg"
+            },
+            "id": 107,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "Mercedes-Benz Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/8.png",
+            "homeTeamId": 55,
+            "awayTeamId": 56
+        },
+        "Dallas Cowboys vs. Chicago Bears": {
+            "name": "Dallas Cowboys vs. Chicago Bears",
+            "homeTeam": "Dallas Cowboys",
+            "awayTeam": "Chicago Bears",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/dallas-cowboys-seating-chart-with-rows-at-att-stadium-(cowboys-stadium).jpg"
+            },
+            "id": 108,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "AT&T Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/29.png",
+            "homeTeamId": 47,
+            "awayTeamId": 51
+        },
+        "Minnesota Vikings vs. Arizona Cardinals": {
+            "name": "Minnesota Vikings vs. Arizona Cardinals",
+            "homeTeam": "Minnesota Vikings",
+            "awayTeam": "Arizona Cardinals",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/vikings-seating-chart-at-u.s.-bank-stadium.jpg"
+            },
+            "id": 109,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "U.S. Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/32.png",
+            "homeTeamId": 54,
+            "awayTeamId": 59
+        },
+        "New Orleans Saints vs. Las Vegas Raiders": {
+            "name": "New Orleans Saints vs. Las Vegas Raiders",
+            "homeTeam": "New Orleans Saints",
+            "awayTeam": "Las Vegas Raiders",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-orleans-saints-seating-chart-with-rows-at-superdome.jpg"
+            },
+            "id": 110,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "Caesars Superdome",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/27.png",
+            "homeTeamId": 57,
+            "awayTeamId": 45
+        },
+        "New York Jets vs. New England Patriots": {
+            "name": "New York Jets vs. New England Patriots",
+            "homeTeam": "New York Jets",
+            "awayTeam": "New England Patriots",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 111,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/13.png",
+            "homeTeamId": 34,
+            "awayTeamId": 33
+        },
+        "Houston Texans vs. Tennessee Titans": {
+            "name": "Houston Texans vs. Tennessee Titans",
+            "homeTeam": "Houston Texans",
+            "awayTeam": "Tennessee Titans",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/houston-texans-seating-chart-with-rows-at-nrg-stadium.jpg"
+            },
+            "id": 112,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "NRG Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/26.png",
+            "homeTeamId": 39,
+            "awayTeamId": 42
+        },
+        "Indianapolis Colts vs. Washington Commanders": {
+            "name": "Indianapolis Colts vs. Washington Commanders",
+            "homeTeam": "Indianapolis Colts",
+            "awayTeam": "Washington Commanders",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/indianapolis-colts-seating-chart-with-rows-at-lucas-oil-stadium.jpg"
+            },
+            "id": 113,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "Lucas Oil Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/21.png",
+            "homeTeamId": 40,
+            "awayTeamId": 50
+        },
+        "Seattle Seahawks vs. New York Giants": {
+            "name": "Seattle Seahawks vs. New York Giants",
+            "homeTeam": "Seattle Seahawks",
+            "awayTeam": "New York Giants",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/seattle-seahawks-seating-chart-with-rows-at-centurylink-field.jpg"
+            },
+            "id": 114,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "Lumen Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/23.png",
+            "homeTeamId": 61,
+            "awayTeamId": 48
+        },
+        "Buffalo Bills vs. Green Bay Packers": {
+            "name": "Buffalo Bills vs. Green Bay Packers",
+            "homeTeam": "Buffalo Bills",
+            "awayTeam": "Green Bay Packers",
+            "date": "2022-10-30",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bills-seating-chart-at-highmark-stadium.jpg"
+            },
+            "id": 115,
+            "url": "past_event",
+            "local_date": "2022-10-30",
+            "venue": "Highmark Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/20.png",
+            "homeTeamId": 31,
+            "awayTeamId": 53
+        },
+        "Cleveland Browns vs. Cincinnati Bengals": {
+            "name": "Cleveland Browns vs. Cincinnati Bengals",
+            "homeTeam": "Cleveland Browns",
+            "awayTeam": "Cincinnati Bengals",
+            "date": "2022-10-31",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/browns-seating-chart-at-first-energy-stadium-(cleveland-browns-stadium).jpg"
+            },
+            "id": 116,
+            "url": "past_event",
+            "local_date": "2022-10-31",
+            "venue": "FirstEnergy Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/9.png",
+            "homeTeamId": 37,
+            "awayTeamId": 36
+        },
+        "Houston Texans vs. Philadelphia Eagles": {
+            "name": "Houston Texans vs. Philadelphia Eagles",
+            "homeTeam": "Houston Texans",
+            "awayTeam": "Philadelphia Eagles",
+            "date": "2022-11-03",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/houston-texans-seating-chart-with-rows-at-nrg-stadium.jpg"
+            },
+            "id": 117,
+            "url": "past_event",
+            "local_date": "2022-11-03",
+            "venue": "NRG Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/26.png",
+            "homeTeamId": 39,
+            "awayTeamId": 49
+        },
+        "New York Jets vs. Buffalo Bills": {
+            "name": "New York Jets vs. Buffalo Bills",
+            "homeTeam": "New York Jets",
+            "awayTeam": "Buffalo Bills",
+            "date": "2022-11-06",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 118,
+            "url": "past_event",
+            "local_date": "2022-11-06",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/13.png",
+            "homeTeamId": 34,
+            "awayTeamId": 31
+        },
+        "Detroit Lions vs. Green Bay Packers": {
+            "name": "Detroit Lions vs. Green Bay Packers",
+            "homeTeam": "Detroit Lions",
+            "awayTeam": "Green Bay Packers",
+            "date": "2022-11-06",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/detroit-lions-seating-chart-with-rows-at-ford-field.jpg"
+            },
+            "id": 119,
+            "url": "past_event",
+            "local_date": "2022-11-06",
+            "venue": "Ford Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/7.png",
+            "homeTeamId": 52,
+            "awayTeamId": 53
+        },
+        "Washington Commanders vs. Minnesota Vikings": {
+            "name": "Washington Commanders vs. Minnesota Vikings",
+            "homeTeam": "Washington Commanders",
+            "awayTeam": "Minnesota Vikings",
+            "date": "2022-11-06",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/wft-seating-chart-at-fedexfield.jpg"
+            },
+            "id": 120,
+            "url": "past_event",
+            "local_date": "2022-11-06",
+            "venue": "FedExField",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/18.png",
+            "homeTeamId": 50,
+            "awayTeamId": 54
+        },
+        "Atlanta Falcons vs. Los Angeles Chargers": {
+            "name": "Atlanta Falcons vs. Los Angeles Chargers",
+            "homeTeam": "Atlanta Falcons",
+            "awayTeam": "Los Angeles Chargers",
+            "date": "2022-11-06",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/atlanta-falcons-seating-chart-with-rows-at-mercedes-benz-stadium.jpg"
+            },
+            "id": 121,
+            "url": "past_event",
+            "local_date": "2022-11-06",
+            "venue": "Mercedes-Benz Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/8.png",
+            "homeTeamId": 55,
+            "awayTeamId": 46
+        },
+        "Cincinnati Bengals vs. Carolina Panthers": {
+            "name": "Cincinnati Bengals vs. Carolina Panthers",
+            "homeTeam": "Cincinnati Bengals",
+            "awayTeam": "Carolina Panthers",
+            "date": "2022-11-06",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bengals-seating-chart-at-paul-brown-stadium.jpg"
+            },
+            "id": 122,
+            "url": "past_event",
+            "local_date": "2022-11-06",
+            "venue": "Paul Brown Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/10.png",
+            "homeTeamId": 36,
+            "awayTeamId": 56
+        },
+        "Chicago Bears vs. Miami Dolphins": {
+            "name": "Chicago Bears vs. Miami Dolphins",
+            "homeTeam": "Chicago Bears",
+            "awayTeam": "Miami Dolphins",
+            "date": "2022-11-06",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chicago-bears-seating-chart-with-rows-at-soldier-field.jpg"
+            },
+            "id": 123,
+            "url": "past_event",
+            "local_date": "2022-11-06",
+            "venue": "Soldier Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/16.png",
+            "homeTeamId": 51,
+            "awayTeamId": 32
+        },
+        "New England Patriots vs. Indianapolis Colts": {
+            "name": "New England Patriots vs. Indianapolis Colts",
+            "homeTeam": "New England Patriots",
+            "awayTeam": "Indianapolis Colts",
+            "date": "2022-11-06",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-england-patriots-seating-chart-with-rows-at-gillette-stadium.jpg"
+            },
+            "id": 124,
+            "url": "past_event",
+            "local_date": "2022-11-06",
+            "venue": "Gillette Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/3.png",
+            "homeTeamId": 33,
+            "awayTeamId": 40
+        },
+        "Jacksonville Jaguars vs. Las Vegas Raiders": {
+            "name": "Jacksonville Jaguars vs. Las Vegas Raiders",
+            "homeTeam": "Jacksonville Jaguars",
+            "awayTeam": "Las Vegas Raiders",
+            "date": "2022-11-06",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/jaguars-seating-chart-at-tiaa-bank-field.jpg"
+            },
+            "id": 125,
+            "url": "past_event",
+            "local_date": "2022-11-06",
+            "venue": "TIAA Bank Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/2.png",
+            "homeTeamId": 41,
+            "awayTeamId": 45
+        },
+        "Arizona Cardinals vs. Seattle Seahawks": {
+            "name": "Arizona Cardinals vs. Seattle Seahawks",
+            "homeTeam": "Arizona Cardinals",
+            "awayTeam": "Seattle Seahawks",
+            "date": "2022-11-06",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/arizona-cardinals-seating-chart-with-rows-at-state-farm-stadium.jpg"
+            },
+            "id": 126,
+            "url": "past_event",
+            "local_date": "2022-11-06",
+            "venue": "State Farm Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/11.png",
+            "homeTeamId": 59,
+            "awayTeamId": 61
+        },
+        "Kansas City Chiefs vs. Tennessee Titans": {
+            "name": "Kansas City Chiefs vs. Tennessee Titans",
+            "homeTeam": "Kansas City Chiefs",
+            "awayTeam": "Tennessee Titans",
+            "date": "2022-11-06",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chiefs-seating-chart-at-arrowhead-stadium.jpg"
+            },
+            "id": 127,
+            "url": "past_event",
+            "local_date": "2022-11-06",
+            "venue": "Arrowhead Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/17.png",
+            "homeTeamId": 44,
+            "awayTeamId": 42
+        },
+        "New Orleans Saints vs. Baltimore Ravens": {
+            "name": "New Orleans Saints vs. Baltimore Ravens",
+            "homeTeam": "New Orleans Saints",
+            "awayTeam": "Baltimore Ravens",
+            "date": "2022-11-07",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-orleans-saints-seating-chart-with-rows-at-superdome.jpg"
+            },
+            "id": 128,
+            "url": "past_event",
+            "local_date": "2022-11-07",
+            "venue": "Caesars Superdome",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/27.png",
+            "homeTeamId": 57,
+            "awayTeamId": 35
+        },
+        "Carolina Panthers vs. Atlanta Falcons": {
+            "name": "Carolina Panthers vs. Atlanta Falcons",
+            "homeTeam": "Carolina Panthers",
+            "awayTeam": "Atlanta Falcons",
+            "date": "2022-11-10",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/carolina-panthers-seating-chart-with-rows-at-bank-of-america-stadium.jpg"
+            },
+            "id": 129,
+            "url": "past_event",
+            "local_date": "2022-11-10",
+            "venue": "Bank of America Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/19.png",
+            "homeTeamId": 56,
+            "awayTeamId": 55
+        },
+        "Tampa Bay Buccaneers vs. Seattle Seahawks": {
+            "name": "Tampa Bay Buccaneers vs. Seattle Seahawks",
+            "homeTeam": "Tampa Bay Buccaneers",
+            "awayTeam": "Seattle Seahawks",
+            "date": "2022-11-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tampa-bay-buccaneers-seating-chart-with-rows-at-raymond-james-stadium.jpg"
+            },
+            "id": 130,
+            "url": "past_event",
+            "local_date": "2022-11-13",
+            "venue": "Raymond James Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/24.png",
+            "homeTeamId": 58,
+            "awayTeamId": 61
+        },
+        "Buffalo Bills vs. Minnesota Vikings": {
+            "name": "Buffalo Bills vs. Minnesota Vikings",
+            "homeTeam": "Buffalo Bills",
+            "awayTeam": "Minnesota Vikings",
+            "date": "2022-11-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bills-seating-chart-at-highmark-stadium.jpg"
+            },
+            "id": 131,
+            "url": "past_event",
+            "local_date": "2022-11-13",
+            "venue": "Highmark Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/20.png",
+            "homeTeamId": 31,
+            "awayTeamId": 54
+        },
+        "Miami Dolphins vs. Cleveland Browns": {
+            "name": "Miami Dolphins vs. Cleveland Browns",
+            "homeTeam": "Miami Dolphins",
+            "awayTeam": "Cleveland Browns",
+            "date": "2022-11-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/miami-dolphins-seating-chart-with-rows-at-hard-rock-stadium.jpg"
+            },
+            "id": 132,
+            "url": "past_event",
+            "local_date": "2022-11-13",
+            "venue": "Hard Rock Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/25.png",
+            "homeTeamId": 32,
+            "awayTeamId": 37
+        },
+        "Tennessee Titans vs. Denver Broncos": {
+            "name": "Tennessee Titans vs. Denver Broncos",
+            "homeTeam": "Tennessee Titans",
+            "awayTeam": "Denver Broncos",
+            "date": "2022-11-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tennessee-titans-seating-chart-with-rows-at-nissan-stadium.jpg"
+            },
+            "id": 133,
+            "url": "past_event",
+            "local_date": "2022-11-13",
+            "venue": "Nissan Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/6.png",
+            "homeTeamId": 42,
+            "awayTeamId": 43
+        },
+        "New York Giants vs. Houston Texans": {
+            "name": "New York Giants vs. Houston Texans",
+            "homeTeam": "New York Giants",
+            "awayTeam": "Houston Texans",
+            "date": "2022-11-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 134,
+            "url": "past_event",
+            "local_date": "2022-11-13",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/4.png",
+            "homeTeamId": 48,
+            "awayTeamId": 39
+        },
+        "Chicago Bears vs. Detroit Lions": {
+            "name": "Chicago Bears vs. Detroit Lions",
+            "homeTeam": "Chicago Bears",
+            "awayTeam": "Detroit Lions",
+            "date": "2022-11-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chicago-bears-seating-chart-with-rows-at-soldier-field.jpg"
+            },
+            "id": 135,
+            "url": "past_event",
+            "local_date": "2022-11-13",
+            "venue": "Soldier Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/16.png",
+            "homeTeamId": 51,
+            "awayTeamId": 52
+        },
+        "Kansas City Chiefs vs. Jacksonville Jaguars": {
+            "name": "Kansas City Chiefs vs. Jacksonville Jaguars",
+            "homeTeam": "Kansas City Chiefs",
+            "awayTeam": "Jacksonville Jaguars",
+            "date": "2022-11-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chiefs-seating-chart-at-arrowhead-stadium.jpg"
+            },
+            "id": 136,
+            "url": "past_event",
+            "local_date": "2022-11-13",
+            "venue": "Arrowhead Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/17.png",
+            "homeTeamId": 44,
+            "awayTeamId": 41
+        },
+        "Pittsburgh Steelers vs. New Orleans Saints": {
+            "name": "Pittsburgh Steelers vs. New Orleans Saints",
+            "homeTeam": "Pittsburgh Steelers",
+            "awayTeam": "New Orleans Saints",
+            "date": "2022-11-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/steelers-seating-chart-at-heinz-field.jpg"
+            },
+            "id": 137,
+            "url": "past_event",
+            "local_date": "2022-11-13",
+            "venue": "Heinz Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/22.png",
+            "homeTeamId": 38,
+            "awayTeamId": 57
+        },
+        "Las Vegas Raiders vs. Indianapolis Colts": {
+            "name": "Las Vegas Raiders vs. Indianapolis Colts",
+            "homeTeam": "Las Vegas Raiders",
+            "awayTeam": "Indianapolis Colts",
+            "date": "2022-11-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/raiders-seating-chart-at-allegiant-stadium.jpg"
+            },
+            "id": 138,
+            "url": "past_event",
+            "local_date": "2022-11-13",
+            "venue": "Allegiant Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/1.png",
+            "homeTeamId": 45,
+            "awayTeamId": 40
+        },
+        "Green Bay Packers vs. Dallas Cowboys": {
+            "name": "Green Bay Packers vs. Dallas Cowboys",
+            "homeTeam": "Green Bay Packers",
+            "awayTeam": "Dallas Cowboys",
+            "date": "2022-11-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/packers-seating-chart-at-lambeau-field.jpg"
+            },
+            "id": 139,
+            "url": "past_event",
+            "local_date": "2022-11-13",
+            "venue": "Lambeau Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/15.png",
+            "homeTeamId": 53,
+            "awayTeamId": 47
+        },
+        "San Francisco 49ers vs. Los Angeles Chargers": {
+            "name": "San Francisco 49ers vs. Los Angeles Chargers",
+            "homeTeam": "San Francisco 49ers",
+            "awayTeam": "Los Angeles Chargers",
+            "date": "2022-11-13",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/49ers-seating-chart-at-levis-stadium.jpg"
+            },
+            "id": 140,
+            "url": "past_event",
+            "local_date": "2022-11-13",
+            "venue": "Levi's Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/14.png",
+            "homeTeamId": 60,
+            "awayTeamId": 46
+        },
+        "Philadelphia Eagles vs. Washington Commanders": {
+            "name": "Philadelphia Eagles vs. Washington Commanders",
+            "homeTeam": "Philadelphia Eagles",
+            "awayTeam": "Washington Commanders",
+            "date": "2022-11-14",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/philadelphia-eagles-seating-chart-with-rows-at-lincoln-financial-field.jpg"
+            },
+            "id": 141,
+            "url": "past_event",
+            "local_date": "2022-11-14",
+            "venue": "Lincoln Financial Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/12.png",
+            "homeTeamId": 49,
+            "awayTeamId": 50
+        },
+        "Green Bay Packers vs. Tennessee Titans": {
+            "name": "Green Bay Packers vs. Tennessee Titans",
+            "homeTeam": "Green Bay Packers",
+            "awayTeam": "Tennessee Titans",
+            "date": "2022-11-17",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/packers-seating-chart-at-lambeau-field.jpg"
+            },
+            "id": 142,
+            "url": "past_event",
+            "local_date": "2022-11-17",
+            "venue": "Lambeau Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/15.png",
+            "homeTeamId": 53,
+            "awayTeamId": 42
+        },
+        "Buffalo Bills vs. Cleveland Browns": {
+            "name": "Buffalo Bills vs. Cleveland Browns",
+            "homeTeam": "Buffalo Bills",
+            "awayTeam": "Cleveland Browns",
+            "date": "2022-11-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bills-seating-chart-at-highmark-stadium.jpg"
+            },
+            "id": 143,
+            "url": "past_event",
+            "local_date": "2022-11-20",
+            "venue": "Highmark Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/20.png",
+            "homeTeamId": 31,
+            "awayTeamId": 37
+        },
+        "New York Giants vs. Detroit Lions": {
+            "name": "New York Giants vs. Detroit Lions",
+            "homeTeam": "New York Giants",
+            "awayTeam": "Detroit Lions",
+            "date": "2022-11-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 144,
+            "url": "past_event",
+            "local_date": "2022-11-20",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/4.png",
+            "homeTeamId": 48,
+            "awayTeamId": 52
+        },
+        "Houston Texans vs. Washington Commanders": {
+            "name": "Houston Texans vs. Washington Commanders",
+            "homeTeam": "Houston Texans",
+            "awayTeam": "Washington Commanders",
+            "date": "2022-11-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/houston-texans-seating-chart-with-rows-at-nrg-stadium.jpg"
+            },
+            "id": 145,
+            "url": "past_event",
+            "local_date": "2022-11-20",
+            "venue": "NRG Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/26.png",
+            "homeTeamId": 39,
+            "awayTeamId": 50
+        },
+        "New England Patriots vs. New York Jets": {
+            "name": "New England Patriots vs. New York Jets",
+            "homeTeam": "New England Patriots",
+            "awayTeam": "New York Jets",
+            "date": "2022-11-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-england-patriots-seating-chart-with-rows-at-gillette-stadium.jpg"
+            },
+            "id": 146,
+            "url": "past_event",
+            "local_date": "2022-11-20",
+            "venue": "Gillette Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/3.png",
+            "homeTeamId": 33,
+            "awayTeamId": 34
+        },
+        "Atlanta Falcons vs. Chicago Bears": {
+            "name": "Atlanta Falcons vs. Chicago Bears",
+            "homeTeam": "Atlanta Falcons",
+            "awayTeam": "Chicago Bears",
+            "date": "2022-11-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/atlanta-falcons-seating-chart-with-rows-at-mercedes-benz-stadium.jpg"
+            },
+            "id": 147,
+            "url": "past_event",
+            "local_date": "2022-11-20",
+            "venue": "Mercedes-Benz Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/8.png",
+            "homeTeamId": 55,
+            "awayTeamId": 51
+        },
+        "Baltimore Ravens vs. Carolina Panthers": {
+            "name": "Baltimore Ravens vs. Carolina Panthers",
+            "homeTeam": "Baltimore Ravens",
+            "awayTeam": "Carolina Panthers",
+            "date": "2022-11-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/baltimore-ravens-seating-chart-with-rows-at-mt-bank-stadium.jpg"
+            },
+            "id": 148,
+            "url": "past_event",
+            "local_date": "2022-11-20",
+            "venue": "M&T Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/5.png",
+            "homeTeamId": 35,
+            "awayTeamId": 56
+        },
+        "Indianapolis Colts vs. Philadelphia Eagles": {
+            "name": "Indianapolis Colts vs. Philadelphia Eagles",
+            "homeTeam": "Indianapolis Colts",
+            "awayTeam": "Philadelphia Eagles",
+            "date": "2022-11-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/indianapolis-colts-seating-chart-with-rows-at-lucas-oil-stadium.jpg"
+            },
+            "id": 149,
+            "url": "past_event",
+            "local_date": "2022-11-20",
+            "venue": "Lucas Oil Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/21.png",
+            "homeTeamId": 40,
+            "awayTeamId": 49
+        },
+        "Denver Broncos vs. Las Vegas Raiders": {
+            "name": "Denver Broncos vs. Las Vegas Raiders",
+            "homeTeam": "Denver Broncos",
+            "awayTeam": "Las Vegas Raiders",
+            "date": "2022-11-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/broncos-seating-chart-at-empower-field-(at-mile-high).jpg"
+            },
+            "id": 150,
+            "url": "past_event",
+            "local_date": "2022-11-20",
+            "venue": "Empower Field at Mile High",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/28.png",
+            "homeTeamId": 43,
+            "awayTeamId": 45
+        },
+        "Pittsburgh Steelers vs. Cincinnati Bengals": {
+            "name": "Pittsburgh Steelers vs. Cincinnati Bengals",
+            "homeTeam": "Pittsburgh Steelers",
+            "awayTeam": "Cincinnati Bengals",
+            "date": "2022-11-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/steelers-seating-chart-at-heinz-field.jpg"
+            },
+            "id": 151,
+            "url": "past_event",
+            "local_date": "2022-11-20",
+            "venue": "Heinz Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/22.png",
+            "homeTeamId": 38,
+            "awayTeamId": 36
+        },
+        "Minnesota Vikings vs. Dallas Cowboys": {
+            "name": "Minnesota Vikings vs. Dallas Cowboys",
+            "homeTeam": "Minnesota Vikings",
+            "awayTeam": "Dallas Cowboys",
+            "date": "2022-11-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/vikings-seating-chart-at-u.s.-bank-stadium.jpg"
+            },
+            "id": 152,
+            "url": "past_event",
+            "local_date": "2022-11-20",
+            "venue": "U.S. Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/32.png",
+            "homeTeamId": 54,
+            "awayTeamId": 47
+        },
+        "Los Angeles Chargers vs. Kansas City Chiefs": {
+            "name": "Los Angeles Chargers vs. Kansas City Chiefs",
+            "homeTeam": "Los Angeles Chargers",
+            "awayTeam": "Kansas City Chiefs",
+            "date": "2022-11-20",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/sofi-stadium-seating-chart-with-rows-for-football.jpg"
+            },
+            "id": 153,
+            "url": "past_event",
+            "local_date": "2022-11-20",
+            "venue": "SoFi Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/30.png",
+            "homeTeamId": 46,
+            "awayTeamId": 44
+        },
+        "Arizona Cardinals vs. San Francisco 49ers": {
+            "name": "Arizona Cardinals vs. San Francisco 49ers",
+            "homeTeam": "Arizona Cardinals",
+            "awayTeam": "San Francisco 49ers",
+            "date": "2022-11-21",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/arizona-cardinals-seating-chart-with-rows-at-state-farm-stadium.jpg"
+            },
+            "id": 154,
+            "url": "past_event",
+            "local_date": "2022-11-21",
+            "venue": "State Farm Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/11.png",
+            "homeTeamId": 59,
+            "awayTeamId": 60
+        },
+        "Detroit Lions vs. Buffalo Bills": {
+            "name": "Detroit Lions vs. Buffalo Bills",
+            "homeTeam": "Detroit Lions",
+            "awayTeam": "Buffalo Bills",
+            "date": "2022-11-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/detroit-lions-seating-chart-with-rows-at-ford-field.jpg"
+            },
+            "id": 155,
+            "url": "past_event",
+            "local_date": "2022-11-24",
+            "venue": "Ford Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/7.png",
+            "homeTeamId": 52,
+            "awayTeamId": 31
+        },
+        "Dallas Cowboys vs. New York Giants": {
+            "name": "Dallas Cowboys vs. New York Giants",
+            "homeTeam": "Dallas Cowboys",
+            "awayTeam": "New York Giants",
+            "date": "2022-11-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/dallas-cowboys-seating-chart-with-rows-at-att-stadium-(cowboys-stadium).jpg"
+            },
+            "id": 156,
+            "url": "past_event",
+            "local_date": "2022-11-24",
+            "venue": "AT&T Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/29.png",
+            "homeTeamId": 47,
+            "awayTeamId": 48
+        },
+        "Minnesota Vikings vs. New England Patriots": {
+            "name": "Minnesota Vikings vs. New England Patriots",
+            "homeTeam": "Minnesota Vikings",
+            "awayTeam": "New England Patriots",
+            "date": "2022-11-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/vikings-seating-chart-at-u.s.-bank-stadium.jpg"
+            },
+            "id": 157,
+            "url": "past_event",
+            "local_date": "2022-11-24",
+            "venue": "U.S. Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/32.png",
+            "homeTeamId": 54,
+            "awayTeamId": 33
+        },
+        "Tennessee Titans vs. Cincinnati Bengals": {
+            "name": "Tennessee Titans vs. Cincinnati Bengals",
+            "homeTeam": "Tennessee Titans",
+            "awayTeam": "Cincinnati Bengals",
+            "date": "2022-11-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tennessee-titans-seating-chart-with-rows-at-nissan-stadium.jpg"
+            },
+            "id": 158,
+            "url": "past_event",
+            "local_date": "2022-11-27",
+            "venue": "Nissan Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/6.png",
+            "homeTeamId": 42,
+            "awayTeamId": 36
+        },
+        "Cleveland Browns vs. Tampa Bay Buccaneers": {
+            "name": "Cleveland Browns vs. Tampa Bay Buccaneers",
+            "homeTeam": "Cleveland Browns",
+            "awayTeam": "Tampa Bay Buccaneers",
+            "date": "2022-11-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/browns-seating-chart-at-first-energy-stadium-(cleveland-browns-stadium).jpg"
+            },
+            "id": 159,
+            "url": "past_event",
+            "local_date": "2022-11-27",
+            "venue": "FirstEnergy Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/9.png",
+            "homeTeamId": 37,
+            "awayTeamId": 58
+        },
+        "Miami Dolphins vs. Houston Texans": {
+            "name": "Miami Dolphins vs. Houston Texans",
+            "homeTeam": "Miami Dolphins",
+            "awayTeam": "Houston Texans",
+            "date": "2022-11-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/miami-dolphins-seating-chart-with-rows-at-hard-rock-stadium.jpg"
+            },
+            "id": 160,
+            "url": "past_event",
+            "local_date": "2022-11-27",
+            "venue": "Hard Rock Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/25.png",
+            "homeTeamId": 32,
+            "awayTeamId": 39
+        },
+        "Jacksonville Jaguars vs. Baltimore Ravens": {
+            "name": "Jacksonville Jaguars vs. Baltimore Ravens",
+            "homeTeam": "Jacksonville Jaguars",
+            "awayTeam": "Baltimore Ravens",
+            "date": "2022-11-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/jaguars-seating-chart-at-tiaa-bank-field.jpg"
+            },
+            "id": 161,
+            "url": "past_event",
+            "local_date": "2022-11-27",
+            "venue": "TIAA Bank Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/2.png",
+            "homeTeamId": 41,
+            "awayTeamId": 35
+        },
+        "Washington Commanders vs. Atlanta Falcons": {
+            "name": "Washington Commanders vs. Atlanta Falcons",
+            "homeTeam": "Washington Commanders",
+            "awayTeam": "Atlanta Falcons",
+            "date": "2022-11-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/wft-seating-chart-at-fedexfield.jpg"
+            },
+            "id": 162,
+            "url": "past_event",
+            "local_date": "2022-11-27",
+            "venue": "FedExField",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/18.png",
+            "homeTeamId": 50,
+            "awayTeamId": 55
+        },
+        "Carolina Panthers vs. Denver Broncos": {
+            "name": "Carolina Panthers vs. Denver Broncos",
+            "homeTeam": "Carolina Panthers",
+            "awayTeam": "Denver Broncos",
+            "date": "2022-11-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/carolina-panthers-seating-chart-with-rows-at-bank-of-america-stadium.jpg"
+            },
+            "id": 163,
+            "url": "past_event",
+            "local_date": "2022-11-27",
+            "venue": "Bank of America Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/19.png",
+            "homeTeamId": 56,
+            "awayTeamId": 43
+        },
+        "New York Jets vs. Chicago Bears": {
+            "name": "New York Jets vs. Chicago Bears",
+            "homeTeam": "New York Jets",
+            "awayTeam": "Chicago Bears",
+            "date": "2022-11-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 164,
+            "url": "past_event",
+            "local_date": "2022-11-27",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/13.png",
+            "homeTeamId": 34,
+            "awayTeamId": 51
+        },
+        "Seattle Seahawks vs. Las Vegas Raiders": {
+            "name": "Seattle Seahawks vs. Las Vegas Raiders",
+            "homeTeam": "Seattle Seahawks",
+            "awayTeam": "Las Vegas Raiders",
+            "date": "2022-11-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/seattle-seahawks-seating-chart-with-rows-at-centurylink-field.jpg"
+            },
+            "id": 165,
+            "url": "past_event",
+            "local_date": "2022-11-27",
+            "venue": "Lumen Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/23.png",
+            "homeTeamId": 61,
+            "awayTeamId": 45
+        },
+        "Arizona Cardinals vs. Los Angeles Chargers": {
+            "name": "Arizona Cardinals vs. Los Angeles Chargers",
+            "homeTeam": "Arizona Cardinals",
+            "awayTeam": "Los Angeles Chargers",
+            "date": "2022-11-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/arizona-cardinals-seating-chart-with-rows-at-state-farm-stadium.jpg"
+            },
+            "id": 166,
+            "url": "past_event",
+            "local_date": "2022-11-27",
+            "venue": "State Farm Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/11.png",
+            "homeTeamId": 59,
+            "awayTeamId": 46
+        },
+        "San Francisco 49ers vs. New Orleans Saints": {
+            "name": "San Francisco 49ers vs. New Orleans Saints",
+            "homeTeam": "San Francisco 49ers",
+            "awayTeam": "New Orleans Saints",
+            "date": "2022-11-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/49ers-seating-chart-at-levis-stadium.jpg"
+            },
+            "id": 167,
+            "url": "past_event",
+            "local_date": "2022-11-27",
+            "venue": "Levi's Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/14.png",
+            "homeTeamId": 60,
+            "awayTeamId": 57
+        },
+        "Philadelphia Eagles vs. Green Bay Packers": {
+            "name": "Philadelphia Eagles vs. Green Bay Packers",
+            "homeTeam": "Philadelphia Eagles",
+            "awayTeam": "Green Bay Packers",
+            "date": "2022-11-27",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/philadelphia-eagles-seating-chart-with-rows-at-lincoln-financial-field.jpg"
+            },
+            "id": 168,
+            "url": "past_event",
+            "local_date": "2022-11-27",
+            "venue": "Lincoln Financial Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/12.png",
+            "homeTeamId": 49,
+            "awayTeamId": 53
+        },
+        "Indianapolis Colts vs. Pittsburgh Steelers": {
+            "name": "Indianapolis Colts vs. Pittsburgh Steelers",
+            "homeTeam": "Indianapolis Colts",
+            "awayTeam": "Pittsburgh Steelers",
+            "date": "2022-11-28",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/indianapolis-colts-seating-chart-with-rows-at-lucas-oil-stadium.jpg"
+            },
+            "id": 169,
+            "url": "past_event",
+            "local_date": "2022-11-28",
+            "venue": "Lucas Oil Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/21.png",
+            "homeTeamId": 40,
+            "awayTeamId": 38
+        },
+        "New England Patriots vs. Buffalo Bills": {
+            "name": "New England Patriots vs. Buffalo Bills",
+            "homeTeam": "New England Patriots",
+            "awayTeam": "Buffalo Bills",
+            "date": "2022-12-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-england-patriots-seating-chart-with-rows-at-gillette-stadium.jpg"
+            },
+            "id": 170,
+            "url": "past_event",
+            "local_date": "2022-12-01",
+            "venue": "Gillette Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/3.png",
+            "homeTeamId": 33,
+            "awayTeamId": 31
+        },
+        "Houston Texans vs. Cleveland Browns": {
+            "name": "Houston Texans vs. Cleveland Browns",
+            "homeTeam": "Houston Texans",
+            "awayTeam": "Cleveland Browns",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/houston-texans-seating-chart-with-rows-at-nrg-stadium.jpg"
+            },
+            "id": 171,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "NRG Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/26.png",
+            "homeTeamId": 39,
+            "awayTeamId": 37
+        },
+        "Baltimore Ravens vs. Denver Broncos": {
+            "name": "Baltimore Ravens vs. Denver Broncos",
+            "homeTeam": "Baltimore Ravens",
+            "awayTeam": "Denver Broncos",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/baltimore-ravens-seating-chart-with-rows-at-mt-bank-stadium.jpg"
+            },
+            "id": 172,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "M&T Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/5.png",
+            "homeTeamId": 35,
+            "awayTeamId": 43
+        },
+        "Detroit Lions vs. Jacksonville Jaguars": {
+            "name": "Detroit Lions vs. Jacksonville Jaguars",
+            "homeTeam": "Detroit Lions",
+            "awayTeam": "Jacksonville Jaguars",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/detroit-lions-seating-chart-with-rows-at-ford-field.jpg"
+            },
+            "id": 173,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "Ford Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/7.png",
+            "homeTeamId": 52,
+            "awayTeamId": 41
+        },
+        "Minnesota Vikings vs. New York Jets": {
+            "name": "Minnesota Vikings vs. New York Jets",
+            "homeTeam": "Minnesota Vikings",
+            "awayTeam": "New York Jets",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/vikings-seating-chart-at-u.s.-bank-stadium.jpg"
+            },
+            "id": 174,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "U.S. Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/32.png",
+            "homeTeamId": 54,
+            "awayTeamId": 34
+        },
+        "New York Giants vs. Washington Commanders": {
+            "name": "New York Giants vs. Washington Commanders",
+            "homeTeam": "New York Giants",
+            "awayTeam": "Washington Commanders",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 175,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/4.png",
+            "homeTeamId": 48,
+            "awayTeamId": 50
+        },
+        "Philadelphia Eagles vs. Tennessee Titans": {
+            "name": "Philadelphia Eagles vs. Tennessee Titans",
+            "homeTeam": "Philadelphia Eagles",
+            "awayTeam": "Tennessee Titans",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/philadelphia-eagles-seating-chart-with-rows-at-lincoln-financial-field.jpg"
+            },
+            "id": 176,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "Lincoln Financial Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/12.png",
+            "homeTeamId": 49,
+            "awayTeamId": 42
+        },
+        "Atlanta Falcons vs. Pittsburgh Steelers": {
+            "name": "Atlanta Falcons vs. Pittsburgh Steelers",
+            "homeTeam": "Atlanta Falcons",
+            "awayTeam": "Pittsburgh Steelers",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/atlanta-falcons-seating-chart-with-rows-at-mercedes-benz-stadium.jpg"
+            },
+            "id": 177,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "Mercedes-Benz Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/8.png",
+            "homeTeamId": 55,
+            "awayTeamId": 38
+        },
+        "Chicago Bears vs. Green Bay Packers": {
+            "name": "Chicago Bears vs. Green Bay Packers",
+            "homeTeam": "Chicago Bears",
+            "awayTeam": "Green Bay Packers",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chicago-bears-seating-chart-with-rows-at-soldier-field.jpg"
+            },
+            "id": 178,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "Soldier Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/16.png",
+            "homeTeamId": 51,
+            "awayTeamId": 53
+        },
+        "San Francisco 49ers vs. Miami Dolphins": {
+            "name": "San Francisco 49ers vs. Miami Dolphins",
+            "homeTeam": "San Francisco 49ers",
+            "awayTeam": "Miami Dolphins",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/49ers-seating-chart-at-levis-stadium.jpg"
+            },
+            "id": 179,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "Levi's Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/14.png",
+            "homeTeamId": 60,
+            "awayTeamId": 32
+        },
+        "Cincinnati Bengals vs. Kansas City Chiefs": {
+            "name": "Cincinnati Bengals vs. Kansas City Chiefs",
+            "homeTeam": "Cincinnati Bengals",
+            "awayTeam": "Kansas City Chiefs",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bengals-seating-chart-at-paul-brown-stadium.jpg"
+            },
+            "id": 180,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "Paul Brown Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/10.png",
+            "homeTeamId": 36,
+            "awayTeamId": 44
+        },
+        "Las Vegas Raiders vs. Los Angeles Chargers": {
+            "name": "Las Vegas Raiders vs. Los Angeles Chargers",
+            "homeTeam": "Las Vegas Raiders",
+            "awayTeam": "Los Angeles Chargers",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/raiders-seating-chart-at-allegiant-stadium.jpg"
+            },
+            "id": 181,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "Allegiant Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/1.png",
+            "homeTeamId": 45,
+            "awayTeamId": 46
+        },
+        "Dallas Cowboys vs. Indianapolis Colts": {
+            "name": "Dallas Cowboys vs. Indianapolis Colts",
+            "homeTeam": "Dallas Cowboys",
+            "awayTeam": "Indianapolis Colts",
+            "date": "2022-12-04",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/dallas-cowboys-seating-chart-with-rows-at-att-stadium-(cowboys-stadium).jpg"
+            },
+            "id": 182,
+            "url": "past_event",
+            "local_date": "2022-12-04",
+            "venue": "AT&T Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/29.png",
+            "homeTeamId": 47,
+            "awayTeamId": 40
+        },
+        "Tampa Bay Buccaneers vs. New Orleans Saints": {
+            "name": "Tampa Bay Buccaneers vs. New Orleans Saints",
+            "homeTeam": "Tampa Bay Buccaneers",
+            "awayTeam": "New Orleans Saints",
+            "date": "2022-12-05",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tampa-bay-buccaneers-seating-chart-with-rows-at-raymond-james-stadium.jpg"
+            },
+            "id": 183,
+            "url": "past_event",
+            "local_date": "2022-12-05",
+            "venue": "Raymond James Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/24.png",
+            "homeTeamId": 58,
+            "awayTeamId": 57
+        },
+        "Buffalo Bills vs. New York Jets": {
+            "name": "Buffalo Bills vs. New York Jets",
+            "homeTeam": "Buffalo Bills",
+            "awayTeam": "New York Jets",
+            "date": "2022-12-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bills-seating-chart-at-highmark-stadium.jpg"
+            },
+            "id": 184,
+            "url": "past_event",
+            "local_date": "2022-12-11",
+            "venue": "Highmark Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/20.png",
+            "homeTeamId": 31,
+            "awayTeamId": 34
+        },
+        "Cincinnati Bengals vs. Cleveland Browns": {
+            "name": "Cincinnati Bengals vs. Cleveland Browns",
+            "homeTeam": "Cincinnati Bengals",
+            "awayTeam": "Cleveland Browns",
+            "date": "2022-12-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bengals-seating-chart-at-paul-brown-stadium.jpg"
+            },
+            "id": 185,
+            "url": "past_event",
+            "local_date": "2022-12-11",
+            "venue": "Paul Brown Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/10.png",
+            "homeTeamId": 36,
+            "awayTeamId": 37
+        },
+        "Dallas Cowboys vs. Houston Texans": {
+            "name": "Dallas Cowboys vs. Houston Texans",
+            "homeTeam": "Dallas Cowboys",
+            "awayTeam": "Houston Texans",
+            "date": "2022-12-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/dallas-cowboys-seating-chart-with-rows-at-att-stadium-(cowboys-stadium).jpg"
+            },
+            "id": 186,
+            "url": "past_event",
+            "local_date": "2022-12-11",
+            "venue": "AT&T Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/29.png",
+            "homeTeamId": 47,
+            "awayTeamId": 39
+        },
+        "Detroit Lions vs. Minnesota Vikings": {
+            "name": "Detroit Lions vs. Minnesota Vikings",
+            "homeTeam": "Detroit Lions",
+            "awayTeam": "Minnesota Vikings",
+            "date": "2022-12-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/detroit-lions-seating-chart-with-rows-at-ford-field.jpg"
+            },
+            "id": 187,
+            "url": "past_event",
+            "local_date": "2022-12-11",
+            "venue": "Ford Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/7.png",
+            "homeTeamId": 52,
+            "awayTeamId": 54
+        },
+        "Tennessee Titans vs. Jacksonville Jaguars": {
+            "name": "Tennessee Titans vs. Jacksonville Jaguars",
+            "homeTeam": "Tennessee Titans",
+            "awayTeam": "Jacksonville Jaguars",
+            "date": "2022-12-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tennessee-titans-seating-chart-with-rows-at-nissan-stadium.jpg"
+            },
+            "id": 188,
+            "url": "past_event",
+            "local_date": "2022-12-11",
+            "venue": "Nissan Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/6.png",
+            "homeTeamId": 42,
+            "awayTeamId": 41
+        },
+        "New York Giants vs. Philadelphia Eagles": {
+            "name": "New York Giants vs. Philadelphia Eagles",
+            "homeTeam": "New York Giants",
+            "awayTeam": "Philadelphia Eagles",
+            "date": "2022-12-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 189,
+            "url": "past_event",
+            "local_date": "2022-12-11",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/4.png",
+            "homeTeamId": 48,
+            "awayTeamId": 49
+        },
+        "Pittsburgh Steelers vs. Baltimore Ravens": {
+            "name": "Pittsburgh Steelers vs. Baltimore Ravens",
+            "homeTeam": "Pittsburgh Steelers",
+            "awayTeam": "Baltimore Ravens",
+            "date": "2022-12-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/steelers-seating-chart-at-heinz-field.jpg"
+            },
+            "id": 190,
+            "url": "past_event",
+            "local_date": "2022-12-11",
+            "venue": "Heinz Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/22.png",
+            "homeTeamId": 38,
+            "awayTeamId": 35
+        },
+        "Denver Broncos vs. Kansas City Chiefs": {
+            "name": "Denver Broncos vs. Kansas City Chiefs",
+            "homeTeam": "Denver Broncos",
+            "awayTeam": "Kansas City Chiefs",
+            "date": "2022-12-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/broncos-seating-chart-at-empower-field-(at-mile-high).jpg"
+            },
+            "id": 191,
+            "url": "past_event",
+            "local_date": "2022-12-11",
+            "venue": "Empower Field at Mile High",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/28.png",
+            "homeTeamId": 43,
+            "awayTeamId": 44
+        },
+        "Seattle Seahawks vs. Carolina Panthers": {
+            "name": "Seattle Seahawks vs. Carolina Panthers",
+            "homeTeam": "Seattle Seahawks",
+            "awayTeam": "Carolina Panthers",
+            "date": "2022-12-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/seattle-seahawks-seating-chart-with-rows-at-centurylink-field.jpg"
+            },
+            "id": 192,
+            "url": "past_event",
+            "local_date": "2022-12-11",
+            "venue": "Lumen Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/23.png",
+            "homeTeamId": 61,
+            "awayTeamId": 56
+        },
+        "San Francisco 49ers vs. Tampa Bay Buccaneers": {
+            "name": "San Francisco 49ers vs. Tampa Bay Buccaneers",
+            "homeTeam": "San Francisco 49ers",
+            "awayTeam": "Tampa Bay Buccaneers",
+            "date": "2022-12-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/49ers-seating-chart-at-levis-stadium.jpg"
+            },
+            "id": 193,
+            "url": "past_event",
+            "local_date": "2022-12-11",
+            "venue": "Levi's Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/14.png",
+            "homeTeamId": 60,
+            "awayTeamId": 58
+        },
+        "Los Angeles Chargers vs. Miami Dolphins": {
+            "name": "Los Angeles Chargers vs. Miami Dolphins",
+            "homeTeam": "Los Angeles Chargers",
+            "awayTeam": "Miami Dolphins",
+            "date": "2022-12-11",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/sofi-stadium-seating-chart-with-rows-for-football.jpg"
+            },
+            "id": 194,
+            "url": "past_event",
+            "local_date": "2022-12-11",
+            "venue": "SoFi Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/30.png",
+            "homeTeamId": 46,
+            "awayTeamId": 32
+        },
+        "Arizona Cardinals vs. New England Patriots": {
+            "name": "Arizona Cardinals vs. New England Patriots",
+            "homeTeam": "Arizona Cardinals",
+            "awayTeam": "New England Patriots",
+            "date": "2022-12-12",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/arizona-cardinals-seating-chart-with-rows-at-state-farm-stadium.jpg"
+            },
+            "id": 195,
+            "url": "past_event",
+            "local_date": "2022-12-12",
+            "venue": "State Farm Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/11.png",
+            "homeTeamId": 59,
+            "awayTeamId": 33
+        },
+        "Seattle Seahawks vs. San Francisco 49ers": {
+            "name": "Seattle Seahawks vs. San Francisco 49ers",
+            "homeTeam": "Seattle Seahawks",
+            "awayTeam": "San Francisco 49ers",
+            "date": "2022-12-15",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/seattle-seahawks-seating-chart-with-rows-at-centurylink-field.jpg"
+            },
+            "id": 196,
+            "url": "past_event",
+            "local_date": "2022-12-15",
+            "venue": "Lumen Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/23.png",
+            "homeTeamId": 61,
+            "awayTeamId": 60
+        },
+        "Minnesota Vikings vs. Indianapolis Colts": {
+            "name": "Minnesota Vikings vs. Indianapolis Colts",
+            "homeTeam": "Minnesota Vikings",
+            "awayTeam": "Indianapolis Colts",
+            "date": "2022-12-17",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/vikings-seating-chart-at-u.s.-bank-stadium.jpg"
+            },
+            "id": 197,
+            "url": "past_event",
+            "local_date": "2022-12-17",
+            "venue": "U.S. Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/32.png",
+            "homeTeamId": 54,
+            "awayTeamId": 40
+        },
+        "Cleveland Browns vs. Baltimore Ravens": {
+            "name": "Cleveland Browns vs. Baltimore Ravens",
+            "homeTeam": "Cleveland Browns",
+            "awayTeam": "Baltimore Ravens",
+            "date": "2022-12-17",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/browns-seating-chart-at-first-energy-stadium-(cleveland-browns-stadium).jpg"
+            },
+            "id": 198,
+            "url": "past_event",
+            "local_date": "2022-12-17",
+            "venue": "FirstEnergy Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/9.png",
+            "homeTeamId": 37,
+            "awayTeamId": 35
+        },
+        "Buffalo Bills vs. Miami Dolphins": {
+            "name": "Buffalo Bills vs. Miami Dolphins",
+            "homeTeam": "Buffalo Bills",
+            "awayTeam": "Miami Dolphins",
+            "date": "2022-12-17",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bills-seating-chart-at-highmark-stadium.jpg"
+            },
+            "id": 199,
+            "url": "past_event",
+            "local_date": "2022-12-17",
+            "venue": "Highmark Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/20.png",
+            "homeTeamId": 31,
+            "awayTeamId": 32
+        },
+        "New Orleans Saints vs. Atlanta Falcons": {
+            "name": "New Orleans Saints vs. Atlanta Falcons",
+            "homeTeam": "New Orleans Saints",
+            "awayTeam": "Atlanta Falcons",
+            "date": "2022-12-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-orleans-saints-seating-chart-with-rows-at-superdome.jpg"
+            },
+            "id": 200,
+            "url": "past_event",
+            "local_date": "2022-12-18",
+            "venue": "Caesars Superdome",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/27.png",
+            "homeTeamId": 57,
+            "awayTeamId": 55
+        },
+        "Carolina Panthers vs. Pittsburgh Steelers": {
+            "name": "Carolina Panthers vs. Pittsburgh Steelers",
+            "homeTeam": "Carolina Panthers",
+            "awayTeam": "Pittsburgh Steelers",
+            "date": "2022-12-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/carolina-panthers-seating-chart-with-rows-at-bank-of-america-stadium.jpg"
+            },
+            "id": 201,
+            "url": "past_event",
+            "local_date": "2022-12-18",
+            "venue": "Bank of America Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/19.png",
+            "homeTeamId": 56,
+            "awayTeamId": 38
+        },
+        "Chicago Bears vs. Philadelphia Eagles": {
+            "name": "Chicago Bears vs. Philadelphia Eagles",
+            "homeTeam": "Chicago Bears",
+            "awayTeam": "Philadelphia Eagles",
+            "date": "2022-12-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chicago-bears-seating-chart-with-rows-at-soldier-field.jpg"
+            },
+            "id": 202,
+            "url": "past_event",
+            "local_date": "2022-12-18",
+            "venue": "Soldier Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/16.png",
+            "homeTeamId": 51,
+            "awayTeamId": 49
+        },
+        "Jacksonville Jaguars vs. Dallas Cowboys": {
+            "name": "Jacksonville Jaguars vs. Dallas Cowboys",
+            "homeTeam": "Jacksonville Jaguars",
+            "awayTeam": "Dallas Cowboys",
+            "date": "2022-12-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/jaguars-seating-chart-at-tiaa-bank-field.jpg"
+            },
+            "id": 203,
+            "url": "past_event",
+            "local_date": "2022-12-18",
+            "venue": "TIAA Bank Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/2.png",
+            "homeTeamId": 41,
+            "awayTeamId": 47
+        },
+        "New York Jets vs. Detroit Lions": {
+            "name": "New York Jets vs. Detroit Lions",
+            "homeTeam": "New York Jets",
+            "awayTeam": "Detroit Lions",
+            "date": "2022-12-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 204,
+            "url": "past_event",
+            "local_date": "2022-12-18",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/13.png",
+            "homeTeamId": 34,
+            "awayTeamId": 52
+        },
+        "Houston Texans vs. Kansas City Chiefs": {
+            "name": "Houston Texans vs. Kansas City Chiefs",
+            "homeTeam": "Houston Texans",
+            "awayTeam": "Kansas City Chiefs",
+            "date": "2022-12-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/houston-texans-seating-chart-with-rows-at-nrg-stadium.jpg"
+            },
+            "id": 205,
+            "url": "past_event",
+            "local_date": "2022-12-18",
+            "venue": "NRG Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/26.png",
+            "homeTeamId": 39,
+            "awayTeamId": 44
+        },
+        "Denver Broncos vs. Arizona Cardinals": {
+            "name": "Denver Broncos vs. Arizona Cardinals",
+            "homeTeam": "Denver Broncos",
+            "awayTeam": "Arizona Cardinals",
+            "date": "2022-12-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/broncos-seating-chart-at-empower-field-(at-mile-high).jpg"
+            },
+            "id": 206,
+            "url": "past_event",
+            "local_date": "2022-12-18",
+            "venue": "Empower Field at Mile High",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/28.png",
+            "homeTeamId": 43,
+            "awayTeamId": 59
+        },
+        "Tampa Bay Buccaneers vs. Cincinnati Bengals": {
+            "name": "Tampa Bay Buccaneers vs. Cincinnati Bengals",
+            "homeTeam": "Tampa Bay Buccaneers",
+            "awayTeam": "Cincinnati Bengals",
+            "date": "2022-12-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tampa-bay-buccaneers-seating-chart-with-rows-at-raymond-james-stadium.jpg"
+            },
+            "id": 207,
+            "url": "past_event",
+            "local_date": "2022-12-18",
+            "venue": "Raymond James Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/24.png",
+            "homeTeamId": 58,
+            "awayTeamId": 36
+        },
+        "Los Angeles Chargers vs. Tennessee Titans": {
+            "name": "Los Angeles Chargers vs. Tennessee Titans",
+            "homeTeam": "Los Angeles Chargers",
+            "awayTeam": "Tennessee Titans",
+            "date": "2022-12-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/sofi-stadium-seating-chart-with-rows-for-football.jpg"
+            },
+            "id": 208,
+            "url": "past_event",
+            "local_date": "2022-12-18",
+            "venue": "SoFi Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/30.png",
+            "homeTeamId": 46,
+            "awayTeamId": 42
+        },
+        "Washington Commanders vs. New York Giants": {
+            "name": "Washington Commanders vs. New York Giants",
+            "homeTeam": "Washington Commanders",
+            "awayTeam": "New York Giants",
+            "date": "2022-12-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/wft-seating-chart-at-fedexfield.jpg"
+            },
+            "id": 209,
+            "url": "past_event",
+            "local_date": "2022-12-18",
+            "venue": "FedExField",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/18.png",
+            "homeTeamId": 50,
+            "awayTeamId": 48
+        },
+        "Las Vegas Raiders vs. New England Patriots": {
+            "name": "Las Vegas Raiders vs. New England Patriots",
+            "homeTeam": "Las Vegas Raiders",
+            "awayTeam": "New England Patriots",
+            "date": "2022-12-18",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/raiders-seating-chart-at-allegiant-stadium.jpg"
+            },
+            "id": 210,
+            "url": "past_event",
+            "local_date": "2022-12-18",
+            "venue": "Allegiant Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/1.png",
+            "homeTeamId": 45,
+            "awayTeamId": 33
+        },
+        "New York Jets vs. Jacksonville Jaguars": {
+            "name": "New York Jets vs. Jacksonville Jaguars",
+            "homeTeam": "New York Jets",
+            "awayTeam": "Jacksonville Jaguars",
+            "date": "2022-12-22",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 211,
+            "url": "past_event",
+            "local_date": "2022-12-22",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/13.png",
+            "homeTeamId": 34,
+            "awayTeamId": 41
+        },
+        "Baltimore Ravens vs. Atlanta Falcons": {
+            "name": "Baltimore Ravens vs. Atlanta Falcons",
+            "homeTeam": "Baltimore Ravens",
+            "awayTeam": "Atlanta Falcons",
+            "date": "2022-12-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/baltimore-ravens-seating-chart-with-rows-at-mt-bank-stadium.jpg"
+            },
+            "id": 212,
+            "url": "past_event",
+            "local_date": "2022-12-24",
+            "venue": "M&T Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/5.png",
+            "homeTeamId": 35,
+            "awayTeamId": 55
+        },
+        "Chicago Bears vs. Buffalo Bills": {
+            "name": "Chicago Bears vs. Buffalo Bills",
+            "homeTeam": "Chicago Bears",
+            "awayTeam": "Buffalo Bills",
+            "date": "2022-12-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chicago-bears-seating-chart-with-rows-at-soldier-field.jpg"
+            },
+            "id": 213,
+            "url": "past_event",
+            "local_date": "2022-12-24",
+            "venue": "Soldier Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/16.png",
+            "homeTeamId": 51,
+            "awayTeamId": 31
+        },
+        "Carolina Panthers vs. Detroit Lions": {
+            "name": "Carolina Panthers vs. Detroit Lions",
+            "homeTeam": "Carolina Panthers",
+            "awayTeam": "Detroit Lions",
+            "date": "2022-12-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/carolina-panthers-seating-chart-with-rows-at-bank-of-america-stadium.jpg"
+            },
+            "id": 214,
+            "url": "past_event",
+            "local_date": "2022-12-24",
+            "venue": "Bank of America Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/19.png",
+            "homeTeamId": 56,
+            "awayTeamId": 52
+        },
+        "New England Patriots vs. Cincinnati Bengals": {
+            "name": "New England Patriots vs. Cincinnati Bengals",
+            "homeTeam": "New England Patriots",
+            "awayTeam": "Cincinnati Bengals",
+            "date": "2022-12-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-england-patriots-seating-chart-with-rows-at-gillette-stadium.jpg"
+            },
+            "id": 215,
+            "url": "past_event",
+            "local_date": "2022-12-24",
+            "venue": "Gillette Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/3.png",
+            "homeTeamId": 33,
+            "awayTeamId": 36
+        },
+        "Cleveland Browns vs. New Orleans Saints": {
+            "name": "Cleveland Browns vs. New Orleans Saints",
+            "homeTeam": "Cleveland Browns",
+            "awayTeam": "New Orleans Saints",
+            "date": "2022-12-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/browns-seating-chart-at-first-energy-stadium-(cleveland-browns-stadium).jpg"
+            },
+            "id": 216,
+            "url": "past_event",
+            "local_date": "2022-12-24",
+            "venue": "FirstEnergy Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/9.png",
+            "homeTeamId": 37,
+            "awayTeamId": 57
+        },
+        "Tennessee Titans vs. Houston Texans": {
+            "name": "Tennessee Titans vs. Houston Texans",
+            "homeTeam": "Tennessee Titans",
+            "awayTeam": "Houston Texans",
+            "date": "2022-12-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tennessee-titans-seating-chart-with-rows-at-nissan-stadium.jpg"
+            },
+            "id": 217,
+            "url": "past_event",
+            "local_date": "2022-12-24",
+            "venue": "Nissan Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/6.png",
+            "homeTeamId": 42,
+            "awayTeamId": 39
+        },
+        "Kansas City Chiefs vs. Seattle Seahawks": {
+            "name": "Kansas City Chiefs vs. Seattle Seahawks",
+            "homeTeam": "Kansas City Chiefs",
+            "awayTeam": "Seattle Seahawks",
+            "date": "2022-12-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chiefs-seating-chart-at-arrowhead-stadium.jpg"
+            },
+            "id": 218,
+            "url": "past_event",
+            "local_date": "2022-12-24",
+            "venue": "Arrowhead Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/17.png",
+            "homeTeamId": 44,
+            "awayTeamId": 61
+        },
+        "Minnesota Vikings vs. New York Giants": {
+            "name": "Minnesota Vikings vs. New York Giants",
+            "homeTeam": "Minnesota Vikings",
+            "awayTeam": "New York Giants",
+            "date": "2022-12-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/vikings-seating-chart-at-u.s.-bank-stadium.jpg"
+            },
+            "id": 219,
+            "url": "past_event",
+            "local_date": "2022-12-24",
+            "venue": "U.S. Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/32.png",
+            "homeTeamId": 54,
+            "awayTeamId": 48
+        },
+        "San Francisco 49ers vs. Washington Commanders": {
+            "name": "San Francisco 49ers vs. Washington Commanders",
+            "homeTeam": "San Francisco 49ers",
+            "awayTeam": "Washington Commanders",
+            "date": "2022-12-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/49ers-seating-chart-at-levis-stadium.jpg"
+            },
+            "id": 220,
+            "url": "past_event",
+            "local_date": "2022-12-24",
+            "venue": "Levi's Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/14.png",
+            "homeTeamId": 60,
+            "awayTeamId": 50
+        },
+        "Dallas Cowboys vs. Philadelphia Eagles": {
+            "name": "Dallas Cowboys vs. Philadelphia Eagles",
+            "homeTeam": "Dallas Cowboys",
+            "awayTeam": "Philadelphia Eagles",
+            "date": "2022-12-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/dallas-cowboys-seating-chart-with-rows-at-att-stadium-(cowboys-stadium).jpg"
+            },
+            "id": 221,
+            "url": "past_event",
+            "local_date": "2022-12-24",
+            "venue": "AT&T Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/29.png",
+            "homeTeamId": 47,
+            "awayTeamId": 49
+        },
+        "Pittsburgh Steelers vs. Las Vegas Raiders": {
+            "name": "Pittsburgh Steelers vs. Las Vegas Raiders",
+            "homeTeam": "Pittsburgh Steelers",
+            "awayTeam": "Las Vegas Raiders",
+            "date": "2022-12-24",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/steelers-seating-chart-at-heinz-field.jpg"
+            },
+            "id": 222,
+            "url": "past_event",
+            "local_date": "2022-12-24",
+            "venue": "Heinz Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/22.png",
+            "homeTeamId": 38,
+            "awayTeamId": 45
+        },
+        "Miami Dolphins vs. Green Bay Packers": {
+            "name": "Miami Dolphins vs. Green Bay Packers",
+            "homeTeam": "Miami Dolphins",
+            "awayTeam": "Green Bay Packers",
+            "date": "2022-12-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/miami-dolphins-seating-chart-with-rows-at-hard-rock-stadium.jpg"
+            },
+            "id": 223,
+            "url": "past_event",
+            "local_date": "2022-12-25",
+            "venue": "Hard Rock Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/25.png",
+            "homeTeamId": 32,
+            "awayTeamId": 53
+        },
+        "Arizona Cardinals vs. Tampa Bay Buccaneers": {
+            "name": "Arizona Cardinals vs. Tampa Bay Buccaneers",
+            "homeTeam": "Arizona Cardinals",
+            "awayTeam": "Tampa Bay Buccaneers",
+            "date": "2022-12-25",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/arizona-cardinals-seating-chart-with-rows-at-state-farm-stadium.jpg"
+            },
+            "id": 224,
+            "url": "past_event",
+            "local_date": "2022-12-25",
+            "venue": "State Farm Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/11.png",
+            "homeTeamId": 59,
+            "awayTeamId": 58
+        },
+        "Indianapolis Colts vs. Los Angeles Chargers": {
+            "name": "Indianapolis Colts vs. Los Angeles Chargers",
+            "homeTeam": "Indianapolis Colts",
+            "awayTeam": "Los Angeles Chargers",
+            "date": "2022-12-26",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/indianapolis-colts-seating-chart-with-rows-at-lucas-oil-stadium.jpg"
+            },
+            "id": 225,
+            "url": "past_event",
+            "local_date": "2022-12-26",
+            "venue": "Lucas Oil Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/21.png",
+            "homeTeamId": 40,
+            "awayTeamId": 46
+        },
+        "Tennessee Titans vs. Dallas Cowboys": {
+            "name": "Tennessee Titans vs. Dallas Cowboys",
+            "homeTeam": "Tennessee Titans",
+            "awayTeam": "Dallas Cowboys",
+            "date": "2022-12-29",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tennessee-titans-seating-chart-with-rows-at-nissan-stadium.jpg"
+            },
+            "id": 226,
+            "url": "past_event",
+            "local_date": "2022-12-29",
+            "venue": "Nissan Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/6.png",
+            "homeTeamId": 42,
+            "awayTeamId": 47
+        },
+        "Atlanta Falcons vs. Arizona Cardinals": {
+            "name": "Atlanta Falcons vs. Arizona Cardinals",
+            "homeTeam": "Atlanta Falcons",
+            "awayTeam": "Arizona Cardinals",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/atlanta-falcons-seating-chart-with-rows-at-mercedes-benz-stadium.jpg"
+            },
+            "id": 227,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "Mercedes-Benz Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/8.png",
+            "homeTeamId": 55,
+            "awayTeamId": 59
+        },
+        "Tampa Bay Buccaneers vs. Carolina Panthers": {
+            "name": "Tampa Bay Buccaneers vs. Carolina Panthers",
+            "homeTeam": "Tampa Bay Buccaneers",
+            "awayTeam": "Carolina Panthers",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/tampa-bay-buccaneers-seating-chart-with-rows-at-raymond-james-stadium.jpg"
+            },
+            "id": 228,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "Raymond James Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/24.png",
+            "homeTeamId": 58,
+            "awayTeamId": 56
+        },
+        "Detroit Lions vs. Chicago Bears": {
+            "name": "Detroit Lions vs. Chicago Bears",
+            "homeTeam": "Detroit Lions",
+            "awayTeam": "Chicago Bears",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/detroit-lions-seating-chart-with-rows-at-ford-field.jpg"
+            },
+            "id": 229,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "Ford Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/7.png",
+            "homeTeamId": 52,
+            "awayTeamId": 51
+        },
+        "Washington Commanders vs. Cleveland Browns": {
+            "name": "Washington Commanders vs. Cleveland Browns",
+            "homeTeam": "Washington Commanders",
+            "awayTeam": "Cleveland Browns",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/wft-seating-chart-at-fedexfield.jpg"
+            },
+            "id": 230,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "FedExField",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/18.png",
+            "homeTeamId": 50,
+            "awayTeamId": 37
+        },
+        "New York Giants vs. Indianapolis Colts": {
+            "name": "New York Giants vs. Indianapolis Colts",
+            "homeTeam": "New York Giants",
+            "awayTeam": "Indianapolis Colts",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/metlife-stadium-concert-seating-chart-with-rows-for-end-stage-shows.jpg"
+            },
+            "id": 231,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "MetLife Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/4.png",
+            "homeTeamId": 48,
+            "awayTeamId": 40
+        },
+        "Kansas City Chiefs vs. Denver Broncos": {
+            "name": "Kansas City Chiefs vs. Denver Broncos",
+            "homeTeam": "Kansas City Chiefs",
+            "awayTeam": "Denver Broncos",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chiefs-seating-chart-at-arrowhead-stadium.jpg"
+            },
+            "id": 232,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "Arrowhead Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/17.png",
+            "homeTeamId": 44,
+            "awayTeamId": 43
+        },
+        "Houston Texans vs. Jacksonville Jaguars": {
+            "name": "Houston Texans vs. Jacksonville Jaguars",
+            "homeTeam": "Houston Texans",
+            "awayTeam": "Jacksonville Jaguars",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/houston-texans-seating-chart-with-rows-at-nrg-stadium.jpg"
+            },
+            "id": 233,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "NRG Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/26.png",
+            "homeTeamId": 39,
+            "awayTeamId": 41
+        },
+        "New England Patriots vs. Miami Dolphins": {
+            "name": "New England Patriots vs. Miami Dolphins",
+            "homeTeam": "New England Patriots",
+            "awayTeam": "Miami Dolphins",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-england-patriots-seating-chart-with-rows-at-gillette-stadium.jpg"
+            },
+            "id": 234,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "Gillette Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/3.png",
+            "homeTeamId": 33,
+            "awayTeamId": 32
+        },
+        "Philadelphia Eagles vs. New Orleans Saints": {
+            "name": "Philadelphia Eagles vs. New Orleans Saints",
+            "homeTeam": "Philadelphia Eagles",
+            "awayTeam": "New Orleans Saints",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/philadelphia-eagles-seating-chart-with-rows-at-lincoln-financial-field.jpg"
+            },
+            "id": 235,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "Lincoln Financial Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/12.png",
+            "homeTeamId": 49,
+            "awayTeamId": 57
+        },
+        "Baltimore Ravens vs. Pittsburgh Steelers": {
+            "name": "Baltimore Ravens vs. Pittsburgh Steelers",
+            "homeTeam": "Baltimore Ravens",
+            "awayTeam": "Pittsburgh Steelers",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/baltimore-ravens-seating-chart-with-rows-at-mt-bank-stadium.jpg"
+            },
+            "id": 236,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "M&T Bank Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/5.png",
+            "homeTeamId": 35,
+            "awayTeamId": 38
+        },
+        "Seattle Seahawks vs. New York Jets": {
+            "name": "Seattle Seahawks vs. New York Jets",
+            "homeTeam": "Seattle Seahawks",
+            "awayTeam": "New York Jets",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/seattle-seahawks-seating-chart-with-rows-at-centurylink-field.jpg"
+            },
+            "id": 237,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "Lumen Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/23.png",
+            "homeTeamId": 61,
+            "awayTeamId": 34
+        },
+        "Las Vegas Raiders vs. San Francisco 49ers": {
+            "name": "Las Vegas Raiders vs. San Francisco 49ers",
+            "homeTeam": "Las Vegas Raiders",
+            "awayTeam": "San Francisco 49ers",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/raiders-seating-chart-at-allegiant-stadium.jpg"
+            },
+            "id": 238,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "Allegiant Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/1.png",
+            "homeTeamId": 45,
+            "awayTeamId": 60
+        },
+        "Green Bay Packers vs. Minnesota Vikings": {
+            "name": "Green Bay Packers vs. Minnesota Vikings",
+            "homeTeam": "Green Bay Packers",
+            "awayTeam": "Minnesota Vikings",
+            "date": "2023-01-01",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/packers-seating-chart-at-lambeau-field.jpg"
+            },
+            "id": 239,
+            "url": "past_event",
+            "local_date": "2023-01-01",
+            "venue": "Lambeau Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/15.png",
+            "homeTeamId": 53,
+            "awayTeamId": 54
+        },
+        "Las Vegas Raiders vs. Kansas City Chiefs": {
+            "name": "Las Vegas Raiders vs. Kansas City Chiefs",
+            "homeTeam": "Las Vegas Raiders",
+            "awayTeam": "Kansas City Chiefs",
+            "date": "2023-01-07",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/raiders-seating-chart-at-allegiant-stadium.jpg"
+            },
+            "id": 240,
+            "url": "past_event",
+            "local_date": "2023-01-07",
+            "venue": "Allegiant Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/1.png",
+            "homeTeamId": 45,
+            "awayTeamId": 44
+        },
+        "Jacksonville Jaguars vs. Tennessee Titans": {
+            "name": "Jacksonville Jaguars vs. Tennessee Titans",
+            "homeTeam": "Jacksonville Jaguars",
+            "awayTeam": "Tennessee Titans",
+            "date": "2023-01-07",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/jaguars-seating-chart-at-tiaa-bank-field.jpg"
+            },
+            "id": 241,
+            "url": "past_event",
+            "local_date": "2023-01-07",
+            "venue": "TIAA Bank Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/2.png",
+            "homeTeamId": 41,
+            "awayTeamId": 42
+        },
+        "Buffalo Bills vs. New England Patriots": {
+            "name": "Buffalo Bills vs. New England Patriots",
+            "homeTeam": "Buffalo Bills",
+            "awayTeam": "New England Patriots",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bills-seating-chart-at-highmark-stadium.jpg"
+            },
+            "id": 242,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Highmark Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/20.png",
+            "homeTeamId": 31,
+            "awayTeamId": 33
+        },
+        "Cincinnati Bengals vs. Baltimore Ravens": {
+            "name": "Cincinnati Bengals vs. Baltimore Ravens",
+            "homeTeam": "Cincinnati Bengals",
+            "awayTeam": "Baltimore Ravens",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/bengals-seating-chart-at-paul-brown-stadium.jpg"
+            },
+            "id": 243,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Paul Brown Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/10.png",
+            "homeTeamId": 36,
+            "awayTeamId": 35
+        },
+        "Atlanta Falcons vs. Tampa Bay Buccaneers": {
+            "name": "Atlanta Falcons vs. Tampa Bay Buccaneers",
+            "homeTeam": "Atlanta Falcons",
+            "awayTeam": "Tampa Bay Buccaneers",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/atlanta-falcons-seating-chart-with-rows-at-mercedes-benz-stadium.jpg"
+            },
+            "id": 244,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Mercedes-Benz Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/8.png",
+            "homeTeamId": 55,
+            "awayTeamId": 58
+        },
+        "New Orleans Saints vs. Carolina Panthers": {
+            "name": "New Orleans Saints vs. Carolina Panthers",
+            "homeTeam": "New Orleans Saints",
+            "awayTeam": "Carolina Panthers",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/new-orleans-saints-seating-chart-with-rows-at-superdome.jpg"
+            },
+            "id": 245,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Caesars Superdome",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/27.png",
+            "homeTeamId": 57,
+            "awayTeamId": 56
+        },
+        "Chicago Bears vs. Minnesota Vikings": {
+            "name": "Chicago Bears vs. Minnesota Vikings",
+            "homeTeam": "Chicago Bears",
+            "awayTeam": "Minnesota Vikings",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/chicago-bears-seating-chart-with-rows-at-soldier-field.jpg"
+            },
+            "id": 246,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Soldier Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/16.png",
+            "homeTeamId": 51,
+            "awayTeamId": 54
+        },
+        "Pittsburgh Steelers vs. Cleveland Browns": {
+            "name": "Pittsburgh Steelers vs. Cleveland Browns",
+            "homeTeam": "Pittsburgh Steelers",
+            "awayTeam": "Cleveland Browns",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/steelers-seating-chart-at-heinz-field.jpg"
+            },
+            "id": 247,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Heinz Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/22.png",
+            "homeTeamId": 38,
+            "awayTeamId": 37
+        },
+        "Indianapolis Colts vs. Houston Texans": {
+            "name": "Indianapolis Colts vs. Houston Texans",
+            "homeTeam": "Indianapolis Colts",
+            "awayTeam": "Houston Texans",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/indianapolis-colts-seating-chart-with-rows-at-lucas-oil-stadium.jpg"
+            },
+            "id": 248,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Lucas Oil Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/21.png",
+            "homeTeamId": 40,
+            "awayTeamId": 39
+        },
+        "Miami Dolphins vs. New York Jets": {
+            "name": "Miami Dolphins vs. New York Jets",
+            "homeTeam": "Miami Dolphins",
+            "awayTeam": "New York Jets",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/miami-dolphins-seating-chart-with-rows-at-hard-rock-stadium.jpg"
+            },
+            "id": 249,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Hard Rock Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/25.png",
+            "homeTeamId": 32,
+            "awayTeamId": 34
+        },
+        "San Francisco 49ers vs. Arizona Cardinals": {
+            "name": "San Francisco 49ers vs. Arizona Cardinals",
+            "homeTeam": "San Francisco 49ers",
+            "awayTeam": "Arizona Cardinals",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/49ers-seating-chart-at-levis-stadium.jpg"
+            },
+            "id": 250,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Levi's Stadium",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/14.png",
+            "homeTeamId": 60,
+            "awayTeamId": 59
+        },
+        "Washington Commanders vs. Dallas Cowboys": {
+            "name": "Washington Commanders vs. Dallas Cowboys",
+            "homeTeam": "Washington Commanders",
+            "awayTeam": "Dallas Cowboys",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/wft-seating-chart-at-fedexfield.jpg"
+            },
+            "id": 251,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "FedExField",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/18.png",
+            "homeTeamId": 50,
+            "awayTeamId": 47
+        },
+        "Denver Broncos vs. Los Angeles Chargers": {
+            "name": "Denver Broncos vs. Los Angeles Chargers",
+            "homeTeam": "Denver Broncos",
+            "awayTeam": "Los Angeles Chargers",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/broncos-seating-chart-at-empower-field-(at-mile-high).jpg"
+            },
+            "id": 252,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Empower Field at Mile High",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/28.png",
+            "homeTeamId": 43,
+            "awayTeamId": 46
+        },
+        "Philadelphia Eagles vs. New York Giants": {
+            "name": "Philadelphia Eagles vs. New York Giants",
+            "homeTeam": "Philadelphia Eagles",
+            "awayTeam": "New York Giants",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/philadelphia-eagles-seating-chart-with-rows-at-lincoln-financial-field.jpg"
+            },
+            "id": 253,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Lincoln Financial Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/12.png",
+            "homeTeamId": 49,
+            "awayTeamId": 48
+        },
+        "Green Bay Packers vs. Detroit Lions": {
+            "name": "Green Bay Packers vs. Detroit Lions",
+            "homeTeam": "Green Bay Packers",
+            "awayTeam": "Detroit Lions",
+            "date": "2023-01-08",
+            "seatmap": {
+                "staticUrl": "https://www.rateyourseats.com/assets/images/seating_charts/static/packers-seating-chart-at-lambeau-field.jpg"
+            },
+            "id": 254,
+            "url": "past_event",
+            "local_date": "2023-01-08",
+            "venue": "Lambeau Field",
+            "hometeamimage": "https://media.api-sports.io/american-football/teams/15.png",
+            "homeTeamId": 53,
+            "awayTeamId": 52
+        }
     }
 }

@@ -148,7 +148,6 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 chrome_options.add_argument("--log-level=3")
 
 if sys.platform == "win32":
-
     driver = webdriver.Chrome("./chromedriver-win.exe", options=chrome_options)
 elif sys.platform == "linux":
     driver = webdriver.Chrome(options=chrome_options)

@@ -4,10 +4,11 @@ from flask_cors import CORS
 
 from flask import Flask
 from flask_cors import CORS, cross_origin
+
 app = Flask(__name__)
 cors = CORS(app)
 app.debug = True
-app.config['CORS_HEADERS'] = 'Content-Type'
+app.config["CORS_HEADERS"] = "Content-Type"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config[
     "SQLALCHEMY_DATABASE_URI"
@@ -31,7 +32,6 @@ class Player(db.Model):
     jersey = db.Column(db.String(250))
     league = db.Column(db.String(250))
     espnLink = db.Column(db.String(250))
-    
 
     def to_dict(self):
         return {
@@ -47,7 +47,7 @@ class Player(db.Model):
             "headshot": self.headshot,
             "jersey": self.jersey,
             "league": self.league,
-            "espnLink": self.espnLink
+            "espnLink": self.espnLink,
         }
 
 
@@ -55,6 +55,7 @@ class Team(db.Model):
     __tablename__ = "teams"
     id = db.Column(db.String(250), primary_key=True)
     name = db.Column(db.String(250))
+    league = db.Column(db.String(250))
     division = db.Column(db.String(250))
     conference = db.Column(db.String(250))
     rank = db.Column(db.Integer)
@@ -62,25 +63,26 @@ class Team(db.Model):
     totalLosses = db.Column(db.Integer)
     logo = db.Column(db.String(250))
     city = db.Column(db.String(250))
-    league = db.Column(db.String(250))
+    # stadium_name = db.Column(db.String(250))
+    # espnLink = db.Column(db.String(250))
     # players = db.relationship('Player', backref = 'team')
-    espnLink = db.Column(db.String(250))
-    stadium_name = db.Column(db.String(250))
+    # espnLink = db.Column(db.String(250))
+    # stadium_name = db.Column(db.String(250))
 
     def to_dict(self):
         return {
             "id": self.id,
             "name": self.name,
+            "league": self.league,
             "division": self.division,
             "conference": self.conference,
             "rank": self.rank,
             "totalWins": self.totalWins,
             "totalLosses": self.totalLosses,
             "logo": self.logo,
-            "city": self.city,
-            "league": self.league,
-            "espnLink": self.espnLink,
-            "stadium_name": self.stadium_name,
+            "city": self.city
+            # "espnLink": self.espnLink,
+            # "stadium_name": self.stadium_name,
         }
 
 
@@ -115,6 +117,6 @@ class Event(db.Model):
             "home_team": self.home_team,
             "away_team": self.away_team,
             "home_team_image": self.home_team_image,
-            "home_team_id" : self.homeTeamId,
-            "away_team_id" : self.awayTeamId,
+            "home_team_id": self.homeTeamId,
+            "away_team_id": self.awayTeamId,
         }

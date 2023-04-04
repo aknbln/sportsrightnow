@@ -19,6 +19,7 @@ class EventSchema(SQLAlchemyAutoSchema):
     class Meta:
         model = Event
 
+
 player_schema = PlayerSchema()
 team_schema = TeamSchema()
 event_schema = EventSchema()

@@ -114,36 +114,36 @@ def find_nfl_teamName(abv):
         if i["abbreviation"] == abv:
             return i["team"]
 
-def add_teamIds():
 
+def add_teamIds():
     # get the teams from the file
     players_file = open("./data/Player-Info/Players.json")
     data = json.load(players_file)
     j = 1
-    #go through each league
+    # go through each league
     for i in data:
-        #go through each team
+        # go through each team
         for k in data[i]:
-            k['team_id'] = find_teamId(k['teamName'])
-            j+= 1
-    
+            k["team_id"] = find_teamId(k["teamName"])
+            j += 1
+
     create_json_file(PLAYERS_JSON_PATH, data)
+
 
 def find_teamId(name):
     teams_file = open("./data/Team-Info/Teams.json")
     data = json.load(teams_file)
     for i in data:
-
-        for k in data[i]['results']:
-            if k['team'] == name:
-                return k['team_id']
+        for k in data[i]["results"]:
+            if k["team"] == name:
+                return k["team_id"]
 
 
 def main():
     # get_nba_players()
     # filter_nba_players()
     # get_nfl_players()
-    #filter_nfl_players()
+    # filter_nfl_players()
     add_teamIds()
 
 
