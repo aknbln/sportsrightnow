@@ -1,6 +1,7 @@
 from flask import jsonify, request, Response
 from models import app, db, Player, Team, Event
 from schema import player_schema, team_schema, event_schema
+from sqlalchemy import or_
 import json
 import datetime
 
@@ -10,14 +11,100 @@ import datetime
 @app.route("/")
 def home():
     try:
-        # db.session.query(column("1")).from_statement(text("SELECT 1")).all()
-        # populate_db()
         return "SportsRightNowAPIDatabase"
     except Exception as e:
         error_text = "<p>The error:<br>" + str(e) + "</p>"
         hed = "<h1>Something is broken.</h1>"
         return hed + error_text
 
+@app.route("/search/<string:model>/<string:query>")
+def search_models(model, query):
+    model = model.strip().lower()
+    terms = query.split()
+    result = None
+    if model == "players":
+        occurrences = search_players(terms)
+        players = sorted(occurrences.keys(), key=lambda x: occurrences[x], reverse=True)
+        result = player_schema.dump(players, many=True)
+    elif model == "teams":
+        occurrences = search_teams(terms)
+        cities = sorted(
+            occurrences.keys(), key=lambda x: occurrences[x], reverse=True
+        )
+        result = team_schema.dump(cities, many=True)
+    elif model == "events":
+        occurrences = search_events(terms)
+        events = sorted(occurrences.keys(), key=lambda x: occurrences[x], reverse=True)
+        result = event_schema.dump(events, many=True)
+    else:
+        return_error(f"Invalid model: {model}")
+    return jsonify({"data": result})
+
+
+def search_players(terms):
+    occurrences = {}
+    for term in terms:
+        queries = []
+        queries.append(Player.name.contains(term))
+        queries.append(Player.team.contains(term))
+        queries.append(Player.team_id.contains(term))
+        queries.append(Player.position.contains(term))
+        queries.append(Player.college.contains(term))
+        queries.append(Player.jersey.contains(term))
+        queries.append(Player.league.contains(term))
+
+        players = Player.query.filter(or_(*queries))
+        for player in players:
+            if not player in occurrences:
+                occurrences[player] = 1
+            else:
+                occurrences[player] += 1
+    return occurrences
+
+
+def search_teams(terms):
+    occurrences = {}
+    for term in terms:
+        queries = []
+        queries.append(Team.id.contains(term))
+        queries.append(Team.name.contains(term))
+        queries.append(Team.league.contains(term))
+        queries.append(Team.division.contains(term))
+        queries.append(Team.conference.contains(term))
+        queries.append(Team.city.contains(term))
+        queries.append(Team.rank.contains(term))
+        queries.append(Team.totalWins.contains(term))
+        queries.append(Team.totalLosses.contains(term))
+        teams = Team.query.filter(or_(*queries))
+
+        for team in teams:
+            if not team in occurrences:
+                occurrences[team] = 1
+            else:
+                occurrences[team] += 1
+    return occurrences
+
+def search_events(terms):
+    occurrences = {}
+    for term in terms:
+        queries = []
+        queries.append(Event.id.contains(term))
+        queries.append(Event.name.contains(term))
+        queries.append(Event.league.contains(term))
+        queries.append(Event.local_date.contains(term))
+        queries.append(Event.city.contains(term))
+        queries.append(Event.venue.contains(term))
+        queries.append(Event.home_team.contains(term))
+        queries.append(Event.away_team.contains(term))
+        queries.append(Event.home_team_id.contains(term))
+        queries.append(Event.away_team_id.contains(term))
+        events = Event.query.filter(or_(*queries))
+        for event in events:
+            if not event in occurrences:
+                occurrences[event] = 1
+            else:
+                occurrences[event] += 1
+    return occurrences
 
 @app.route("/players")
 def get_players():
@@ -38,10 +125,11 @@ def get_players():
         query = query.filter(Player.name.like("%" + name + "%"))
 
     if team is not None:
-        query = query.filter(Player.team == team)
+        query = query.filter(Player.team.like("%" + name + "%"))
+
 
     if college is not None:
-        query = query.filter(Player.college == college)
+        query = query.filter(Player.college.like("%" + college + "%"))
     
     if jerseyNum is not None:
         query = query.filter(Player.jersey == jerseyNum)
@@ -68,9 +156,11 @@ def get_teams():
     league = request.args.get("league", type=str)
     win = request.args.get("win", type=int)
     loss = request.args.get("loss", type=int)
+    city = request.args.get("city", type=str)
     query = db.session.query(Team)
     count = query.count()
     
+
     #FILTER
     if name is not None:
         query = query.filter(Team.name.like("%" + name + "%"))
@@ -83,6 +173,10 @@ def get_teams():
     
     if loss is not None:
         query = query.filter(Team.totalLosses <= loss)
+
+    if city is not None:
+        query = query.filter(Team.city.like("%" + city + "%"))
+
 
     #PAGINATION
     if page is not None:
@@ -108,7 +202,6 @@ def get_events():
     league = request.args.get("league", type=str)
     time = request.args.get("time", type=str)
 
-
     query = db.session.query(Event)
     count = query.count()
 
@@ -117,17 +210,15 @@ def get_events():
         query = query.filter(Event.name.like("%" + name + "%"))
     
     if city is not None:
-        query = query.filter(Event.city == city)
+        query = query.filter(Event.city.like("%" + city + "%"))
     
     if venue is not None:
-        query = query.filter(Event.venue == venue)
+        query = query.filter(Event.venue.like("%" + venue + "%"))
     
-    #check if this is true
     if date is not None:
-        query = query.filter(Event.local_date == date)
+        query = query.filter(Event.local_date.like("%" + date + "%"))
     
     if league is not None:
-
         query = query.filter(Event.league == league)
     
     if time is not None:
