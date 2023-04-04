@@ -5,8 +5,11 @@ from sqlalchemy import or_
 import json
 import datetime
 
+# code adapted from GeoJobs!
+# misc
 # python3 -m virtualenv venv
 # source ./venv/bin/activate
+
 
 @app.route("/")
 def home():
@@ -16,6 +19,7 @@ def home():
         error_text = "<p>The error:<br>" + str(e) + "</p>"
         hed = "<h1>Something is broken.</h1>"
         return hed + error_text
+
 
 @app.route("/search/<string:query>")
 def search_all(query):
@@ -36,6 +40,7 @@ def search_all(query):
         {"players": player_results, "teams": team_results, "events": event_results}
     )
 
+
 @app.route("/search/<string:model>/<string:query>")
 def search_models(model, query):
     model = model.strip().lower()
@@ -47,9 +52,7 @@ def search_models(model, query):
         result = player_schema.dump(players, many=True)
     elif model == "teams":
         occurrences = search_teams(terms)
-        cities = sorted(
-            occurrences.keys(), key=lambda x: occurrences[x], reverse=True
-        )
+        cities = sorted(occurrences.keys(), key=lambda x: occurrences[x], reverse=True)
         result = team_schema.dump(cities, many=True)
     elif model == "events":
         occurrences = search_events(terms)
@@ -103,6 +106,7 @@ def search_teams(terms):
                 occurrences[team] += 1
     return occurrences
 
+
 def search_events(terms):
     occurrences = {}
     for term in terms:
@@ -125,6 +129,7 @@ def search_events(terms):
                 occurrences[event] += 1
     return occurrences
 
+
 @app.route("/players")
 def get_players():
     page = request.args.get("page", type=int)
@@ -137,31 +142,28 @@ def get_players():
 
     query = db.session.query(Player)
     count = query.count()
-    
 
-    #FILTER
+    # FILTER
     if name is not None:
         query = query.filter(Player.name.like("%" + name + "%"))
 
     if team is not None:
         query = query.filter(Player.team.like("%" + name + "%"))
 
-
     if college is not None:
         query = query.filter(Player.college.like("%" + college + "%"))
-    
+
     if jerseyNum is not None:
         query = query.filter(Player.jersey == jerseyNum)
-    
+
     if league is not None:
         query = query.filter(Player.league == league)
-    
-    
-    #PAGINATION
+
+    # PAGINATION
     if page is not None:
         query = paginate(query, page, perPage)
 
-    result = player_schema.dump(query, many = True)
+    result = player_schema.dump(query, many=True)
     response = jsonify({"data": result, "meta": {"count": count}})
     response.headers.add("Access-Control-Allow-Origin", "*")
     return response
@@ -178,36 +180,36 @@ def get_teams():
     city = request.args.get("city", type=str)
     query = db.session.query(Team)
     count = query.count()
-    
 
-    #FILTER
+    # FILTER
     if name is not None:
         query = query.filter(Team.name.like("%" + name + "%"))
-    
+
     if league is not None:
         query = query.filter(Team.league == league)
 
     if win is not None:
         query = query.filter(Team.totalWins >= win)
-    
+
     if loss is not None:
         query = query.filter(Team.totalLosses <= loss)
 
     if city is not None:
         query = query.filter(Team.city.like("%" + city + "%"))
 
-
-    #PAGINATION
+    # PAGINATION
     if page is not None:
         query = paginate(query, page, perPage)
-    
+
     result = team_schema.dump(query, many=True)
     response = jsonify({"data": result, "meta": {"count": count}})
     response.headers.add("Access-Control-Allow-Origin", "*")
     return response
 
-def toDate(dateString): 
+
+def toDate(dateString):
     return datetime.datetime.strptime(dateString, "%Y-%m-%d").date()
+
 
 @app.route("/events")
 def get_events():
@@ -215,7 +217,7 @@ def get_events():
     perPage = request.args.get("perPage", type=int)
 
     name = request.args.get("name", type=str)
-    city  = request.args.get("city", type=str)
+    city = request.args.get("city", type=str)
     venue = request.args.get("venue", type=str)
     date = request.args.get("date", type=str)
     league = request.args.get("league", type=str)
@@ -224,26 +226,26 @@ def get_events():
     query = db.session.query(Event)
     count = query.count()
 
-    #FILTER
+    # FILTER
     if name is not None:
         query = query.filter(Event.name.like("%" + name + "%"))
-    
+
     if city is not None:
         query = query.filter(Event.city.like("%" + city + "%"))
-    
+
     if venue is not None:
         query = query.filter(Event.venue.like("%" + venue + "%"))
-    
+
     if date is not None:
         query = query.filter(Event.local_date.like("%" + date + "%"))
-    
+
     if league is not None:
         query = query.filter(Event.league == league)
-    
+
     if time is not None:
         query = query.filter(Event.local_time.contains(time))
 
-    #PAGINATION
+    # PAGINATION
     if page is not None:
         query = paginate(query, page, perPage)
 
@@ -260,27 +262,27 @@ def get_player(r_id):
         # zero index to get first one
         result = player_schema.dump(query, many=True)[0]
 
-        #get 2 events for the player
+        # get 2 events for the player
         events_query = db.session.query(Event)
-        events = event_schema.dump(events_query, many = True)
+        events = event_schema.dump(events_query, many=True)
         player_events = []
         for event in events:
-            
-            if (event['home_team_id'] == result['team_id'] or 
-            event['away_team_id'] == result['team_id']):
+            if (
+                event["home_team_id"] == result["team_id"]
+                or event["away_team_id"] == result["team_id"]
+            ):
                 player_events.append(event)
 
-    
-        result['events'] = player_events
+        result["events"] = player_events
 
         teams_query = db.session.query(Team)
 
-        teams = team_schema.dump(teams_query, many = True)
+        teams = team_schema.dump(teams_query, many=True)
 
-        #get team info for the player
+        # get team info for the player
         for team in teams:
-            if team['id'] == result['team_id']:
-                result['team_info'] = team
+            if team["id"] == result["team_id"]:
+                result["team_info"] = team
                 break
 
     except IndexError:
@@ -298,32 +300,30 @@ def get_team(r_id):
     try:
         result = team_schema.dump(query, many=True)[0]
 
-        
-        #get 2 events related to team
+        # get 2 events related to team
         events_query = db.session.query(Event)
-        events = event_schema.dump(events_query, many = True)
+        events = event_schema.dump(events_query, many=True)
         team_events = []
         for event in events:
-            
-            if (event['home_team_id'] == result['id'] or 
-            event['away_team_id'] == result['id']):
+            if (
+                event["home_team_id"] == result["id"]
+                or event["away_team_id"] == result["id"]
+            ):
                 team_events.append(event)
 
-        
-        result['events'] = team_events
+        result["events"] = team_events
 
-        #get players related to team
+        # get players related to team
         players_query = db.session.query(Player)
-        
-        players = player_schema.dump(players_query, many = True)
+
+        players = player_schema.dump(players_query, many=True)
         players_info = []
 
         for player in players:
-            if player['team_id'] == result['id']:
+            if player["team_id"] == result["id"]:
                 players_info.append(player)
 
-    
-        result['players_info'] = players_info
+        result["players_info"] = players_info
 
     except IndexError:
         return return_error(f"Invalid team ID: {r_id}")
@@ -337,44 +337,41 @@ def get_team(r_id):
 def get_event(r_id):
     query = db.session.query(Event).filter_by(id=r_id)
 
-
     try:
         result = event_schema.dump(query, many=True)[0]
 
-
         teams_query = db.session.query(Team)
 
-        teams = team_schema.dump(teams_query, many = True)
+        teams = team_schema.dump(teams_query, many=True)
 
-        #when this is 2 we know we collected all the info for home and away teams
+        # when this is 2 we know we collected all the info for home and away teams
         teams_found = 0
-        #get team info for the event
+        # get team info for the event
         for team in teams:
-            if team['id'] == result['home_team_id']:
-                result['home_team_info'] = team
+            if team["id"] == result["home_team_id"]:
+                result["home_team_info"] = team
                 teams_found += 1
-            elif team['id'] == result['away_team_id']:
-                result['away_team_info'] = team
+            elif team["id"] == result["away_team_id"]:
+                result["away_team_info"] = team
                 teams_found += 1
-            
+
             if teams_found == 2:
                 break
 
-        #get players related to team
-        
+        # get players related to team
         players_query = db.session.query(Player)
-        players = player_schema.dump(players_query, many = True)
+        players = player_schema.dump(players_query, many=True)
         home_players_info = []
         away_players_info = []
 
         for player in players:
-            if player['team_id'] == result['home_team_id']:
+            if player["team_id"] == result["home_team_id"]:
                 home_players_info.append(player)
-            elif player['team_id'] == result['away_team_id']:
+            elif player["team_id"] == result["away_team_id"]:
                 away_players_info.append(player)
 
-        result['home_players_info'] = home_players_info
-        result['away_players_info'] = away_players_info
+        result["home_players_info"] = home_players_info
+        result["away_players_info"] = away_players_info
 
     except IndexError:
         return return_error(f"Invalid event ID: {r_id}")

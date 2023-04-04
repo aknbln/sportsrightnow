@@ -81,28 +81,37 @@ def update_nba_teams_info():
     data = json.load(teams_file)
 
     for i in data["NBA"]["results"]:
-        print(str(i['abbreviation']))
-        print(str(i["team"].lower().replace(' ', '-')))
-        #https://www.espn.com/nfl/team/_/name/mia/miami-dolphins
-        i['espnLink'] = str("https://www.espn.com/nba/team/_/name/" + str(i['abbreviation']) + '/' + str(i["team"].lower().replace(' ', '-')))
+        print(str(i["abbreviation"]))
+        print(str(i["team"].lower().replace(" ", "-")))
+        # https://www.espn.com/nfl/team/_/name/mia/miami-dolphins
+        i["espnLink"] = str(
+            "https://www.espn.com/nba/team/_/name/"
+            + str(i["abbreviation"])
+            + "/"
+            + str(i["team"].lower().replace(" ", "-"))
+        )
         # assign more fields to the json object, modifies data object will have to write back to the file though
-    
+
     create_json_file(TEAMS_JSON_PATH, data)
 
 
 def update_nfl_teams_info():
-
     # get the teams from the file
     teams_file = open("./data/Team-Info/Teams.json")
     data = json.load(teams_file)
 
     for i in data["NFL"]["results"]:
-        print(str(i['abbreviation']))
-        print(str(i["team"].lower().replace(' ', '-')))
-        #https://www.espn.com/nfl/team/_/name/mia/miami-dolphins
-        i['espnLink'] = str("https://www.espn.com/nfl/team/_/name/" + str(i['abbreviation']) + '/' + str(i["team"].lower().replace(' ', '-')))
+        print(str(i["abbreviation"]))
+        print(str(i["team"].lower().replace(" ", "-")))
+        # https://www.espn.com/nfl/team/_/name/mia/miami-dolphins
+        i["espnLink"] = str(
+            "https://www.espn.com/nfl/team/_/name/"
+            + str(i["abbreviation"])
+            + "/"
+            + str(i["team"].lower().replace(" ", "-"))
+        )
         # assign more fields to the json object, modifies data object will have to write back to the file though
-    
+
     create_json_file(TEAMS_JSON_PATH, data)
 
 
@@ -112,12 +121,17 @@ def update_mlb_teams_info():
     data = json.load(teams_file)
 
     for i in data["MLB"]["results"]:
-        print(str(i['abbreviation']))
-        print(str(i["team"].lower().replace(' ', '-')))
-        #https://www.espn.com/nfl/team/_/name/mia/miami-dolphins
-        i['espnLink'] = str("https://www.espn.com/mlb/team/_/name/" + str(i['abbreviation']) + '/' + str(i["team"].lower().replace(' ', '-')))
+        print(str(i["abbreviation"]))
+        print(str(i["team"].lower().replace(" ", "-")))
+        # https://www.espn.com/nfl/team/_/name/mia/miami-dolphins
+        i["espnLink"] = str(
+            "https://www.espn.com/mlb/team/_/name/"
+            + str(i["abbreviation"])
+            + "/"
+            + str(i["team"].lower().replace(" ", "-"))
+        )
         # assign more fields to the json object, modifies data object will have to write back to the file though
-    
+
     create_json_file(TEAMS_JSON_PATH, data)
 
 
@@ -129,34 +143,32 @@ def find_elem(json_object, name):
 
 
 def add_teamIds():
-
     # get the teams from the file
     teams_file = open("./data/Team-Info/Teams.json")
     data = json.load(teams_file)
     j = 1
     for i in data:
+        for k in data[i]["results"]:
+            k["team_id"] = j
+            j += 1
 
-        for k in data[i]['results']:
-            k['team_id'] = j
-            j+= 1
-    
     create_json_file(TEAMS_JSON_PATH, data)
 
-def main():
 
+def main():
     #### STEPS DONE ####
     # get_teams("NBA")
     # get_teams("NFL")
     # get_teams("MLB")
-    #update_nba_teams_info()
+    # update_nba_teams_info()
 
     ### NEXT STEPS
     i = 1
     # get_nfl_teams_info()
-    #update_nfl_teams_info()
+    # update_nfl_teams_info()
 
     # get_mlb_teams_info()
-    #update_mlb_teams_info()
+    # update_mlb_teams_info()
     # add_teamIds()
 
 

@@ -1,6 +1,7 @@
 import unittest
 import app
 
+
 class Tests(unittest.TestCase):
     def setUp(self):
         app.app.config["TESTING"] = True
@@ -27,7 +28,7 @@ class Tests(unittest.TestCase):
             data = response.json["data"]
             self.assertEqual(len(data), 25)
 
-#need to sort the players stuff first
+    # need to sort the players stuff first
     def testGetAllPlayers(self):
         with self.client:
             response = self.client.get("/players")
@@ -56,6 +57,6 @@ class Tests(unittest.TestCase):
             data = response.json["data"]
             self.assertEqual(data["name"], "Golden State Warriors vs. Phoenix Suns")
 
+
 if __name__ == "__main__":
     unittest.main()
-

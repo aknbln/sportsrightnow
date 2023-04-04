@@ -1,10 +1,12 @@
 import json
 from models import app, db, Player, Team, Event
 
+
 def populate_db():
     populate_players()
     populate_teams()
     populate_events()
+
 
 def populate_players():
     with open("data/Player-Info/Players.json") as f:
@@ -21,7 +23,7 @@ def populate_players():
                             "id": j,
                             "name": player["name"] if "name" in player else None,
                             "team": team["teamName"],
-                            "team_id": team['team_id'], 
+                            "team_id": team["team_id"],
                             "position": player["position"]
                             if "position" in player
                             else player["pos"]
@@ -46,10 +48,11 @@ def populate_players():
                             if "jersey-num" in player
                             else "0",
                             "league": league_names[i],
-                            "espnLink": player['espnLink']
-                            if "espnLink" in player else
-                            player['espn'] if 'espn' in player else "",
-                            
+                            "espnLink": player["espnLink"]
+                            if "espnLink" in player
+                            else player["espn"]
+                            if "espn" in player
+                            else "",
                         }
                         j += 1
                         db.session.add(Player(**db_row))
@@ -63,7 +66,7 @@ def populate_teams():
         for league in leagues:
             for team in leagues[league]["results"]:
                 db_row = {
-                    "id": team['team_id'],
+                    "id": team["team_id"],
                     "name": team["team"],
                     "league": league,
                     "division": team["division"],
@@ -75,7 +78,6 @@ def populate_teams():
                     "city": team["location"]
                     # "stadium_name": team['stadium_name'],
                     # "espnLink": team['espnLink']
-                    
                 }
                 db.session.add(Team(**db_row))
         db.session.commit()
@@ -88,20 +90,23 @@ def populate_events():
     for team in teams["NFL"]["results"]:
         citiesdict[team["team"]] = team["location"]
 
-
     with open("data/Event-info/Events.json") as f:
         leagues = json.load(f)
         j = 1
         for league in leagues:
             for event in leagues[league]:
-                if league != "NFL" :
+                if league != "NFL":
                     db_row = {
                         "id": j,
                         "name": leagues[league][event]["name"],
                         "url": leagues[league][event]["url"],
                         "league": league,
-                        "local_date": leagues[league][event]["dates"]["start"]["localDate"],
-                        "local_time": leagues[league][event]["dates"]["start"]["localTime"],
+                        "local_date": leagues[league][event]["dates"]["start"][
+                            "localDate"
+                        ],
+                        "local_time": leagues[league][event]["dates"]["start"][
+                            "localTime"
+                        ],
                         "seatmap": leagues[league][event]["seatmap"]["staticUrl"],
                         "city": leagues[league][event]["_embedded"][0]["city"]["name"],
                         "venue": leagues[league][event]["_embedded"][0]["name"],

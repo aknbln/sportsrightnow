@@ -4,10 +4,11 @@ from flask_cors import CORS
 
 from flask import Flask
 from flask_cors import CORS, cross_origin
+
 app = Flask(__name__)
 cors = CORS(app)
 app.debug = True
-app.config['CORS_HEADERS'] = 'Content-Type'
+app.config["CORS_HEADERS"] = "Content-Type"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config[
     "SQLALCHEMY_DATABASE_URI"
@@ -31,7 +32,6 @@ class Player(db.Model):
     jersey = db.Column(db.String(250))
     league = db.Column(db.String(250))
     espnLink = db.Column(db.String(250))
-    
 
     def to_dict(self):
         return {
@@ -47,7 +47,7 @@ class Player(db.Model):
             "headshot": self.headshot,
             "jersey": self.jersey,
             "league": self.league,
-            "espnLink": self.espnLink
+            "espnLink": self.espnLink,
         }
 
 
@@ -117,6 +117,6 @@ class Event(db.Model):
             "home_team": self.home_team,
             "away_team": self.away_team,
             "home_team_image": self.home_team_image,
-            "home_team_id" : self.homeTeamId,
-            "away_team_id" : self.awayTeamId
+            "home_team_id": self.homeTeamId,
+            "away_team_id": self.awayTeamId,
         }
