@@ -51,11 +51,12 @@ const Players = ({}) => {
 
   function CreateFilter(data){
     let filter = {}
-    if(data.playerName !== "") filter.playerName = data.playerName
+    if(data.playerName !== "") filter.name = data.playerName
     if(data.team !== "") filter.team = data.team
     if(data.college !== "") filter.college = data.college
-    if(data.jerseyNumber !== "" && data.jerseyNumber !== undefined) filter.jerseyNumber = data.jerseyNumber
+    if(data.jerseyNum !== "" && data.jerseyNum !== undefined) filter.jerseyNum = data.jerseyNum
     if(data.league !== "any") filter.league = data.league
+
     setFilterParams(filter)
   }
 

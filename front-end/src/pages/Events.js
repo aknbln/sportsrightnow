@@ -54,8 +54,8 @@ const Events = ({}) => {
     if(data.eventName !== "") filter.name = data.eventName
     if(data.city !== "") filter.city = data.city
     if(data.venue !== "") filter.venue = data.venue
-    if(data.date !== "") filter.date = data.time
-    if(data.time !== "") filter.date = data.time
+    if(data.date !== "") filter.date = data.date
+    if(data.time !== "") filter.time = data.time
     if(data.league !== "any") filter.league = data.league
     console.log(filter)
     setFilterParams(filter)

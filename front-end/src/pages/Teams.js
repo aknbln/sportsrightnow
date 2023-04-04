@@ -56,7 +56,7 @@ const Teams = ({}) => {
     let filter = {}
     if(data.teamName !== "") filter.name = data.teamName
     if(data.city !== "") filter.city = data.city
-    if(data.minWins !== "" && data.minWins !== undefined) filter.wins = data.minWins
+    if(data.minWins !== "" && data.minWins !== undefined) filter.win = data.minWins
     if(data.maxLosses !== "" && data.maxLosses !== undefined) filter.loss = data.maxLosses
     if(data.league !== "any") filter.league = data.league
     console.log(filter)
