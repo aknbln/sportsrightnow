@@ -3,30 +3,36 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Home from './pages/Home'
 import About from './pages/About'
 import Players from './pages/Players'
-import Teams1 from './pages/instances/Teams1'
-import Teams2 from './pages/instances/Teams2'
-import Teams3 from './pages/instances/Teams3'
-import Event1 from './pages/instances/Event1'
-import Event2 from './pages/instances/Event2'
-import Event3 from './pages/instances/Event3'
 import Teams from './pages/Teams'
 import Events from './pages/Events'
 import NotFound from './pages/NotFound'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar'
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import {LinkContainer} from 'react-router-bootstrap'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 import Visualizations from './pages/Visualization';
 import ProviderVisuals from './pages/ProviderVisuals';
-import { NavDropdown } from 'react-bootstrap'
 
 import PlayersInstance from './pages/PlayerInstance';
 import TeamsInstance from './pages/TeamInstance'
 import EventsInstance from './pages/EventInstance';
+import Search from './pages/Search';
 
 
 function App() {
+
+  const navigate = useNavigate()
+
+  const onSearch = e => {
+    e.preventDefault()
+    const formData = new FormData(e.target), formDataObj = Object.fromEntries(formData.entries())
+    navigate("/search?q=" + formDataObj.text)
+  }
+
   return (
     <div>
       <Navbar bg='dark' variant='dark'>
@@ -57,6 +63,19 @@ function App() {
               <LinkContainer to = "/ProviderVisualizations">
                 <Nav.Link>Provider Visualizations</Nav.Link>
               </LinkContainer>
+
+              <div style={{width:"30%"}}/>
+
+              <Form className="d-flex" style={{width:"20%", float:"right"}} onSubmit={onSearch}>
+                <Form.Control
+                  type="search"
+                  name="text"
+                  placeholder="Search"
+                  className="me-2"
+                  aria-label="Search"
+                />
+                <Button type="submit">Search</Button>
+              </Form>
             </Nav>
         </Container>
         </Navbar.Collapse>
@@ -78,6 +97,8 @@ function App() {
           <Route path="/visualizations" element={<Visualizations/>}/>
 
           <Route path="/ProviderVisualizations" element={<ProviderVisuals/>}/>
+
+          <Route path="/Search" element={<Search/>}/>
 
         </Routes>
     </div>
