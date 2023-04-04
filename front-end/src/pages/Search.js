@@ -93,7 +93,7 @@ const Search = ({}) =>{
                           {resPlayers.map((dat) => {
                             return (
                             <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
-                              <PlayerCard playerData={dat}/>                        
+                              <PlayerCard playerData={dat} q={querry}/>                        
                             </Col>
                             )
                           })}
@@ -109,7 +109,7 @@ const Search = ({}) =>{
                           {resTeams.map((dat) => {
                             return (
                             <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
-                              <TeamCard sportsTeamData={dat}/>                        
+                              <TeamCard sportsTeamData={dat} q={querry}/>                        
                             </Col>
                             )
                           })}
@@ -125,7 +125,7 @@ const Search = ({}) =>{
                           {resEvents.map((dat) => {
                             return (
                             <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
-                              <EventCard eventData={dat}/>                        
+                              <EventCard eventData={dat} q={querry}/>                        
                             </Col>
                             )
                           })}

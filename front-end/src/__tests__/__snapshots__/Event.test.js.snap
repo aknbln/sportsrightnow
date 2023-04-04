@@ -22,7 +22,13 @@ exports[`EventCard renders correctly 1`] = `
         }
       }
     >
-      Buffalo Ballers vs Jovian Jabbers
+      <span>
+        <span
+          className=""
+        >
+          Buffalo Ballers vs Jovian Jabbers
+        </span>
+      </span>
     </div>
     <p
       className="card-text"
@@ -34,7 +40,13 @@ exports[`EventCard renders correctly 1`] = `
       }
     >
       Date: 
-      1/01/1984
+      <span>
+        <span
+          className=""
+        >
+          1/01/1984
+        </span>
+      </span>
     </p>
     <p
       className="card-text"
@@ -46,7 +58,13 @@ exports[`EventCard renders correctly 1`] = `
       }
     >
       Time: 
-      00:00
+      <span>
+        <span
+          className=""
+        >
+          00:00
+        </span>
+      </span>
     </p>
     <p
       className="card-text"
@@ -58,7 +76,13 @@ exports[`EventCard renders correctly 1`] = `
       }
     >
       City: 
-      Jupiter
+      <span>
+        <span
+          className=""
+        >
+          Jupiter
+        </span>
+      </span>
     </p>
     <p
       className="card-text"
@@ -70,7 +94,13 @@ exports[`EventCard renders correctly 1`] = `
       }
     >
       Venue: 
-      Europa Gigadome
+      <span>
+        <span
+          className=""
+        >
+          Europa Gigadome
+        </span>
+      </span>
     </p>
   </div>
   <div
