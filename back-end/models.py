@@ -55,6 +55,7 @@ class Team(db.Model):
     __tablename__ = "teams"
     id = db.Column(db.String(250), primary_key=True)
     name = db.Column(db.String(250))
+    league = db.Column(db.String(250))
     division = db.Column(db.String(250))
     conference = db.Column(db.String(250))
     rank = db.Column(db.Integer)
@@ -62,7 +63,6 @@ class Team(db.Model):
     totalLosses = db.Column(db.Integer)
     logo = db.Column(db.String(250))
     city = db.Column(db.String(250))
-    league = db.Column(db.String(250))
     # stadium_name = db.Column(db.String(250))
     # espnLink = db.Column(db.String(250))
     # players = db.relationship('Player', backref = 'team')
@@ -73,14 +73,14 @@ class Team(db.Model):
         return {
             "id": self.id,
             "name": self.name,
+            "league": self.league,
             "division": self.division,
             "conference": self.conference,
             "rank": self.rank,
             "totalWins": self.totalWins,
             "totalLosses": self.totalLosses,
             "logo": self.logo,
-            "city": self.city,
-            "league": self.league,
+            "city": self.city
             # "espnLink": self.espnLink,
             # "stadium_name": self.stadium_name,
         }

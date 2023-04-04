@@ -13,11 +13,8 @@ def populate_players():
         i = 0
         j = 1
         for league in leagues:
-
             for team in leagues[league]:
-
                 for player in team["players"]:
-
                     if "name" in player:
                         db_row = {
                             # "id": player['name'] if 'name' in player else j,
@@ -55,7 +52,6 @@ def populate_players():
                             
                         }
                         j += 1
-                        # print("hi")
                         db.session.add(Player(**db_row))
             i += 1
         db.session.commit()
@@ -66,18 +62,17 @@ def populate_teams():
         leagues = json.load(f)
         for league in leagues:
             for team in leagues[league]["results"]:
-                print(league)
                 db_row = {
                     "id": team['team_id'],
                     "name": team["team"],
+                    "league": league,
                     "division": team["division"],
                     "conference": team["conference"],
                     "rank": team["rank"],
                     "totalWins": team["totalWins"],
                     "totalLosses": team["totalLosses"],
                     "logo": team["logo"],
-                    "city": team["location"],
-                    "league": league,
+                    "city": team["location"]
                     # "stadium_name": team['stadium_name'],
                     # "espnLink": team['espnLink']
                     
@@ -98,7 +93,6 @@ def populate_events():
         leagues = json.load(f)
         j = 1
         for league in leagues:
-
             for event in leagues[league]:
                 if league != "NFL" :
                     db_row = {
