@@ -12,6 +12,13 @@ import {
     ResponsiveContainer,
   } from 'recharts';
 
+import axios from "axios";
+
+
+const ax = axios.create({
+    baseURL: "https://api.sportsrightnow.me/"
+})
+
   const WinSizeChart = ({}) => {
 
     let nbaData = []
@@ -27,6 +34,14 @@ import {
         }
     }
     useEffect(() => {
+        const fetchTeams = async() => {
+            await ax
+            .get("players")
+            .then((response) => (
+                console.log(response.data.data)
+            ))
+        }
+
         data.forEach(team => MapData(team))
     }, [])
 
