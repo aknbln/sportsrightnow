@@ -3,6 +3,7 @@ from models import app, db, Player, Team, Event
 from schema import player_schema, team_schema, event_schema
 from sqlalchemy.sql import text, column, desc
 import json
+import datetime
 from flask_cors import cross_origin
 
 # python3 -m virtualenv venv
@@ -24,10 +25,37 @@ def home():
 def get_players():
     page = request.args.get("page", type=int)
     perPage = request.args.get("perPage", type=int)
+
+    name = request.args.get("name", type=str)
+    team = request.args.get("team", type=str)
+    college = request.args.get("college", type=str)
+    jerseyNum = request.args.get("jerseyNum", type=str)
+    league = request.args.get("league", type=str)
+
     query = db.session.query(Player)
     count = query.count()
+    #PAGINATION
     if page is not None:
         query = paginate(query, page, perPage)
+
+    #FILTER
+    if name is not None:
+        query = query.filter(Player.name.like("%" + name + "%"))
+
+
+
+    if team is not None:
+        query = query.filter(Player.team == team)
+
+    if college is not None:
+        query = query.filter(Player.college == college)
+    
+    if jerseyNum is not None:
+        query = query.filter(Player.jersey == jerseyNum)
+    
+    if league is not None:
+        query = query.filter(Player.league == league)
+    
     result = player_schema.dump(query, many = True)
     response = jsonify({"data": result, "meta": {"count": count}})
     response.headers.add("Access-Control-Allow-Origin", "*")
@@ -38,24 +66,77 @@ def get_players():
 def get_teams():
     page = request.args.get("page", type=int)
     perPage = request.args.get("perPage", type=int)
+    name = request.args.get("name", type=str)
+    league = request.args.get("league", type=str)
+    win = request.args.get("win", type=int)
+    loss = request.args.get("loss", type=int)
+
     query = db.session.query(Team)
     count = query.count()
+    #PAGINATION
     if page is not None:
         query = paginate(query, page, perPage)
+
+    #FILTER
+    if name is not None:
+        query = query.filter(Team.name.like("%" + name + "%"))
+    
+    if league is not None:
+        query = query.filter(Team.league == league)
+
+    if win is not None:
+        query = query.filter(Team.totalWins >= win)
+    
+    if loss is not None:
+        query = query.filter(Team.totalLosses <= loss)
+    
     result = team_schema.dump(query, many=True)
     response = jsonify({"data": result, "meta": {"count": count}})
     response.headers.add("Access-Control-Allow-Origin", "*")
     return response
 
+def toDate(dateString): 
+    return datetime.datetime.strptime(dateString, "%Y-%m-%d").date()
 
 @app.route("/events")
 def get_events():
     page = request.args.get("page", type=int)
     perPage = request.args.get("perPage", type=int)
+
+    name = request.args.get("name", type=str)
+    city  = request.args.get("city", type=str)
+    venue = request.args.get("venue", type=str)
+    date = request.args.get("date", type=str)
+    league = request.args.get("league", type=str)
+    time = request.args.get("time", type=str)
+
+
     query = db.session.query(Event)
     count = query.count()
+    #PAGINATION
     if page is not None:
         query = paginate(query, page, perPage)
+
+    #FILTER
+    if name is not None:
+        query = query.filter(Event.name.like("%" + name + "%"))
+    
+    if city is not None:
+        query = query.filter(Event.city == city)
+    
+    if venue is not None:
+        query = query.filter(Event.venue == venue)
+    
+    #check if this is true
+    if date is not None:
+        query = query.filter(Event.local_date == date)
+    
+    if league is not None:
+
+        query = query.filter(Event.venue.contains(league))
+    
+    if time is not None:
+        query = query.filter(Event.local_time.contains(time))
     result = event_schema.dump(query, many=True)
     response = jsonify({"data": result, "meta": {"count": count}})
     response.headers.add("Access-Control-Allow-Origin", "*")

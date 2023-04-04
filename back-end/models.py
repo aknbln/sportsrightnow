@@ -32,6 +32,7 @@ class Player(db.Model):
     league = db.Column(db.String(250))
     espnLink = db.Column(db.String(250))
     
+
     def to_dict(self):
         return {
             "id": self.id,
@@ -64,7 +65,7 @@ class Team(db.Model):
     league = db.Column(db.String(250))
     # players = db.relationship('Player', backref = 'team')
     espnLink = db.Column(db.String(250))
-    # stadium_name = db.Column(db.String(250))
+    stadium_name = db.Column(db.String(250))
 
     def to_dict(self):
         return {
@@ -79,7 +80,7 @@ class Team(db.Model):
             "city": self.city,
             "league": self.league,
             "espnLink": self.espnLink,
-            # "stadium_name": self.stadium_name,
+            "stadium_name": self.stadium_name,
         }
 
 
@@ -88,6 +89,7 @@ class Event(db.Model):
     id = db.Column(db.String(250), primary_key=True)
     name = db.Column(db.String(250))
     url = db.Column(db.String(250))
+    league = db.Column(db.String(250))
     local_date = db.Column(db.String(250))
     local_time = db.Column(db.String(250))
     seatmap = db.Column(db.String(250))
@@ -104,6 +106,7 @@ class Event(db.Model):
             "id": self.id,
             "name": self.name,
             "url": self.url,
+            "league": self.league,
             "local_date": self.local_date,
             "local_time": self.local_time,
             "seatmap": self.seatmap,
