@@ -18,6 +18,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import {LinkContainer} from 'react-router-bootstrap'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Visualizations from './pages/Visualization';
+import ProviderVisuals from './pages/ProviderVisuals';
 import { NavDropdown } from 'react-bootstrap'
 
 import PlayersInstance from './pages/PlayerInstance';
@@ -53,6 +54,9 @@ function App() {
               <LinkContainer to = "/Visualizations">
                 <Nav.Link>Visualizations</Nav.Link>
               </LinkContainer>
+              <LinkContainer to = "/ProviderVisualizations">
+                <Nav.Link>Provider Visualizations</Nav.Link>
+              </LinkContainer>
             </Nav>
         </Container>
         </Navbar.Collapse>
@@ -72,6 +76,8 @@ function App() {
           <Route path="/events/instance" element={<EventsInstance />}/>
 
           <Route path="/visualizations" element={<Visualizations/>}/>
+
+          <Route path="/ProviderVisualizations" element={<ProviderVisuals/>}/>
 
         </Routes>
     </div>
