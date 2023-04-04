@@ -23,17 +23,18 @@ const Events = ({}) => {
   const [dataLength, setDataLength] = useState(0)
   const [pageCount, setPageCount] = useState(0)
   const [pages, setPages] = useState([])
-  const [loaded, setLoaded] = useState(false);
+  const [loaded, setLoaded] = useState(false)
+  const [filterParams, setFilterParams] = useState({})
 
   const {register, handleSubmit} = useForm()
-  const onSubmit = data => console.log(data)
+  const onSubmit = data => CreateFilter(data)
 
   const ITEMS_PER_PAGE = 9
   const stateRef = useRef()
   stateRef.current = eventData
 
   let active = 1
-  
+
   function CreatePages(count){
     let temp = []
 
@@ -48,38 +49,77 @@ const Events = ({}) => {
     setPages(temp)
   }
 
+  function CreateFilter(data){
+    let filter = {}
+    if(data.eventName !== "") filter.name = data.eventName
+    if(data.city !== "") filter.city = data.city
+    if(data.venue !== "") filter.venue = data.venue
+    if(data.date !== "") filter.date = data.time
+    if(data.time !== "") filter.date = data.time
+    if(data.league !== "any") filter.league = data.league
+    console.log(filter)
+    setFilterParams(filter)
+  }
+
   useEffect(() => {
     
 
     const fetchData = async() => {
       await ax
-      .get("events")
+      .get("events", {params})
       .then((response) => (
         setDataLength(response.data.data.length),
         setPageCount(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
         CreatePages(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
         setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)),
+        setLoaded(true),
         changePage(1))
       )
     }
 
-    fetchData()
+    setLoaded(false)
+    const params = new URLSearchParams(filterParams)
+    fetchData(params)
     
-  }, [])
+  }, [filterParams])
+
+  useEffect(() => {
+    CreatePages(pageCount)
+  }, [currentPage])
 
   function changePage(num) {
 
-    const fetch = async(pageNum) => {
+    const fetch = async(params) => {
       await ax
-      .get("events", {params: {page: pageNum, perPage: ITEMS_PER_PAGE}})
+      .get("events", {params})
       .then((response) => (
         setEventData(response.data.data)
       ))
     }
+    
+    let p = structuredClone(filterParams)
+    p.page = num
+    p.perPage = ITEMS_PER_PAGE
+    const params = new URLSearchParams(p)
     setCurrentPage(num)
-    fetch(num)
+    fetch(params)
   }
 
+  if(!loaded){
+    return(
+      <div className="Events">
+      <header className="App-header" style={{padding: "2%"}}>
+        <h1>Events</h1>
+        <p>Find your upcoming events!</p>
+      </header>
+      
+      <div className="App-body">
+        <h2>Loading...</h2>
+      </div>
+    </div>
+    )
+  }
+  else{
   return (
     <div className="Events">
       <header className="App-header" style={{padding:"2%"}}>
@@ -160,6 +200,7 @@ const Events = ({}) => {
       </div>
     </div>
   );
+  }
 };
 
 export default Events

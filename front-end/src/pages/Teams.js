@@ -26,9 +26,10 @@ const Teams = ({}) => {
   const [pageCount, setPageCount] = useState(0)
   const [pages, setPages] = useState([])
   const [loaded, setLoaded] = useState(false)
+  const [filterParams, setFilterParams] = useState({})
 
   const {register, handleSubmit} = useForm()
-  const onSubmit = data => console.log(data)
+  const onSubmit = data => CreateFilter(data)
 
   const ITEMS_PER_PAGE = 9
   const stateRef = useRef()
@@ -51,38 +52,76 @@ const Teams = ({}) => {
     setPages(temp)
   }
 
+  function CreateFilter(data){
+    let filter = {}
+    if(data.teamName !== "") filter.name = data.teamName
+    if(data.city !== "") filter.city = data.city
+    if(data.minWins !== "" && data.minWins !== undefined) filter.wins = data.minWins
+    if(data.maxLosses !== "" && data.maxLosses !== undefined) filter.loss = data.maxLosses
+    if(data.league !== "any") filter.league = data.league
+    console.log(filter)
+    setFilterParams(filter)
+  }
+
   useEffect(() => {
     
 
-    const fetchData = async() => {
+    const fetchData = async(params) => {
       await ax
-      .get("teams")
+      .get("teams", {params})
       .then((response) => (
         setDataLength(response.data.data.length),
         setPageCount(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
         CreatePages(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
         setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)),
+        setLoaded(true),
         changePage(1))
       )
     }
 
-    fetchData()
+    setLoaded(false)
+    const params = new URLSearchParams(filterParams)
+    fetchData(params)
     
-  }, [])
+  }, [filterParams])
+
+  useEffect(() => {
+    CreatePages(pageCount)
+  }, [currentPage])
 
   function changePage(num) {
 
-    const fetch = async(pageNum) => {
+    const fetch = async(params) => {
       await ax
-      .get("teams", {params: {page: pageNum, perPage: ITEMS_PER_PAGE}})
+      .get("teams", {params})
       .then((response) => (
         setTeamData(response.data.data)
       ))
     }
+
+    let p = structuredClone(filterParams)
+    p.page = num
+    p.perPage = ITEMS_PER_PAGE
+    const params = new URLSearchParams(p)
     setCurrentPage(num)
-    fetch(num)
+    fetch(params)
   }
 
+  if(!loaded){
+    return(
+      <div className="Teams">
+      <header className="App-header" style={{padding: "2%"}}>
+        <h1>Teams</h1>
+        <p>Find your favorite teams!</p>
+      </header>
+      
+      <div className="App-body">
+        <h2>Loading...</h2>
+      </div>
+    </div>
+    )
+  }
+  else{
   return (
     <div className="Teams">
       <header className="App-header" style={{padding:"2%"}}>
@@ -114,6 +153,7 @@ const Teams = ({}) => {
               <label>League</label>
               <br/>
               <select {...register("league")}>
+                <option value="any">Any</option>
                 <option value="nba">NBA</option>
                 <option value="nfl">NFL</option>
                 <option value="mlb">MLB</option>
@@ -156,6 +196,7 @@ const Teams = ({}) => {
       </div>
     </div>
   );
+  }
 };
 
 export default Teams
