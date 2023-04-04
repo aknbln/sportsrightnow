@@ -2,6 +2,8 @@ from flask import jsonify, request, Response
 from models import app, db, Player, Team, Event
 from schema import player_schema, team_schema, event_schema
 from sqlalchemy import or_
+from sqlalchemy.sql import desc
+
 import json
 import datetime
 
@@ -139,6 +141,8 @@ def get_players():
     college = request.args.get("college", type=str)
     jerseyNum = request.args.get("jerseyNum", type=str)
     league = request.args.get("league", type=str)
+    sort = request.args.get("sort")
+    asc = request.args.get("asc")
 
     query = db.session.query(Player)
     count = query.count()
@@ -159,6 +163,13 @@ def get_players():
     if league is not None:
         query = query.filter(Player.league == league)
 
+    # SORTING
+    if sort is not None and getattr(Player, sort) is not None:
+        if asc is not None:
+            query = query.order_by(getattr(Player, sort))
+        else:
+            query = query.order_by(desc(getattr(Player, sort)))
+
     # PAGINATION
     if page is not None:
         query = paginate(query, page, perPage)
@@ -178,6 +189,9 @@ def get_teams():
     win = request.args.get("win", type=int)
     loss = request.args.get("loss", type=int)
     city = request.args.get("city", type=str)
+    sort = request.args.get("sort")
+    asc = request.args.get("asc")
+
     query = db.session.query(Team)
     count = query.count()
 
@@ -196,6 +210,13 @@ def get_teams():
 
     if city is not None:
         query = query.filter(Team.city.like("%" + city + "%"))
+
+    # SORTING
+    if sort is not None and getattr(Team, sort) is not None:
+        if asc is not None:
+            query = query.order_by(getattr(Team, sort))
+        else:
+            query = query.order_by(desc(getattr(Team, sort)))
 
     # PAGINATION
     if page is not None:
@@ -222,6 +243,8 @@ def get_events():
     date = request.args.get("date", type=str)
     league = request.args.get("league", type=str)
     time = request.args.get("time", type=str)
+    sort = request.args.get("sort")
+    asc = request.args.get("asc")
 
     query = db.session.query(Event)
     count = query.count()
@@ -244,6 +267,13 @@ def get_events():
 
     if time is not None:
         query = query.filter(Event.local_time.contains(time))
+
+    # SORTING
+    if sort is not None and getattr(Event, sort) is not None:
+        if asc is not None:
+            query = query.order_by(getattr(Event, sort))
+        else:
+            query = query.order_by(desc(getattr(Event, sort)))
 
     # PAGINATION
     if page is not None:
