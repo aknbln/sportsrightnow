@@ -36,3 +36,7 @@ for l in data:
 data_list = sorted(data_list, key=itemgetter("winRate"), reverse=True)
 with open("teamsize.json", "w") as outfile:
     json.dump(data_list, outfile, indent=4)
+
+for entry in data_list:
+    if entry['league'] == 'NFL':
+        print(entry['winRate'])

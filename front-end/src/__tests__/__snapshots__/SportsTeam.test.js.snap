@@ -87,13 +87,7 @@ exports[`TeamCard renders correctly 1`] = `
       }
     >
       Wins: 
-      <span>
-        <span
-          className=""
-        >
-          999
-        </span>
-      </span>
+      999
     </p>
     <p
       className="card-text"
@@ -105,13 +99,7 @@ exports[`TeamCard renders correctly 1`] = `
       }
     >
       Losses: 
-      <span>
-        <span
-          className=""
-        >
-          -1
-        </span>
-      </span>
+      -1
     </p>
   </div>
   <div

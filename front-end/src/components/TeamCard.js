@@ -21,8 +21,8 @@ const TeamCard = (props) => {
         <Card.Title style = {{fontSize: '3vh', color: '#333232'}}>{Highlight(name, search)}</Card.Title>
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>League: {Highlight(league, search)}</Card.Text>
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>City: {Highlight(city, search)}</Card.Text>
-        <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Wins: {Highlight(totalWins, search)}</Card.Text>
-        <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Losses: {Highlight(totalLosses, search)}</Card.Text>
+        <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Wins: {totalWins}</Card.Text>
+        <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Losses: {totalLosses}</Card.Text>
       </Card.Body>
       <Card.Footer style= {{backgroundColor: 'dimgray'}}>
         <Button class="btn btn-primary stretched-link" onClick={() => ButtonClicked(id)}

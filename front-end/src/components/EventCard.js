@@ -15,13 +15,24 @@ const EventCard = (props) => {
     navigate("/events/instance?id=" + id)
   }
 
+  function CheckIfPastEvent(time){
+    if(time.includes("-")){
+      return "Past Event"
+    }
+    else{
+      return Highlight(local_time, search)
+    }
+  }
+
   return (
     <Card
     style= {{backgroundColor: 'lightgray', width: "120%"}}>
       <Card.Body>
         <Card.Header style = {{fontSize: '3vh', color: '#333232'}}>{Highlight(name, search)}</Card.Header>
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Date: {Highlight(local_date, search)}</Card.Text>
-        <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Time: {Highlight(local_time, search)}</Card.Text>
+
+        <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Time: {CheckIfPastEvent(local_time)}</Card.Text>
+
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>City: {Highlight(city, search)}</Card.Text>
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Venue: {Highlight(venue, search)}</Card.Text>
         

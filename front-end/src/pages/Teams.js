@@ -59,7 +59,32 @@ const Teams = ({}) => {
     if(data.minWins !== "" && data.minWins !== undefined) filter.win = data.minWins
     if(data.maxLosses !== "" && data.maxLosses !== undefined) filter.loss = data.maxLosses
     if(data.league !== "any") filter.league = data.league
-    console.log(filter)
+    
+    switch(data.sort){
+      case "default":
+        break
+      case "name-asc":
+        filter.sort = "name"
+        filter.asc = true
+        break
+      case "name-dsc":
+          filter.sort = "name"
+          break
+      case "wins-asc":
+        filter.sort = "totalWins"
+        filter.asc = true
+        break
+      case "wins-dsc":
+        filter.sort = "totalWins"
+        break
+      case "loss-asc":
+        filter.sort = "totalLosses"
+        filter.asc = true
+        break
+      case "loss-dsc":
+        filter.sort = "totalLosses"
+        break
+    }
     setFilterParams(filter)
   }
 
@@ -134,7 +159,7 @@ const Teams = ({}) => {
         <Container style={{padding: '3vh'}}>
           <h1>Teams</h1>
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
-          <h2>Filter</h2>
+          <h2>Filter / Sort</h2>
 
           <form onSubmit={handleSubmit(onSubmit)} style={{display: 'flex', flexWrap:"wrap", gap: "1%", rowGap:"1vh"}}>
             <div className='Form-element'>
@@ -176,7 +201,23 @@ const Teams = ({}) => {
 
             <div style={{width: "100%"}}/>
 
-            <input type="submit" value="Filter" style={{width: '15%'}}/> 
+            <div className='Form-element'>
+              <label>Sort By</label>
+              <br/>
+              <select {...register("sort")}>
+                <option value="default">Default</option>
+                <option value="name-asc">Name A-Z</option>
+                <option value="name-dsc">Name Z-A</option>
+                <option value="wins-asc">Wins ↑</option>
+                <option value="wins-dsc">Wins ↓ </option>
+                <option value="loss-asc">Losses ↑</option>
+                <option value="loss-dsc">Losses ↓ </option>
+              </select>
+            </div>
+
+            <div style={{width: "100%"}}/>
+
+            <input type="submit" value="Filter" style={{width: '15%', marginTop:"3vh"}}/> 
           </form>
 
           <hr style={{backgroundColor: 'white', height: "2px"}}/>

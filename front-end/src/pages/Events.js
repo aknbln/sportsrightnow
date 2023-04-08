@@ -57,7 +57,26 @@ const Events = ({}) => {
     if(data.date !== "") filter.date = data.date
     if(data.time !== "") filter.time = data.time
     if(data.league !== "any") filter.league = data.league
-    console.log(filter)
+    
+    switch(data.sort){
+      case "default":
+        break
+      case "name-asc":
+        filter.sort = "name"
+        filter.asc = true
+        break
+      case "name-dsc":
+        filter.sort = "name"
+        break
+      case "date-asc":
+        filter.sort = "local_date"
+        filter.asc = true
+        break
+      case "date-dsc":
+        filter.sort = "local_date"
+        break
+    }
+
     setFilterParams(filter)
   }
 
@@ -133,7 +152,7 @@ const Events = ({}) => {
           
         <h1>Events</h1>
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
-          <h2>Filter</h2>
+          <h2>Filter / Sort</h2>
 
           <form onSubmit={handleSubmit(onSubmit)} style={{display: 'flex', flexWrap:"wrap", gap: "1%", rowGap:"1vh"}}>
             <div className='Form-element'>
@@ -152,6 +171,7 @@ const Events = ({}) => {
               <label>League</label>
               <br/>
               <select {...register("league")}>
+                <option value="any">Any</option>
                 <option value="nba">NBA</option>
                 <option value="nfl">NFL</option>
                 <option value="mlb">MLB</option>
@@ -176,6 +196,20 @@ const Events = ({}) => {
               <label>Time</label>
               <br/>
               <input type="time" name="time" {...register("time")}/>
+            </div>
+
+            <div style={{width: "100%"}}/>
+
+            <div className='Form-element'>
+              <label>Sort By</label>
+              <br/>
+              <select {...register("sort")}>
+                <option value="default">Default</option>
+                <option value="name-asc">Name A-Z</option>
+                <option value="name-dsc">Name Z-A</option>
+                <option value="date-asc">Date ↑</option>
+                <option value="date-dsc">Date ↓</option>
+              </select>
             </div>
 
             <div style={{width: "100%"}}/>

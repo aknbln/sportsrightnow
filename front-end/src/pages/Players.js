@@ -57,6 +57,25 @@ const Players = ({}) => {
     if(data.jerseyNum !== "" && data.jerseyNum !== undefined) filter.jerseyNum = data.jerseyNum
     if(data.league !== "any") filter.league = data.league
 
+    switch(data.sort){
+      case "default":
+        break
+      case "name-asc":
+        filter.sort = "name"
+        filter.asc = true
+        break
+      case "name-dsc":
+        filter.sort = "name"
+        break
+      case "team-asc":
+        filter.sort = "team"
+        filter.asc = true
+        break
+      case "team-dsc":
+        filter.sort = "team"
+        break
+    }
+
     setFilterParams(filter)
   }
 
@@ -132,7 +151,7 @@ const Players = ({}) => {
           <h1>Players</h1>
           
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
-          <h2>Filter</h2>
+          <h2>Filter / Sort</h2>
 
           <form onSubmit={handleSubmit(onSubmit)} style={{display: 'flex', flexWrap:"wrap", gap: "1%", rowGap:"1vh"}}>
             <div className='Form-element'>
@@ -174,7 +193,21 @@ const Players = ({}) => {
 
             <div style={{width: "100%"}}/>
 
-            <input type="submit" value="Filter" style={{width: '15%'}}/> 
+            <div className='Form-element'>
+              <label>Sort By</label>
+              <br/>
+              <select {...register("sort")}>
+                <option value="default">Default</option>
+                <option value="name-asc">Name A-Z</option>
+                <option value="name-dsc">Name Z-A</option>
+                <option value="team-asc">Team A-Z</option>
+                <option value="team-dsc">Team Z-A</option>
+              </select>
+            </div>
+
+            <div style={{width: "100%"}}/>
+
+            <input type="submit" value="Filter" style={{width: '15%', marginTop:"3vh"}}/> 
           </form>
 
           <hr style={{backgroundColor: 'white', height: "2px"}}/>

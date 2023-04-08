@@ -30,7 +30,7 @@ export function Highlight(text, search){
   if(search && search !== ""){
     return (
         <Highlighter textToHighlight={text} searchWords={search} autoEscape={true}/>
-      )
+    )
   }
   else{
     return text
