@@ -87,15 +87,16 @@ const TeamsInstance = ({}) =>{
                 
                 <div style={{padding: '1%'}}>
                   <h2>Roster</h2>
-                  {
+                  <Row xs={2} md={3} lg={4}>
+                    {
                     playerData.map((player) => {
                       return (
                         <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
                           <PlayerCard playerData={player}/>                        
                         </Col>
                      )
-                    })
-                  }
+                  })}
+                  </Row>
                 </div>
 
                 <hr style={{backgroundColor: 'white', width: "40%", margin: "auto"}}/>
