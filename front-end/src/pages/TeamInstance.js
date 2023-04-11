@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { playerData } from '../assets/PlayerData'
 import {Link, useSearchParams} from 'react-router-dom'
 import { GenerateMapQuerry } from '../Utils'
+import PlayerCard from '../components/PlayerCard';
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 
 import axios from 'axios'
 
@@ -81,12 +84,16 @@ const TeamsInstance = ({}) =>{
                 </div>
 
                 <hr style={{backgroundColor: 'white', width: "40%", margin: "auto"}}/>
-
+                
                 <div style={{padding: '1%'}}>
                   <h2>Roster</h2>
                   {
                     playerData.map((player) => {
-                      return <p><Link to={`/players/instance?id=${player.id}`}>{player.name}</Link></p>
+                      return (
+                        <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
+                          <PlayerCard playerData={player}/>                        
+                        </Col>
+                     )
                     })
                   }
                 </div>
