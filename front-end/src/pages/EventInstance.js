@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import {Link, useSearchParams} from 'react-router-dom'
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+import PlayerCard from '../components/PlayerCard';
 
 import axios from 'axios'
 
@@ -89,22 +92,34 @@ const EventsInstance = ({}) =>{
 
                 <div style={{padding: '1%'}}>
                   <h2>Featured {fetchedData.home_team} Players</h2>
-                  {
-                    homePlayerData.slice(0,4).map((player) => {
-                      return <p><Link to={`/players/instance?id=${player.id}`}>{player.name}</Link></p>
-                    })
-                  }
+                  <Row xs={2} md={3} lg={4}>
+                    {
+                      homePlayerData.slice(0,4).map((player) => {
+                        return (
+                          <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
+                            <PlayerCard playerData={player}/>                        
+                         </Col>
+                       )
+                     })
+                   }
+                  </Row>
                 </div>
 
                 <hr style={{backgroundColor: 'white', width: "40%", margin: "auto"}}/>
 
                 <div style={{padding: '1%'}}>
                   <h2>Featured {fetchedData.away_team} Players</h2>
-                  {
-                    awayPlayerData.slice(0,4).map((player) => {
-                      return <p><Link to={`/players/instance?id=${player.id}`}>{player.name}</Link></p>
-                    })
-                  }
+                  <Row xs={2} md={3} lg={4}>
+                    {
+                      awayPlayerData.slice(0,4).map((player) => {
+                        return (
+                          <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
+                            <PlayerCard playerData={player}/>                        
+                         </Col>
+                       )
+                     })
+                   }
+                  </Row>
                 </div>
 
                 <hr style={{backgroundColor: 'white', width: "60%", margin: "auto"}}/>

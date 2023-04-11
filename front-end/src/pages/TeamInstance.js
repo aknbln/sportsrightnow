@@ -104,7 +104,7 @@ const TeamsInstance = ({}) =>{
 
                 <div style={{padding: '1%'}}>
                   <h2>Upcoming Events</h2>
-                  <Row xs={2} md={3} lg={4}>
+                  <Row>
                     {
                       eventData.map((event) => {
                         return (
