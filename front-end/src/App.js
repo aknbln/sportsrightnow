@@ -5,6 +5,7 @@ import About from './pages/About'
 import Players from './pages/Players'
 import Teams from './pages/Teams'
 import Events from './pages/Events'
+import PastEvent from './pages/PastEvent'
 import NotFound from './pages/NotFound'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -93,6 +94,8 @@ function App() {
           <Route path="/players/instance" element={<PlayersInstance />}/>
 
           <Route path="/events/instance" element={<EventsInstance />}/>
+
+          <Route path="/events/past_event" element={<PastEvent />}/>
 
           <Route path="/visualizations" element={<Visualizations/>}/>
 
