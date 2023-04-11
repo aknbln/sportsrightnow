@@ -3,6 +3,7 @@ import { playerData } from '../assets/PlayerData'
 import {Link, useSearchParams} from 'react-router-dom'
 import { GenerateMapQuerry } from '../Utils'
 import PlayerCard from '../components/PlayerCard';
+import EventCard from '../components/EventCard';
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
@@ -103,11 +104,16 @@ const TeamsInstance = ({}) =>{
 
                 <div style={{padding: '1%'}}>
                   <h2>Upcoming Events</h2>
-                  {
-                    eventData.map((event) => {
-                      return <p><Link to={`/events/instance?id=${event.id}`}>{event.name}</Link></p>
-                    })
-                  }
+                  <Row xs={2} md={3} lg={4}>
+                    {
+                      eventData.map((event) => {
+                        return (
+                        <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
+                          <EventCard eventData={event}/>
+                        </Col>
+                     )})
+                   }
+                  </Row>
                 </div>
                 
                 <hr style={{backgroundColor: 'white', width: "60%", margin: "auto"}}/>
