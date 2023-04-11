@@ -83,9 +83,9 @@ const TeamsInstance = ({}) =>{
                 <hr style={{backgroundColor: 'white', width: "40%", margin: "auto"}}/>
 
                 <div style={{padding: '1%'}}>
-                  <h2>Notable Players</h2>
+                  <h2>Roster</h2>
                   {
-                    playerData.slice(0,4).map((player) => {
+                    playerData.map((player) => {
                       return <p><Link to={`/players/instance?id=${player.id}`}>{player.name}</Link></p>
                     })
                   }
