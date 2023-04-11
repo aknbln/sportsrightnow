@@ -3,7 +3,9 @@ import { playerData } from '../assets/PlayerData'
 import {Link, useSearchParams} from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import { GenerateMapQuerry } from '../Utils'
-
+import EventCard from '../components/EventCard';
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 
 import axios from 'axios'
 
@@ -94,11 +96,16 @@ const PlayersInstance = ({}) =>{
 
                 <hr style={{backgroundColor: 'white', width: "40%", margin: "auto"}}/>
                 <h2>Upcoming Events</h2>
-                {
-                  eventData.map((event) => {
-                    return <p><Link to={`/events/instance?id=${event.id}`}>{event.name}</Link></p>
-                  })
-                }
+                <Row>
+                    {
+                      eventData.map((event) => {
+                        return (
+                        <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
+                          <EventCard eventData={event}/>
+                        </Col>
+                     )})
+                   }
+                  </Row>
                 <hr style={{backgroundColor: 'white', width: "40%", margin: "auto"}}/>
                 <Link to='/players'>Back to Players</Link>
               </div>
