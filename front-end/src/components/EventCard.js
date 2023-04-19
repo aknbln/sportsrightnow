@@ -26,7 +26,7 @@ const EventCard = (props) => {
 
   return (
     <Card
-    style= {{backgroundColor: 'lightgray', width: "120%"}}>
+    style= {{backgroundColor: 'lightgray', width: '120%',}}>
       <Card.Body>
         <Card.Header style = {{fontSize: '3vh', color: '#333232'}}>{Highlight(name, search)}</Card.Header>
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Date: {Highlight(local_date, search)}</Card.Text>

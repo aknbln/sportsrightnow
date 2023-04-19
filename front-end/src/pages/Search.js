@@ -27,15 +27,17 @@ const Search = ({}) =>{
 
     function processData(data){
       let count = 0
-      let temp = data.players.slice(0, 12);
+      let temp = data.players;
+       // let temp = data.players.slice(0, 12);
       count += temp.length
       setResPlayers(temp)
-
-      temp = data.teams.slice(0, 12);
+      temp = data.teams
+      // temp = data.teams.slice(0, 12);
       count += temp.length
       setResTeams(temp)
 
-      temp = data.events.slice(0, 12);
+      temp = data.events
+      // temp = data.events.slice(0, 12);
       count += temp.length
       setResEvents(temp)
       
@@ -84,15 +86,15 @@ const Search = ({}) =>{
             <div className='App-body'>
               <h2>{resultCount} Results</h2>
               <div style={{height:"6vh"}}/>
-              <Tabs defaultActiveKey="players" className="mb-1">
+              <Tabs defaultActiveKey="players" className="mb-1" >
 
                 <Tab eventKey="players" title="Players">
-                  <div style={{padding: "2vh"}}>
+                  <div style={{padding: "2vh",}}>
                       <Container>
                         <Row xs={2} md={3} lg={4}>
                           {resPlayers.map((dat) => {
                             return (
-                            <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
+                            <Col className='d-flex align-self-stretch' style={{paddingTop: '4px', marginTop: "10px"}}>
                               <PlayerCard playerData={dat} q={querry}/>                        
                             </Col>
                             )
@@ -103,12 +105,12 @@ const Search = ({}) =>{
                 </Tab>
 
                 <Tab eventKey="teams" title="Teams">
-                  <div style={{padding: "2vh"}}>
+                  <div style={{padding: "2vh",}}>
                       <Container>
                         <Row xs={2} md={3} lg={4}>
                           {resTeams.map((dat) => {
                             return (
-                            <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
+                            <Col className='d-flex align-self-stretch' style={{paddingTop: '4px', marginTop: "10px" }}>
                               <TeamCard sportsTeamData={dat} q={querry}/>                        
                             </Col>
                             )
@@ -124,7 +126,7 @@ const Search = ({}) =>{
                         <Row xs={2} md={3} lg={4}>
                           {resEvents.map((dat) => {
                             return (
-                            <Col className='d-flex align-self-stretch' style={{paddingTop: '4px'}}>
+                            <Col className='d-flex align-self-stretch' style={{paddingTop: '4px', marginTop: "10px"}}>
                               <EventCard eventData={dat} q={querry}/>                        
                             </Col>
                             )

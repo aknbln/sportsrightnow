@@ -16,7 +16,7 @@ const PlayerCard = (props) => {
 
   return (
     <Card
-    style= {{backgroundColor: 'lightgray', minWidth: '100%'}}>
+    style= {{backgroundColor: 'lightgray', minWidth: '100%', minHeight: "100%",}}>
       <Card.Img variant="top" src={headshot} style={{width: '100%', height: '20vw', objectFit: 'cover'}}/>
       <Card.Body>
         <Card.Title style = {{fontSize: '3vh', color: '#333232'}}>{Highlight(name, search)}</Card.Title>
