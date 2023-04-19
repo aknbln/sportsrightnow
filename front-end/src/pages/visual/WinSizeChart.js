@@ -1,73 +1,63 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { useEffect } from "react";
+import data from "../../dataviz/teamsize.json"
 import {
-  ScatterChart,
-  Scatter,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-} from "recharts";
+    ScatterChart,
+    Scatter,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip,
+    Legend,
+    ResponsiveContainer,
+  } from 'recharts';
+
 import axios from "axios";
 
+
 const ax = axios.create({
-  baseURL: "https://api.sportsrightnow.me/",
-});
+    baseURL: "https://api.sportsrightnow.me/"
+})
 
-const WinSizeChart = () => {
-  const [nbaData, setNbaData] = useState([]);
-  const [nflData, setNflData] = useState([]);
+  const WinSizeChart = ({}) => {
 
-  useEffect(() => {
-    const fetchData = async () => {
-        const response = await ax.get("teams");
-        const teamsData = response.data.data;
-        let tempNbaData = [];
-        let tempNflData = [];
-        teamsData.forEach((team) => {
-          if (team.league === "NBA") {
-            const playerCount = team.players.length;
-            const winRate = team.wins / (team.wins + team.losses);
-            tempNbaData.push({ playerCount, winRate });
-          }
+    let nbaData = []
+    let nflData = []
 
-          if (team.league === "NFL") {
-            const playerCount = team.players.length;
-            const winRate = team.wins / (team.wins + team.losses);
-            tempNflData.push({ playerCount, winRate });
-          }
-        });
-        setNbaData(tempNbaData);
-        setNflData(tempNflData);
-    };
+    function MapData(team){
+        if(team.league == "NBA"){
+            nbaData.push(team)
+        }
 
-    fetchData();
-  }, []);
+        if(team.league == "NFL"){
+            nflData.push(team)
+        }
+    }
+    useEffect(() => {
+        const fetchTeams = async() => {
+            await ax
+            .get("players")
+            .then((response) => (
+                console.log(response.data.data)
+            ))
+        }
 
-  return (
-    <ResponsiveContainer width={"99%"} height={400}>
-      <ScatterChart margin={20}>
-        <CartesianGrid />
-        <XAxis
-          type={"number"}
-          dataKey={"playerCount"}
-          name={"Team Size"}
-          unit={" Players"}
-        />
-        <YAxis
-          type={"number"}
-          dataKey={"winRate"}
-          name={"Win Rate"}
-          unit={"%"}
-        />
-        <Tooltip cursor={{ strokeDasharray: "3 3" }} />
-        <Legend />
-        <Scatter name="NFL" data={nflData} fill={"#4b8cc4"} />
-        <Scatter name="NBA" data={nbaData} fill={"#cf4c5b"} />
-      </ScatterChart>
-    </ResponsiveContainer>
-  );
-};
+        data.forEach(team => MapData(team))
+    }, [])
 
-export default WinSizeChart;
+    return (
+        <ResponsiveContainer width={'99%'} height={400}>
+            <ScatterChart margin={20}>
+                <CartesianGrid/>
+                <XAxis type={'number'} dataKey={'playerCount'} name={'Team Size'} unit={" Players"}/>
+                <YAxis type={'number'} dataKey={'winRate'} name={'Win Rate'} unit={'%'}/>
+                <Tooltip cursor={{ strokeDasharray: '3 3' }} />
+                <Legend />
+                <Scatter name="NFL" data={nflData} fill={"#4b8cc4"}/>
+                <Scatter name="NBA" data={nbaData} fill={"#cf4c5b"}/>
+            </ScatterChart>
+        </ResponsiveContainer>
+    )
+  }
+
+export default WinSizeChart
