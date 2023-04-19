@@ -152,7 +152,7 @@ def get_players():
         query = query.filter(Player.name.like("%" + name + "%"))
 
     if team is not None:
-        query = query.filter(Player.team.like("%" + name + "%"))
+        query = query.filter(Player.team.like("%" + team + "%"))
 
     if college is not None:
         query = query.filter(Player.college.like("%" + college + "%"))

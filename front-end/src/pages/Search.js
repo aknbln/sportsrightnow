@@ -57,7 +57,7 @@ const Search = ({}) =>{
       let q = searchParams.get("q")
       setQuerry(q)
       search(q)
-    }, [])
+    }, [searchParams])
 
     if(!loaded){
       return (
