@@ -126,7 +126,8 @@ class SeleniumTests:
         self.driver.get("https://www.sportsrightnow.me/")
         link = self.driver.find_element(By.LINK_TEXT, "Events")
         link.click()
-        assert self.driver.find_element(By.CSS_SELECTOR, "h2").text == "Events"
+        time.sleep(5)
+        assert self.driver.find_element(By.CSS_SELECTOR, "h1").text == "Events"
 
 
 # returns 0 if okay, 1 if fail (error counter)
