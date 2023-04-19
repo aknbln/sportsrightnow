@@ -9,6 +9,7 @@ import Teams from "./images/logos/teams.png"
 import Zoom from "./images/logos/zoom.png"
 import Discord from "./images/logos/discord.png"
 import Notion from "./images/logos/notion.png"
+import recharts from "./images/logos/recharts.png"
 
 const techData = [
   {
@@ -70,6 +71,12 @@ const techData = [
     image: Notion,
     text: "Productivity workspace application",
     url: "https://www.notion.so/"
+  },
+  {
+    title: "Recharts",
+    image: recharts,
+    text: "Creates visualizers for data",
+    url: "https://recharts.org/en-US/"
   }
 ];
 
