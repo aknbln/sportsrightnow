@@ -110,7 +110,8 @@ class SeleniumTests:
         self.driver.get("https://www.sportsrightnow.me/")
         link = self.driver.find_element(By.LINK_TEXT, "Players")
         link.click()
-        assert self.driver.find_element(By.CSS_SELECTOR, "h2").text == "Players"
+        time.sleep(5)
+        assert self.driver.find_element(By.CSS_SELECTOR, "h1").text == "Players"
 
     def test_teams(self):
         self.driver.get("https://www.sportsrightnow.me/")
