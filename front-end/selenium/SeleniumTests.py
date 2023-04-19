@@ -67,7 +67,7 @@ class SeleniumTests:
         self.driver.get("https://www.sportsrightnow.me/")
         self.driver.find_element(By.LINK_TEXT, "About").click()
 
-        btn = self.driver.find_element(By.CLASS_NAME, "btn-primary")
+        btn = self.driver.find_element(By.XPATH, "//*[contains(text(), 'More Info')]")
         self.driver.execute_script("arguments[0].scrollIntoView();", btn)
         WebDriverWait(self.driver, 5).until(
             expected_conditions.element_to_be_clickable((By.CLASS_NAME, "btn-primary"))
