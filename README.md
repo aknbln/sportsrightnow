@@ -63,7 +63,7 @@ Git SHA - 8ca5365fcc6a6767a8027460ed8f661f4d2c80b1
 Leader - Johann Ramirez
 
 ### Hours Worked:
-Travis Aldrich - Predicted: 12 Hrs - Actual: ? Hrs
+Travis Aldrich - Predicted: 12 Hrs - Actual: 12 Hrs
 
 Akin Bilen - Predicted: 12 Hrs - Actual: 20 Hrs
 
@@ -83,7 +83,7 @@ Git SHA - 29bdcae418dfa1fa5a288695f8cdca7886ffd7fa
 Leader - Johann Ramirez
 
 ### Hours Worked:
-Travis Aldrich - Predicted: 12 Hrs - Actual: ? Hrs
+Travis Aldrich - Predicted: 12 Hrs - Actual: 12 Hrs
 
 Akin Bilen - Predicted: 12 Hrs - Actual: 20 Hrs
 
