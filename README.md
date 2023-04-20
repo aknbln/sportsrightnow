@@ -69,13 +69,32 @@ Akin Bilen - Predicted: 12 Hrs - Actual: 20 Hrs
 
 Eric Li - Predicted: 12 Hrs - Actual: 28 Hrs
 
-Tommy Ly - Predicted: 12 Hrs - Actual: ? Hrs
+Tommy Ly - Predicted: 12 Hrs - Actual: 13 Hrs
 
 Johann Ramirez - Predicted: 12 Hrs - Actual: 21 Hrs
 
 ### Comments:
 Highlighter wrapper code adapted from: https://gitlab.com/salbedaiwi/cs373-idb-13/-/blob/main/frontend/src/tools.js
 
+
+## Phase IV:
+Git SHA - 29bdcae418dfa1fa5a288695f8cdca7886ffd7fa
+
+Leader - Johann Ramirez
+
+### Hours Worked:
+Travis Aldrich - Predicted: 12 Hrs - Actual: ? Hrs
+
+Akin Bilen - Predicted: 12 Hrs - Actual: 20 Hrs
+
+Eric Li - Predicted: 12 Hrs - Actual: 28 Hrs
+
+Tommy Ly - Predicted: 12 Hrs - Actual: 13 Hrs
+
+Johann Ramirez - Predicted: 12 Hrs - Actual: 21 Hrs
+
+### Comments:
+The visualizations were a great way to learn how to display data in a new format and critiquing other groups helped improve our website.
 
 # Project Name: SportsRightNow
 
