@@ -67,7 +67,7 @@ class SeleniumTests:
         self.driver.get("https://www.sportsrightnow.me/")
         self.driver.find_element(By.LINK_TEXT, "About").click()
 
-        btn = self.driver.find_element(By.CLASS_NAME, "btn-primary")
+        btn = self.driver.find_element(By.XPATH, "//*[contains(text(), 'More Info')]")
         self.driver.execute_script("arguments[0].scrollIntoView();", btn)
         WebDriverWait(self.driver, 5).until(
             expected_conditions.element_to_be_clickable((By.CLASS_NAME, "btn-primary"))
@@ -110,7 +110,8 @@ class SeleniumTests:
         self.driver.get("https://www.sportsrightnow.me/")
         link = self.driver.find_element(By.LINK_TEXT, "Players")
         link.click()
-        assert self.driver.find_element(By.CSS_SELECTOR, "h2").text == "Players"
+        time.sleep(5)
+        assert self.driver.find_element(By.CSS_SELECTOR, "h1").text == "Players"
 
     def test_teams(self):
         self.driver.get("https://www.sportsrightnow.me/")
@@ -125,7 +126,8 @@ class SeleniumTests:
         self.driver.get("https://www.sportsrightnow.me/")
         link = self.driver.find_element(By.LINK_TEXT, "Events")
         link.click()
-        assert self.driver.find_element(By.CSS_SELECTOR, "h2").text == "Events"
+        time.sleep(5)
+        assert self.driver.find_element(By.CSS_SELECTOR, "h1").text == "Events"
 
 
 # returns 0 if okay, 1 if fail (error counter)
