@@ -4,9 +4,10 @@ import { Link, useSearchParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { GenerateMapQuerry } from "../Utils";
 import EventCard from "../components/EventCard";
+import {Timeline} from 'react-twitter-widgets'
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import '../grid.css'
+import "../grid.scss";
 import axios from "axios";
 
 const ax = axios.create({
@@ -73,35 +74,34 @@ const PlayersInstance = ({}) => {
 					<h1>{fetchedData.name}</h1>
 				</header>
 				<div className="App-body">
-          {//why is the grid not working: https://stackoverflow.com/questions/51114695/why-is-my-css-grid-not-working
-
-      } 
-
-					<div className="layout"
-					>
+					{
+						//why is the grid not working: https://stackoverflow.com/questions/51114695/why-is-my-css-grid-not-working
+					}
+					<div className="layout">
 						<div
+            className="box"
 							style={{
 								display: "flex",
 								flexDirection: "row",
 								justifyContent: "center",
 								padding: "1%",
-                gridArea: "img",
+								gridArea: "img",
 							}}
 						>
 							<img
 								src={fetchedData.headshot}
 								style={{
-									float: "left",
+
 									width: 350,
 									height: 350,
 									resize: "cover",
 								}}
 								alt="picture"
 							/>
-							<div style={{ width: "10%" }} />
+
 						</div>
 
-						<div style={{gridArea: "frame",}}>
+						<div style={{ gridArea: "frame" }}>
 							<iframe
 								id="wiki"
 								src={`https://en.wikipedia.org/wiki/${fetchedData.name
@@ -111,17 +111,16 @@ const PlayersInstance = ({}) => {
 									width: "500px",
 									height: "100%",
 									borderRadius: "5%",
-
-
+									border: "solid green",
 								}}
 							></iframe>
 						</div>
 
-						<div style={{gridArea: "info",}}>
+						<div className="box" style={{ gridArea: "info" }}>
 							<p
 								style={{
 									textAlign: "center",
-                  verticalAlign: "center",
+									verticalAlign: "center",
 								}}
 							>
 								Team:{" "}
@@ -142,11 +141,9 @@ const PlayersInstance = ({}) => {
 					<br />
 					<br />
 					<br />
-
 					<hr
 						style={{ backgroundColor: "white", width: "40%", margin: "auto" }}
 					/>
-
 					<div style={{ padding: "1%" }}>
 						<h2>Home Stadium</h2>
 						<iframe
@@ -154,11 +151,20 @@ const PlayersInstance = ({}) => {
 							src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAp-NjtN6McZptGFjlIYXwX_QDPjr3FVcE&q=${mapQuerry}`}
 						></iframe>
 					</div>
+					<Timeline
+            className = "box"
+						dataSource={{
+							sourceType: "profile",
+							screenName: "CalebHoustan",
+						}}
+            
+						options={{
+							height: 200,
+              width: 400,
+						}}
+					/>
+          
 
-					<iframe
-						style={{ border: 0, frameborder: 0, height: 250, width: 550 }}
-						src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fcaleb%2Fhoustan%2F20"
-					></iframe>
 
 					<hr
 						style={{ backgroundColor: "white", width: "40%", margin: "auto" }}

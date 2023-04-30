@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container";
 import { Pagination } from 'react-bootstrap';
+import { PaginationControl } from "react-bootstrap-pagination-control";
 import { useState, useEffect, useRef } from 'react'
 import Button from "react-bootstrap/Button";
 
@@ -86,8 +87,8 @@ const Players = ({}) => {
       await ax
       .get("players", {params})
       .then((response) => (
-        setDataLength(Math.min(response.data.data.length, 32 * ITEMS_PER_PAGE)),
-        setPageCount(Math.min( Math.ceil(response.data.data.length / ITEMS_PER_PAGE), 32)),
+        setDataLength(response.data.data.length),
+        setPageCount( Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
         CreatePages(Math.min( Math.ceil(response.data.data.length / ITEMS_PER_PAGE), 32)),
         setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)),
         setLoaded(true),
@@ -147,6 +148,8 @@ const Players = ({}) => {
       </header>
       
       <div className="App-body">
+
+        
         <Container style={{padding: '3vh'}}>
           <h1>Players</h1>
           
@@ -211,6 +214,18 @@ const Players = ({}) => {
           </form>
 
           <hr style={{backgroundColor: 'white', height: "2px"}}/>
+          <PaginationControl page={currentPage}
+                total={pageCount}
+                limit={ITEMS_PER_PAGE}
+                between={5}
+                changePage={(page) => {
+                  changePage(page); 
+                  console.log(page)
+                }}
+                // ellipsis={10}
+        
+        />
+          <br/>
             <Row xs={2} md={3} lg={4}>
               {playerData.map((dat) => {
                 return (
@@ -224,7 +239,17 @@ const Players = ({}) => {
             <br/>
         </Container>
 
-        <Pagination>{pages}</Pagination>
+        <PaginationControl page={currentPage}
+                total={pageCount}
+                limit={ITEMS_PER_PAGE}
+                between={5}
+                changePage={(page) => {
+                  changePage(page); 
+                  console.log(page)
+                }}
+                ellipsis={10}
+        
+        />
       </div>
     </div>
   );
