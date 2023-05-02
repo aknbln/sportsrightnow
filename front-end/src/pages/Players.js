@@ -19,11 +19,14 @@ const ax = axios.create({
 const Players = ({}) => {
 
   const [currentPage, setCurrentPage] = useState(1)
-  const [dataSlice, setDataSlice] = useState([])
   const [playerData, setPlayerData] = useState([])
+
+  //total number of data entries
   const [dataLength, setDataLength] = useState(0)
+
+  //total number of pages
   const [pageCount, setPageCount] = useState(0)
-  const [pages, setPages] = useState([])
+
   const [loaded, setLoaded] = useState(false)
   const [filterParams, setFilterParams] = useState({})
 
@@ -34,21 +37,6 @@ const Players = ({}) => {
   const stateRef = useRef()
   stateRef.current = playerData
 
-  let active = 1
-
-  function CreatePages(count){
-    let temp = []
-
-    for (let item = 1; item <= count; item++) {
-      temp.push(
-        <Pagination.Item key={item} active={item === currentPage} onClick={(event) => changePage(item)}>
-          {item}
-        </Pagination.Item>
-      )
-    }
-
-    setPages(temp)
-  }
 
   function CreateFilter(data){
     let filter = {}
@@ -88,9 +76,9 @@ const Players = ({}) => {
       .get("players", {params})
       .then((response) => (
         setDataLength(response.data.data.length),
-        setPageCount( Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
-        CreatePages(Math.min( Math.ceil(response.data.data.length / ITEMS_PER_PAGE), 32)),
-        setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)),
+        setPageCount( dataLength / ITEMS_PER_PAGE),
+        //CreatePages(Math.min( Math.ceil(response.data.data.length / ITEMS_PER_PAGE), 32)),
+        //setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)),
         setLoaded(true),
         changePage(1))
       )
@@ -102,9 +90,9 @@ const Players = ({}) => {
     
   }, [filterParams])
 
-  useEffect(() => {
-    CreatePages(pageCount)
-  }, [currentPage])
+  // useEffect(() => {
+  //   CreatePages(pageCount)
+  // }, [currentPage])
 
   function changePage(num) {
 
@@ -222,7 +210,7 @@ const Players = ({}) => {
                   changePage(page); 
                   console.log(page)
                 }}
-                // ellipsis={10}
+                 ellipsis={10}
         
         />
           <br/>

@@ -4,7 +4,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { GenerateMapQuerry } from "../Utils";
 import EventCard from "../components/EventCard";
-import {Timeline} from 'react-twitter-widgets'
+import { Timeline } from "react-twitter-widgets";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../grid.scss";
@@ -79,7 +79,7 @@ const PlayersInstance = ({}) => {
 					}
 					<div className="layout">
 						<div
-            className="box"
+							className="box"
 							style={{
 								display: "flex",
 								flexDirection: "row",
@@ -91,18 +91,17 @@ const PlayersInstance = ({}) => {
 							<img
 								src={fetchedData.headshot}
 								style={{
-
 									width: 350,
 									height: 350,
 									resize: "cover",
 								}}
 								alt="picture"
 							/>
-
 						</div>
 
 						<div style={{ gridArea: "frame" }}>
 							<iframe
+								className="box"
 								id="wiki"
 								src={`https://en.wikipedia.org/wiki/${fetchedData.name
 									.split(" ")
@@ -110,8 +109,6 @@ const PlayersInstance = ({}) => {
 								style={{
 									width: "500px",
 									height: "100%",
-									borderRadius: "5%",
-									border: "solid green",
 								}}
 							></iframe>
 						</div>
@@ -139,35 +136,41 @@ const PlayersInstance = ({}) => {
 						</div>
 					</div>
 					<br />
-					<br />
-					<br />
+
 					<hr
 						style={{ backgroundColor: "white", width: "40%", margin: "auto" }}
 					/>
-					<div style={{ padding: "1%" }}>
-						<h2>Home Stadium</h2>
-						<iframe
-							style={{ height: "60vh", width: "45vw" }}
-							src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAp-NjtN6McZptGFjlIYXwX_QDPjr3FVcE&q=${mapQuerry}`}
-						></iframe>
+
+					<div>
+
+					<div style = {{display: 'flex', justifyContent: 'space-around', alignContent: "space-around", flexDirection: 'row'}}>
+						<h2 >Twitter</h2>
+						<h2 >Home Stadium</h2>
+
 					</div>
-					<Timeline
-            className = "box"
-						dataSource={{
-							sourceType: "profile",
-							screenName: "CalebHoustan",
-						}}
-            
-						options={{
-							height: 200,
-              width: 400,
-						}}
-					/>
-          
+					<div style={{ display: "flex" }}>
+							<Timeline
+								className="box"
+								dataSource={{
+									sourceType: "profile",
+									screenName: fetchedData.team.split(" ").join(""),
+								}}
+								options={{
+									height: "600",
+									width: "25vw",
+									gridArea: 'i1'
+								}}
+							/>
 
-
+							<iframe
+								className="box"
+								style={{ height: "600px", width: "30vw", marginLeft: "2vw" , gridArea: 'i2'}}
+								src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAp-NjtN6McZptGFjlIYXwX_QDPjr3FVcE&q=${mapQuerry}`}
+							></iframe>
+						</div>
+						</div>
 					<hr
-						style={{ backgroundColor: "white", width: "40%", margin: "auto" }}
+						style={{ backgroundColor: "white", width: "40%", marginTop: "20px" }}
 					/>
 					<h2>Upcoming Events</h2>
 					<Row>
