@@ -5,6 +5,9 @@ import { useNavigate } from "react-router-dom";
 import { GenerateMapQuerry } from "../Utils";
 import EventCard from "../components/EventCard";
 import { Timeline } from "react-twitter-widgets";
+import Fade from "react-reveal/Fade";
+import Rotate from "react-reveal/Rotate";
+import Reveal from "react-reveal/Reveal";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../grid.scss";
@@ -77,64 +80,70 @@ const PlayersInstance = ({}) => {
 					{
 						//why is the grid not working: https://stackoverflow.com/questions/51114695/why-is-my-css-grid-not-working
 					}
-					<div className="layout">
-						<div
-							className="box"
-							style={{
-								display: "flex",
-								flexDirection: "row",
-								justifyContent: "center",
-								padding: "1%",
-								gridArea: "img",
-							}}
-						>
-							<img
-								src={fetchedData.headshot}
-								style={{
-									width: 350,
-									height: 350,
-									resize: "cover",
-								}}
-								alt="picture"
-							/>
-						</div>
 
-						<div style={{ gridArea: "frame" }}>
-							<iframe
+						<div className="layout">
+
+							<Rotate top left>
+							<div
 								className="box"
-								id="wiki"
-								src={`https://en.wikipedia.org/wiki/${fetchedData.name
-									.split(" ")
-									.join("_")}`}
 								style={{
-									width: "500px",
-									height: "100%",
-								}}
-							></iframe>
-						</div>
-
-						<div className="box" style={{ gridArea: "info" }}>
-							<p
-								style={{
-									textAlign: "center",
-									verticalAlign: "center",
+									display: "flex",
+									flexDirection: "row",
+									justifyContent: "center",
+									padding: "1%",
+									gridArea: "img",
 								}}
 							>
-								Team:{" "}
-								<Link to={`/teams/instance?id=${teamData.id}`}>
-									{teamData.name}
-								</Link>
-								<br />
-								League: {fetchedData.league} <br />
-								Birthday: {fetchedData.birthdate} <br />
-								Height: {fetchedData.height} <br />
-								Weight: {fetchedData.weight} <br />
-								College: {fetchedData.college}
-								<br />
-								{element}
-							</p>
+								<img
+									src={fetchedData.headshot}
+									style={{
+										width: 350,
+										height: 350,
+										resize: "cover",
+									}}
+									alt="picture"
+								/>
+							</div>
+							</Rotate>
+							<Rotate top right duration = {2000} opposite = {true}>
+							<div style={{ gridArea: "frame" }}>
+								<iframe
+									className="box"
+									id="wiki"
+									src={`https://en.wikipedia.org/wiki/${fetchedData.name
+										.split(" ")
+										.join("_")}`}
+									style={{
+										width: "500px",
+										height: "100%",
+									}}
+								></iframe>
+							</div>
+							</Rotate>
+							<Rotate top left>
+							<div className="box" style={{ gridArea: "info" }}>
+								<p
+									style={{
+										textAlign: "center",
+										verticalAlign: "center",
+									}}
+								>
+									Team:{" "}
+									<Link to={`/teams/instance?id=${teamData.id}`}>
+										{teamData.name}
+									</Link>
+									<br />
+									League: {fetchedData.league} <br />
+									Birthday: {fetchedData.birthdate} <br />
+									Height: {fetchedData.height} <br />
+									Weight: {fetchedData.weight} <br />
+									College: {fetchedData.college}
+									<br />
+									{element}
+								</p>
+							</div>
+							</Rotate>
 						</div>
-					</div>
 					<br />
 
 					<hr
@@ -142,35 +151,53 @@ const PlayersInstance = ({}) => {
 					/>
 
 					<div>
+						<div
+							style={{
+								display: "flex",
+								justifyContent: "space-around",
+								alignContent: "space-around",
+								flexDirection: "row",
+							}}
+						>
+							<h2>Twitter</h2>
+							<h2>Home Stadium</h2>
+						</div>
 
-					<div style = {{display: 'flex', justifyContent: 'space-around', alignContent: "space-around", flexDirection: 'row'}}>
-						<h2 >Twitter</h2>
-						<h2 >Home Stadium</h2>
-
+						<div style={{ display: "flex" }}>
+							<Fade fraction="0.8" left opposite = {true} ssrFadeout = {true}>
+								<Timeline
+									className="box"
+									dataSource={{
+										sourceType: "profile",
+										screenName: fetchedData.team.split(" ").join(""),
+									}}
+									options={{
+										height: "600",
+										width: "25vw",
+										gridArea: "i1",
+									}}
+								/>
+							</Fade>
+							<Fade fraction="0.8" right opposite>
+								<iframe
+									className="box"
+									style={{
+										height: "600px",
+										width: "30vw",
+										marginLeft: "2vw",
+										gridArea: "i2",
+									}}
+									src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAp-NjtN6McZptGFjlIYXwX_QDPjr3FVcE&q=${mapQuerry}`}
+								></iframe>
+							</Fade>
+						</div>
 					</div>
-					<div style={{ display: "flex" }}>
-							<Timeline
-								className="box"
-								dataSource={{
-									sourceType: "profile",
-									screenName: fetchedData.team.split(" ").join(""),
-								}}
-								options={{
-									height: "600",
-									width: "25vw",
-									gridArea: 'i1'
-								}}
-							/>
-
-							<iframe
-								className="box"
-								style={{ height: "600px", width: "30vw", marginLeft: "2vw" , gridArea: 'i2'}}
-								src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAp-NjtN6McZptGFjlIYXwX_QDPjr3FVcE&q=${mapQuerry}`}
-							></iframe>
-						</div>
-						</div>
 					<hr
-						style={{ backgroundColor: "white", width: "40%", marginTop: "20px" }}
+						style={{
+							backgroundColor: "white",
+							width: "40%",
+							marginTop: "20px",
+						}}
 					/>
 					<h2>Upcoming Events</h2>
 					<Row>
