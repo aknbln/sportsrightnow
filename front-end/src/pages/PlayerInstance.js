@@ -26,6 +26,7 @@ const PlayersInstance = ({}) => {
 	const [mapQuerry, setMapQuerry] = useState("");
 	const [ready, setReady] = useState(false);
 
+	const [fade, setFade] = useState(false);
 	const navigate = useNavigate();
 
 	function NavigateTeam(id) {
