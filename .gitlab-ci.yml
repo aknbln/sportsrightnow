@@ -8,14 +8,14 @@ build_front_end:
   stage: build
   script:
     - cd front-end
-    - npm install
+    - npm install --save --legacy-peer-deps
     - CI=false npm run-script build
 
 front_end_unit_test:
   stage: test
   script:
     - cd front-end
-    - npm install
+    - npm install --save --legacy-peer-deps
     - CI=true npm test
 
 # Adapted from here https://nander.cc/using-selenium-within-a-docker-container
