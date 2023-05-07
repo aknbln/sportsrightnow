@@ -3,15 +3,12 @@ import PlayerCard from "../components/PlayerCard";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import { Pagination } from "react-bootstrap";
+
 import { PaginationControl } from "react-bootstrap-pagination-control";
 import { useState, useEffect, useRef } from "react";
-import Select from "react-select";
-import Button from "react-bootstrap/Button";
-import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
-
 import { useForm } from "react-hook-form";
+
+import "../grid.scss";
 import axios from "axios";
 
 const ax = axios.create({
@@ -72,32 +69,26 @@ const Players = ({}) => {
 
 	const fetchData = async (params) => {
 		await ax.get("players", { params }).then((response) => {
-			
 			//get all of the players that fit the filter
 			setAllPlayerData(response.data.data);
-			if(allNames.length === 0){
+			if (allNames.length === 0) {
 				setAllNames(response.data.data.map((dat) => dat.name));
 			}
-			
+
 			//load the first page
 			changePage(1);
 		});
-		
 	};
 
 	//fetch new data every time filterParams changes
 	useEffect(() => {
-		
 		setLoaded(false);
 		fetchData(filterParams);
-		
-	}, [filterParams]); 
-	
+	}, [filterParams]);
 
 	function changePage(num) {
 		const fetch = async (params) => {
 			await ax.get("players", { params }).then((response) => {
-
 				//get the players data for the current page
 				setPlayerData(response.data.data);
 				setLoaded(true);
@@ -113,12 +104,12 @@ const Players = ({}) => {
 		fetch(params);
 	}
 
-//   const handleOnClick = (props) => {
+	//   const handleOnClick = (props) => {
 
-//     add the f name to the filter params and set it to the value of e
-//     createFilter(filterParams + props);
-    
-//   }
+	//     add the f name to the filter params and set it to the value of e
+	//     createFilter(filterParams + props);
+
+	//   }
 
 	if (!loaded) {
 		return (
@@ -148,71 +139,95 @@ const Players = ({}) => {
 
 						<hr style={{ backgroundColor: "white", height: "2px" }} />
 						<h2>Filter / Sort</h2>
-						<form onSubmit={handleSubmit(onSubmit)} style={{display: 'flex', flexWrap:"wrap", gap: "1%", rowGap:"1vh"}}>
-            <div className='Form-element'>
-              <label>Name</label>
-              <br/>
-              {/* <input type="text" name="playerName" placeholder="Player Name.."{...register("playerName")}/>  setFilterparams to filterparams + playername equals to the value: 
-			   */}
-			  <select size={10} name = "Player Name "autoFocus = {true} >
+						<form
+							onSubmit={handleSubmit(onSubmit)}
+							style={{
+								display: "flex",
+								flexWrap: "wrap",
+								gap: "1%",
+								rowGap: "1vh",
+							}}
+						>
+							{/* <input type="text" name="playerName" placeholder="Player Name.."{...register("playerName")}/>  setFilterparams to filterparams + playername equals to the value:
+							 */}
+							<div className="dropdown">
+								<label for="player-names">Name</label>
+								<select id="player-names" name="player-names" style={{}} {...register("playerName")}>
+									<option value="" selected>
+										Any
+									</option>
+									{allNames.map((name) => {
+										return (
+											<option value={name.split(" ")[0]}>
+												{name.split(" ")[0]}
+											</option>
+										);
+									})}
+								</select>
+							</div>
+							<div className="Form-element">
+								<label>Team</label>
+								<br />
+								<input type="text" name="team" {...register("team")} />
+							</div>
 
-			   		<option value="" selected>Any</option>
-					{allNames.map((name) => (
-						<option value={name.split(" ")[0]}>{name.split(" ")[0]}</option>
-					))}
-			  </select>
-            </div>
-            
-            <div className='Form-element'>
-              <label>Team</label>
-              <br/>
-              <input type="text" name="team" {...register("team")}/>
-            </div>
+							<div className="Form-element">
+								<label>League</label>
+								<br />
+								<select {...register("league")}>
+									<option value="any">Any</option>
+									<option value="nba">NBA</option>
+									<option value="nfl">NFL</option>
+									<option value="mlb">MLB</option>
+								</select>
+							</div>
 
-            <div className='Form-element'>
-              <label>League</label>
-              <br/>
-              <select {...register("league")}>
-                <option value="any">Any</option>
-                <option value="nba">NBA</option>
-                <option value="nfl">NFL</option>
-                <option value="mlb">MLB</option>
-              </select>
-            </div>
+							<div style={{ width: "100%" }} />
 
-            <div style={{width: "100%"}}/>
+							<div className="Form-element">
+								<label>College</label>
+								<br />
+								<input
+									min="0"
+									type="text"
+									name="college"
+									{...register("college")}
+								/>
+							</div>
 
-            <div className='Form-element'>
-              <label>College</label>
-              <br/>
-              <input min="0" type="text" name="college" {...register("college")}/>
-            </div>
+							<div className="Form-element">
+								<label>Jersey number</label>
+								<br />
+								<input
+									min="0"
+									type="number"
+									name="jerseyNum"
+									{...register("jerseyNum")}
+								/>
+							</div>
 
-            <div className='Form-element'>
-              <label>Jersey number</label>
-              <br/>
-              <input min="0" type="number" name="jerseyNum" {...register("jerseyNum")}/>
-            </div>
+							<div style={{ width: "100%" }} />
 
-            <div style={{width: "100%"}}/>
+							<div className="Form-element">
+								<label>Sort By</label>
+								<br />
+								<select {...register("sort")}>
+									<option value="default">Default</option>
+									<option value="name-asc">Name A-Z</option>
+									<option value="name-dsc">Name Z-A</option>
+									<option value="team-asc">Team A-Z</option>
+									<option value="team-dsc">Team Z-A</option>
+								</select>
+							</div>
 
-            <div className='Form-element'>
-              <label>Sort By</label>
-              <br/>
-              <select {...register("sort")}>
-                <option value="default">Default</option>
-                <option value="name-asc">Name A-Z</option>
-                <option value="name-dsc">Name Z-A</option>
-                <option value="team-asc">Team A-Z</option>
-                <option value="team-dsc">Team Z-A</option>
-              </select>
-            </div>
+							<div style={{ width: "100%" }} />
 
-            <div style={{width: "100%"}}/>
-
-            <input type="submit" value="Filter" style={{width: '15%', marginTop:"3vh"}}/> 
-          </form>
-
+							<input
+								type="submit"
+								value="Filter"
+								style={{ width: "15%", marginTop: "3vh" }}
+							/>
+						</form>
 
 						<hr style={{ backgroundColor: "white", height: "2px" }} />
 						<PaginationControl

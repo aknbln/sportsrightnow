@@ -45,6 +45,15 @@ pull:
 	git pull
 	git status
 
+
+#write a push command that will git add, ask for a commit message, and then git push:	
+push:
+	git add .
+	git commit -m "$m"
+	git push -u origin main 
+
+
+
 format:
 	$(BLACK) ./back-end/schema.py
 all:
