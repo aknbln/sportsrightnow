@@ -24,7 +24,7 @@ build-frontend :
 
 run:
 	cd front-end
-	npm start
+	npm run start
 #run unit tests
 python-tests:
 	echo "Running python unit tests..."
