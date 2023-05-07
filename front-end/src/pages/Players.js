@@ -152,7 +152,15 @@ const Players = ({}) => {
             <div className='Form-element'>
               <label>Name</label>
               <br/>
-              <input type="text" name="playerName" {...register("playerName")}/>
+              {/* <input type="text" name="playerName" placeholder="Player Name.."{...register("playerName")}/>  setFilterparams to filterparams + playername equals to the value: 
+			   */}
+			  <select size={10} name = "Player Name "autoFocus = {true} >
+
+			   		<option value="" selected>Any</option>
+					{allNames.map((name) => (
+						<option value={name.split(" ")[0]}>{name.split(" ")[0]}</option>
+					))}
+			  </select>
             </div>
             
             <div className='Form-element'>

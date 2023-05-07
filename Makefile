@@ -21,6 +21,10 @@ build-backend :
 build-frontend :
 	docker build -t front-end front-end/
 
+
+run:
+	cd front-end
+	npm start
 #run unit tests
 python-tests:
 	echo "Running python unit tests..."
