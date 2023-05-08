@@ -22,6 +22,10 @@ build-frontend :
 	docker build -t front-end front-end/
 
 
+i:
+	cd front-end
+	npm install '$m' 
+
 run:
 	cd front-end
 	npm run start
@@ -47,7 +51,7 @@ pull:
 
 
 #write a push command that will git add, ask for a commit message, and then git push:	
-push:
+git:
 	git add .
 	git commit -m "$m"
 	git push -u origin main 

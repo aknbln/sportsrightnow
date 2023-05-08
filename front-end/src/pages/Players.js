@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import { PaginationControl } from "react-bootstrap-pagination-control";
 import { useState, useEffect, useRef } from "react";
 import { useForm } from "react-hook-form";
+import Select from "react-select";
 
 import "../grid.scss";
 import axios from "axios";
@@ -23,9 +24,7 @@ const Players = ({}) => {
 	const [allPlayerData, setAllPlayerData] = useState([]);
 	//total number of data entries
 	// const [dataLength, setDataLength] = useState(0);
-
-	//total number of pages
-	const [pageCount, setPageCount] = useState(0);
+	const filterValues = useRef({});
 
 	const [loaded, setLoaded] = useState(false);
 	const [filterParams, setFilterParams] = useState({});
@@ -72,6 +71,57 @@ const Players = ({}) => {
 			//get all of the players that fit the filter
 			setAllPlayerData(response.data.data);
 			if (allNames.length === 0) {
+				filterValues.current = {
+					names: [
+						...new Set(
+							response.data.data.map((data) => {
+								return {
+									label: data.name.split(" ")[0],
+									value: data.name.split(" ")[0],
+								};
+							})
+						),
+					].sort((a, b) => a.value - b.value),
+					teams: [
+						...new Set(
+							response.data.data.map((data) => {
+			
+									return {
+										label: data.team.split(" ")[1],
+										value: data.team.split(" ")[1],
+									};
+								
+							})
+						),
+					].sort((a, b) => a.value - b.value),
+					cities: [
+						...new Set(
+							response.data.data.map((data) => {
+								return {
+									label: data.team.split(" ")[0],
+									value: data.team.split(" ")[0],
+								};
+							})
+						),
+					],
+					colleges: [
+						...new Set(response.data.data.map((data) => {
+							return {
+								label: data.college,
+								value: data.college,
+							};
+						})),
+					],
+					jerseyNums: [
+						...new Set(response.data.data.map((data) => {
+							return {
+								label: data.jersey,
+								value: data.jersey,
+							};
+						})),
+					].sort((a, b) => a.value - b.value),
+				};
+
 				setAllNames(response.data.data.map((dat) => dat.name));
 			}
 
@@ -104,13 +154,6 @@ const Players = ({}) => {
 		fetch(params);
 	}
 
-	//   const handleOnClick = (props) => {
-
-	//     add the f name to the filter params and set it to the value of e
-	//     createFilter(filterParams + props);
-
-	//   }
-
 	if (!loaded) {
 		return (
 			<div className="Players">
@@ -139,6 +182,142 @@ const Players = ({}) => {
 
 						<hr style={{ backgroundColor: "white", height: "2px" }} />
 						<h2>Filter / Sort</h2>
+
+						{/* Switch it to creatable select after successfull functionality for searches such as "Akin" https://www.youtube.com/watch?v=3u_ulMvTYZI  min: 13 */}
+
+						<div style={{ display: "flex", justifyContent: "space-between" }}>
+							<Select
+								placeholder="Player Name"
+								styles={{
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								options={allPlayerData.map((data) => {
+									return {
+										label: data.name.split(" ")[0],
+										value: data.name.split(" ")[0],
+									};
+
+								})}
+								onChange={(e) => {
+									let filter = {};
+									filter.name = e.value;
+									setFilterParams((filterParams) => ({
+										...filterParams,
+										filter,
+									}));
+								}}
+							/>
+
+							{/* Team Name */}
+							<Select
+								placeholder="Team Name"
+								styles={{
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								//write options with map that there is no duplicate team names:
+								//https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates
+
+								options={filterValues.current.teams}
+								onChange={(e) => {
+									let filter = {};
+									filter.name = e.value;
+									setFilterParams((filterParams) => ({
+										...filterParams,
+										filter,
+									}));
+								}}
+							/>
+
+							{/* League */}
+							<Select
+								placeholder="League"
+								styles={{
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								options={[
+									{ label: "NBA", value: "NBA" },
+									{ label: "NFL", value: "NFL" },
+									{ label: "MLB", value: "MLB" },
+								]}
+								onChange={(e) => {
+									let filter = {};
+									filter.name = e.value;
+									setFilterParams((filterParams) => ({
+										...filterParams,
+										filter,
+									}));
+								}}
+							/>
+
+							{/* Position */}
+
+							<Select
+								placeholder="Position"
+								styles={{
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								options={allPlayerData.map((data) => {
+									return {
+										label: data.name.split(" ")[0],
+										value: data.name.split(" ")[0],
+									};
+								})}
+								onChange={(e) => {
+									let filter = {};
+									filter.name = e.value;
+									setFilterParams((filterParams) => ({
+										...filterParams,
+										filter,
+									}));
+								}}
+							/>
+
+							{/* College */}
+							<Select
+								placeholder="College"
+								option = {filterValues.current.colleges}
+								styles={{
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								
+								onChange={(e) => {
+									let filter = {};
+									filter.name = e.value;
+									setFilterParams((filterParams) => ({
+										...filterParams,
+										filter,
+									}));
+								}}
+							/>
+							{/* Jersey Number */}
+							<Select
+								placeholder="Jersey Number"
+								styles={{
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								options={filterValues.current.jerseyNums}
+								onChange={(e) => {
+									let filter = {};
+									filter.name = e.value;
+									setFilterParams((filterParams) => ({
+										...filterParams,
+										filter,
+									}));
+								}}
+							/>
+						</div>
 						<form
 							onSubmit={handleSubmit(onSubmit)}
 							style={{
@@ -151,8 +330,19 @@ const Players = ({}) => {
 							{/* <input type="text" name="playerName" placeholder="Player Name.."{...register("playerName")}/>  setFilterparams to filterparams + playername equals to the value:
 							 */}
 							<div className="dropdown">
+								<link
+									href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+									rel="stylesheet"
+								/>
+								<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 								<label for="player-names">Name</label>
-								<select id="player-names" name="player-names" style={{}} {...register("playerName")}>
+								<select
+									id="player-names"
+									name="player-names"
+									{...register("playerName")}
+								>
+									<input type="text" name="name" {...register("team")} />
+
 									<option value="" selected>
 										Any
 									</option>
@@ -165,11 +355,12 @@ const Players = ({}) => {
 									})}
 								</select>
 							</div>
-							<div className="Form-element">
+
+							{/* <div className="Form-element">
 								<label>Team</label>
 								<br />
 								<input type="text" name="team" {...register("team")} />
-							</div>
+							</div> */}
 
 							<div className="Form-element">
 								<label>League</label>

@@ -1,3 +1,6 @@
+$select-width: 200px;
+$select-anchor-padding: 10px 5px 5px;
+
 .layout{
     display: grid;
     grid-template-columns: 0.5fr 1fr;
@@ -24,7 +27,8 @@
 }
 
 .dropdown{
-    display: inline-block;
+    display: block;
     position: relative;
+
 
 }
