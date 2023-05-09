@@ -20,7 +20,7 @@ const Players = ({}) => {
 	const [currentPageNum, setCurrentPageNum] = useState(1);
 	const [playerData, setPlayerData] = useState([]);
 
-	const [allNames, setAllNames] = useState([]);
+	// const [allNames, setAllNames] = useState([]);
 	const [allPlayerData, setAllPlayerData] = useState([]);
 	//total number of data entries
 	// const [dataLength, setDataLength] = useState(0);
@@ -70,59 +70,62 @@ const Players = ({}) => {
 		await ax.get("players", { params }).then((response) => {
 			//get all of the players that fit the filter
 			setAllPlayerData(response.data.data);
-			if (allNames.length === 0) {
-				filterValues.current = {
-					names: [
-						...new Set(
-							response.data.data.map((data) => {
-								return {
-									label: data.name.split(" ")[0],
-									value: data.name.split(" ")[0],
-								};
-							})
-						),
-					].sort((a, b) => a.value - b.value),
-					teams: [
-						...new Set(
-							response.data.data.map((data) => {
+
+			//check if filte
 			
-									return {
-										label: data.team.split(" ")[1],
-										value: data.team.split(" ")[1],
-									};
-								
-							})
-						),
-					].sort((a, b) => a.value - b.value),
-					cities: [
-						...new Set(
-							response.data.data.map((data) => {
-								return {
-									label: data.team.split(" ")[0],
-									value: data.team.split(" ")[0],
-								};
-							})
-						),
-					],
-					colleges: [
-						...new Set(response.data.data.map((data) => {
-							return {
-								label: data.college,
-								value: data.college,
-							};
-						})),
-					],
-					jerseyNums: [
-						...new Set(response.data.data.map((data) => {
-							return {
-								label: data.jersey,
-								value: data.jersey,
-							};
-						})),
-					].sort((a, b) => a.value - b.value),
+			if (JSON.stringify(filterValues.current) === '{}') {
+				let uniqueNames = [];
+				let teams = [];
+				let cities = [];
+				let colleges = [];
+				//get all of the unique names
+				response.data.data.forEach((data) => {
+					let firstname = data.name.split(" ")[0];
+					let team = data.team.split(" ")[1];
+					let city = data.team.split(" ")[0];
+					let college = data.college;
+					//get unique names
+					if (!uniqueNames.some((fn) => fn.value === firstname)) {
+						uniqueNames.push({
+							label: data.name.split(" ")[0],
+							value: data.name.split(" ")[0],
+						});
+					}
+
+					//get unique teams
+					if (!teams.some((t) => t.value === team)) {
+						teams.push({
+							label: data.team.split(" ")[1],
+							value: data.team.split(" ")[1],
+						});
+					}
+
+					//get unique cities
+					if (!cities.some((c) => c.value === city)) {
+						cities.push({
+							label: city,
+							value: city,
+						});
+					}
+					//get unique colleges
+					if (
+						!colleges.some((cl) => cl.value === college))
+						{
+						colleges.push({
+							label: college,
+							value: college,
+						});
+					}
+				});
+
+				filterValues.current = {
+					names: uniqueNames,
+					teams: teams,
+					cities: cities,
+					colleges: colleges,
 				};
 
-				setAllNames(response.data.data.map((dat) => dat.name));
+				// setAllNames(response.data.data.map((dat) => dat.name));
 			}
 
 			//load the first page
@@ -185,21 +188,22 @@ const Players = ({}) => {
 
 						{/* Switch it to creatable select after successfull functionality for searches such as "Akin" https://www.youtube.com/watch?v=3u_ulMvTYZI  min: 13 */}
 
-						<div style={{ display: "flex", justifyContent: "space-between" }}>
+						<div style={{ display: "flex", justifyContent: "space-between", }}>
 							<Select
 								placeholder="Player Name"
 								styles={{
+									control: (provided, state) => ({
+										...provided,
+										minWidth: "15vw",
+										maxWidth: "15vw",
+
+									}),
+
 									option: (provided, state) => {
 										return { ...provided, color: "black" };
 									},
 								}}
-								options={allPlayerData.map((data) => {
-									return {
-										label: data.name.split(" ")[0],
-										value: data.name.split(" ")[0],
-									};
-
-								})}
+								options={filterValues.current.names.sort((a, b) => a.value.localeCompare(b.value))}
 								onChange={(e) => {
 									let filter = {};
 									filter.name = e.value;
@@ -214,6 +218,13 @@ const Players = ({}) => {
 							<Select
 								placeholder="Team Name"
 								styles={{
+									control: (provided, state) => ({
+										...provided,
+										minWidth: "15vw",
+										maxWidth: "15vw",
+
+									}),
+
 									option: (provided, state) => {
 										return { ...provided, color: "black" };
 									},
@@ -221,7 +232,7 @@ const Players = ({}) => {
 								//write options with map that there is no duplicate team names:
 								//https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates
 
-								options={filterValues.current.teams}
+								options={filterValues.current.teams.sort((a, b) => a.value.localeCompare(b.value))}
 								onChange={(e) => {
 									let filter = {};
 									filter.name = e.value;
@@ -232,6 +243,31 @@ const Players = ({}) => {
 								}}
 							/>
 
+							{/* City */}
+							<Select
+								placeholder="City"
+								styles={{
+
+									control: (provided, state) => ({
+										...provided,
+										minWidth: "12vw",
+										maxWidth: "12vw",
+
+									}),
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								options={filterValues.current.cities.sort((a, b) => a.value.localeCompare(b.value))}
+								onChange={(e) => {
+									let filter = {};
+									filter.name = e.value;
+									setFilterParams((filterParams) => ({
+										...filterParams,
+										filter,
+									}));
+								}}
+							/>
 							{/* League */}
 							<Select
 								placeholder="League"
@@ -255,59 +291,17 @@ const Players = ({}) => {
 								}}
 							/>
 
-							{/* Position */}
-
-							<Select
-								placeholder="Position"
-								styles={{
-									option: (provided, state) => {
-										return { ...provided, color: "black" };
-									},
-								}}
-								options={allPlayerData.map((data) => {
-									return {
-										label: data.name.split(" ")[0],
-										value: data.name.split(" ")[0],
-									};
-								})}
-								onChange={(e) => {
-									let filter = {};
-									filter.name = e.value;
-									setFilterParams((filterParams) => ({
-										...filterParams,
-										filter,
-									}));
-								}}
-							/>
 
 							{/* College */}
+
 							<Select
 								placeholder="College"
-								option = {filterValues.current.colleges}
+								option={filterValues.current.colleges}
 								styles={{
 									option: (provided, state) => {
 										return { ...provided, color: "black" };
 									},
 								}}
-								
-								onChange={(e) => {
-									let filter = {};
-									filter.name = e.value;
-									setFilterParams((filterParams) => ({
-										...filterParams,
-										filter,
-									}));
-								}}
-							/>
-							{/* Jersey Number */}
-							<Select
-								placeholder="Jersey Number"
-								styles={{
-									option: (provided, state) => {
-										return { ...provided, color: "black" };
-									},
-								}}
-								options={filterValues.current.jerseyNums}
 								onChange={(e) => {
 									let filter = {};
 									filter.name = e.value;
@@ -346,13 +340,13 @@ const Players = ({}) => {
 									<option value="" selected>
 										Any
 									</option>
-									{allNames.map((name) => {
+									{/* {allNames.map((name) => {
 										return (
 											<option value={name.split(" ")[0]}>
 												{name.split(" ")[0]}
 											</option>
 										);
-									})}
+									})} */}
 								</select>
 							</div>
 
