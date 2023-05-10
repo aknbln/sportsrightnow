@@ -8,6 +8,7 @@ import { PaginationControl } from "react-bootstrap-pagination-control";
 import { useState, useEffect, useRef } from "react";
 import { useForm } from "react-hook-form";
 import Select from "react-select";
+import CreatableSelect from "react-select/creatable";
 
 import "../grid.scss";
 import axios from "axios";
@@ -187,18 +188,20 @@ const Players = ({}) => {
 				<header className="App-header" style={{ padding: "2%" }}>
 					<h1>Find your favorite players!</h1>
 					<br />
-					<p>We have {allPlayerData.length} professional athletes from MLB, NFL and NBA in our database!</p>
+					<p>
+						We have {allPlayerData.length} professional athletes that fit the categories
+						in our database!
+					</p>
 				</header>
 
 				<div className="App-body">
 					<Container style={{ padding: "3vh" }}>
-
-	
-
 						{/* Switch it to creatable select after successfull functionality for searches such as "Akin" https://www.youtube.com/watch?v=3u_ulMvTYZI  min: 13 */}
 
 						<div style={{ display: "flex", justifyContent: "space-between" }}>
-							<Select
+							<CreatableSelect
+								isClearable
+
 								placeholder={
 									filterParams.name === "" || !filterParams.name
 										? "Player Name"
@@ -218,13 +221,18 @@ const Players = ({}) => {
 								options={filterValues.current.names.sort((a, b) =>
 									a.value.localeCompare(b.value)
 								)}
-								onChange={(e) => {
+								onChange={(e, actType) => {
+									if(actType.action === "clear"){
+										createFilter({ ...filterParams, name: "" });
+									}else{
 									createFilter({ ...filterParams, name: e.value });
+									}
 								}}
 							/>
 
 							{/* Team Name */}
 							<Select
+								isClearable
 								placeholder={
 									filterParams.team === "" || !filterParams.team
 										? "Team Name"
@@ -247,13 +255,18 @@ const Players = ({}) => {
 								options={filterValues.current.teams.sort((a, b) =>
 									a.value.localeCompare(b.value)
 								)}
-								onChange={(e) => {
+								onChange={(e, actType) => {
+									if(actType.action === "clear"){
+										createFilter({ ...filterParams, team: "" });
+									}else{
 									createFilter({ ...filterParams, team: e.value });
+									}
 								}}
 							/>
 
 							{/* City */}
 							<Select
+								isClearable
 								placeholder={
 									filterParams.team === "" || !filterParams.team
 										? "City"
@@ -272,12 +285,17 @@ const Players = ({}) => {
 								options={filterValues.current.cities.sort((a, b) =>
 									a.value.localeCompare(b.value)
 								)}
-								onChange={(e) => {
+								onChange={(e, actType) => {
+									if(actType.action === "clear"){
+										createFilter({ ...filterParams, team: "" });
+									}else{
 									createFilter({ ...filterParams, team: e.value });
+									}
 								}}
 							/>
 							{/* League */}
 							<Select
+								isClearable
 								placeholder={
 									filterParams.league === "" || !filterParams.league
 										? "League"
@@ -293,7 +311,13 @@ const Players = ({}) => {
 									{ label: "NFL", value: "NFL" },
 									{ label: "MLB", value: "MLB" },
 								]}
-								onChange={register("league")}
+								onChange={(e, actType) => {
+									if(actType.action === "clear"){
+										createFilter({ ...filterParams, team: "" });
+									}else{
+									createFilter({ ...filterParams, league: e.value });
+									}
+								}}
 							/>
 
 							{/* College FIX*/}
