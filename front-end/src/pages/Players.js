@@ -71,8 +71,7 @@ const Players = ({}) => {
 	const fetchData = async (params) => {
 		await ax.get("players", { params }).then((response) => {
 			//get all of the players that fit the filter
-			setAllPlayerData(response.data.data);
-			console.log(response.data.data);
+
 
 			//check if filte
 
@@ -128,31 +127,46 @@ const Players = ({}) => {
 
 				// setAllNames(response.data.data.map((dat) => dat.name));
 			}
-
+			setAllPlayerData(response.data.data);
+			console.log(allPlayerData);
+			console.log(response.data.data);
 			//load the first page
 			changePage(1);
 		});
 	};
 
+	useEffect(() => {
+
+		let data = allPlayerData.slice(
+			(currentPageNum - 1) * ITEMS_PER_PAGE,
+			currentPageNum * ITEMS_PER_PAGE
+		);
+		setPlayerData(data);
+		
+	}, [allPlayerData]);
+
 	//fetch new data every time filterParams changes
 	useEffect(() => {
+		console.log("fetching data");
+
 		setLoaded(false);
 		fetchData(filterParams);
-	}, [filterParams]);
+	}, [filterParams, ]);
 
 //how to call changePage and pass in params for fetcH?:
 
 
 	function changePage(num) {
-
-
+		console.log("changing page");
 		let data = allPlayerData.slice(
 			(num - 1) * ITEMS_PER_PAGE,
 			num * ITEMS_PER_PAGE
 		);
 		setPlayerData(data);
+		console.log(data);
 		//set page number
 		setCurrentPageNum(num);
+		
 		setLoaded(true);
 
 	}
