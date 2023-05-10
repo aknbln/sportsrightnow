@@ -37,9 +37,11 @@ const Players = ({}) => {
 	stateRef.current = playerData;
 
 	function createFilter(data) {
+		console.log(data);
 		let filter = {};
 		if (data.playerName !== "") filter.name = data.playerName;
 		if (data.team !== "") filter.team = data.team;
+		if (data.city !== "") filter.city = data.city;
 		if (data.college !== "") filter.college = data.college;
 		if (data.jerseyNum !== "" && data.jerseyNum !== undefined)
 			filter.jerseyNum = data.jerseyNum;
@@ -70,10 +72,11 @@ const Players = ({}) => {
 		await ax.get("players", { params }).then((response) => {
 			//get all of the players that fit the filter
 			setAllPlayerData(response.data.data);
+			console.log(response.data.data);
 
 			//check if filte
-			
-			if (JSON.stringify(filterValues.current) === '{}') {
+
+			if (JSON.stringify(filterValues.current) === "{}") {
 				let uniqueNames = [];
 				let teams = [];
 				let cities = [];
@@ -108,9 +111,7 @@ const Players = ({}) => {
 						});
 					}
 					//get unique colleges
-					if (
-						!colleges.some((cl) => cl.value === college))
-						{
+					if (!colleges.some((cl) => cl.value === college)) {
 						colleges.push({
 							label: college,
 							value: college,
@@ -139,22 +140,21 @@ const Players = ({}) => {
 		fetchData(filterParams);
 	}, [filterParams]);
 
-	function changePage(num) {
-		const fetch = async (params) => {
-			await ax.get("players", { params }).then((response) => {
-				//get the players data for the current page
-				setPlayerData(response.data.data);
-				setLoaded(true);
-			});
-		};
+//how to call changePage and pass in params for fetcH?:
 
-		let p = structuredClone(filterParams);
-		p.page = num;
-		p.perPage = ITEMS_PER_PAGE;
-		const params = new URLSearchParams(p);
+
+	function changePage(num) {
+
+
+		let data = allPlayerData.slice(
+			(num - 1) * ITEMS_PER_PAGE,
+			num * ITEMS_PER_PAGE
+		);
+		setPlayerData(data);
 		//set page number
 		setCurrentPageNum(num);
-		fetch(params);
+		setLoaded(true);
+
 	}
 
 	if (!loaded) {
@@ -188,7 +188,7 @@ const Players = ({}) => {
 
 						{/* Switch it to creatable select after successfull functionality for searches such as "Akin" https://www.youtube.com/watch?v=3u_ulMvTYZI  min: 13 */}
 
-						<div style={{ display: "flex", justifyContent: "space-between", }}>
+						<div style={{ display: "flex", justifyContent: "space-between" }}>
 							<Select
 								placeholder="Player Name"
 								styles={{
@@ -196,21 +196,18 @@ const Players = ({}) => {
 										...provided,
 										minWidth: "15vw",
 										maxWidth: "15vw",
-
 									}),
 
 									option: (provided, state) => {
 										return { ...provided, color: "black" };
 									},
 								}}
-								options={filterValues.current.names.sort((a, b) => a.value.localeCompare(b.value))}
+								options={filterValues.current.names.sort((a, b) =>
+									a.value.localeCompare(b.value)
+								)}
 								onChange={(e) => {
-									let filter = {};
-									filter.name = e.value;
-									setFilterParams((filterParams) => ({
-										...filterParams,
-										filter,
-									}));
+									createFilter({playerName: e.value})
+									
 								}}
 							/>
 
@@ -222,7 +219,6 @@ const Players = ({}) => {
 										...provided,
 										minWidth: "15vw",
 										maxWidth: "15vw",
-
 									}),
 
 									option: (provided, state) => {
@@ -232,14 +228,13 @@ const Players = ({}) => {
 								//write options with map that there is no duplicate team names:
 								//https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates
 
-								options={filterValues.current.teams.sort((a, b) => a.value.localeCompare(b.value))}
+								options={filterValues.current.teams.sort((a, b) =>
+									a.value.localeCompare(b.value)
+								)}
+
 								onChange={(e) => {
-									let filter = {};
-									filter.name = e.value;
-									setFilterParams((filterParams) => ({
-										...filterParams,
-										filter,
-									}));
+									createFilter({team: e.value})
+									
 								}}
 							/>
 
@@ -247,25 +242,21 @@ const Players = ({}) => {
 							<Select
 								placeholder="City"
 								styles={{
-
 									control: (provided, state) => ({
 										...provided,
 										minWidth: "12vw",
 										maxWidth: "12vw",
-
 									}),
 									option: (provided, state) => {
 										return { ...provided, color: "black" };
 									},
 								}}
-								options={filterValues.current.cities.sort((a, b) => a.value.localeCompare(b.value))}
+								options={filterValues.current.cities.sort((a, b) =>
+									a.value.localeCompare(b.value)
+								)}
 								onChange={(e) => {
-									let filter = {};
-									filter.name = e.value;
-									setFilterParams((filterParams) => ({
-										...filterParams,
-										filter,
-									}));
+									createFilter({city: e.value})
+									
 								}}
 							/>
 							{/* League */}
@@ -281,16 +272,8 @@ const Players = ({}) => {
 									{ label: "NFL", value: "NFL" },
 									{ label: "MLB", value: "MLB" },
 								]}
-								onChange={(e) => {
-									let filter = {};
-									filter.name = e.value;
-									setFilterParams((filterParams) => ({
-										...filterParams,
-										filter,
-									}));
-								}}
+								onChange={register("league")}
 							/>
-
 
 							{/* College */}
 
@@ -340,13 +323,6 @@ const Players = ({}) => {
 									<option value="" selected>
 										Any
 									</option>
-									{/* {allNames.map((name) => {
-										return (
-											<option value={name.split(" ")[0]}>
-												{name.split(" ")[0]}
-											</option>
-										);
-									})} */}
 								</select>
 							</div>
 
