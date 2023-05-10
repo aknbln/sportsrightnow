@@ -39,9 +39,10 @@ const Players = ({}) => {
 	function createFilter(data) {
 		console.log(data);
 		let filter = {};
-		if (data.playerName !== "") filter.name = data.playerName;
+		if (data.name !== "") filter.name = data.name;
 		if (data.team !== "") filter.team = data.team;
 
+		//maybe add city to filter ---> ASK JOHANN
 		if (data.college !== "") filter.college = data.college;
 		if (data.jerseyNum !== "" && data.jerseyNum !== undefined)
 			filter.jerseyNum = data.jerseyNum;
@@ -70,11 +71,7 @@ const Players = ({}) => {
 
 	const fetchData = async (params) => {
 		await ax.get("players", { params }).then((response) => {
-			//get all of the players that fit the filter
-
-
-			//check if filte
-
+			//check if filterValues has been initialized
 			if (JSON.stringify(filterValues.current) === "{}") {
 				let uniqueNames = [];
 				let teams = [];
@@ -139,16 +136,13 @@ const Players = ({}) => {
 		});
 	};
 
-
 	//need it because useState is async and allPlayerData is not updated immediately
 	useEffect(() => {
-
 		let data = allPlayerData.slice(
 			(currentPageNum - 1) * ITEMS_PER_PAGE,
 			currentPageNum * ITEMS_PER_PAGE
 		);
 		setPlayerData(data);
-
 	}, [allPlayerData]);
 
 	//fetch new data every time filterParams changes
@@ -157,10 +151,9 @@ const Players = ({}) => {
 
 		setLoaded(false);
 		fetchData(filterParams);
-	}, [filterParams, ]);
+	}, [filterParams]);
 
-//how to call changePage and pass in params for fetcH?:
-
+	//how to call changePage and pass in params for fetcH?:
 
 	function changePage(num) {
 		console.log("changing page");
@@ -172,17 +165,15 @@ const Players = ({}) => {
 		console.log(data);
 		//set page number
 		setCurrentPageNum(num);
-		
-		setLoaded(true);
 
+		setLoaded(true);
 	}
 
 	if (!loaded) {
 		return (
 			<div className="Players">
 				<header className="App-header" style={{ padding: "2%" }}>
-					<h1>Players</h1>
-					<p>Find your favorite players!</p>
+					<h1>Find your favorite players!</h1>
 				</header>
 
 				<div className="App-body">
@@ -194,23 +185,25 @@ const Players = ({}) => {
 		return (
 			<div className="Players">
 				<header className="App-header" style={{ padding: "2%" }}>
-					<h1>Players</h1>
-					<p>Find your favorite players!</p>
-					<p>Total Players: {allPlayerData.length}</p>
+					<h1>Find your favorite players!</h1>
+					<br />
+					<p>We have {allPlayerData.length} professional athletes from MLB, NFL and NBA in our database!</p>
 				</header>
 
 				<div className="App-body">
 					<Container style={{ padding: "3vh" }}>
-						<h1>Players</h1>
 
-						<hr style={{ backgroundColor: "white", height: "2px" }} />
-						<h2>Filter / Sort</h2>
+	
 
 						{/* Switch it to creatable select after successfull functionality for searches such as "Akin" https://www.youtube.com/watch?v=3u_ulMvTYZI  min: 13 */}
 
 						<div style={{ display: "flex", justifyContent: "space-between" }}>
 							<Select
-								placeholder="Player Name"
+								placeholder={
+									filterParams.name === "" || !filterParams.name
+										? "Player Name"
+										: filterParams.name
+								}
 								styles={{
 									control: (provided, state) => ({
 										...provided,
@@ -226,14 +219,17 @@ const Players = ({}) => {
 									a.value.localeCompare(b.value)
 								)}
 								onChange={(e) => {
-									createFilter({playerName: e.value})
-									
+									createFilter({ ...filterParams, name: e.value });
 								}}
 							/>
 
 							{/* Team Name */}
 							<Select
-								placeholder="Team Name"
+								placeholder={
+									filterParams.team === "" || !filterParams.team
+										? "Team Name"
+										: filterParams.team
+								}
 								styles={{
 									control: (provided, state) => ({
 										...provided,
@@ -251,16 +247,18 @@ const Players = ({}) => {
 								options={filterValues.current.teams.sort((a, b) =>
 									a.value.localeCompare(b.value)
 								)}
-
 								onChange={(e) => {
-									createFilter({team: e.value})
-									
+									createFilter({ ...filterParams, team: e.value });
 								}}
 							/>
 
 							{/* City */}
 							<Select
-								placeholder= {(filterParams.team === "") ? "City" :  filterParams.team}
+								placeholder={
+									filterParams.team === "" || !filterParams.team
+										? "City"
+										: filterParams.team
+								}
 								styles={{
 									control: (provided, state) => ({
 										...provided,
@@ -275,13 +273,16 @@ const Players = ({}) => {
 									a.value.localeCompare(b.value)
 								)}
 								onChange={(e) => {
-									createFilter({team: e.value})
-									
+									createFilter({ ...filterParams, team: e.value });
 								}}
 							/>
 							{/* League */}
 							<Select
-								placeholder="League"
+								placeholder={
+									filterParams.league === "" || !filterParams.league
+										? "League"
+										: filterParams.league
+								}
 								styles={{
 									option: (provided, state) => {
 										return { ...provided, color: "black" };
@@ -295,7 +296,7 @@ const Players = ({}) => {
 								onChange={register("league")}
 							/>
 
-							{/* College */}
+							{/* College FIX*/}
 
 							<Select
 								placeholder="College"
@@ -315,100 +316,48 @@ const Players = ({}) => {
 								}}
 							/>
 						</div>
-						<form
-							onSubmit={handleSubmit(onSubmit)}
-							style={{
-								display: "flex",
-								flexWrap: "wrap",
-								gap: "1%",
-								rowGap: "1vh",
-							}}
-						>
-							{/* <input type="text" name="playerName" placeholder="Player Name.."{...register("playerName")}/>  setFilterparams to filterparams + playername equals to the value:
-							 */}
-							<div className="dropdown">
-								<link
-									href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
-									rel="stylesheet"
-								/>
-								<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-								<label for="player-names">Name</label>
-								<select
-									id="player-names"
-									name="player-names"
-									{...register("playerName")}
-								>
-									<input type="text" name="name" {...register("team")} />
+						<br />
+						<div style={{ display: "flex", justifyContent: "space-between" }}>
+							<Select
+								defaultValue="default"
+								placeholder="Sort By"
+								styles={{
+									control: (provided, state) => ({
+										...provided,
+										minWidth: "12vw",
+										maxWidth: "12vw",
+									}),
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								options={[
+									{ label: "Name A-Z", value: "name-asc" },
+									{ label: "Name Z-A", value: "name-dsc" },
+									{ label: "Team A-Z", value: "team-asc" },
+									{ label: "Team Z-A", value: "team-dsc" },
+								]}
+								onChange={(e) => {
+									createFilter({ ...filterParams, sort: e.value });
+								}}
+							></Select>
 
-									<option value="" selected>
-										Any
-									</option>
-								</select>
-							</div>
-
-							{/* <div className="Form-element">
-								<label>Team</label>
-								<br />
-								<input type="text" name="team" {...register("team")} />
-							</div> */}
-
-							<div className="Form-element">
-								<label>League</label>
-								<br />
-								<select {...register("league")}>
-									<option value="any">Any</option>
-									<option value="nba">NBA</option>
-									<option value="nfl">NFL</option>
-									<option value="mlb">MLB</option>
-								</select>
-							</div>
-
-							<div style={{ width: "100%" }} />
-
-							<div className="Form-element">
-								<label>College</label>
-								<br />
-								<input
-									min="0"
-									type="text"
-									name="college"
-									{...register("college")}
-								/>
-							</div>
-
-							<div className="Form-element">
-								<label>Jersey number</label>
-								<br />
-								<input
-									min="0"
-									type="number"
-									name="jerseyNum"
-									{...register("jerseyNum")}
-								/>
-							</div>
-
-							<div style={{ width: "100%" }} />
-
-							<div className="Form-element">
-								<label>Sort By</label>
-								<br />
-								<select {...register("sort")}>
-									<option value="default">Default</option>
-									<option value="name-asc">Name A-Z</option>
-									<option value="name-dsc">Name Z-A</option>
-									<option value="team-asc">Team A-Z</option>
-									<option value="team-dsc">Team Z-A</option>
-								</select>
-							</div>
-
-							<div style={{ width: "100%" }} />
-
-							<input
-								type="submit"
-								value="Filter"
-								style={{ width: "15%", marginTop: "3vh" }}
-							/>
-						</form>
+							{/* create a reset button */}
+							<button
+								onClick={() => {
+									setFilterParams({});
+								}}
+								style={{
+									backgroundColor: "white",
+									color: "gray",
+									borderColor: "lightgray",
+									borderRadius: "2%",
+									borderStyle: "solid",
+								}}
+							>
+								Reset Filters
+							</button>
+						</div>
 
 						<hr style={{ backgroundColor: "white", height: "2px" }} />
 						<PaginationControl
@@ -423,18 +372,36 @@ const Players = ({}) => {
 							ellipsis={10}
 						/>
 						<br />
-						<Row xs={2} md={3} lg={4}>
-							{playerData.map((dat) => {
-								return (
-									<Col
-										className="d-flex align-self-stretch"
-										style={{ paddingTop: "4px" }}
-									>
-										<PlayerCard playerData={dat} />
-									</Col>
-								);
-							})}
-						</Row>
+
+						{playerData.length !== 0 ? (
+							<Row xs={2} md={3} lg={4}>
+								{playerData.map((dat) => {
+									return (
+										<Col
+											className="d-flex align-self-stretch"
+											style={{ paddingTop: "4px" }}
+										>
+											<PlayerCard playerData={dat} />
+										</Col>
+									);
+								})}
+							</Row>
+						) : (
+							<div>
+								<br />
+								<br />
+								<h2
+									style={{
+										textAlign: "center",
+										alignContent: "center",
+										justifySelf: "center",
+									}}
+								>
+									No available players for the given filters! Try resetting your
+									filters.
+								</h2>
+							</div>
+						)}
 						<br />
 						<br />
 					</Container>
