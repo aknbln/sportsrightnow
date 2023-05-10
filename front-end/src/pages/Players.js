@@ -41,7 +41,7 @@ const Players = ({}) => {
 		let filter = {};
 		if (data.playerName !== "") filter.name = data.playerName;
 		if (data.team !== "") filter.team = data.team;
-		if (data.city !== "") filter.city = data.city;
+
 		if (data.college !== "") filter.college = data.college;
 		if (data.jerseyNum !== "" && data.jerseyNum !== undefined)
 			filter.jerseyNum = data.jerseyNum;
@@ -83,8 +83,12 @@ const Players = ({}) => {
 				//get all of the unique names
 				response.data.data.forEach((data) => {
 					let firstname = data.name.split(" ")[0];
-					let team = data.team.split(" ")[1];
-					let city = data.team.split(" ")[0];
+
+					let team = data.team.split(" ");
+					team = team[team.length - 1];
+
+					let city = data.team.split(" ");
+					city = city.slice(0, city.length - 1).join(" ");
 					let college = data.college;
 					//get unique names
 					if (!uniqueNames.some((fn) => fn.value === firstname)) {
@@ -97,8 +101,8 @@ const Players = ({}) => {
 					//get unique teams
 					if (!teams.some((t) => t.value === team)) {
 						teams.push({
-							label: data.team.split(" ")[1],
-							value: data.team.split(" ")[1],
+							label: team,
+							value: team,
 						});
 					}
 
@@ -135,6 +139,8 @@ const Players = ({}) => {
 		});
 	};
 
+
+	//need it because useState is async and allPlayerData is not updated immediately
 	useEffect(() => {
 
 		let data = allPlayerData.slice(
@@ -142,7 +148,7 @@ const Players = ({}) => {
 			currentPageNum * ITEMS_PER_PAGE
 		);
 		setPlayerData(data);
-		
+
 	}, [allPlayerData]);
 
 	//fetch new data every time filterParams changes
@@ -254,7 +260,7 @@ const Players = ({}) => {
 
 							{/* City */}
 							<Select
-								placeholder="City"
+								placeholder= {(filterParams.team === "") ? "City" :  filterParams.team}
 								styles={{
 									control: (provided, state) => ({
 										...provided,
@@ -269,7 +275,7 @@ const Players = ({}) => {
 									a.value.localeCompare(b.value)
 								)}
 								onChange={(e) => {
-									createFilter({city: e.value})
+									createFilter({team: e.value})
 									
 								}}
 							/>
