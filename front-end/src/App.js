@@ -17,6 +17,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
 import Visualizations from './pages/Visualization';
 import ProviderVisuals from './pages/ProviderVisuals';
+import logo from './assets/images/ball.svg'
 
 import PlayersInstance from './pages/PlayerInstance';
 import TeamsInstance from './pages/TeamInstance'
@@ -40,7 +41,17 @@ function App() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Container>
-          <Navbar.Brand>Sports Now</Navbar.Brand>
+          <div style={{display: 'flex', alignItems: 'center'}}>
+        <img src={logo} className="App-logo" alt="logo" style={{width:"2%", height:"2%"}}/>
+
+          <Navbar.Brand style = {{marginLeft: '0.5%'}}>
+            
+            
+            Sports Now
+
+
+          </Navbar.Brand>
+          </div>
             <Nav className='me-auto'>
               <LinkContainer to = "/">
                 <Nav.Link>Home</Nav.Link>

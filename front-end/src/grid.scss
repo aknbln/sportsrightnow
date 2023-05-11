@@ -2,13 +2,59 @@ $select-width: 200px;
 $select-anchor-padding: 10px 5px 5px;
 
 .layout{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px;
+        grid-template-areas: 
+            "img frame"
+            "info frame";
+}
+.carous{
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 10px;
+    min-height: 60vh;
+    max-height: 60vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+
     grid-template-areas: 
-        "img frame"
-        "info frame";
+        "img quote"
+        "img owner";
+    
+    
+    img{
+
+        resize: cover;
+        grid-area: img;
+        width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+    }
+    h2{
+        display: block;
+        margin-top: 25%;
+        min-width: 100%;
+        min-height: 100%;
+
+        grid-area: quote;
+        color: white;
+
+        font-family: "Times New Roman", Times, serif;
+        
+    }
+    h3{
+        margin-top: 25%;
+        min-width: 100%;
+        min-height: 100%;
+
+        grid-area: owner;
+        color: white;
+        align-content: center;
+        justify-self: center;
+
+        font-family: "Times New Roman", Times, serif;
+    }
 }
 
 .box{
