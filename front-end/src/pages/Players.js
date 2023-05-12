@@ -369,7 +369,7 @@ const Players = ({}) => {
 									borderStyle: "solid",
 								}}
 							>
-								Reset Filters
+								Reset
 							</button>
 						</div>
 

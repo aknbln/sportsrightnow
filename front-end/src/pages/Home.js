@@ -4,6 +4,7 @@ import mj from "../athletes/mj.png";
 import vincelom from "../athletes/vincelom.jpeg";
 import Carousel from "react-bootstrap/Carousel";
 import ronaldo from "../athletes/ronaldo.png";
+import ReactPlayer from "react-player";
 import Fade from "react-reveal/Fade";
 import Reveal from "react-reveal/Reveal";
 import TestButton from "../components/Button";
@@ -31,15 +32,43 @@ const quotes = [
 ];
 
 const Home = ({}) => {
+
+	
 	return (
 		<div className="App">
 			<header className="App-header">
 				<h2>Sports RightNow</h2>
 				<h4>Sports information right here, right now!</h4>
 			</header>
+
 			<div className="App-body">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>Welcome to the amazing Sports Now Database!</p>
+
+				<ReactPlayer
+				url = "https://www.youtube.com/watch?v=0lM-x1tBWOM"
+				controls = {true}
+				playing = {true}
+				muted = {true}
+				width = "700px"
+				height = "400px"
+				style={{
+					frameborder: "10px",
+					border: '5px solid grey',
+					borderRadius:'5px'
+				}}
+				/>
+
+			{/* <iframe
+				id="ytplayer"
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/0lM-x1tBWOM"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			></iframe> */}
+
+
 
 				<Carousel
 					style={{
@@ -49,7 +78,7 @@ const Home = ({}) => {
 						justifyContent: "center",
 						alignItems: "center",
 					}}
-          // nextIcon={}
+					// nextIcon={}
 				>
 					{quotes.map((quote, index) => (
 						<Carousel.Item

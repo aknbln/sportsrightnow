@@ -315,6 +315,7 @@ const Teams = ({}) => {
 
 							{/* create a reset button */}
 							<button
+							
 								onClick={() => {
 									setFilterParams({});
 								}}
@@ -326,7 +327,7 @@ const Teams = ({}) => {
 									borderStyle: "solid",
 								}}
 							>
-								Reset Filters
+								Reset
 							</button>
 						</div>
 						<hr style={{ backgroundColor: "white", height: "2px" }} />
