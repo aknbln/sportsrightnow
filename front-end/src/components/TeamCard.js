@@ -5,7 +5,7 @@ import { Navigate, useNavigate, useSearchParams } from "react-router-dom";
 import { Highlight } from "../Utils";
 
 const TeamCard = (props) => {
-  const { name, logo, city, league, totalWins, totalLosses, id } = props.sportsTeamData;
+  const { name, logo, city,rank, league, totalWins, totalLosses, id } = props.sportsTeamData;
   const search = [props.q]
   const navigate = useNavigate()
 
@@ -15,12 +15,12 @@ const TeamCard = (props) => {
 
   return (
     <Card
-    style= {{backgroundColor: 'lightgray', minWidth: '100%'}}>
+    style= {{backgroundColor: 'lightgray', minWidth: '100%', maxHeight: '100%', minHeight: '100%', whiteSpace: 'nowrap'}}>
       <Card.Img variant="top" src={logo} style={{width: '100%', height: '20vw', objectFit: 'contain'}}/>
       <Card.Body>
-        <Card.Title style = {{fontSize: '3vh', color: '#333232'}}>{Highlight(name, search)}</Card.Title>
+        <Card.Title style = {{fontSize: '3vh', color: '#333232', textAlign: 'center'}}>{Highlight(name, search)}</Card.Title>
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>League: {Highlight(league, search)}</Card.Text>
-        <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>City: {Highlight(city, search)}</Card.Text>
+        <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Rank: {Highlight(rank, search)}</Card.Text>
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Wins: {totalWins}</Card.Text>
         <Card.Text style = {{fontSize: '2vh', color: '#404040'}}>Losses: {totalLosses}</Card.Text>
       </Card.Body>

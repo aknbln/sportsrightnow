@@ -1,243 +1,395 @@
-import React from 'react';
-import TeamCard from '../components/TeamCard';
-import { Stack } from 'react-bootstrap';
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
+import React from "react";
+import TeamCard from "../components/TeamCard";
+import { Breadcrumb, Stack } from "react-bootstrap";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import { sportsTeamData } from '../assets/SportsTeamData'
-import { Pagination } from 'react-bootstrap';
-import { useState, useEffect, useRef } from 'react'
+import { PaginationControl } from "react-bootstrap-pagination-control";
+import { useState, useEffect, useRef } from "react";
+import Select from "react-select";
+import CreatableSelect from "react-select/creatable";
 import Button from "react-bootstrap/Button";
-import { useForm } from 'react-hook-form';
+import { useForm } from "react-hook-form";
 
-
-import axios from 'axios';
+import axios from "axios";
+import { filter } from "d3";
 
 const ax = axios.create({
-  baseURL: "https://api.sportsrightnow.me/"
-})
+	baseURL: "https://api.sportsrightnow.me/",
+});
 
 const Teams = ({}) => {
+	const [currentPageNum, setCurrentPageNum] = useState(1);
 
-  const [currentPage, setCurrentPage] = useState(1)
-  const [dataSlice, setDataSlice] = useState([])
-  const [teamData, setTeamData] = useState([])
-  const [dataLength, setDataLength] = useState(0)
-  const [pageCount, setPageCount] = useState(0)
-  const [pages, setPages] = useState([])
-  const [loaded, setLoaded] = useState(false)
-  const [filterParams, setFilterParams] = useState({})
+	const [allTeamData, setAllTeamData] = useState([]);
+	const [teamData, setTeamData] = useState([]);
 
-  const {register, handleSubmit} = useForm()
-  const onSubmit = data => CreateFilter(data)
+	const [loaded, setLoaded] = useState(false);
+	const [filterParams, setFilterParams] = useState({});
 
-  const ITEMS_PER_PAGE = 9
-  const stateRef = useRef()
-  stateRef.current = teamData
-  stateRef.page = currentPage
-  
-  let active = 1
+	const filterValues = useRef({});
 
-  function CreatePages(count){
-    let temp = []
+	const ITEMS_PER_PAGE = 12;
+	const stateRef = useRef();
+	stateRef.current = teamData;
+	stateRef.page = currentPageNum;
 
-    for (let item = 1; item <= count; item++) {
-      temp.push(
-        <Pagination.Item key={item} active={item === stateRef.page} onClick={(event) => changePage(item)}>
-          {item}
-        </Pagination.Item>
-      )
-    }
+	function createFilter(data) {
+		let filter = {};
+		if (data.name !== "") filter.name = data.name;
+		if (data.city !== "") filter.city = data.city;
+		if (data.minWins !== "" && data.minWins !== undefined)
+			filter.win = data.minWins;
+		if (data.maxLosses !== "" && data.maxLosses !== undefined)
+			filter.loss = data.maxLosses;
+		if (data.league !== "any") filter.league = data.league;
 
-    setPages(temp)
-  }
+		switch (data.sort) {
+			case "default":
+				break;
+			case "name-asc":
+				filter.sort = "name";
+				filter.asc = true;
+				break;
+			case "name-dsc":
+				filter.sort = "name";
+				break;
+			case "wins-asc":
+				filter.sort = "totalWins";
+				filter.asc = true;
+				break;
+			case "wins-dsc":
+				filter.sort = "totalWins";
+				break;
+			case "loss-asc":
+				filter.sort = "totalLosses";
+				filter.asc = true;
+				break;
+			case "loss-dsc":
+				filter.sort = "totalLosses";
+				break;
+		}
+		setFilterParams(filter);
+	}
 
-  function CreateFilter(data){
-    let filter = {}
-    if(data.teamName !== "") filter.name = data.teamName
-    if(data.city !== "") filter.city = data.city
-    if(data.minWins !== "" && data.minWins !== undefined) filter.win = data.minWins
-    if(data.maxLosses !== "" && data.maxLosses !== undefined) filter.loss = data.maxLosses
-    if(data.league !== "any") filter.league = data.league
-    
-    switch(data.sort){
-      case "default":
-        break
-      case "name-asc":
-        filter.sort = "name"
-        filter.asc = true
-        break
-      case "name-dsc":
-          filter.sort = "name"
-          break
-      case "wins-asc":
-        filter.sort = "totalWins"
-        filter.asc = true
-        break
-      case "wins-dsc":
-        filter.sort = "totalWins"
-        break
-      case "loss-asc":
-        filter.sort = "totalLosses"
-        filter.asc = true
-        break
-      case "loss-dsc":
-        filter.sort = "totalLosses"
-        break
-    }
-    setFilterParams(filter)
-  }
+	const fetchData = async (params) => {
+		await ax.get("teams", { params }).then((response) => {
+			if (JSON.stringify(filterValues.current) === "{}") {
+				let names = [];
+				let cities = [];
+				let leagues = [];
+				let conferences = [];
 
-  useEffect(() => {
-    
+				response.data.data.forEach((team) => {
+					if (!names.some((nm) => nm.value === team.name.split(" ")[1])) {
+						names.push({
+							value: team.name.split(" ")[1],
+							label: team.name.split(" ")[1],
+						});
+					}
 
-    const fetchData = async(params) => {
-      await ax
-      .get("teams", {params})
-      .then((response) => (
-        setDataLength(response.data.data.length),
-        setPageCount(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
-        CreatePages(Math.ceil(response.data.data.length / ITEMS_PER_PAGE)),
-        setDataSlice(response.data.data.slice(1, ITEMS_PER_PAGE + 1)),
-        setLoaded(true),
-        changePage(1))
-      )
-    }
+					if (!cities.some((ct) => ct.value === team.city)) {
+						cities.push({ label: team.city, value: team.city });
+					}
+					if (!leagues.some((lg) => lg.value === team.league)) {
+						leagues.push({ label: team.league, value: team.league });
+					}
 
-    setLoaded(false)
-    const params = new URLSearchParams(filterParams)
-    fetchData(params)
-    
-  }, [filterParams])
+					if (!conferences.some((cf) => cf.value === team.conference)) {
+						conferences.push({
+							label: team.conference,
+							value: team.conference,
+						});
+					}
+				});
 
-  useEffect(() => {
-    CreatePages(pageCount)
-  }, [currentPage])
+				filterValues.current = {
+					names: names,
+					cities: cities,
+					leagues: leagues,
+					conferences: conferences,
+				};
+			}
+			setAllTeamData(response.data.data);
+			changePage(1);
+		});
+	};
 
-  function changePage(num) {
+	useEffect(() => {
+		setLoaded(false);
 
-    const fetch = async(params) => {
-      await ax
-      .get("teams", {params})
-      .then((response) => (
-        setTeamData(response.data.data)
-      ))
-    }
+		fetchData(filterParams);
+	}, [filterParams]);
 
-    let p = structuredClone(filterParams)
-    p.page = num
-    p.perPage = ITEMS_PER_PAGE
-    const params = new URLSearchParams(p)
-    setCurrentPage(num)
-    fetch(params)
-  }
+	useEffect(() => {
+		setTeamData(
+			allTeamData.slice(
+				(currentPageNum - 1) * ITEMS_PER_PAGE,
+				currentPageNum * ITEMS_PER_PAGE
+			)
+		);
+	}, [allTeamData]);
 
-  if(!loaded){
-    return(
-      <div className="Teams">
-      <header className="App-header" style={{padding: "2%"}}>
-        <h1>Teams</h1>
-        <p>Find your favorite teams!</p>
-      </header>
-      
-      <div className="App-body">
-        <h2>Loading...</h2>
-      </div>
-    </div>
-    )
-  }
-  else{
-  return (
-    <div className="Teams">
-      <header className="App-header" style={{padding:"2%"}}>
-        <h1>Teams</h1>
-        <p>Find your favorite teams!</p>
-        <p>Total teams: {dataLength}</p>
-      </header>
-      
-      <div className="App-body">
-        <Container style={{padding: '3vh'}}>
-          <h1>Teams</h1>
-          <hr style={{backgroundColor: 'white', height: "2px"}}/>
-          <h2>Filter / Sort</h2>
+	function changePage(num) {
+		let data = allTeamData.slice(
+			(num - 1) * ITEMS_PER_PAGE,
+			num * ITEMS_PER_PAGE
+		);
+		setTeamData(data);
+		//set page number
+		setCurrentPageNum(num);
 
-          <form onSubmit={handleSubmit(onSubmit)} style={{display: 'flex', flexWrap:"wrap", gap: "1%", rowGap:"1vh"}}>
-            <div className='Form-element'>
-              <label>Team Name</label>
-              <br/>
-              <input type="text" name="teamName" {...register("teamName")}/>
-            </div>
-            
-            <div className='Form-element'>
-              <label>City</label>
-              <br/>
-              <input type="text" name="city" {...register("city")}/>
-            </div>
+		setLoaded(true);
+	}
 
-            <div className='Form-element'>
-              <label>League</label>
-              <br/>
-              <select {...register("league")}>
-                <option value="any">Any</option>
-                <option value="nba">NBA</option>
-                <option value="nfl">NFL</option>
-                <option value="mlb">MLB</option>
-              </select>
-            </div>
+	if (!loaded) {
+		return (
+			<div className="Teams">
+				<header className="App-header" style={{ padding: "2%" }}>
+					<h1>Find more about your favorite teams!</h1>
+				</header>
 
-            <div style={{width: "100%"}}/>
+				<div className="App-body">
+					<h2>Loading...</h2>
+				</div>
+			</div>
+		);
+	} else {
+		return (
+			<div className="Teams">
+				<header className="App-header" style={{ padding: "2%" }}>
+					<h1>Find more about your favorite teams!</h1>
+					<br />
+					<p>
+						We have {allTeamData.length} professional athletes that fit the
+						categories in our database!
+					</p>
+				</header>
 
-            <div className='Form-element'>
-              <label>Win count at least</label>
-              <br/>
-              <input min="0" type="number" name="minWins" {...register("minWins")}/>
-            </div>
+				<div className="App-body">
+					<Container style={{ padding: "3vh" }}>
+						<div style={{ display: "flex", justifyContent: "space-between" }}>
+							{/* Team Name */}
+							<CreatableSelect
+								isClearable
+								placeholder={
+									filterParams.name === "" || !filterParams.name
+										? "Team Name"
+										: filterParams.name
+								}
+								styles={{
+									control: (provided, state) => ({
+										...provided,
+										minWidth: "15vw",
+										maxWidth: "15vw",
+									}),
 
-            <div className='Form-element'>
-              <label>Loss count at most</label>
-              <br/>
-              <input min="0" type="number" name="maxLosses" {...register("maxLosses")}/>
-            </div>
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								options={filterValues.current.names.sort((a, b) =>
+									a.value.localeCompare(b.value)
+								)}
+								onChange={(e, actType) => {
+									if (actType.action === "clear") {
+										createFilter({ ...filterParams, name: "" });
+									} else {
+										createFilter({ ...filterParams, name: e.value });
+									}
+								}}
+							/>
 
-            <div style={{width: "100%"}}/>
+							{/* Conference */}
+							<Select
+								isClearable
+								placeholder={
+									filterParams.conference === "" || !filterParams.conference
+										? "Conference"
+										: filterParams.conference
+								}
+								styles={{
+									control: (provided, state) => ({
+										...provided,
+										minWidth: "15vw",
+										maxWidth: "15vw",
+									}),
 
-            <div className='Form-element'>
-              <label>Sort By</label>
-              <br/>
-              <select {...register("sort")}>
-                <option value="default">Default</option>
-                <option value="name-asc">Name A-Z</option>
-                <option value="name-dsc">Name Z-A</option>
-                <option value="wins-asc">Wins ↑</option>
-                <option value="wins-dsc">Wins ↓ </option>
-                <option value="loss-asc">Losses ↑</option>
-                <option value="loss-dsc">Losses ↓ </option>
-              </select>
-            </div>
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								//write options with map that there is no duplicate team names:
+								//https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates
 
-            <div style={{width: "100%"}}/>
+								options={filterValues.current.conferences}
+								onChange={(e, actType) => {
+									if (actType.action === "clear") {
+										createFilter({ ...filterParams, conference: "" });
+									} else {
+										createFilter({ ...filterParams, conference: e.value });
+									}
+								}}
+							/>
 
-            <input type="submit" value="Filter" style={{width: '15%', marginTop:"3vh"}}/> 
-          </form>
+							{/* City */}
+							<Select
+								isClearable
+								placeholder={
+									filterParams.city === "" || !filterParams.city
+										? "City"
+										: filterParams.city
+								}
+								styles={{
+									control: (provided, state) => ({
+										...provided,
+										minWidth: "12vw",
+										maxWidth: "12vw",
+									}),
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								options={filterValues.current.cities}
+								onChange={(e, actType) => {
+									if (actType.action === "clear") {
+										createFilter({ ...filterParams, city: "" });
+									} else {
+										createFilter({ ...filterParams, city: e.value });
+									}
+								}}
+							/>
 
-          <hr style={{backgroundColor: 'white', height: "2px"}}/>
-            <Row xs={2} md={3} lg={3}>
-              {teamData.map((dat) => {
-                return (
-                  <Col className='d-flex align-self-stretch' style={{paddingTop: '4px', minWidth: "33%", alignContent:"center"}}>
-                    <TeamCard sportsTeamData={dat}/>                        
-                  </Col>
-               )
-             })}
-            </Row>
-            <br/>
-            <br/>
-        </Container>
-        <Pagination>{pages}</Pagination>
-      </div>
-    </div>
-  );
-  }
+							{/* League */}
+							<Select
+								isClearable
+								placeholder={
+									filterParams.league === "" || !filterParams.league
+										? "League"
+										: filterParams.league
+								}
+								styles={{
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								options={[
+									{ label: "NBA", value: "NBA" },
+									{ label: "NFL", value: "NFL" },
+									{ label: "MLB", value: "MLB" },
+								]}
+								onChange={(e, actType) => {
+									if (actType.action === "clear") {
+										createFilter({ ...filterParams, league: "" });
+									} else {
+										createFilter({ ...filterParams, league: e.value });
+									}
+								}}
+							/>
+						</div>
+						<br />
+						<div style={{ display: "flex", justifyContent: "space-between" }}>
+							<Select
+								defaultValue="default"
+								placeholder="Sort By"
+								styles={{
+									control: (provided, state) => ({
+										...provided,
+										minWidth: "12vw",
+										maxWidth: "12vw",
+									}),
+									option: (provided, state) => {
+										return { ...provided, color: "black" };
+									},
+								}}
+								options={[
+									{ label: "Name A-Z", value: "name-asc" },
+									{ label: "Name Z-A", value: "name-dsc" },
+									{ label: "Team A-Z", value: "team-asc" },
+									{ label: "Team Z-A", value: "team-dsc" },
+								]}
+								onChange={(e) => {
+									createFilter({ ...filterParams, sort: e.value });
+								}}
+							></Select>
+
+							{/* create a reset button */}
+							<button
+								onClick={() => {
+									setFilterParams({});
+								}}
+								style={{
+									backgroundColor: "white",
+									color: "gray",
+									borderColor: "lightgray",
+									borderRadius: "2%",
+									borderStyle: "solid",
+								}}
+							>
+								Reset Filters
+							</button>
+						</div>
+						<hr style={{ backgroundColor: "white", height: "2px" }} />
+						<PaginationControl
+							page={currentPageNum}
+							total={allTeamData.length}
+							limit={ITEMS_PER_PAGE}
+							between={5}
+							changePage={(page) => {
+								changePage(page);
+								console.log(page);
+							}}
+							ellipsis={10}
+						/>
+            <br />
+
+						{teamData.length !== 0 ? (
+							<Row xs={2} md={3} lg={4}>
+								{teamData.map((dat) => {
+									return (
+										<div>
+											<Col>
+												<TeamCard sportsTeamData={dat} />
+											</Col>
+											<br />
+										</div>
+									);
+								})}
+							</Row>
+						) : (
+							<div>
+								<br />
+								<br />
+								<h2
+									style={{
+										textAlign: "center",
+										alignContent: "center",
+										justifySelf: "center",
+									}}
+								>
+									No available teams for the given filters! Try resetting your
+									filters.
+								</h2>
+							</div>
+						)}
+
+					</Container>
+					{/* <Pagination>{pages}</Pagination> */}
+          <PaginationControl
+						page={currentPageNum}
+						total={allTeamData.length}
+						limit={ITEMS_PER_PAGE}
+						between={5}
+						changePage={(page) => {
+							changePage(page);
+							console.log(page);
+						}}
+						ellipsis={10}
+					/>
+				</div>
+			</div>
+		);
+	}
 };
 
-export default Teams
+export default Teams;

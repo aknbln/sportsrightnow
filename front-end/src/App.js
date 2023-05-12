@@ -47,7 +47,7 @@ function App() {
           <Navbar.Brand style = {{marginLeft: '0.5%'}}>
             
             
-            Sports Now
+            Sports RightNow
 
 
           </Navbar.Brand>

@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 
 import { PaginationControl } from "react-bootstrap-pagination-control";
 import { useState, useEffect, useRef } from "react";
-import { useForm } from "react-hook-form";
+
 import Select from "react-select";
 import CreatableSelect from "react-select/creatable";
 
@@ -29,9 +29,6 @@ const Players = ({}) => {
 
 	const [loaded, setLoaded] = useState(false);
 	const [filterParams, setFilterParams] = useState({});
-
-	const { register, handleSubmit } = useForm();
-	const onSubmit = (data) => createFilter(data);
 
 	const ITEMS_PER_PAGE = 12;
 	const stateRef = useRef();
@@ -126,12 +123,8 @@ const Players = ({}) => {
 					cities: cities,
 					colleges: colleges,
 				};
-
-				// setAllNames(response.data.data.map((dat) => dat.name));
 			}
 			setAllPlayerData(response.data.data);
-			console.log(allPlayerData);
-			console.log(response.data.data);
 			//load the first page
 			changePage(1);
 		});
@@ -148,8 +141,6 @@ const Players = ({}) => {
 
 	//fetch new data every time filterParams changes
 	useEffect(() => {
-		console.log("fetching data");
-
 		setLoaded(false);
 		fetchData(filterParams);
 	}, [filterParams]);
@@ -163,7 +154,7 @@ const Players = ({}) => {
 			num * ITEMS_PER_PAGE
 		);
 		setPlayerData(data);
-		console.log(data);
+
 		//set page number
 		setCurrentPageNum(num);
 
@@ -174,7 +165,7 @@ const Players = ({}) => {
 		return (
 			<div className="Players">
 				<header className="App-header" style={{ padding: "2%" }}>
-					<h1>Find your favorite players!</h1>
+					<h1>Find more about your favorite players!</h1>
 				</header>
 
 				<div className="App-body">
@@ -186,11 +177,11 @@ const Players = ({}) => {
 		return (
 			<div className="Players">
 				<header className="App-header" style={{ padding: "2%" }}>
-					<h1>Find your favorite players!</h1>
+					<h1>Find more about your favorite players!</h1>
 					<br />
 					<p>
-						We have {allPlayerData.length} professional athletes that fit the categories
-						in our database!
+						We have {allPlayerData.length} professional athletes that fit the
+						categories in our database!
 					</p>
 				</header>
 
@@ -201,7 +192,6 @@ const Players = ({}) => {
 						<div style={{ display: "flex", justifyContent: "space-between" }}>
 							<CreatableSelect
 								isClearable
-
 								placeholder={
 									filterParams.name === "" || !filterParams.name
 										? "Player Name"
@@ -222,10 +212,10 @@ const Players = ({}) => {
 									a.value.localeCompare(b.value)
 								)}
 								onChange={(e, actType) => {
-									if(actType.action === "clear"){
+									if (actType.action === "clear") {
 										createFilter({ ...filterParams, name: "" });
-									}else{
-									createFilter({ ...filterParams, name: e.value });
+									} else {
+										createFilter({ ...filterParams, name: e.value });
 									}
 								}}
 							/>
@@ -256,10 +246,10 @@ const Players = ({}) => {
 									a.value.localeCompare(b.value)
 								)}
 								onChange={(e, actType) => {
-									if(actType.action === "clear"){
+									if (actType.action === "clear") {
 										createFilter({ ...filterParams, team: "" });
-									}else{
-									createFilter({ ...filterParams, team: e.value });
+									} else {
+										createFilter({ ...filterParams, team: e.value });
 									}
 								}}
 							/>
@@ -286,10 +276,10 @@ const Players = ({}) => {
 									a.value.localeCompare(b.value)
 								)}
 								onChange={(e, actType) => {
-									if(actType.action === "clear"){
+									if (actType.action === "clear") {
 										createFilter({ ...filterParams, team: "" });
-									}else{
-									createFilter({ ...filterParams, team: e.value });
+									} else {
+										createFilter({ ...filterParams, team: e.value });
 									}
 								}}
 							/>
@@ -312,10 +302,10 @@ const Players = ({}) => {
 									{ label: "MLB", value: "MLB" },
 								]}
 								onChange={(e, actType) => {
-									if(actType.action === "clear"){
-										createFilter({ ...filterParams, team: "" });
-									}else{
-									createFilter({ ...filterParams, league: e.value });
+									if (actType.action === "clear") {
+										createFilter({ ...filterParams, league: "" });
+									} else {
+										createFilter({ ...filterParams, league: e.value });
 									}
 								}}
 							/>
@@ -401,12 +391,12 @@ const Players = ({}) => {
 							<Row xs={2} md={3} lg={4}>
 								{playerData.map((dat) => {
 									return (
-										<Col
-											className="d-flex align-self-stretch"
-											style={{ paddingTop: "4px" }}
-										>
-											<PlayerCard playerData={dat} />
-										</Col>
+										<div>
+											<Col>
+												<PlayerCard playerData={dat} />
+											</Col>
+											<br />
+										</div>
 									);
 								})}
 							</Row>
@@ -426,8 +416,7 @@ const Players = ({}) => {
 								</h2>
 							</div>
 						)}
-						<br />
-						<br />
+
 					</Container>
 
 					<PaginationControl

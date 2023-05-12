@@ -34,7 +34,7 @@ const Home = ({}) => {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<h2>Sports Now</h2>
+				<h2>Sports RightNow</h2>
 				<h4>Sports information right here, right now!</h4>
 			</header>
 			<div className="App-body">
