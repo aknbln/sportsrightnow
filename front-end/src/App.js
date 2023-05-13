@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div>
-      <Navbar bg='dark' variant='dark'>
+      <Navbar bg='dark' variant='dark' style={{ zIndex: 3, position: 'fixed', top: '0', width: '100%'}}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Container>

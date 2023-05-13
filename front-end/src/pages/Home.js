@@ -32,72 +32,62 @@ const quotes = [
 ];
 
 const Home = ({}) => {
-
-	
 	return (
 		<div className="App">
-			<header className="App-header">
-				<h2>Sports RightNow</h2>
-				<h4>Sports information right here, right now!</h4>
-			</header>
 
-			<div className="App-body">
+			<div className="sections">
+				<div className={"first"}>
+					<ReactPlayer
+						url="https://www.youtube.com/watch?v=0lM-x1tBWOM"
+						controls={true}
+						playing={true}
+						muted={true}
+						width="700px"
+						height="400px"
+						style={{
+							frameborder: "10px",
+							border: "5px solid grey",
+							borderRadius: "5px",
+						}}
+					/>
+				</div>
 
-				<ReactPlayer
-				url = "https://www.youtube.com/watch?v=0lM-x1tBWOM"
-				controls = {true}
-				playing = {true}
-				muted = {true}
-				width = "700px"
-				height = "400px"
-				style={{
-					frameborder: "10px",
-					border: '5px solid grey',
-					borderRadius:'5px'
-				}}
-				/>
+				<div className = "second" >
+						<Carousel
+							indicatorLabels={false}
+							indicators={false}
+							nextIcon={false}
+							prevIcon={false}
+							interval={2000}	
+							
+							>
+						{quotes.map((quote, index) => (
+							<Carousel.Item
+								key={index}
+								
+							>
+								<div className="carousel-items" >
+									<img src={quote.photo} style={{}} />
 
-			{/* <iframe
-				id="ytplayer"
-				width="560"
-				height="315"
-				src="https://www.youtube.com/embed/0lM-x1tBWOM"
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen
-			></iframe> */}
+									<Fade top opposite duration={1500}>
+	
+											<h2> {quote.quote}</h2>
+										<h3> - {quote.owner}</h3>
+									</Fade>
+								</div>
+							</Carousel.Item>
+						))}
+					</Carousel>
+				</div>
+				
+				<div style = {{backgroundColor: 'darkgreen'}}>
 
+				</div>
 
+				<div style = {{backgroundColor: 'yellow'}}>
 
-				<Carousel
-					style={{
-						width: "60%",
-						height: "60vh",
-						display: "flex",
-						justifyContent: "center",
-						alignItems: "center",
-					}}
-					// nextIcon={}
-				>
-					{quotes.map((quote, index) => (
-						<Carousel.Item
-							key={index}
-							style={{
-								minHeight: "60vh",
-							}}
-						>
-							<div className="carous">
-								<img src={quote.photo} style={{}} />
+				</div>
 
-								<Fade top opposite duration={1500}>
-									<h2> {quote.quote}</h2>
-									<h3> - {quote.owner}</h3>
-								</Fade>
-							</div>
-						</Carousel.Item>
-					))}
-				</Carousel>
 			</div>
 		</div>
 	);

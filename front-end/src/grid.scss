@@ -10,15 +10,15 @@ $select-anchor-padding: 10px 5px 5px;
             "img frame"
             "info frame";
 }
-.carous{
-    display: grid;
-    min-height: 60vh;
-    max-height: 60vh;
+.carousel-items{
+    display: grid ;
+    max-height: 78%;
+    
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-
-
-    grid-template-areas: 
+    margin-top: 20%;
+    align-items: center;
+    grid-template-areas:
         "img quote"
         "img owner";
     
@@ -28,16 +28,16 @@ $select-anchor-padding: 10px 5px 5px;
         resize: cover;
         grid-area: img;
         width: 100%;
-        min-height: 100%;
-        max-height: 100%;
+        height: 80%;
     }
     h2{
-        display: block;
-        margin-top: 25%;
-        min-width: 100%;
-        min-height: 100%;
 
+ 
+
+        height: 100%;
         grid-area: quote;
+        display: flex;
+        align-items: flex-end;
         color: white;
 
         font-family: "Times New Roman", Times, serif;
