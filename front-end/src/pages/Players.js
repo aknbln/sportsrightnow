@@ -164,7 +164,7 @@ const Players = ({}) => {
 	if (!loaded) {
 		return (
 			<div className="Players">
-				<header className="App-header" style={{ padding: "2%" }}>
+				<header className="App-header" >
 					<h1>Find more about your favorite players!</h1>
 				</header>
 

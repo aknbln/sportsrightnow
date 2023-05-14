@@ -16,7 +16,6 @@ const ProviderVisuals = ({}) =>{
         <div className="App">
             <header className="App-header">
               <h2>Provider Visualizations</h2>
-              <h4>Now that's a cool graphic!</h4>
             </header>
             <div className='App-body'>
                 <h2>

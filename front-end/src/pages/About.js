@@ -96,12 +96,8 @@ const About = ({}) =>{
 
   return (
       <div className="App">
-          <header className="App-header">
-            <h1>About</h1>
-            <p>Sports Now is a next-generation database for all your sports player, team, and event needs</p>
-          </header>
 
-          <div className="App-body">
+          <div className="App-body" style={{marginTop: '4%'}}>
             <Container>
               <h2>Our Team</h2>
               <hr style={{backgroundColor: 'white', height: "2px"}}/>

@@ -22,7 +22,7 @@ const Visualizations = ({}) =>{
         <div className="App">
             <header className="App-header">
               <h2>Visualization</h2>
-              <h4>Now that's a cool graphic!</h4>
+              {/* <h4>Now that's a cool graphic!</h4> */}
             </header>
             <div className='App-body'>
                 <h2>

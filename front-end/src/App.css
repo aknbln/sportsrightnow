@@ -17,7 +17,9 @@
 
 .App-header {
   background-color: #414957;
-  min-height: 20vh;
+  padding: 2%;
+  margin-top: 4%;
+  min-height: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,11 +51,15 @@ a:link{
   display: block;
 }
 
+
+
 .sections{
   width: 100vw;
   height: 100vh;
   background-color: rgb(0, 195, 255);
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+
 
   /* for every div object set height for every div object inside: 
 
@@ -64,27 +70,65 @@ a:link{
 
 }
 
+.home-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
 .sections .first{
+  border: 10px solid salmon;
   background-color: blue;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.video{
+
+  position: absolute;
+  pointer-events: visible;
+  cursor:default;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+  z-index: -1;
+}
+
+.carousel{
+
+  position: absolute;
+  pointer-events: visible;
+  cursor:default;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+
+  z-index: -1;
+}
+
+.home-text{
+  pointer-events: none;
+  position: relative;
+  cursor:default;
+  font-size:  28vmax;
+  color: rgba(255, 255, 255, 0.385);
+  z-index: 2;
+}
+
+
 .sections .second{
-  width: 100vw;
-  height: 100vh;
+  max-height: 100%;
   background-color: gray;
+  display: flex;
+  border: 10px solid red;
+  justify-content: center;
+  align-items: center;
 }
 
-.sections .carousel{
-  width: 60vw;
-  height: 100%;
-  left: 20vw;
-
-  
-}
 
 .grey{
   background-color: gray;

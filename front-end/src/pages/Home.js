@@ -4,6 +4,7 @@ import mj from "../athletes/mj.png";
 import vincelom from "../athletes/vincelom.jpeg";
 import Carousel from "react-bootstrap/Carousel";
 import ronaldo from "../athletes/ronaldo.png";
+import kobe from "../athletes/kobe.png";
 import ReactPlayer from "react-player";
 import Fade from "react-reveal/Fade";
 import Reveal from "react-reveal/Reveal";
@@ -19,75 +20,67 @@ const quotes = [
 		photo: mj,
 	},
 	{
-		quote:
-			"The dictionary is the only place that success comes before work. work is the key to success, and hard work can help you accomplish anything.",
-		owner: "Vince Lombardi",
-		photo: vincelom,
-	},
-	{
 		quote: "We don't want to tell our dreams. We want to show them.",
 		owner: "Cristiano Ronaldo",
 		photo: ronaldo,
+	},
+	{
+		quote:
+			"I'll do whatever it takes to win games, whether it's sitting on a bench waving a towel, handing a cup of water to a teammate, or hitting the game-winning shot.",
+		owner: "Kobe Bryant",
+		photo: kobe,
 	},
 ];
 
 const Home = ({}) => {
 	return (
 		<div className="App">
-
 			<div className="sections">
 				<div className={"first"}>
-					<ReactPlayer
-						url="https://www.youtube.com/watch?v=0lM-x1tBWOM"
-						controls={true}
-						playing={true}
-						muted={true}
-						width="700px"
-						height="400px"
-						style={{
-							frameborder: "10px",
-							border: "5px solid grey",
-							borderRadius: "5px",
-						}}
-					/>
+					<h1 className="home-text">
+						{" "}
+						SPORTS
+						<ReactPlayer
+							url="https://www.youtube.com/watch?v=0lM-x1tBWOM"
+							controls={true}
+							playing={true}
+							muted={true}
+							width="700px"
+							height="400px"
+							className="video"
+						/>
+					</h1>
 				</div>
 
-				<div className = "second" >
+				<div className="second">
+					<h1 className="home-text">
+						RIGHT
 						<Carousel
-							indicatorLabels={false}
 							indicators={false}
-							nextIcon={false}
-							prevIcon={false}
-							interval={2000}	
-							
-							>
-						{quotes.map((quote, index) => (
-							<Carousel.Item
-								key={index}
-								
-							>
-								<div className="carousel-items" >
-									<img src={quote.photo} style={{}} />
+							style={{
+								width: "60vw",
+								height: "100%",
+							}}
+						>
+							{quotes.map((quote, index) => (
+								<Carousel.Item key={index}>
+									<div className="carousel-items">
+										<img src={quote.photo} style={{}} />
 
-									<Fade top opposite duration={1500}>
-	
+										<Fade top opposite duration={1500}>
 											<h2> {quote.quote}</h2>
-										<h3> - {quote.owner}</h3>
-									</Fade>
-								</div>
-							</Carousel.Item>
-						))}
-					</Carousel>
-				</div>
-				
-				<div style = {{backgroundColor: 'darkgreen'}}>
-
+											<h3> - {quote.owner}</h3>
+										</Fade>
+									</div>
+								</Carousel.Item>
+							))}
+						</Carousel>
+					</h1>
 				</div>
 
-				<div style = {{backgroundColor: 'yellow'}}>
+				<div style={{ backgroundColor: "darkgreen" }}></div>
 
-				</div>
-
+				<div style={{ backgroundColor: "yellow" }}></div>
 			</div>
 		</div>
 	);
