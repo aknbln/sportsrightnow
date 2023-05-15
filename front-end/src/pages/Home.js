@@ -12,10 +12,10 @@ import Tada from "react-reveal/Tada";
 import TestButton from "../components/Button";
 import "../grid.scss";
 import { Link } from "react-router-dom";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
-import CategoryCard from "../components/CategoryCard";
+import { Card, Button } from "react-bootstrap";
+import nbateams from "../athletes/nbateams.jpeg";
+import teams from "../athletes/teams.jpeg";
+import events from "../athletes/events.jpg";
 
 const quotes = [
 	{
@@ -36,6 +36,45 @@ const quotes = [
 		photo: kobe,
 	},
 ];
+
+function ModelCard(props) {
+	return (
+		<Card
+			style={{
+				width: "25%",
+				maxHeight: "70%",
+				position: "relative",
+			}}
+		>
+			<Card.Img variant="top" src={props.src} className="card-img" />
+
+			<Card.Body
+				style={{
+					maxHeight: "100%",
+					backgroundColor: "lightgray",
+				}}
+			>
+				<Card.Text
+					style={{ fontSize: "2vw", color: "#404040", fontWeight: "10" }}
+				>
+					{props.txt}
+				</Card.Text>
+
+				<Link to={props.linkURL}>
+					<Button
+						style={{
+							position: "relative",
+							top: "5%",
+							backgroundColor: "#3d405b",
+						}}
+					>
+						Go to {props.name}
+					</Button>
+				</Link>
+			</Card.Body>
+		</Card>
+	);
+}
 
 const Home = ({}) => {
 	return (
@@ -98,44 +137,54 @@ const Home = ({}) => {
 					</Tada>
 				</div>
 
-				<div className="second">
-					<div >
-						<Container
+				<div className="forth">
+					<h1
+						style={{
+							top: "10%",
+							position: "relative",
+							left: "10%",
+							width: "80%",
+							textAlign: "justify",
+							textJustify: "auto",
+							color: "white",
+						}}
+					>
+						SportsRightNow is the place to find more about your favorite teams,
+						players and events across <strong>NBA, NFL and MLB</strong>. There
+						are more than 4000+ players, 90+ teams, and 100+ events to choose
+						from.
+					</h1>
+					<Fade fraction={0.6}>
+						<div
 							style={{
 								display: "flex",
-								justifyContent: "space-between",
+								justifyContent: "space-around",
 								alignItems: "center",
+								maxHeight: "80%",
+								position: "relative",
 							}}
 						>
-							<Row>
-								<Col >
-									<CategoryCard
-										title="Artists"
-										subtitle=""
-										text="Discover your favorite artists!"
-										linkURL="/artists"
-									/>
-								</Col>
+							<ModelCard
+								name="Players"
+								src={teams}
+								txt="Learn more about your favorite players"
+								linkURL="/players"
+							/>
+							<ModelCard
+								name="Teams"
+								src={nbateams}
+								txt="Learn more about your favorite teams"
+								linkURL="/teams"
+							/>
 
-								<Col>
-									<CategoryCard
-										title="Concerts"
-										subtitle=""
-										text="Find the hottest events near you!"
-										linkURL="/concerts"
-									/>
-								</Col>
-								<Col>
-									<CategoryCard
-										title="Cities"
-										subtitle=""
-										text="Venture to new places!"
-										linkURL="/cities"
-									/>
-								</Col>
-							</Row>
-						</Container>
-					</div>
+							<ModelCard
+								name="Events"
+								src={events}
+								txt="Find events about your favorite teams"
+								linkURL="/events"
+							/>
+						</div>
+					</Fade>
 				</div>
 			</div>
 		</div>

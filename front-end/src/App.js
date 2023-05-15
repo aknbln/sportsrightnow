@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div>
-      <Navbar bg='dark' variant='dark' style={{ zIndex: 3, position: 'fixed', top: '0', width: '100%'}}>
+      <Navbar bg='dark' variant='dark' style={{ zIndex: 5, position: 'fixed', top: '0', width: '100%'}}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Container>
@@ -47,7 +47,7 @@ function App() {
           <Navbar.Brand style = {{marginLeft: '0.5%'}}>
             
             
-            Sports RightNow
+            SportsRightNow
 
 
           </Navbar.Brand>
