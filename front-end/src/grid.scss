@@ -12,11 +12,11 @@ $select-anchor-padding: 10px 5px 5px;
 }
 .carousel-items{
     display: grid ;
-    max-height: 78%;
-    
+    max-height: 65%;
+
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    margin-top: 20%;
+
     align-items: center;
     grid-template-areas:
         "img quote"
@@ -32,7 +32,6 @@ $select-anchor-padding: 10px 5px 5px;
     }
     h2{
 
- 
 
         height: 100%;
         grid-area: quote;
