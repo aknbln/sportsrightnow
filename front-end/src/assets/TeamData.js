@@ -26,7 +26,7 @@ const teamData = [
     gitlab_username: "aknbln",
     alias: "",
     image: AkinBio,
-    role: "Back-end",
+    role: "Fullstack",
     bio: "I am a junior here at UT. I enjoy golfing and cry while scrolling through stack overflow.",
     commits: 0,
     issues: 0,

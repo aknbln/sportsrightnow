@@ -13,8 +13,8 @@ import TestButton from "../components/Button";
 import "../grid.scss";
 import { Link } from "react-router-dom";
 import { Card, Button } from "react-bootstrap";
-import nbateams from "../athletes/nbateams.jpeg";
-import teams from "../athletes/teams.jpeg";
+import nbateams from "../athletes/nbateams.jpg";
+import teams from "../athletes/teams.jpg";
 import events from "../athletes/events.jpg";
 
 const quotes = [
